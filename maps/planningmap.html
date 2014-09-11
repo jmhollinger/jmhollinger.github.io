@@ -49,7 +49,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Projects</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <a href="GeoJSON/ND1.geojson"></a>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -62,7 +62,7 @@ var ndjson = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': "/GeoJSON/ND1.geojson",
+        'url': "GeoJSON/ND1.geojson",
         'dataType': "json",
         'success': function (data) {
             json = data;
@@ -76,7 +76,7 @@ var hdistrictsjson = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': "/GeoJSON/H1.geojson",
+        'url': "GeoJSON/H1.geojson",
         'dataType': "json",
         'success': function (data) {
             json = data;
@@ -90,7 +90,7 @@ var pdrjson = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': "/GeoJSON/PDR.geojson",
+        'url': "GeoJSON/PDR.geojson",
         'dataType': "json",
         'success': function (data) {
             json = data;
@@ -104,7 +104,7 @@ var countyjson = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': "/GeoJSON/County.geojson",
+        'url': "GeoJSON/County.geojson",
         'dataType': "json",
         'success': function (data) {
             json = data;
@@ -201,9 +201,8 @@ var overlayMaps = {
 L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
 
 </script>
-
 </div>
-      </div>
+</div>
 
       <hr>
 
