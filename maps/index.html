@@ -51,6 +51,152 @@
       <div id="map" class="container">
       <p>This is the Map Div!</p>
        </div>
+       <script>
+
+var ndjson = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/ND1.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var hdistrictsjson = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/H1.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var pdrjson = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/PDR.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var countyjson = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/County.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var blueArea = {
+    fillColor: "#0000FF",
+    color: "#0000FF",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.4
+};
+
+var greenArea = {
+    fillColor: "#006600",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.4
+};
+
+var redArea = {
+    fillColor: "#FF0000",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.4
+};
+
+var clearArea = {
+    color: "#000",
+    weight: 2,
+    opacity: 1,
+    fillOpacity: 0.0
+};
+
+var street = L.tileLayer('https://{s}.tiles.mapbox.com/v3/jmholl5.i0bjcjhl/{z}/{x}/{y}.png', {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+});
+
+var sat = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpeg', {
+	attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+	subdomains: '1234'
+});
+
+var hdistricts = L.geoJson([hdistrictsjson], {
+    style: blueArea ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("<strong>Overlay Type: </strong>H-1<br /><strong>Name: </strong>" + feature.properties.NAME);
+    }
+});
+
+var nd = L.geoJson([ndjson], {
+    style: redArea ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("<strong>Overlay Type: </strong>ND-1<br /><strong>Name: </strong>" + feature.properties.NAME
+        + "<br /><strong>Design Standards: </strong><a target=\"_blank\" href=\""+ feature.properties.LINK+ "\">" + feature.properties.NAME + "</a>" 
+        );
+    }
+});
+
+var pdr = L.geoJson([pdrjson], {
+    style: greenArea ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("<strong>Address:</strong> " + feature.properties.ADDRESS + "<br /><strong>Acres:</strong> " + feature.properties.PDR_ACRE + "<br /><strong>Application Cycle:</strong> " + feature.properties.APPNUM);
+    }
+});
+
+var county = L.geoJson([countyjson], {
+    style: clearArea
+});
+
+
+var map = L.map('map', {
+    center: [38.04635057521328,-84.49709415435791],
+    zoom: 12,
+    layers: [street, county, hdistricts, nd, pdr]
+});
+
+var baseMaps = {
+    "Streets": street,
+    "Satellite": sat
+};
+
+var overlayMaps = {
+    "Historic Districts": hdistricts,
+    "ND-1 Overlays": nd,
+    "PDR Farms": pdr
+    };
+
+L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
+
+</script>
     </div>
 
     <div class="container">
