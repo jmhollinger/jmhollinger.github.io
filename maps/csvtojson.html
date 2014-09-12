@@ -6,10 +6,12 @@
   </head>
     <body>
      <div id="test"></div>
-      <script>         
-            $.get( "permits.csv", function( data ) {
-              document.getElementById("test").innerHTML = data;
-            });
+      <script>
+            $.get('permits.csv',function(data){
+            var dataStr = new String(data);
+            var lines = dataStr.split('\n');
+            document.getElementById("test").innerHTML = lines;
+                  });         
       </script> 
     </body
 </html>
