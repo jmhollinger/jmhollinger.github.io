@@ -10,13 +10,13 @@ $(document).ready(function() {
     $('#example').dataTable( {
         "ajax": "http://104.131.23.252/api/action/datastore_search?resource_id=complaints-2&limit=10",
         "columns": [
-            { "data": "Date", "sWidth": "10%"},
-            { "data": "Address" },
-            { "data": "Suite" },
-            { "data": "Permit Type" },
-            { "data": "Construction Cost" },
-            { "data": "Owner" },
-            { "data": "Contractor" }
+            { "records": "Date", "sWidth": "10%"},
+            { "records": "Address" },
+            { "records": "Suite" },
+            { "records": "Permit Type" },
+            { "records": "Construction Cost" },
+            { "records": "Owner" },
+            { "records": "Contractor" }
         ]
     } );
 } );
