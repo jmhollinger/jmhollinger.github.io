@@ -8,7 +8,7 @@
   <script type="text/javascript" class="init">
 $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": "2014permits.json",
+        "ajax": "http://104.131.23.252/api/action/datastore_search?resource_id=complaints-2&limit=10",
         "columns": [
             { "data": "Date", "sWidth": "10%"},
             { "data": "Address" },
