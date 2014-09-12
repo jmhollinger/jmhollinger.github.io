@@ -7,11 +7,10 @@
     <body>
      <div id="test"></div>
       <script>
-            $.get('permits.csv',function(data){
-            var dataStr = new String(data);
-            var lines = dataStr.split('\n');
-            document.getElementById("test").innerHTML = lines;
-                  });         
+              $.get( "permits.csv", function( data ) {
+              var result = $.csv.toObjects(data)  
+              document.getElementById("test").innerHTML = result;
+            });
       </script> 
     </body
 </html>
