@@ -9,8 +9,8 @@
       <script>
               $.get( "permits.csv", function( data ) {
               var result = $.csv.toObjects(data)  
+                          });
               document.getElementById("test").innerHTML = result;
-            });
       </script> 
     </body
 </html>
