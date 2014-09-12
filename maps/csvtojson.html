@@ -7,7 +7,9 @@
     <body>
      <div id="test"></div>
       <script>
-              var csv = $.get( "permits.csv", function( data ) {});
+        $.get( "permits.csv", function( data ) {
+             alert( "Data Loaded: " + data );});
+             
               document.getElementById("test").innerHTML = csv;
       </script> 
     </body
