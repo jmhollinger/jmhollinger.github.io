@@ -9,8 +9,11 @@
     <body>
        <div id="test"></div>
        <script>
-       var content = "This is the content of the div!";
-       document.getElementById("test").innerHTML = content;
+       $.getJSON("http://104.131.23.252/api/action/datastore_search?resource_id=complaints-2&limit=10", function(result)
+        {var content = result;
+        document.getElementById("test").innerHTML = content;
+        }
+        );
        </script>
     </body
 </html>
