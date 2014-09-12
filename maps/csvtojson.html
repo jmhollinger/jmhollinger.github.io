@@ -7,7 +7,16 @@
     <body>
      <div id="test"></div>
       <script>
-           document.getElementById("test").innerHTML = "This is the Test Div!";
+                $.ajax({
+                    type: "GET",
+                    url: "permits.csv",
+                    dataType: "text/csv",
+                    success: function (data) {
+                       csvData = data;
+                       
+                     }
+                });
+            document.getElementById("test").innerHTML = csvData;
       </script> 
     </body
 </html>
