@@ -6,18 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.css">
   <script type="text/javascript" class="init">
-$(document).ready(function() {
+  $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": "2014permits.json",
-        "columns": [
-            { "records": "Date"},
-            { "records": "Address" },
-            { "records": "Suite" },
-            { "records": "Permit Type" },
-            { "records": "Construction Cost" },
-            { "records": "Owner" },
-            { "records": "Contractor" }
-        ]
+        "ajax": 'http://jmhollinger.github.io/maps/2014permits.json'
     } );
 } );
 
