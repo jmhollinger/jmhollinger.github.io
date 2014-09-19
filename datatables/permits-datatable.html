@@ -2,22 +2,22 @@
   <head>
   <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
   <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.css">
-  <script src="../js/csvToArray.v2.1.min.js"></script>
+  <script src="../js/CSVFunctions.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.js"></script>
   </head>
     <body>
-      <div id="array"></div>
+      <div class="array"></div>
        <script type="text/javascript">
-   $.ajax({
-        url: "Permits.csv",
-        dataType: 'text',
-        cache: false
- }).done(function(csvAsString){
-        csvAsArray=csvAsString.csvToArray({trim:true})
-        document.getElementById("array").innerHTML = csvAsArray[0]
- });
- </script>
+         $.ajax({
+          url:"permits.csv",
+          dataType: 'text',
+          cache: false,
+          success:function(result){
+    $("div.array").html(result);
+  }});
+});
+</script>
     </body
 </html>
