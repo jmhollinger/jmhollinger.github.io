@@ -6,18 +6,17 @@
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.js"></script>
-  </head>
-    <body>
-      <div class="array"></div>
-       <script type="text/javascript">
+     <script type="text/javascript">
          $.ajax({
           url:"permits.csv",
           dataType: 'text',
           cache: false,
-          success:function(result){
-    $("div.array").html(result);
+          success: function(result){
+    $("#array").html(result);
   }});
-});
 </script>
+  </head>
+    <body>
+      <div id="array"></div>
     </body
 </html>
