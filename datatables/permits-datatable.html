@@ -1,22 +1,37 @@
 <!DOCTYPE html>
   <head>
-  <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.css">
-  <script src="../js/CSVFunctions.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
-  <script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/be7019ee387/integration/jqueryui/dataTables.jqueryui.js"></script>
-     <script type="text/javascript">
-         $.ajax({
-          url:"permits.csv",
-          dataType: 'text',
-          cache: false,
-          success: function(result){
-    $("#array").html(result);
-  }});
-</script>
+  <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#example').dataTable( {
+        "ajax": "2014permits.json",
+        "columns": [
+            { "data": "Date" },
+            { "data": "Address" },
+            { "data": "Suite" },
+            { "data": "Permit Type" },
+            { "data": "Construction Cost" },
+            { "data": "Owner" },
+            { "data": "Contractor" },
+        ]
+    } );
+} );
+  </script>
   </head>
     <body>
-      <div id="array"></div>
+     <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+              <th>Address</th>
+              <th>Suite</th>
+              <th>Permit Type</th>
+              <th>Construction Cost</th>
+              <th>Owner</th>
+              <th>Contractor</th>
+            </tr>
+        </thead>
+     </table>
     </body
 </html>
