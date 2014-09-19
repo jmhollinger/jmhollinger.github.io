@@ -8,15 +8,15 @@
   <script type="text/javascript" class="init">
 $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": "http://104.131.23.252/api/action/datastore_search?resource_id=complaints-2&limit=10",
+        "ajax": "2014permits.json",
         "columns": [
-            { "records": "Address"},
-            { "records": "CaseType" },
-            { "records": "Status" },
-            { "records": "StatusDate" },
-            { "records": "Closed" },
-            { "records": "DateOpened" },
-            { "records": "CaseYr" }
+            { "records": "Date"},
+            { "records": "Address" },
+            { "records": "Suite" },
+            { "records": "Permit Type" },
+            { "records": "Construction Cost" },
+            { "records": "Owner" },
+            { "records": "Contractor" }
         ]
     } );
 } );
