@@ -6,7 +6,7 @@
   <script type="text/javascript">
   $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": "2014permits.json",
+        "ajax": "http://jmhollinger.github.io/datatables/2014permits.json",
         "columns": [
             { "data": "Date" },
             { "data": "Address" },
@@ -14,7 +14,7 @@
             { "data": "Permit Type" },
             { "data": "Construction Cost" },
             { "data": "Owner" },
-            { "data": "Contractor" },
+            { "data": "Contractor" }
         ]
     } );
 } );
@@ -24,6 +24,7 @@
      <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
+              <th>Date</th>
               <th>Address</th>
               <th>Suite</th>
               <th>Permit Type</th>
