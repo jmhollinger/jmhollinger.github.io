@@ -3,7 +3,17 @@
   <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" language="javascript" src="http://jmhollinger.github.io/js/papaparse.min.js"></script>
   <script type="text/javascript">
+      Papa.parse("http://jmhollinger.github.io/datatables/Permits.csv", {
+	header: true,
+	dynamicTyping: true,
+	download: true,
+	complete: function(results) {
+		console.log("Remote file parsed!", results);
+	}
+});
+  
       $(document).ready(function() {
     $('#example').dataTable( {
         "ajax": "http://jmhollinger.github.io/datatables/2014permits.json",
