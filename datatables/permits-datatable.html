@@ -22,10 +22,7 @@
         </thead>
      </table>
      <script type="text/javascript">
-      funsction      
-      function selectdata(){alert("You have called a function!")}; 
-
-      $(document).ready(function() {
+        function selectdata(){(function() {
         var tabledata = "http://jmhollinger.github.io/datatables/2014permits.json"
         $('#example').dataTable( {
         "ajax": tabledata,
@@ -39,7 +36,7 @@
             { "data": "Contractor_1" }
         ]
     } );
-} );
+} )};
   </script>
     </body
 </html>
