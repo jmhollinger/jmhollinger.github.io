@@ -7,7 +7,9 @@
     </head>
     <body>
      <h3>Please select a topic to explore:</h3>
-     <button type="button" onclick="selectdata()">Building Permits</button>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Building Permits</button>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Code Cases</button>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Right of Way Permits</button>
      <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
@@ -22,10 +24,9 @@
         </thead>
      </table>
      <script type="text/javascript">
-        function selectdata(){
-        var tabledata = "http://jmhollinger.github.io/datatables/2014permits.json"
+        function selectdata(dataurl){
         $('#example').dataTable( {
-        "ajax": tabledata,
+        "ajax": dataurl,
         "columns": [
             { "data": "Date" },
             { "data": "Address_1" },
