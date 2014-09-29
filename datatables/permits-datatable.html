@@ -8,13 +8,11 @@
     <body>
      <h3>Please select a Dataset to explore:</h3>
      <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Building Permits</button>
-     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Code Cases</button>
-     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Right of Way Permits</button>
-     <table id="example" class="display" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-              <th>Date</th>
-              <th>Address</th>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014codecases.json')">Code Cases</button>
+     <div id="tablearea"></div>
+     <script type="text/javascript">
+        function selectdata(dataurl){
+        document.getElementById("tablearea").innerHTML = "<table id='example' class='display' cellspacing='0' width='100%'><thead><tr><th>Date</th><th>Address</th>
               <th>Suite</th>
               <th>Permit Type</th>
               <th>Construction Cost</th>
@@ -22,10 +20,9 @@
               <th>Contractor</th>
             </tr>
         </thead>
-     </table>
-     <script type="text/javascript">
-        function selectdata(dataurl){
+     </table>"  
         $('#example').dataTable( {
+        "order": [1, desc]
         "deferRender": true,
         "destroy" : true, 
         "ajax": dataurl,
