@@ -7,10 +7,8 @@
   <script type="text/javascript">
 
       $(document).ready(function() {
-        function selectdata(){
-          var tabledata = "http://jmhollinger.github.io/datatables/2014permits.json"
-        }
-               $('#example').dataTable( {
+        var tabledata = "http://jmhollinger.github.io/datatables/2014permits.json"
+        $('#example').dataTable( {
         "ajax": tabledata,
         "columns": [
             { "data": "Date" },
@@ -28,7 +26,6 @@
     <body>
      <h3>Please select a topic to explore:</h3>
      <button type="button" onclick="selectdata()">Building Permits</button>
-     <button></button> 
      <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
