@@ -5,15 +5,7 @@
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" language="javascript" src="http://jmhollinger.github.io/js/papaparse.min.js"></script>
   <script type="text/javascript">
-      Papa.parse("http://jmhollinger.github.io/datatables/Permits.csv", {
-	header: true,
-	dynamicTyping: true,
-	download: true,
-	complete: function(results) {
-		var permitdata = results.data;
-	}
-});
-  
+
       $(document).ready(function() {
     $('#example').dataTable( {
         "ajax": "http://jmhollinger.github.io/datatables/2014permits.json",
