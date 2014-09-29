@@ -26,6 +26,8 @@
      <script type="text/javascript">
         function selectdata(dataurl){
         $('#example').dataTable( {
+        "deferRender": true,
+        "destroy" : true, 
         "ajax": dataurl,
         "columns": [
             { "data": "Date" },
