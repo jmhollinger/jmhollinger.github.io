@@ -6,7 +6,7 @@
   <script type="text/javascript" language="javascript" src="http://jmhollinger.github.io/js/papaparse.min.js"></script>
     <script type="text/javascript">
         function selectdata(dataurl){
-        $('#tablearea').html('<h3>Building Permits</h3><table id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th>            <th>Owner</th><th>Contractor</th></tr></thead></table>');
+        $('#tablearea').html('<h3>2014 Building Permits</h3><table id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th>            <th>Owner</th><th>Contractor</th></tr></thead></table>');
         $('#example').dataTable( {
         "order": [ 0, 'desc' ],
         "deferRender": true,
@@ -26,7 +26,7 @@
   </script>
     </head>
     <body>
-     <h3>Please select a dataset to explore:</h3>
+     <h1>Please select a dataset to explore:</h1>
      <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Building Permits</button>
      <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014codecases.json')">Code Cases</button>
      <div id="tablearea"></div>
