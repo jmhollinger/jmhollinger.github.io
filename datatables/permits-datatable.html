@@ -7,8 +7,9 @@
   <script type="text/javascript">
 
       $(document).ready(function() {
-    $('#example').dataTable( {
-        "ajax": "http://jmhollinger.github.io/datatables/2014permits.json",
+        var tabledata = "http://jmhollinger.github.io/datatables/2014permits.json"
+        $('#example').dataTable( {
+        "ajax": tabledata,
         "columns": [
             { "data": "Date" },
             { "data": "Address" },
