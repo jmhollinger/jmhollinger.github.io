@@ -4,15 +4,9 @@
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" language="javascript" src="http://jmhollinger.github.io/js/papaparse.min.js"></script>
-    </head>
-    <body>
-     <h3>Please select a Dataset to explore:</h3>
-     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Building Permits</button>
-     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014codecases.json')">Code Cases</button>
-     <div id="demo"></div>
-     <script type="text/javascript">
+    <script type="text/javascript">
         function selectdata(dataurl){
-        $('#demo').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>');
+        $('#tablearea').html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>');
         $('#example').dataTable( {
         "order": [1, desc]
         "deferRender": true,
@@ -30,5 +24,11 @@
     } );
 };
   </script>
-    </body
+    </head>
+    <body>
+     <h3>Please select a Dataset to explore:</h3>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014permits.json')">Building Permits</button>
+     <button type="button" onclick="selectdata('http://jmhollinger.github.io/datatables/2014codecases.json')">Code Cases</button>
+     <div id="tablearea"></div>
+     </body
 </html>
