@@ -4,6 +4,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185487,09/30/14,312 S Ashland Ave,,Remod. Gen. Business Office/Bldg.,"$20,000",Happy & Healthy Ways,Nathan Cravens Builder
 185492,09/30/14,142 Old Cassidy Ave,,Zoning Compliance Permit (N/C),$0,Aimee Cousoulis,Aimee Cousoulis
 185501,09/30/14,142 Old Cassidy Ave,,Remodeling Residential,"$30,000",Aimee Cousoulis,Annis & Dreyer Construction Inc
+185115,09/30/14,401 W Main St,Ste 106,Remodeling Restaurant,"$650,000",Pies & Pints/Rob Lindeman,"Arccon Construction, Inc "
 185480,09/30/14,1388 Alexandria Dr,Ste 12,Signs ,$650,Simply Prepaid (#14370),Popeye Sign Company Inc
 185496,09/30/14,385 White Oak Trce,,"Mechanical, Single Family","$5,700",Harmony Homes ,Advantage Air
 185497,09/30/14,349 White Oak Trce,,"Mechanical, Single Family","$7,050",Harmony Homes ,Advantage Air
@@ -14,6 +15,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185336,09/30/14,185 Jefferson St,,Addition Restaurant,"$10,000",The Blue Heron,The Blue Heron
 185486,09/30/14,3735 Palomar Centre Dr,,Zoning Compliance Permit (N/C),$0,"Eddie Venters Allstate Insurance Agency, Inc.","Eddie Venters Allstate Insurance Agency, Inc."
 185495,09/30/14,3892 Gladman Way,,Zoning Compliance Home Office (N/C),$0,Gregory S. Zander,Gregory S. Zander
+185502,09/30/14,305 Lindenhurst Dr,Bldg 8,"Apartment, Remodeling","$30,000",Steeplechase Apartments,Gulley Remodeling & Maintenance Inc
 185089,09/30/14,2520 Nicholasville Rd,Ste 30,Remod. Gen. Business Office/Bldg.,"$450,000",Youfit Health Club,Churchill Mcgee Llc
 185488,09/30/14,1429 Coleman Ct,,General Warehouse,"$25,000",Scott Bender,Brett Construction Co
 185489,09/30/14,4837 Clifford Cir,,Residential Addition,"$12,000",Gina Mattingly ,Anderson & Rodgers Construction Inc
@@ -386,7 +388,6 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185112,09/09/14,1016 Haddrell Pt,,"Mechanical, Single Family","$9,300",Mccarty Builders ,Air Master
 185113,09/09/14,621 St Anthony Dr,,,$0,A-Z Computer Tech,A-Z Computer Tech
 185114,09/09/14,3901 Gloucester Dr,,Zoning Compliance Permit (N/C),$0,Gregory Lawrence,
-185115,09/09/14,401 W Main St,Ste 106,Remodeling Restaurant,"$650,000",Pies & Pints/Rob Lindeman,T B D
 185108,09/09/14,1400 Delaware Ave,,"Mechanical Comm. $10,001-$25,000",$0,Kevin Compton,Honeycutt Mechanical Contractors Inc
 185110,09/09/14,717 Bullock Pl,,Residential Detached Garage,"$50,000",Jennie Scruggs ,Gooding Carpentry & Design Llc
 185119,09/09/14,619 Raintree Rd,,Residential Addition,"$100,000",Chuck Devinney ,Conrad Construction Co
