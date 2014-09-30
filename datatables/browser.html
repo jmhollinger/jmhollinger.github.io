@@ -6,7 +6,7 @@
   <script type="text/javascript" language="javascript" src="http://jmhollinger.github.io/js/papaparse.min.js"></script>
     <script type="text/javascript">
         function selectdata(dataurl){
-        $('#tablearea').html('<h3>Building Permits</h3><p>Below is a table of all building permits. The table can be sorted by field or searched from the bar in the top right corner.</p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>');
+        $('#tablearea').html('<h3>Building Permits</h3><p>Below is a table of all building permit issued by the City of Lexington. The table can be sorted by field or searched from the bar in the top right corner.</p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>');
         $('#example').dataTable( {
         "order": [ 0, 'desc' ],
         "deferRender": true,
