@@ -5,6 +5,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185492,09/30/14,142 Old Cassidy Ave,,Zoning Compliance Permit (N/C),$0,Aimee Cousoulis,Aimee Cousoulis
 185501,09/30/14,142 Old Cassidy Ave,,Remodeling Residential,"$30,000",Aimee Cousoulis,Annis & Dreyer Construction Inc
 185503,09/30/14,370 Waveland Museum Ln,,Co-Locate Tower,"$11,000",At&T/Crown Castle,Tbd
+185510,09/30/14,3175 Beaumont Centre Cir,,Retail Sales Remodeling,"$10,000",Kroger,E H Construction Llc
 185115,09/30/14,401 W Main St,Ste 106,Remodeling Restaurant,"$650,000",Pies & Pints/Rob Lindeman,"Arccon Construction, Inc "
 185480,09/30/14,1388 Alexandria Dr,Ste 12,Signs ,$650,Simply Prepaid (#14370),Popeye Sign Company Inc
 185496,09/30/14,385 White Oak Trce,,"Mechanical, Single Family","$5,700",Harmony Homes ,Advantage Air
@@ -18,6 +19,8 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185495,09/30/14,3892 Gladman Way,,Zoning Compliance Home Office (N/C),$0,Gregory S. Zander,Gregory S. Zander
 185502,09/30/14,305 Lindenhurst Dr,Bldg 8,"Apartment, Remodeling","$30,000",Steeplechase Apartments,Gulley Remodeling & Maintenance Inc
 185504,09/30/14,196 Old Woolen Mill Ln,,Residential Addition,"$13,000",Jacqueline Smith ,Breedlove Inc
+185509,09/30/14,314 Hanover Ct,,"Wrecking, Accessory Structure","$1,925",Paul Petry,Luminaire Renovators Llc 
+185511,09/30/14,1590 Winchester Rd,104 ,"Mechanical Comm. $2,001-$10,000","$9,700",Harom Prop ,Conleys Advanced Systems Inc
 185089,09/30/14,2520 Nicholasville Rd,Ste 30,Remod. Gen. Business Office/Bldg.,"$450,000",Youfit Health Club,Churchill Mcgee Llc
 185488,09/30/14,1429 Coleman Ct,,General Warehouse,"$25,000",Scott Bender,Brett Construction Co
 185489,09/30/14,4837 Clifford Cir,,Residential Addition,"$12,000",Gina Mattingly ,Anderson & Rodgers Construction Inc
@@ -26,6 +29,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185505,09/30/14,313 Owsley Ave,,"Mechanical Comm. $2,001-$10,000","$4,056",Lfucg ,Kentucky Air Temperature Systems
 185506,09/30/14,2509 Cayman Heights,,Remodeling Residential,"$75,000",Jamefs T Nash Builder ,James T Nash Builders Inc
 185507,09/30/14,405 White Oak Trce,,Single Family Residence,"$95,500",Anderson Homes For Rent Llc,Harmony Home Builders Llc
+185508,09/30/14,3101 Richmond Rd,,Retail Sales Remodeling,"$10,000",Kroger,E H Construction Llc
 185471,09/29/14,1640 Bryan Station Rd,#1,Zoning Compliance Permit (N/C),$0,Healthfirst Bluegrass Inc.,Healthfirst Bluegrass Inc.
 185472,09/29/14,2065 Clays Mill Rd,,Remodeling Residential,"$60,000",David & Amelia Hill ,"Sunset Renovation, Llc"
 185474,09/29/14,530 N Broadway,,"Apartment, Remodeling","$10,000",Luke Evert & Mike Johnson,
@@ -118,7 +122,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185394,09/24/14,3504 Robinhill Way,,Residential Addition,"$2,500",Mary Aliano ,Mary Aliano 
 184592,09/24/14,3555 Nicholasville Rd,Ste I-900,Retail Sales Remodeling,"$135,000",L'Occitane En Provence,Weekes Construction Inc
 184930,09/24/14,172 Trade St,,Remodeling Warehouse,"$1,300,131",Amazon Fulfillment,"Hayden Company Inc, The"
-178046,09/24/14,903 Manchester St,,Banquet Facility,"$20,000",The Grand Reserve,"Triple Shot, Inc"
+178046,09/24/14,903 Manchester St,,Banquet Facility,"$10,000",The Grand Reserve,"Triple Shot, Inc"
 185382,09/24/14,3555 Nicholasville Rd, I-942,"Mechanical Comm. $10,001-$25,000","$18,469",Vera Bradley,Air Control Heating & Cooling Of Lex
 185383,09/24/14,1136 Harlan Cir,,"Fence, Residential",$900,Michael A. Neely,Michael A. Neely
 185397,09/24/14,1550 Trent Blvd,Apt. 609,Zoning Compliance Home Office (N/C),$0,Tasha Fauxe,Tasha Fauxe
@@ -140,7 +144,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185377,09/23/14,1060 Chinoe Rd,Ste 112,Remod. Gen. Business Office/Bldg.,"$50,000",Lovely Nails,Lees Construction
 185345,09/23/14,320 Chinoe Rd,,"Mechanical, Single Family","$17,200",Missy Cleveland,Kentucky Air Temperature Systems
 185043,09/23/14,148 N Broadway,,Addition Gen. Business Office/Bldg.,"$165,000",Herron & Adams Law Office,Hodges & Heathman Properties Llc
-185363,09/23/14,4371 Old Harrodsburg Rd,Ste 170,Remodeling Recreational Facility,"$10,000",Elle Fitness,Elle Fitness
+185363,09/23/14,4371 Old Harrodsburg Rd,Ste 170,Remodeling Recreational Facility,"$5,000",Elle Fitness,Elle Fitness
 185364,09/23/14,5444 Kiddville Ln,,Residential Detached Garage,"$12,000",Don Koehn,Don Koehn
 185365,09/23/14,3555 Nicholasville Rd,904,Retail Sales Remodeling,"$520,000",Pink Victoria'S Secret,T B D
 185366,09/23/14,3396 Squire Creek Way,,Zoning Compliance Home Office (N/C),$0,Karina Rodriguez,Karina Rodriguez
@@ -204,7 +208,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185301,09/18/14,409 Larkhill Cv,,"Mechanical, Single Family","$9,226",Ball Homes Inc ,Stivers Hvac Inc
 185308,09/18/14,604 Spadeleaf Park,,"Mechanical, Single Family","$11,218",Ball Homes Inc ,Stivers Hvac Inc
 185310,09/18/14,3288 Tranquility Pt,,"Mechanical, Single Family","$9,341",Ball Homes Inc ,Stivers Hvac Inc
-185312,09/18/14,230 Chenault Rd,,Residential Addition,"$150,000",Benezet And Associates ,Benezet & Associates Llc
+185312,09/18/14,230 Chenault Rd,,Remodeling Residential,"$150,000",Benezet And Associates ,Benezet & Associates Llc
 185296,09/18/14,247 Bassett Ave,,"Mechanical, Single Family",$0,Josh Ayora,Service Express Co
 185297,09/18/14,2514 Regency Rd,#103,"Mechanical Comm. $2,001-$10,000","$2,439",Lincare Pharmacy ,Monthie Mechanical Inc
 185298,09/18/14,5205 Tykes Pass,,"Mechanical, Single Family","$5,433",Ball Homes Inc ,Stivers Hvac Inc
@@ -250,8 +254,8 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185249,09/17/14,554 W Fifth St,,"Wrecking Structures, Residential","$2,123",Transylvania University,Diversified Demolition Lcc
 185262,09/17/14,1375 S Broadway,,"Fence, Commercial","$11,115",Campbell Fayette Llc ,S & T Watkins Fencing
 185263,09/17/14,7 Tanglewood Dr,,Residential Accessory Structure,"$13,865",Fred Kerestesy ,Fred Kerestesy 
-185264,09/17/14,1559 Heron Ln,,"Rehab Program, Public Grants",$0,Wilma J Craig ,A M S Home Improvement
-185265,09/17/14,457 Peachtree Rd,,"Rehab Program, Public Grants",$0,Robert B Hart ,A M S Home Improvement
+185264,09/17/14,1559 Heron Ln,,"Rehab Program, Public Grants","$25,500",Wilma J Craig ,A M S Home Improvement
+185265,09/17/14,457 Peachtree Rd,,"Rehab Program, Public Grants","$24,000",Robert B Hart ,A M S Home Improvement
 185266,09/17/14,328 Albany Rd,,Remodeling Residential,"$15,000",Jeremy Glover ,Jeremy Glover 
 185279,09/17/14,1639 Wharton Way,,"Mechanical, Single Family","$4,112",Rml Construction ,Stivers Hvac Inc
 185280,09/17/14,1641 Wharton Way,,"Mechanical, Single Family","$4,112",Rml Construction ,Stivers Hvac Inc
@@ -268,7 +272,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185219,09/16/14,608 Hugging Bear Dr,,Residential Addition,"$2,000",Scott Shackelford ,Scott Shackelford 
 185226,09/16/14,4545 Biltmore Pl,,"Mechanical, Single Family","$13,411",Dailey Homes ,Air Control Heating & Cooling Of Lex
 185233,09/16/14,843 S Broadway,#8101,"Apartment, Remodeling","$21,000",American Campus Communities,L C G Inc
-185235,09/16/14,147 S Forbes Rd,,Remodeling Warehouse,"$100,000",Ups,Ups
+185235,09/16/14,147 S Forbes Rd,,Remodeling Warehouse,"$50,000",Ups,Ups
 185242,09/16/14,104 W Vine St,,"Mechanical, Single Family","$8,800",Tom Polities ,A A A Heating Service Inc
 185244,09/16/14,2216 Dinsmore Dr,,"Apartment, Remodeling","$55,000","The Apartments At Henry Clay, Llc",United Structural Systems Ltd Inc
 185229,09/16/14,472 Southland Dr,,Zoning Compliance Permit (N/C),$0,"Southland Perk Coffee House, Llc","Southland Perk Coffee House, Llc"
@@ -322,7 +326,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185183,09/12/14,2617 Kearney Ridge Blvd,,"Fence, Residential","$2,500",Weston Wilhelm,Myers Fencing
 185185,09/12/14,505 Dudee Ct,,Townhouse,"$78,000",Ball Homes Llc ,Ball Homes Inc
 185192,09/12/14,236 Lincoln Ave,,"Mechanical, Single Family","$3,800",Nicole Pavelish,Cecils Heating & A C Inc
-185194,09/12/14,1098 E New Circle Rd,,,$0,Truck & Auto Accesseries,Truck & Auto Accesseries
+185194,09/12/14,1098 E New Circle Rd,,Zoning Compliance Permit (N/C),$0,Truck & Auto Accesseries,Truck & Auto Accesseries
 185179,09/12/14,3301 Lansdowne Dr,,"Fence, Residential",$500,Morgan Hodges ,Morgan Hodges 
 185180,09/12/14,3401 Nicholasville Rd,,Signs ,"$5,300",H&M Hennes & Mauritz,Flying Armadillo Sign Co
 185181,09/12/14,1600 Leestown Rd,Ste 134,Signs ,"$2,500",H&R Block,Flying Armadillo Sign Co
@@ -330,7 +334,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185196,09/12/14,3101 Tates Creek Rd,,Remodeling Residential,"$65,000",Shawn & Eugene Martin ,Shawn & Eugene Martin 
 185197,09/12/14,281 Long Branch Ln,,"Fence, Residential","$1,450",Gretchen Tussey ,All Decked Out
 185199,09/12/14,257 Lexington Ave,"#1, 3, 5","Mechanical, Multi-Family","$15,999",Lcm Construction Llc,Air Tech Inc
-185191,09/12/14,1170 Manchester St,,,$0,"Peppermill, Llc","Peppermill, Llc"
+185191,09/12/14,1170 Manchester St,,Zoning Compliance Permit (N/C),$0,"Peppermill, Llc","Peppermill, Llc"
 185193,09/12/14,2263 Nicholasville Rd,Ste 1,"Mechanical Comm. $2,001-$10,000","$9,986",Jim Taylor ,Cecils Heating & A C Inc
 185195,09/12/14,313 Given Ave,,Zoning Compliance Home Office (N/C),$0,Monarch Parties,Monarch Parties
 185168,09/12/14,1847 Battery St,,Single Family Residence,"$220,000",Byer Buildres,Byer Builders Llc
@@ -352,11 +356,13 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185156,09/11/14,565 E New Circle Rd,,Zoning Compliance Permit (N/C),$0,Quality Auto Sales,Quality Auto Sales
 185157,09/11/14,165 Towne Square Park,,"Fence, Residential",$500,"Harmony Hb, Llc",Harmony Home Builders Llc
 185159,09/11/14,149 Preakness Dr,,Residential Addition,"$10,000",Lawrence Stewart ,Lawrence Stewart 
+185166,09/11/14,602 Lagonda Ave,,Zoning Compliance Home Office (N/C),$0,Robert Morton,Robert Morton
 185131,09/11/14,3615 Nicholasville Rd,#816,"Mechanical Comm. $2,001-$10,000",$0,Zale Corp.,Frantz Inc
 185165,09/11/14,321 St George Dr,,Mechanical Comm. <$2000,$800,Equipment Depot ,Frantz Inc
+185163,09/11/14,208 Legends Ln,,Zoning Compliance Permit (N/C),$0,Lady Byrd'S Hair Design,
 185144,09/11/14,3535 Nicholasville Rd,#928,"Mechanical Comm. $10,001-$25,000",$0,Joseph A Banks,Frantz Inc
 185158,09/11/14,"414 Merino St, #3",,Zoning Compliance Home Office (N/C),$0,Rose Cale ,
-185153,09/10/14,1228 Manchester St,,,$0,"Pepper Distillery, Llc","Pepper Distillery, Llc"
+185153,09/10/14,1228 Manchester St,,Zoning Compliance Permit (N/C),$0,"Pepper Distillery, Llc","Pepper Distillery, Llc"
 185128,09/10/14,812 De Roode St,,"Mechanical, Single Family","$8,750",Au Associates ,Green Box Heating & Air
 185133,09/10/14,3704 Sunflower St,,"Mechanical, Single Family","$9,200",M & M ,Engineered Heating & Air
 185135,09/10/14,1792 Millbank Rd,,"Mechanical, Single Family","$7,500",Habitat For Humanity ,Comfort Heating & Air
@@ -375,9 +381,9 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185141,09/10/14,330 Jesselin Dr,,"Mechanical, Single Family","$5,500",Eddie Hightower ,"Rose Repair & Refrigeration, Llc"
 185143,09/10/14,1650 Sahalee Dr,,"Swimming Pool, Res","$68,000",Mary Beth & Marty Allen ,Backyard Fun Pools Inc
 185150,09/10/14,1720 Huntsman Ct,,Residential Addition,"$28,750",John King,Canoe Creek Creations Llc
-185152,09/10/14,128 York St,,,$0,No-Li Cdc,No-Li Cdc
+185152,09/10/14,128 York St,,Zoning Compliance Permit (N/C),$0,No-Li Cdc,No-Li Cdc
 185137,09/10/14,624 Blue Ash Dr,,"Mechanical, Single Family","$1,000",Adam Ahne ,Adam Ahne 
-185138,09/10/14,629 N Broadway,#111,,$0,Com. Inspired Solutions,Community Inspired Solutions
+185138,09/10/14,629 N Broadway,#111,Zoning Compliance Permit (N/C),$0,Com. Inspired Solutions,Community Inspired Solutions
 185139,09/10/14,2200 War Admiral Way,,"Mechanical Comm. $50,001-$75,000",$0,Green Tek Contracting ,Air Control Heating & Cooling Of Lex
 185140,09/10/14,610 Addison Ave,,Remodeling Residential,"$20,000",Michael Williams ,Michael Williams 
 185107,09/09/14,414 Andover Dr,,Residential Addition,"$38,000",Mike & Margaret Rueling,"Batteiger Contracting, Llc"
@@ -391,7 +397,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185118,09/09/14,333 W Vine St,Ste 1570,Remod. Gen. Business Office/Bldg.,"$156,038",Reminger Law Office,Kebco Inc
 185125,09/09/14,673 Blue Sky Pkwy,,Remod. Gen. Business Office/Bldg.,"$240,000",Davis H Elliott,C Ross Builder/Remodeler
 185112,09/09/14,1016 Haddrell Pt,,"Mechanical, Single Family","$9,300",Mccarty Builders ,Air Master
-185113,09/09/14,621 St Anthony Dr,,,$0,A-Z Computer Tech,A-Z Computer Tech
+185113,09/09/14,621 St Anthony Dr,,Zoning Compliance Home Office (N/C),$0,A-Z Computer Tech,A-Z Computer Tech
 185114,09/09/14,3901 Gloucester Dr,,Zoning Compliance Permit (N/C),$0,Gregory Lawrence,
 185108,09/09/14,1400 Delaware Ave,,"Mechanical Comm. $10,001-$25,000",$0,Kevin Compton,Honeycutt Mechanical Contractors Inc
 185110,09/09/14,717 Bullock Pl,,Residential Detached Garage,"$50,000",Jennie Scruggs ,Gooding Carpentry & Design Llc
@@ -432,7 +438,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185072,09/05/14,298 Lafayette Pkwy,,"Mechanical, Single Family","$6,000",Matthews,Willhoite Service Co
 185073,09/05/14,4235 Katherine Pl,,Single Family Residence,"$80,000",Ball Homes Llc ,Ball Homes Inc
 185037,09/05/14,401 W Main St,,Signs ,"$90,505",The Webb Companies,Integrated Sign & Graphic Inc
-185061,09/05/14,2820 Bay Colony Ln,,,$0,Joseph Danielson,Joseph Danielson
+185061,09/05/14,2820 Bay Colony Ln,,Zoning Compliance Home Office (N/C),$0,Joseph Danielson,Joseph Danielson
 185066,09/05/14,3202 Beacon St,,Townhouse,"$172,000",Jamb2,Andover Construction Llc
 185068,09/05/14,3206 Beacon St,,Townhouse,"$172,000",Jamb2,Andover Construction Llc
 185075,09/05/14,513 Dudee Ct,,"Mechanical, Single Family","$8,528",Ball Homes ,Stivers Hvac Inc
@@ -455,7 +461,7 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185067,09/05/14,3204 Beacon St,,Townhouse,"$172,000",Jamb2,Andover Construction Llc
 185069,09/05/14,3208 Beacon St,,Townhouse,"$180,000",Jamb2,Andover Construction Llc
 185074,09/05/14,929 Sugarbush Trl,,Single Family Residence,"$80,000",Ball Homes Llc,Ball Homes Inc
-185076,09/05/14,891 Georgetown St,,,$0,"Tailored 2 Cater, Llc","Tailored 2 Cater, Llc"
+185076,09/05/14,891 Georgetown St,,Zoning Compliance Permit (N/C),$0,"Tailored 2 Cater, Llc","Tailored 2 Cater, Llc"
 185078,09/05/14,377 White Oak Trce,,Single Family Residence,"$95,000",Anderson Homes For Rent ,Harmony Home Builders Llc
 185083,09/05/14,3951 Mooncoin Way,,"Mechanical, Single Family","$8,267",Ball Homes ,Stivers Hvac Inc
 185049,09/04/14,1053 Haddrell Pt,,Single Family Residence,"$140,000",Haymakr Development,S J M Homes Llc
@@ -469,10 +475,10 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 185032,09/04/14,443 Henry Clay Blvd,,Residential Addition,"$20,000",Kelly/ Kim Graves ,Economy Home Improvement 
 185045,09/04/14,2801 Kearney Creek Ln,,"Fence, Residential",$700,Stephen Roy ,Stephen Roy 
 185046,09/04/14,2652 Kearney Ridge Blvd,,"Fence, Residential",$820,Winona Embry ,Alliance Fence & Patio
-185050,09/04/14,1211 Autumn Ridge Dr,,Single Family Residence,"$190,000",Sjm Homes,S J M Homes Llc
 185034,09/04/14,4029 Real Quiet Ln,,"Mechanical, Single Family","$14,500",Joe Reckelhoff ,Billy Isaacs Heating & A C
 184991,09/04/14,450 Old Vine St,Ste 101,Remod. Gen. Business Office/Bldg.,"$40,000",Old Vine Properties For Chi,Kendall Hart Contracting Inc
-178264,09/04/14,4476 Gumbert Rd,,Aircraft Hanger,"$2,400,000",Joey Honeycutt/Bluegrass Airport,Codell Construction Co
+185050,09/04/14,1211 Autumn Ridge Dr,,Single Family Residence,"$190,000",Sjm Homes,S J M Homes Llc
+178264,09/04/14,4476 Gumbert Rd,,Government Bldg/Local,"$1,200,000",Joey Honeycutt/Bluegrass Airport,Codell Construction Co
 185039,09/04/14,501 Albany Rd,,Residential Accessory Structure,"$5,795",William D & Nancy L Isley ,Home Depot Usa Inc 
 185040,09/04/14,1612 Clayton Ave,,Zoning Compliance Home Office (N/C),$0,Hollie Charles,
 185004,09/03/14,2377 Ice House Way,,"Fence, Residential","$1,000",Amy Mall,Roark Fencing
@@ -486,8 +492,8 @@ ID,Date_1,Address_1,Suite_1,Type,ConstructionCost_1,Owner_1,Contractor_1
 183232,09/03/14,3555 Nicholasville Rd,Ste 950,Retail Sales Remodeling,"$521,200",Altar'D State,Knoebel Construction Inc
 185009,09/03/14,1161 Red Mile Rd,,"Fence, Commercial",$700,Elkhorn Baptist Association,Rio Grande Fence Co Inc
 185011,09/03/14,1196 Autumn Ridge Dr,,"Fence, Residential","$1,519",Jack Gray,Impact Contracting Llc
-185016,09/03/14,347 Cassidy Ave,,,$0,Joseph & Lucy Hill,Joseph & Lucy Hill
-185018,09/03/14,130 W Tiverton Way,Ste 160,,$0,Domo,Domo
+185016,09/03/14,347 Cassidy Ave,,Zoning Compliance Permit (N/C),$0,Joseph & Lucy Hill,Joseph & Lucy Hill
+185018,09/03/14,130 W Tiverton Way,Ste 160,Zoning Compliance Permit (N/C),$0,Domo,Domo
 185025,09/03/14,3732 Wembley Ln,,Residential Addition,"$50,000",Dan & Sue Wermeling ,Schaefer Homes Inc
 185027,09/03/14,3555 Nicholasville Rd,,Zoning Compliance Permit (N/C),$0,Oakley,Oakley
 185012,09/03/14,717 Bullock Pl,,"Wrecking, Accessory Structure","$2,000",Jennie Scruggs,Gooding Carpentry & Design Llc
