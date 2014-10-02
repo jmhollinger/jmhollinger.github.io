@@ -1,6 +1,5 @@
 /*Created by Jonathan Hollinger utilizing the DataTables jQuery Plug-in.*/
 
-
 /*
  * @summary     DataTables
  * @description Paginate, search and order HTML tables
@@ -20,8 +19,6 @@
  * For details please refer to: http://www.datatables.net
 */
 
-
-
 /*the selectdata() function accepts the 'dataset' argument from HTML Buttons or other events inr order to display the datatable for each dataset*/
 
 function selectdata(dataset)
@@ -29,7 +26,9 @@ function selectdata(dataset)
         {
           if (dataset === 'permits')
             {
-              $('#tablearea').html('<h3>Building Permits</h3><p><a href="data/permits.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>')
+              $('#headerarea').html('<h3>Building Permits</h3><br><a href="data/permits.csv">Download the Data</a>')
+              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>')
+              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
@@ -50,8 +49,10 @@ function selectdata(dataset)
 /*Begin Code Datatable*/
           else if (dataset === 'code') 
             {
-              $('#tablearea').html('<h3>Code Enforcement Cases</h3><p><a href="data/code.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
-                $('#example').dataTable( {
+              $('#headerarea').html('<h3>Code Enforcement Cases</h3><br><a href="data/code.csv">Download the Data</a>')
+              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
+              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
+              $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
@@ -71,8 +72,10 @@ function selectdata(dataset)
 /*Begin ROW Datatable*/
             else if (dataset === 'row') 
             {
-              $('#tablearea').html('<h3>Right-of-Way Permits</h3><p><a href="data/row.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Type of Work<th>Entity</th><th>Start Date</th><th>End Date</th><th>Lane Blockage</th></tr></thead></table>')
-                $('#example').dataTable( {
+              $('#headerarea').html('<h3>Right of Way Permits</h3><br><a href="data/row.csv">Download the Data</a>')
+              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Type of Work<th>Entity</th><th>Start Date</th><th>End Date</th><th>Lane Blockage</th></tr></thead></table>')
+              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
+              $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
@@ -94,7 +97,9 @@ function selectdata(dataset)
 /*Begin Historic Preservation Datatable*/
             else if (dataset === 'hp') 
             {
-              $('#tablearea').html('<h3>Historic Preservation Activity</h3><p>Coming Soon...</p>')
+              $('#headerarea').html('<h3>Historic Preservation Activity</h3><p>Coming Soon...</p>')
+              $('#tablearea').html('')
+              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
                 $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
