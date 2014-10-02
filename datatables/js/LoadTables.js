@@ -1,9 +1,31 @@
+/*Created by Jonathan Hollinger utilizing the DataTables jQuery Plug-in.*/
+
+
 /*
-    Created by Jonathan Hollinger, 9-30-2014
-    Accepts 'dataset' argument from HTML Buttons to display datatable of each dataset
+ * @summary     DataTables
+ * @description Paginate, search and order HTML tables
+ * @version     1.10.2
+ * @file        jquery.dataTables.js
+ * @author      SpryMedia Ltd (www.sprymedia.co.uk)
+ * @contact     www.sprymedia.co.uk/contact
+ * @copyright   Copyright 2008-2014 SpryMedia Ltd.
+ *
+ * This source file is free software, available under the following license:
+ *   MIT license - http://datatables.net/license
+ *
+ * This source file is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
+ *
+ * For details please refer to: http://www.datatables.net
 */
 
+
+
+/*the selectdata() function accepts the 'dataset' argument from HTML Buttons or other events inr order to display the datatable for each dataset*/
+
 function selectdata(dataset)
+/*Begin Permits Datatable*/
         {
           if (dataset === 'permits')
             {
@@ -24,6 +46,8 @@ function selectdata(dataset)
                  ]
              } )
             }
+/*End Permits Datatable*/
+/*Begin Code Datatable*/
           else if (dataset === 'code') 
             {
               $('#tablearea').html('<h3>Code Enforcement Cases</h3><p><a href="data/code.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
@@ -43,6 +67,8 @@ function selectdata(dataset)
              } )
 
             }
+/*End Code Datatable*/
+/*Begin ROW Datatable*/
             else if (dataset === 'row') 
             {
               $('#tablearea').html('<h3>Right-of-Way Permits</h3><p><a href="data/row.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Type of Work<th>Entity</th><th>Start Date</th><th>End Date</th><th>Lane Blockage</th></tr></thead></table>')
@@ -64,6 +90,8 @@ function selectdata(dataset)
              } )
 
             }
+/*End ROW Datatable*/
+/*Begin Historic Preservation Datatable*/
             else if (dataset === 'hp') 
             {
               $('#tablearea').html('<h3>Historic Preservation Activity</h3><p>Coming Soon...</p>')
