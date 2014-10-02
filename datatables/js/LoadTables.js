@@ -7,7 +7,7 @@ function selectdata(dataset)
         {
           if (dataset === 'permits')
             {
-              $('#tablearea').html('<h3>Building Permits</h3><p>Below is a table of building permits issued by the City of Lexington since 2013.</p><p><a href="data/permits.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>')
+              $('#tablearea').html('<h3>Building Permits</h3><p><a href="data/permits.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
@@ -26,7 +26,7 @@ function selectdata(dataset)
             }
           else if (dataset === 'code') 
             {
-              $('#tablearea').html('<h3>Code Enforcement Cases</h3><p>Below is a table of Code Enforcement cases opened by the City of Lexington since 2013.</p><p><a href="data/code.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
+              $('#tablearea').html('<h3>Code Enforcement Cases</h3><p><a href="data/code.csv">Download the Data</a></p><table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
                 $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
