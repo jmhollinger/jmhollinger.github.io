@@ -22,18 +22,26 @@
 /*the selectdata() function accepts the 'dataset' argument from HTML Buttons or other events inr order to display the datatable for each dataset*/
 
 function selectdata(dataset)
-/*Begin Permits Datatable*/
         {
-          if (dataset === 'permits')
+          /*Create Divs*/
+        $('#content').html('<div id="headerarea"></div><div id="metaarea"></div><div id="tablearea"></div>')
+
+/*Begin Permits Datatable*/
+            if (dataset === 'permits')
             {
-              $('#headerarea').html('<h3>Building Permits</h3><br><a href="data/permits.csv">Download the Data</a>')
-              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Suite</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th></tr></thead></table>')
-              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
+              var title = 'Building Permits'
+              var url = 'permits'
+              var coltitles = ["Date", "Address", "Suite","Type","Construction Cost","Owner","Contractor"]
+              var metadata = 'Building permits are issued by the Division of Building Inspection for a variety of construction projects, including residential and commercial building construction, remodeling, HVAC installation, decks, fences, and many other categories. The construction cost of projects is provided by the applicant.'
+              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
+              $('#tablearea').html('<table id="example" class ="hover"><thead><tr id="hdrow"></tr></thead></table>')
+              $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
+              $('#metaarea').html('<h3>About ' + title + ' Data </h3><p>' + metadata + '</p><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
-                 "ajax": "data/permits.json",
+                 "ajax": "data/" + url + ".json",
                  "columns": [
                      { "data": "Date_1" },
                      { "data": "Address_1" },
@@ -42,21 +50,27 @@ function selectdata(dataset)
                      { "data": "ConstructionCost_1" },
                      { "data": "Owner_1" },
                      { "data": "Contractor_1" }
-                 ]
-             } )
+                     ]
+                                  } )
             }
 /*End Permits Datatable*/
+
 /*Begin Code Datatable*/
           else if (dataset === 'code') 
             {
-              $('#headerarea').html('<h3>Code Enforcement Cases</h3><br><a href="data/code.csv">Download the Data</a>')
-              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date Opened</th><th>Address</th><th>Case Type</th><th>Open/Closed</th><th>Status</th><th>Status Date</th></tr></thead></table>')
-              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
+              var title = 'Code Enforcement Cases'
+              var url = 'code'
+              var coltitles = ["Date Opened", "Address", "Case Type","Open/Closed","Status","Status Date"]
+              var metadata = 'The Division of Code Enforcement handles nuisance, housing, and sidewalk violations as categorized under the LFUCG Code of ORdinances, and the IPMC.'
+              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
+              $('#tablearea').html('<table id="example"><thead><tr id="hdrow"></tr></thead></table>')
+              $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
+              $('#metaarea').html('<h3>About ' + title + ' Data </h3><p>' + metadata + '</p>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
-                 "ajax": "data/code.json",
+                 "ajax": "data/" + url + ".json",
                  "columns": [
                      { "data": "DateOpened_1" },
                      { "data": "Address_1" },
@@ -64,22 +78,27 @@ function selectdata(dataset)
                      { "data": "OpenClosed" },
                      { "data": "Status" },
                      { "data": "StatusDate_1" }
-                 ]
-             } )
-
+                     ]
+                                 } )
             }
 /*End Code Datatable*/
+
 /*Begin ROW Datatable*/
             else if (dataset === 'row') 
-            {
-              $('#headerarea').html('<h3>Right of Way Permits</h3><br><a href="data/row.csv">Download the Data</a>')
-              $('#tablearea').html('<table class="hover" id="example"><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Type of Work<th>Entity</th><th>Start Date</th><th>End Date</th><th>Lane Blockage</th></tr></thead></table>')
-              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
+             {
+              var title = 'Right-of-Way Permits'
+              var url = 'row'
+              var coltitles = ["Date", "Address", "Permit Type","Type of Work","Entity Performing Work","Start Date","End Date","Lane Blockage"]
+              var metadata = 'Utility companies and governments are required to receieve permits to perform work on public streets or within the right-of-way of streets. Some work may be done under an "Annual General Permit" while other requires specific permitting.'
+              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
+              $('#tablearea').html('<table id="example"><thead><tr id="hdrow"></tr></thead></table>')
+              $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
+              $('#metaarea').html('<h3>About ' + title + ' Data </h3><p>' + metadata + '</p>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
-                 "ajax": "data/row.json",
+                 "ajax": "data/" + url + ".json",
                  "columns": [
                      { "data": "date" },
                      { "data": "address" },
@@ -87,33 +106,39 @@ function selectdata(dataset)
                      { "data": "work" },
                      { "data": "entity" },
                      { "data": "start" },
- 		             { "data": "end" },
+                     { "data": "end" },
                      { "data": "lnblock" },
-                 ]
-             } )
-
+                     ]
+                                } )
             }
 /*End ROW Datatable*/
+
 /*Begin Historic Preservation Datatable*/
             else if (dataset === 'hp') 
-            {
-              $('#headerarea').html('<h3>Historic Preservation Activity</h3><p>Coming Soon...</p>')
+             {
+              var title = 'Historic Preservation'
+              var url = 'hp'
+              var coltitles = ["Date", "Address", "Permit Type","Type of Work","Entity Performing Work","Start Date","End Date","Lane Blockage"]
+              var metadata = 'This is the metadata for this dataset'
+              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
               $('#tablearea').html('')
-              $('#metaarea').html('<h3>About the Data</h3><p>This is the metadata for this data.</p>')
-                $('#example').dataTable( {
+              $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
+              $('#metaarea').html('<h3>About ' + title + ' Data </h3><p>' + metadata + '</p>')
+              $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
                  "destroy" : true, 
-                 "ajax": "data/code.json",
+                 "ajax": "data/" + url + ".json",
                  "columns": [
-                     { "data": "DateOpened_1" },
-                     { "data": "Address_1" },
-                     { "data": "CaseType" },
-                     { "data": "OpenClosed" },
-                     { "data": "Status" },
-                     { "data": "StatusDate_1" }
-                 ]
-             } )
-
+                     { "data": "date" },
+                     { "data": "address" },
+                     { "data": "type" },
+                     { "data": "work" },
+                     { "data": "entity" },
+                     { "data": "start" },
+                     { "data": "end" },
+                     { "data": "lnblock" },
+                     ]
+                                } )
             }
         };
