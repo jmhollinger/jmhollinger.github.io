@@ -36,7 +36,7 @@ function selectdata(dataset)
               $('#headerarea').html('<h3>'+ title +'</h3>')
               $('#tablearea').html('<table id="example" class ="hover"><thead><tr id="hdrow"></tr></thead></table>')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<p>' + metadata + '</p><a href="data/' + url +'.csv">Download the Data</a><br>')
+              $('#metaarea').html('<p>' + metadata + '</p><a href="data/' + url +'.csv">Download the Data</a><p></p>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
