@@ -25,12 +25,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 07020320W3               ;320 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 07020410W3               ;410 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 14760476W13              ;476 Peachtree Rd;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
-38893101W2               ;3101 Majestic View Walk;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 19590109W9               ;109 Venice Park;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 06040323W3               ;323 S Eagle Creek Dr;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 09320964W7               ;964 Highland Park Dr;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 43013350W                ;3350 Lawson Ln;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 10960140W4               ;140 Laclede Ave;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
+38893101W2               ;3101 Majestic View Walk;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
 15850421S                ;421 Redding Rd;10/02/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/02/2014
 00931836-5               ;1836 Augusta Dr;10/02/2014;Housing   ;Open  ;Complaint Received                                ;10/02/2014
 17300664-2               ;664 E Sixth St;10/02/2014;Housing   ;Open  ;Complaint Received                                ;10/02/2014
@@ -103,7 +103,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06080209W2               ;209 Eastern Ave;09/30/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/29/2014
 06080211W9               ;211 Eastern Ave;09/30/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/29/2014
 27820000W5               ;0 Old Paris Rd;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/01/2014
-20681575SIGNS            ;1575 Winchester Rd;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/30/2014
+20681575SIGNS            ;1575 Winchester Rd;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/01/2014
 13970000SIGNS141         ;0 Nicholasville Rd;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/01/2014
 16330228W5               ;228 Rose St;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/01/2014
 19900224W7               ;224 Walton Ave;09/30/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/01/2014
@@ -115,13 +115,13 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 20050963W4               ;963 Waverly Dr;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 00100626W                ;626 Addison Ave;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 04663315W8               ;3315 Cornwall Dr;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
-30532457W2               ;2457 Wanda Ct;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 11453510W2               ;3510 Leestown Rd;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 00992201W                ;2201 Azalea Dr;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 42882692W                ;2692 Kearney Creek Ln;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 35610277W6               ;277 Chestnut Ridge Dr;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 34832712W3               ;2712 Mable Ln;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 19071442W2               ;1442 Townley Dr;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
+30532457W2               ;2457 Wanda Ct;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
 09370370W16              ;370 Hill N Dale Rd;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 14300432W8               ;432 Oldham Ave;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 42243165W2               ;3165 Sweet Clover Ln;09/30/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
