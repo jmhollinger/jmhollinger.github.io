@@ -123,7 +123,7 @@ function selectdata(dataset)
               $('#headerarea').html('<h3>'+ title +'</h3>')
               $('#tablearea').html('')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br><a href="data/' + url +'.csv">Download the Data</a><br>')
+              $('#metaarea').html('<p>' + metadata + '</p><a href="data/' + url +'.csv">Download the Data</a><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
