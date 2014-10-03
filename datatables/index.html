@@ -32,16 +32,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
+        <li><a href="#" onclick="selectdata('permits')">Building Permits</a></li>
+        <li><a href="#" onclick="selectdata('code')">Code Enforcement Cases</a></li>
+        <li><a href="#" onclick="selectdata('row')">Right-Of-Way Permits</a></li
       </ul>
       <div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
   <div class="container">
-     <button type="button" onclick="selectdata('permits')">Building Permits</button>
-     <button type="button" onclick="selectdata('code')">Code Enforcement Cases</button>
-     <button type="button" onclick="selectdata('row')">Right-Of-Way Permits</button>
-     <div id="content"></div>
+  <div id="content"></div>
   </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -33,10 +33,10 @@ function selectdata(dataset)
               var url = 'permits'
               var coltitles = ["Date", "Address", "Suite","Type","Construction Cost","Owner","Contractor"]
               var metadata = 'Building permits are issued by the Division of Building Inspection for a variety of construction activity, including residential and commercial building construction, remodeling, decks, fences, HVAC, and many other categories. The construction cost of projects is provided by the applicant.'
-              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
+              $('#headerarea').html('<h3>'+ title +'</h3>')
               $('#tablearea').html('<table id="example" class ="hover"><thead><tr id="hdrow"></tr></thead></table>')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br>')
+              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br><a href="data/' + url +'.csv">Download the Data</a><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
@@ -62,10 +62,10 @@ function selectdata(dataset)
               var url = 'code'
               var coltitles = ["Date Opened", "Address", "Case Type","Open/Closed","Status","Status Date"]
               var metadata = 'The Division of Code Enforcement inspects and cites nuisance, housing, and sidewalk violations as categorized under the LFUCG Code of Ordinances, and the International Property Maintenance Code.'
-              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
-              $('#tablearea').html('<table id="example"><thead><tr id="hdrow"></tr></thead></table>')
+              $('#headerarea').html('<h3>'+ title +'</h3>')
+              $('#tablearea').html('<table id="example" class ="hover"><thead><tr id="hdrow"></tr></thead></table>')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br>')
+              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br><a href="data/' + url +'.csv">Download the Data</a><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
@@ -90,10 +90,10 @@ function selectdata(dataset)
               var url = 'row'
               var coltitles = ["Date", "Address", "Permit Type","Type of Work","Entity Performing Work","Start Date","End Date","Lane Blockage"]
               var metadata = 'Any entity performing work in a public street or within the right-of-wayis required to acquire a right-of-way permit. Some work is allowed under an "Annual General Permit" while other requires specific permits for the activity.'
-              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
-              $('#tablearea').html('<table id="example"><thead><tr id="hdrow"></tr></thead></table>')
+              $('#headerarea').html('<h3>'+ title +'</h3>')
+              $('#tablearea').html('<table id="example" class ="hover"><thead><tr id="hdrow"></tr></thead></table>')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br>')
+              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br><a href="data/' + url +'.csv">Download the Data</a><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
@@ -120,10 +120,10 @@ function selectdata(dataset)
               var url = 'hp'
               var coltitles = ["Date", "Address", "Permit Type","Type of Work","Entity Performing Work","Start Date","End Date","Lane Blockage"]
               var metadata = 'This is the metadata for this dataset'
-              $('#headerarea').html('<h3>'+ title +'</h3><a href="data/' + url +'.csv">Download the Data</a>')
+              $('#headerarea').html('<h3>'+ title +'</h3>')
               $('#tablearea').html('')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')});
-              $('#metaarea').html('<h3>About ' + title + ' Data </h3><p>' + metadata + '</p>')
+              $('#metaarea').html('<br><p><b>About ' + title + ' Data</b></p><p>' + metadata + '</p><br><a href="data/' + url +'.csv">Download the Data</a><br>')
               $('#example').dataTable( {
                  "order": [ 0, 'desc' ],
                  "deferRender": true,
