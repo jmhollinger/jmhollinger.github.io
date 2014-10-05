@@ -61,10 +61,10 @@ function selectdata(dataset)
             $('#content').html('<h3>Planning, Preservation, and Development Data Browser</h3><p>Please select a topic from the navigation bar to begin exploring city data.</p>')
         }
 /*Create Descriptive Content*/
-              $('#content').html('<div id="headerarea"></div><div id="metaarea"></div><div id="tablearea"></div>')
+              $('#content').html('<div id="headerarea"></div><div id="metaarea"></div><div id="tablearea" class="table-responsive"></div>')
               $('#headerarea').html('<h3>'+ title +'</h3>')
               $('#metaarea').html('<p>' + metadata + '</p><a href="' + csvurl +'">Download the Data</a><p></p>')
-              $('#tablearea').html('<table id="databrowser" class="table-responsive" class="hover"><thead><tr id="hdrow"></tr></thead></table>')
+              $('#tablearea').html('<table id="databrowser" class="hover"><thead><tr id="hdrow"></tr></thead></table>')
               $.each(coltitles, function( index, value ) {$("#hdrow").append('<th>'+ value +'</th>')})
 /*Create Table*/
               $('#databrowser').dataTable( {
