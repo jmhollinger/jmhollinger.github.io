@@ -56,9 +56,17 @@
         <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-        <script src="js/LoadTables.js"></script> 
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/oboe-browser.min.js"></script>
+        <script>
+        oboe('data/code.json')
+   .node('code.*', function( code ){
+
+      // This callback will be called everytime a new object is
+      // found in the foods array.
+
+      console.log( '', code.date);
+   })
+        </script>
     </body>
 </html>
 
