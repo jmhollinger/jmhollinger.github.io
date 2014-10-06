@@ -25,6 +25,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03910430                 ;430 Chestnut St;10/06/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/06/2014
 03910434-2               ;434 Chestnut St;10/06/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/06/2014
 03910443-6               ;443 Chestnut St;10/06/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/06/2014
+05130424CONDEM           ;424 Dallas Ave;10/06/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/06/2014
 28763776W                ;3776 White Pine Dr;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 09870156W3               ;156 Indiana Ave;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 28923145W                ;3145 Cottontail Ln;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
@@ -32,6 +33,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 19601175W2               ;1175 Versailles Rd;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 19601195W2               ;1195 Versailles Rd;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 19601150W4               ;1150 Versailles Rd;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
+11950669W8               ;669 Lombardy Dr;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 14760388W11              ;388 Peachtree Rd;10/06/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 18591200SIGNS            ;1200 Tates Creek Rd;10/06/2014;Nuisance  ;Open  ;Sign Complaint Received                           ;10/06/2014
 18590000SIGNS158         ;0 Tates Creek Rd;10/06/2014;Nuisance  ;Open  ;Sign Complaint Received                           ;10/06/2014
@@ -57,6 +59,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 23470000SIGNS265         ;0 Man O War Blvd;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/06/2014
 43013350W                ;3350 Lawson Ln;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/06/2014
 14760476W13              ;476 Peachtree Rd;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/06/2014
+06040323W3               ;323 S Eagle Creek Dr;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/06/2014
 17190456W                ;456 Shropshire Ave;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 07020427W4               ;427 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 07020413W                ;413 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
@@ -65,7 +68,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 07020320W3               ;320 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 07020410W3               ;410 E Fifth St;10/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/03/2014
 19590109W9               ;109 Venice Park;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
-06040323W3               ;323 S Eagle Creek Dr;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/02/2014
 10960140W4               ;140 Laclede Ave;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
 38893101W2               ;3101 Majestic View Walk;10/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
 11600000SIGNS58          ;0 Liberty Rd;10/02/2014;Nuisance  ;Open  ;Sign Complaint Received                           ;10/02/2014
@@ -84,7 +86,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 07120740W10              ;740 Florence Ave;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 41690000W2               ;0 Windstar Way;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 09950240W                ;240 Irvine Rd;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
-14733201W12              ;3201 Paxson Ct;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 19602285W6               ;2285 Versailles Rd;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/03/2014
 18380197W4               ;197 Swigert Ave;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
 02840340W                ;340 Burley Ave;10/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/01/2014
@@ -102,6 +103,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 09130234SIGNS            ;234 Henry Clay Blvd;10/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/02/2014
 09130418SIGNS2           ;418 Henry Clay Blvd;10/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/02/2014
 20680000SIGNS27          ;0 Winchester Rd;10/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/02/2014
+14733201W12              ;3201 Paxson Ct;10/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;10/06/2014
 03451040                 ;1040 Castleton Way;10/01/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/02/2014
 04081005-2               ;1005 Claiborne Way;10/01/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/02/2014
 06481002-2               ;1002 Elmendorf Dr;10/01/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/02/2014
@@ -562,24 +564,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13971857W                ;1857 Nicholasville Rd;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 13972520W4               ;2520 Nicholasville Rd;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 11253256W3               ;3256 Lansdowne Dr;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/23/2014
-41763880W                ;3880 Leighton Ln;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41720268W                ;268 Ellerslie Park Blvd;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773937W3               ;3937 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-42840489W                ;489 Weston Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 41773881W2               ;3881 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773897W3               ;3897 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773896W2               ;3896 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773985W2               ;3985 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773993W2               ;3993 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-42840476W                ;476 Weston Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-42840484W                ;484 Weston Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-42840488W                ;488 Weston Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 42840492W                ;492 Weston Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-41773952W3               ;3952 Branham Park;09/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-09240640W3               ;640 Hidden Point Dr;09/18/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/22/2014
 06251960W2               ;1960 Edgeworth Dr;09/18/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;09/19/2014
 19960239W                ;239 Warnock St;09/18/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;09/19/2014
 17300410W3               ;410 E Sixth St;09/18/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;09/20/2014
+09240640W3               ;640 Hidden Point Dr;09/18/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;10/06/2014
 32280000SIGNS7           ;0 Military Pike;09/18/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;09/19/2014
 15892416SIGNS            ;2416 Regency Rd;09/18/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;09/19/2014
 15892532SIGNS            ;2532 Regency Rd;09/18/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;09/19/2014
@@ -587,6 +577,18 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14260280W                ;280 Old Kingston Rd A;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/02/2014
 14090372W                ;372 Northwood Dr;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/03/2014
 19440571W16              ;571 N Upper St;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/03/2014
+41763880W                ;3880 Leighton Ln;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41720268W                ;268 Ellerslie Park Blvd;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773937W3               ;3937 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+42840489W                ;489 Weston Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773896W2               ;3896 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773985W2               ;3985 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773993W2               ;3993 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+42840476W                ;476 Weston Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+42840484W                ;484 Weston Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+42840488W                ;488 Weston Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773952W3               ;3952 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
+41773897W3               ;3897 Branham Park;09/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
 10100343W11              ;343 Jefferson St;09/17/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/02/2014
 27510977W                ;977 Deer Crossing Way;09/17/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/02/2014
 28470832W                ;832 Eastmont Rd;09/17/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
@@ -656,7 +658,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06152488W6               ;2488 Eastway Dr;09/16/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/18/2014
 34772401W5               ;2401 Justin Pl;09/16/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/18/2014
 22720425W2               ;425 Groves Point Way;09/16/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-06670633W3               ;633 Eureka Springs Dr;09/16/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 04931040#53-3            ;1040 Cross Keys Rd#53;09/16/2014;Housing   ;Closed;Resolved Complaint                                ;09/17/2014
 12100103-2               ;103 Luigart Ct;09/16/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/18/2014
 02722597W                ;2597 Buck Ln;09/16/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/23/2014
@@ -667,6 +668,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 01593400W5               ;3400 Bellefonte Dr;09/16/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/01/2014
 12150379W3               ;379 Lynnwood Ct;09/16/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/02/2014
 34972220W7               ;2220 Arthur Way;09/16/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/02/2014
+06670633W3               ;633 Eureka Springs Dr;09/16/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
 03290845W3               ;845 Carneal Rd;09/16/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;09/17/2014
 03910539W6               ;539 Chestnut St;09/16/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;09/17/2014
 20500578W17              ;578 Wilderness Rd;09/16/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/17/2014
@@ -680,7 +682,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 00431604W                ;1604 Anniston Dr;09/15/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/30/2014
 29021308W8               ;1308 Red Stone Dr;09/15/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/01/2014
 29021364W10              ;1364 Red Stone Dr;09/15/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/01/2014
-31920177W6               ;177 Leisure Ln;09/15/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/17/2014
 41132768W4               ;2768 Red Clover Ln;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
 03740828W16              ;828 Charles Ave;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
 03740903W8               ;903 Charles Ave;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
@@ -693,7 +694,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 29021312W16              ;1312 Red Stone Dr;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
 08403570W                ;3570 Greenlawn Dr;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;10/06/2014
 06670557W5               ;557 Eureka Springs Dr;09/15/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/23/2014
+31920177W6               ;177 Leisure Ln;09/15/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/17/2014
 03910570                 ;570 Chestnut St;09/15/2014;Housing   ;Closed;Invalid Complaint                                 ;09/15/2014
+07020442-3               ;442 E Fifth St Aka 469 Race St;09/15/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 01660562S                ;562 Benton Ct;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 26820828S                ;828 Kingsbury Rd;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 34760624S2               ;624 Danby Woods Dr;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
@@ -703,7 +706,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 01670558S                ;558 Benton Rd;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 18751629S4               ;1629 Thames Dr;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 00213485-2               ;3485 Aldershot Dr;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/18/2014
-07020442-3               ;442 E Fifth St Aka 469 Race St;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 17040116-4               ;116 Sheila Ct;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 21280205-2               ;205 York St;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/15/2014
 00160177-2               ;177 Alabama Ave;09/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/22/2014
@@ -736,7 +738,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 12300135-145#113B        ;135-145 Malabu Dr #113b;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/17/2014
 18593565#66              ;3565 Tates Creek Rd;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/22/2014
 01831800                 ;1800 Biloxi Ct;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/23/2014
-32462000#2               ;2000 Cornerstone Dr #2;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/17/2014
+32462000#2               ;2000 Cornerstone Dr #2;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;10/06/2014
 00231573#1-3             ;1573 Alexandria Dr #1;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/18/2014
 33620517-2               ;517 Patterson Dr;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/18/2014
 31740200                 ;200 Shoreside Dr;09/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/16/2014
@@ -747,14 +749,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 00621064                 ;1064 Armstrong Mill Rd;09/12/2014;Housing   ;Closed;Invalid Complaint                                 ;09/15/2014
 03960251-2               ;251 Chippendale Cir;09/12/2014;Housing   ;Closed;Invalid Complaint                                 ;09/17/2014
 09510500#1-4             ;500 Hollow Creek Rd#1;09/12/2014;Housing   ;Open  ;Complaint Received                                ;09/12/2014
-11601825-5               ;1825 Liberty Rd;09/12/2014;Housing   ;Closed;Resolved Complaint                                ;09/15/2014
-12010684W                ;684 Longwood Rd;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-16840665W                ;665 W Second St;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-36542744W3               ;2744 Hayden Park Ln;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-31871128W                ;1128 Parliament Way;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
-05633167W                ;3167 Dewey Dr;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
-17153265W6               ;3265 Shoal Lake Dr;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
-17392824#B2              ;2824 Snow Rd#B2;09/12/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/15/2014
 11452601W4               ;2601 Leestown Rd;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
 03740814W5               ;814 Charles Ave;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
 38990213W2               ;213 Stallion Run;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
@@ -765,6 +759,14 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 23470000SIGNS262         ;0 Man O War Blvd;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/17/2014
 23302404W                ;2404 Abbeywood Rd;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
 27154648W10              ;4648 Hathway Dr;09/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
+12010684W                ;684 Longwood Rd;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+16840665W                ;665 W Second St;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+36542744W3               ;2744 Hayden Park Ln;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+31871128W                ;1128 Parliament Way;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
+05633167W                ;3167 Dewey Dr;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
+17153265W6               ;3265 Shoal Lake Dr;09/12/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
+11601825-5               ;1825 Liberty Rd;09/12/2014;Housing   ;Closed;Resolved Complaint                                ;09/15/2014
+17392824#B2              ;2824 Snow Rd#B2;09/12/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/15/2014
 08460440W15              ;440 Greenwood Ave;09/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 00690416W2               ;416 Ash St;09/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 00280750W11              ;750 Allendale Dr;09/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/01/2014
@@ -795,15 +797,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15802060W4               ;2060 Rebel Rd;09/11/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/29/2014
 18593399W                ;3399 Tates Creek Rd;09/11/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/30/2014
 14200522W                ;522 Ohio St;09/11/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/29/2014
+09200561W4               ;561 Hi Crest Dr;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+17300412W4               ;412 E Sixth St;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
+06170194W9               ;194 Eddie St;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
 35610273W                ;273 Chestnut Ridge Dr;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
 03931705W                ;1705 Chickasaw Ct;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/12/2014
 28590336W5               ;336 Turfway Dr;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/12/2014
 11070464-466W            ;464-466 Lakeshore Dr;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 11600000SIGNS57          ;0 Liberty Rd;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/12/2014
 07030547W                ;547 W Fifth St;09/11/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
-09200561W4               ;561 Hi Crest Dr;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-17300412W4               ;412 E Sixth St;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
-06170194W9               ;194 Eddie St;09/11/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
 18280148#6               ;148 Surfside Dr#6;09/11/2014;Housing   ;Closed;Invalid Complaint                                 ;09/16/2014
 19853422                 ;3422 Wallingford Ct;09/11/2014;Housing   ;Closed;Invalid Complaint                                 ;09/15/2014
 05111341                 ;1341 Dale Dr;09/11/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/12/2014
@@ -823,15 +825,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15823717                 ;3717 Red River Dr;09/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/11/2014
 10181416                 ;1416 Jocasta Dr;09/10/2014;Housing   ;Closed;Invalid Complaint                                 ;09/11/2014
 13600633#602-3           ;633 Mt Tabor Rd#602;09/10/2014;Housing   ;Closed;Invalid Complaint                                 ;09/15/2014
-11453178W4               ;3178 Leestown Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-11453158W8               ;3158 Leestown Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-12370229W                ;229 Mandalay Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
-27040392W4               ;392 Scottsdale Cir;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-09283129W10              ;3129 High Ridge Dr;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/29/2014
-22803225W4               ;3225 Hunting Hills Dr;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-13600529W3               ;529 Mt Tabor Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-19243833W3               ;3833 Trout Ct;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-02661309W2               ;1309 Bryan Ave;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/24/2014
 30190000W                ;0 Trailside Dr;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 38370000W                ;0 White Oak Trce;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 36170000W2               ;0 Mcconnells Trce;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
@@ -843,6 +836,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 18323443W                ;3443 Sutherland Dr;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 22983304W4               ;3304 Huntmaster Cir;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/17/2014
 10181416W                ;1416 Jocasta Dr;09/10/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
+11453178W4               ;3178 Leestown Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+11453158W8               ;3158 Leestown Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+12370229W                ;229 Mandalay Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/17/2014
+27040392W4               ;392 Scottsdale Cir;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+09283129W10              ;3129 High Ridge Dr;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/29/2014
+22803225W4               ;3225 Hunting Hills Dr;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+13600529W3               ;529 Mt Tabor Rd;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+19243833W3               ;3833 Trout Ct;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+02661309W2               ;1309 Bryan Ave;09/10/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/24/2014
 20660212W3               ;212 Wilton Ave;09/10/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 00690327W                ;327 Ash St;09/10/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 20410825W10              ;825 Whitney Ave;09/10/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
@@ -903,6 +905,11 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 02850135W12              ;135 Burnett Ave;09/09/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 17350444W9               ;444 Smith St;09/09/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 17300301W3               ;301 E Sixth St;09/09/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
+11800210W2               ;210 Linwood Dr;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
+01640781W16              ;781 Bennett Ave;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
+02701988W2               ;1988 Brynell Dr;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+11033308W                ;3308 Lake Wales Ct;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
+11910473W5               ;473 Locust Ave;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 19602003W4               ;2003 Versailles Rd;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 44060509W2               ;509 Rain Garden Way;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/11/2014
 35820100W8               ;100 Clover Valley Dr;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
@@ -923,11 +930,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 27340000W4               ;0 Chas Dr;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/10/2014
 09283131W                ;3131 High Ridge Dr;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/10/2014
 41720000W                ;0 Ellerslie Park Blvd;09/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
-11800210W2               ;210 Linwood Dr;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
-01640781W16              ;781 Bennett Ave;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
-02701988W2               ;1988 Brynell Dr;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-11033308W                ;3308 Lake Wales Ct;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
-11910473W5               ;473 Locust Ave;09/09/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/30/2014
 20091833                 ;1833 Wayland Dr;09/09/2014;Housing   ;Closed;Invalid Complaint                                 ;09/18/2014
 12270736-9               ;736 W Main St;09/09/2014;Housing   ;Closed;Invalid Complaint                                 ;09/16/2014
 04931040-15              ;1040 Cross Keys Rd;09/09/2014;Housing   ;Closed;Invalid Complaint                                 ;09/11/2014
@@ -962,15 +964,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14600511-2               ;511 Park Ave;09/08/2014;Housing   ;Closed;Invalid Complaint                                 ;09/10/2014
 20910124-4               ;124 Withers Ave;09/08/2014;Housing   ;Closed;Invalid Complaint                                 ;09/23/2014
 03641101#40              ;1101 Centre Pkwy#40;09/08/2014;Housing   ;Closed;Invalid Complaint                                 ;09/11/2014
-11401321W4               ;1321 Leaning Tree Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/08/2014
-31353232W5               ;3232 Bracktown Rd;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
-34660132W3               ;132 Greenway Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-16662832W                ;2832 Sandersville Rd;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-38892868W2               ;2868 Majestic View Walk;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-41132744W2               ;2744 Red Clover Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-09290511W10              ;511 E High St;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
-20193829W                ;3829 Wem Dr;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
-17190613#4-3             ;613 Shropshire Ave#4;09/08/2014;Housing   ;Closed;Resolved Complaint                                ;09/11/2014
 34832705W5               ;2705 Mable Ln;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
 38892853W                ;2853 Majestic View Walk;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
 34832757W                ;2757 Mable Ln;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/15/2014
@@ -991,6 +984,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13581412W                ;1412 Mt Rainier Dr;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
 41720253W                ;253 Ellerslie Park Blvd;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
 16900214W3               ;214 E Seventh St;09/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/09/2014
+11401321W4               ;1321 Leaning Tree Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/08/2014
+31353232W5               ;3232 Bracktown Rd;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
+34660132W3               ;132 Greenway Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+16662832W                ;2832 Sandersville Rd;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+38892868W2               ;2868 Majestic View Walk;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+41132744W2               ;2744 Red Clover Ln;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+09290511W10              ;511 E High St;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
+20193829W                ;3829 Wem Dr;09/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/10/2014
+17190613#4-3             ;613 Shropshire Ave#4;09/08/2014;Housing   ;Closed;Resolved Complaint                                ;09/11/2014
 35540441W2               ;441 Lemon Drop Ln;09/08/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/23/2014
 42522559W3               ;2559 Kearney Ridge Blvd;09/08/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
 11800205W11              ;205 Linwood Dr;09/08/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
@@ -1054,6 +1056,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 19363052W3               ;3052 Tuscaloosa Ln;09/05/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/26/2014
 02850151W4               ;151 Burnett Ave;09/05/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
 11660638W21              ;638 N Limestone;09/05/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
+23504020W2               ;4020 Hillside Dr;09/05/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
+16012397W13              ;2397 Richmond Rd;09/05/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/24/2014
+15810845#134             ;845 Red Mile Rd#134;09/05/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/10/2014
+20640318EMER             ;318 Wilson Downing Rd;09/05/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
 30870111W9               ;111 Dantzler Dr;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
 42522559W2               ;2559 Kearney Ridge Blvd;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/03/2014
 13080427W2               ;427 Michigan St;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
@@ -1064,10 +1070,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 21704585W                ;4585 Hartland Pkwy;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
 22850903W                ;903 Charwood Dr;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
 18323466W                ;3466 Sutherland Dr;09/05/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
-23504020W2               ;4020 Hillside Dr;09/05/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
-16012397W13              ;2397 Richmond Rd;09/05/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/24/2014
-15810845#134             ;845 Red Mile Rd#134;09/05/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/10/2014
-20640318EMER             ;318 Wilson Downing Rd;09/05/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
 20410739-3               ;739 Whitney Ave;09/05/2014;Housing   ;Open  ;Complaint Received                                ;09/05/2014
 19750145-4               ;145 Wabash Dr;09/05/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/08/2014
 19750147                 ;147 Wabash Dr;09/05/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/08/2014
@@ -1084,14 +1086,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03641205#13-2            ;1205 Centre Pkwy #13;09/04/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/10/2014
 03020116                 ;116 Calumet Ter;09/04/2014;Housing   ;Closed;Invalid Complaint                                 ;09/10/2014
 10361200                 ;1200 Kalone Way;09/04/2014;Housing   ;Closed;Invalid Complaint                                 ;09/05/2014
-12591582#4               ;1582 Martha Ct;09/04/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/19/2014
-20680800W                ;800 Winchester Rd;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/04/2014
-13841032W                ;1032 E New Circle Rd;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/04/2014
-08460410W9               ;410 Greenwood Ave;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/05/2014
-23942346W3               ;2346 Harrods Pointe Trce;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
-07733441W                ;3441 Gatewood Ct;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/29/2014
-06393212W                ;3212 Elk Lake Ct;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-07360271W5               ;271 E Fourth St;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/05/2014
 05111268W3               ;1268 Dale Dr;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 19600000W8               ;0 Versailles Rd;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/06/2014
 07840916W2               ;916 Georgetown St;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
@@ -1110,6 +1104,14 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 30293501W                ;3501 Squires Woods Way;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/09/2014
 10361204W                ;1204 Kalone Way;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/09/2014
 17153228W                ;3228 Shoal Lake Dr;09/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/08/2014
+12591582#4               ;1582 Martha Ct;09/04/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;09/19/2014
+20680800W                ;800 Winchester Rd;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/04/2014
+13841032W                ;1032 E New Circle Rd;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/04/2014
+08460410W9               ;410 Greenwood Ave;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/05/2014
+23942346W3               ;2346 Harrods Pointe Trce;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
+07733441W                ;3441 Gatewood Ct;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/29/2014
+06393212W                ;3212 Elk Lake Ct;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+07360271W5               ;271 E Fourth St;09/04/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/05/2014
 35540437W5               ;437 Lemon Drop Ln;09/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/23/2014
 05591287W4               ;1287 Devonport Dr;09/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
 27433600W3               ;3600 Cottage Cir;09/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/24/2014
@@ -1171,6 +1173,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 07651272W6               ;1272 Gainesway Dr;09/03/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
 13581409W4               ;1409 Mt Rainier Dr;09/03/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/25/2014
 08790103W7               ;103 Harken Ct;09/03/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/23/2014
+12080213W8               ;213 E Lowry Ln;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
+10010721W5               ;721 Jackson St;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/03/2014
+30870102W6               ;102 Dantzler Dr;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
+00483580W3               ;3580 Appian Way;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
+11253471W3               ;3471 Lansdowne Dr;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+07020248W6               ;248 E Fifth St;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
 18260725W5               ;725 Sunset Dr;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 19661430W7               ;1430 Village Dr;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 42882825W                ;2825 Kearney Creek Ln;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
@@ -1182,12 +1190,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 01050313W2               ;313 Bainbridge Dr;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 13543364W4               ;3364 Mt Foraker Dr;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 18800517W9               ;517 W Third St;09/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
-12080213W8               ;213 E Lowry Ln;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
-10010721W5               ;721 Jackson St;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/03/2014
-30870102W6               ;102 Dantzler Dr;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/09/2014
-00483580W3               ;3580 Appian Way;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
-11253471W3               ;3471 Lansdowne Dr;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
-07020248W6               ;248 E Fifth St;09/03/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/12/2014
 03270158-6               ;158 Carlisle Ave;09/03/2014;Housing   ;Closed;Invalid Complaint                                 ;09/09/2014
 01851001-2               ;1001 Birch Dr;09/03/2014;Housing   ;Closed;Invalid Complaint                                 ;09/15/2014
 31940524-2               ;524 W New Circle Rd;09/03/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/03/2014
@@ -1226,10 +1228,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15731809S                ;1809 Ranier Dr;09/02/2014;Housing   ;Closed;Closed Out                                        ;09/26/2014
 30900312                 ;312 Hanover Ct;09/02/2014;Housing   ;Closed;Invalid Complaint                                 ;09/05/2014
 09510522#38-2            ;522 Hollow Creek Rd#38;09/02/2014;Housing   ;Open  ;Complaint Received                                ;09/02/2014
-13390455                 ;455 Monticello Blvd;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/05/2014
-00231568#4A-2            ;1568 Alexandria Dr#4a;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/10/2014
-06792066#6               ;2066 Fairmont Ct#6;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/10/2014
-42882559W                ;2559 Kearney Creek Ln;09/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/02/2014
 13910101W13              ;101 Newcastle St;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 13900229W8               ;229 Newcastle Ct;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
 19602485W4               ;2485 Versailles Rd;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
@@ -1253,6 +1251,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 12040252W2               ;252 E Loudon Ave;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/03/2014
 01980333W24              ;333 Blue Grass Ave;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/03/2014
 16900508W5               ;508 E Seventh St#2;09/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/03/2014
+13390455                 ;455 Monticello Blvd;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/05/2014
+00231568#4A-2            ;1568 Alexandria Dr#4a;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/10/2014
+06792066#6               ;2066 Fairmont Ct#6;09/02/2014;Housing   ;Closed;Resolved Complaint                                ;09/10/2014
+42882559W                ;2559 Kearney Creek Ln;09/02/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/02/2014
 30150216W                ;216 Masterson Station Dr;09/02/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/17/2014
 11710433W4               ;433 Lindberg Dr;09/02/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
 42532840W                ;2840 Sullivans Trce Aka 2840-2836 Sullivans Trce;09/02/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
@@ -1333,6 +1335,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 00160128W5               ;128 Alabama Ave;08/29/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
 12040250W13              ;250 E Loudon Ave;08/29/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
 16830417W9               ;417 E Second St;08/29/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/22/2014
+13972217                 ;2217 Nicholasville Rd;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/04/2014
+09510500#63              ;500 Hollow Creek Rd #63;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/03/2014
+09510522#22-2            ;522 Hollow Creek Rd #22;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/03/2014
+38454297W                ;4297 Old Harrodsburg Rd;08/29/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/29/2014
 18850105W2               ;105 Thompson Rd;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/03/2014
 40020120W2               ;120 Louie Pl;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/02/2014
 28803037W3               ;3037 Lappin Ln;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/02/2014
@@ -1357,10 +1363,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 16440902W23              ;902 Royal Ave;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/02/2014
 16440904W35              ;904 Royal Ave;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/02/2014
 15420734W5               ;734 Price Ave;08/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/04/2014
-38454297W                ;4297 Old Harrodsburg Rd;08/29/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/29/2014
-13972217                 ;2217 Nicholasville Rd;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/04/2014
-09510500#63              ;500 Hollow Creek Rd #63;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/03/2014
-09510522#22-2            ;522 Hollow Creek Rd #22;08/29/2014;Housing   ;Closed;Resolved Complaint                                ;09/03/2014
 12670424EMER             ;424 E Maxwell St;08/29/2014;Housing   ;Closed;Invalid Complaint                                 ;09/08/2014
 09510522#55-5            ;522 Hollow Creek Rd #55;08/29/2014;Housing   ;Closed;Invalid Complaint                                 ;09/03/2014
 07702049#A               ;2049 Garden Springs Dr #A;08/29/2014;Housing   ;Closed;Invalid Complaint                                 ;09/09/2014
@@ -1559,6 +1561,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 32730625W4               ;625 Big Bear Ln;08/26/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/17/2014
 32730627W                ;627 Big Bear Ln;08/26/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/17/2014
 17300408W16              ;408 E Sixth St;08/26/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/10/2014
+17601061W4               ;1061 Spring Run Rd;08/26/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/29/2014
+23480822W8               ;822 Wyndham Hills Dr;08/26/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/29/2014
 17601109W8               ;1109 Spring Run Rd;08/26/2014;Nuisance  ;Open  ;Appealed-Nuisance                                 ;09/11/2014
 17090678W9               ;678 Sheridan Dr;08/26/2014;Nuisance  ;Open  ;Appealed-Nuisance                                 ;09/15/2014
 11670319W14              ;319 S Limestone;08/26/2014;Nuisance  ;Open  ;Appealed-Nuisance                                 ;08/26/2014
@@ -1576,16 +1580,14 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13953721W5               ;3721 Niagara Dr;08/26/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/18/2014
 15823690W4               ;3690 Red River Dr;08/26/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/19/2014
 01471427W9               ;1427 Beaufort Dr;08/26/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/18/2014
-17601061W4               ;1061 Spring Run Rd;08/26/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/29/2014
-23480822W8               ;822 Wyndham Hills Dr;08/26/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/29/2014
 16010000SIGNS133         ;0 Richmond Rd;08/26/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;08/26/2014
 19010000SIGNS35          ;0 Todds Rd;08/26/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;08/27/2014
 16080000SIGNS6           ;0 Rio Dosa Dr;08/26/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;08/27/2014
-01781293W5               ;1293 Beulah Park;08/25/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/26/2014
 29942565W12              ;2565 Cashel Ct;08/25/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/10/2014
 43103333W4               ;3333 Hibernia Pass;08/25/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/09/2014
 32700508W3               ;508 Old Manse Ct;08/25/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/17/2014
 43822801W4               ;2801 Styx Ct;08/25/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/17/2014
+01781293W5               ;1293 Beulah Park;08/25/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/26/2014
 34600701W                ;701 Lucille Dr;08/25/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/26/2014
 34600689W                ;689 Lucille Dr;08/25/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/26/2014
 34600685W                ;685 Lucille Dr;08/25/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/26/2014
@@ -1708,8 +1710,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15550408W4               ;408 Pyke Rd;08/22/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/12/2014
 08750139W3               ;139 N Hanover Ave;08/22/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/12/2014
 13440444W10              ;444 Morgan Ave;08/22/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/23/2014
-43103337W4               ;3337 Hibernia Pass;08/22/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/09/2014
 04931040W20              ;1040 Cross Keys Rd;08/22/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/25/2014
+43103337W4               ;3337 Hibernia Pass;08/22/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/09/2014
 11600000SIGNS55          ;0 Liberty Rd;08/22/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;08/27/2014
 02530370W10              ;370 S Broadway Park;08/21/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/09/2014
 10523309W18              ;3309 Kenesaw Dr;08/21/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/08/2014
@@ -1752,12 +1754,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 29143812S                ;3812 Wyndsong Trl;08/20/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/20/2014
 12293417S                ;3417 Malabu Cir;08/20/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/20/2014
 29143808S                ;3808 Wyndsong Trl;08/20/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/20/2014
-18751469-4               ;1469 Thames Dr;08/20/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/02/2014
 20193849EMER             ;3849 Wem Dr;08/20/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
 12300137#102             ;137 Malabu Dr #102;08/20/2014;Housing   ;Closed;Closed Out                                        ;10/02/2014
 13973820#1113            ;3820 Nicholasville Rd #1113;08/20/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
 06670685                 ;685 Eureka Springs Dr;08/20/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
 21272805                 ;2805 Yellowstone Pkwy;08/20/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
+18751469-4               ;1469 Thames Dr;08/20/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 07834731SIGNS            ;4731 Georgetown Rd;08/20/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/22/2014
 13600000W3               ;0 Mt Tabor Rd;08/20/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/20/2014
 17822116W4               ;2116 St Mathilda Dr;08/20/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/21/2014
@@ -1785,8 +1787,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 42243317W3               ;3317 Sweet Clover Ln;08/20/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/16/2014
 01471446W11              ;1446 Beaufort Dr;08/20/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/08/2014
 20640301W                ;301 Wilson Downing Rd;08/20/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/09/2014
-18751469W9               ;1469 Thames Dr;08/20/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/26/2014
 27774516W5               ;4516 Pentlalla Pt;08/20/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/10/2014
+18751469W9               ;1469 Thames Dr;08/20/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/26/2014
 19853422W19              ;3422 Wallingford Ct;08/19/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;08/20/2014
 07020414W5               ;414 E Fifth St;08/19/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/10/2014
 26633813SIGNS            ;3813 Dylan Pl;08/19/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;08/20/2014
@@ -1851,7 +1853,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 16013720W3               ;3720 Richmond Rd;08/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/22/2014
 20640318W8               ;318 Wilson Downing Rd;08/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/22/2014
 30300667W                ;667 Graviss Ct;08/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/22/2014
-20481942W3               ;1942 Wickland Dr;08/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/22/2014
 31672365                 ;2365 Sir Barton Way;08/18/2014;Housing   ;Closed;Resolved Complaint                                ;08/19/2014
 19661268-2               ;1268 Village Dr;08/18/2014;Housing   ;Closed;Resolved Complaint                                ;08/20/2014
 19661274#210             ;1274 Village Dr;08/18/2014;Housing   ;Closed;Resolved Complaint                                ;08/20/2014
@@ -1868,6 +1869,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03600973W                ;973 Celia Ln;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/15/2014
 14080668W7               ;668 Northside Dr;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/03/2014
 15620332W4               ;332 Radcliffe Rd;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/17/2014
+20481942W3               ;1942 Wickland Dr;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;10/06/2014
 21030154W2               ;154 Woodland Ave;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/05/2014
 14300429W5               ;429 Oldham Ave;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/04/2014
 14600339W12              ;339 Park Ave;08/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/04/2014
@@ -1994,7 +1996,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 01461916W8               ;1916 Beacon Hill Rd;08/14/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/02/2014
 06432250W13              ;2250 Elkhorn Rd;08/14/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/15/2014
 00340332W11              ;332 American Ave;08/14/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/02/2014
-22553705W10              ;3705 St Clair Ct;08/14/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;09/08/2014
+22553705W10              ;3705 St Clair Ct;08/14/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/22/2014
 27433684W6               ;3684 Cottage Cir;08/13/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/12/2014
 02041479W4               ;1479 Boardwalk;08/13/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/04/2014
 16531040W7               ;1040 Russell Cave Rd;08/13/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/11/2014
@@ -2164,8 +2166,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 08750150W                ;150 N Hanover Ave;08/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/11/2014
 15030000SIGNS30          ;0 Pimlico Pkwy;08/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/14/2014
 09321112W4               ;1112 Highland Park Dr;08/08/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/08/2014
-16012909W                ;2909 Richmond Rd;08/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/11/2014
 04931040#53-2            ;1040 Cross Keys Rd#53;08/08/2014;Housing   ;Closed;Resolved Complaint                                ;08/13/2014
+16012909W                ;2909 Richmond Rd;08/08/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/11/2014
 32190120#G               ;120 Old Lafayette Ave #G;08/08/2014;Housing   ;Open  ;Reinspection                                      ;10/02/2014
 20500520W13              ;520 Wilderness Rd;08/08/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
 20500578W15              ;578 Wilderness Rd;08/08/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
@@ -2192,7 +2194,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 10863724W13              ;3724 Kittiwake Dr;08/07/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
 07651219W9               ;1219 Gainesway Dr;08/07/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/03/2014
 03290912W                ;912 Carneal Rd;08/07/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
-05130424-2               ;424 Dallas Ave;08/07/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
 05130426-6               ;426 Dallas Ave;08/07/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
 14200546-8               ;546 Ohio St;08/07/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;08/13/2014
 19471462W4               ;1462 Valdosta Ct;08/07/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/25/2014
@@ -2207,6 +2208,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 09290227S                ;227 E High St;08/07/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/07/2014
 09290239-259S            ;239-259 E High St;08/07/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/07/2014
 00241995-5               ;1995 Alice Dr;08/07/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/15/2014
+05130424-2               ;424 Dallas Ave;08/07/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 13600633-5               ;633 Mt Tabor Rd;08/07/2014;Housing   ;Closed;Closed Out                                        ;09/17/2014
 20542128#5-6             ;2128 Will Fant Dr #5;08/07/2014;Housing   ;Closed;Invalid Complaint                                 ;08/07/2014
 06470635-10              ;635 Elm Tree Ln;08/06/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
@@ -2247,10 +2249,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03960251W                ;251 Chippendale Cir;08/06/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
 18683713W3               ;3713 Temple Dr;08/06/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/27/2014
 08181308W3               ;1308 Grafton Dr;08/06/2014;Nuisance  ;Closed;Closed Nuisance                                   ;09/03/2014
+20104017W4               ;4017 Weber Way;08/06/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/07/2014
 07852107W6               ;2107 Georgian Way;08/06/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;08/26/2014
 02193462W2               ;3462 Boston Rd;08/06/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/15/2014
 02750369W7               ;369 Bucoto Ct;08/06/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;08/22/2014
-20104017W4               ;4017 Weber Way;08/06/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;08/07/2014
 15030000W7               ;0 Pimlico Pkwy;08/06/2014;Nuisance  ;Closed;Closed/Abated by City                             ;08/07/2014
 16881317W3               ;1317 Sequoia Dr;08/05/2014;Nuisance  ;Closed;Closed/Abated by City                             ;09/05/2014
 19171207W8               ;1207 Trent Blvd;08/05/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;08/26/2014
@@ -2327,13 +2329,13 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 29011244W4               ;1244 Colorado Rd;08/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/05/2014
 18592995W2               ;2995 Tates Creek Rd;08/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/05/2014
 11600000SIGNS52          ;0 Liberty Rd;08/04/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/04/2014
-10111752#G3-2            ;1752 Jennifer Rd;08/04/2014;Housing   ;Closed;Resolved Complaint                                ;08/07/2014
 19440725-727CONDEM       ;725-727 N Upper St;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/26/2014
 18112039#1               ;2039 Jeffrey Ct #1;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/18/2014
 05430868-2               ;868 Della Dr;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 13323221-3               ;3221 Monida Ct;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 20850613-2               ;613 Winter Park Ct;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/18/2014
 17930212#B               ;212 State St #B;08/04/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+10111752#G3-2            ;1752 Jennifer Rd;08/04/2014;Housing   ;Closed;Resolved Complaint                                ;08/07/2014
 39963108W2               ;3108 Gilmore Trce;08/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/22/2014
 05730449W                ;449 Dominican Dr;08/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/28/2014
 11650655W                ;655 Lima Dr;08/04/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/29/2014
@@ -2381,11 +2383,11 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 30400473-475W4           ;473-475 Silver Maple Way;08/01/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/18/2014
 16900160W3               ;160 E Seventh St;08/01/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/20/2014
 07020401-403W2           ;401-403 E Fifth St;08/01/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/20/2014
-03781853#B               ;1853 Chatsworth Dr #B;08/01/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
-03641205#11              ;1205 Centre Pkwy #11;08/01/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 19601510#J117-2          ;1510 Versailles Rd;08/01/2014;Housing   ;Closed;Resolved Complaint                                ;08/12/2014
 15350461W6               ;461 Potomac Dr;08/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;08/06/2014
 07510550W4               ;550 Freeman Dr;08/01/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;09/16/2014
+03781853#B               ;1853 Chatsworth Dr #B;08/01/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
+03641205#11              ;1205 Centre Pkwy #11;08/01/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 08700142W2               ;142 Hamilton Park;08/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/04/2014
 27791171W3               ;1171 Devonport Cir;08/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/05/2014
 08863090W18              ;3090 Harrodsburg Rd;08/01/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/04/2014
@@ -2423,11 +2425,11 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 12960040SIGNS            ;40 Mentelle Park;07/31/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/05/2014
 08930301W3               ;301 Harvard Dr;07/31/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/01/2014
 03910455W22              ;455 Chestnut St;07/31/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/01/2014
-09510522#64              ;522 Hollow Creek Rd #64;07/31/2014;Housing   ;Closed;Resolved Complaint                                ;08/11/2014
 05100730-3               ;730 Dakota St;07/31/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
 05342027                 ;2027 Deauville Dr;07/31/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
 13953615                 ;3615 Niagara Dr;07/31/2014;Housing   ;Open  ;Reinspection                                      ;09/08/2014
 19483205                 ;3205 Valhalla Dr;07/31/2014;Housing   ;Open  ;Reinspection                                      ;09/08/2014
+09510522#64              ;522 Hollow Creek Rd #64;07/31/2014;Housing   ;Closed;Resolved Complaint                                ;08/11/2014
 12361030W                ;1030 Manchester St;07/31/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/18/2014
 21000110W3               ;110 Woodford Dr;07/31/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/22/2014
 00231913W10              ;1913 Alexandria Dr;07/31/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/26/2014
@@ -2489,8 +2491,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 19890636-3               ;636 N Martin Luther King Blvd;07/30/2014;Housing   ;Closed;Closed Out                                        ;09/23/2014
 10630408-3               ;408 Kentucky Ct;07/30/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
 15033501#126-2           ;3501 Pimlico Pkwy #126;07/30/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
-02360550-3               ;550 Breckenridge St;07/29/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
-06001899-2               ;1899 Dunkirk Dr;07/29/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
 08371312                 ;1312 Greendale Rd;07/29/2014;Housing   ;Closed;Invalid Complaint                                 ;08/04/2014
 12260120-3               ;120 E Main St;07/29/2014;Housing   ;Closed;Invalid Complaint                                 ;09/02/2014
 14660347                 ;347 Pasadena Dr;07/29/2014;Housing   ;Closed;Invalid Complaint                                 ;07/30/2014
@@ -2504,6 +2504,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 20300203W3               ;203 Westwood Ct;07/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/30/2014
 13400143W4               ;143 Montmullin St;07/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/30/2014
 08111279W                ;1279 Golden Gate Park;07/29/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/30/2014
+02360550-3               ;550 Breckenridge St;07/29/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
+06001899-2               ;1899 Dunkirk Dr;07/29/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
 15671633#5               ;1633 Raleigh Rd#5;07/29/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;07/29/2014
 00231674#3-2             ;1674 Alexandria Dr#3;07/29/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;08/05/2014
 34600270W                ;270 Lucille Dr;07/29/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/12/2014
@@ -2548,6 +2550,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 09563533W3               ;3533 Honey Jay Ct;07/28/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/13/2014
 14373478W5               ;3478 Ormond Cir;07/28/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/15/2014
 06731994W8               ;1994 Fair Oaks Dr;07/28/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/18/2014
+04890476S                ;476 Cromwell Way;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
+15850356S2               ;356 Redding Rd;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
+15850360S2               ;360 Redding Rd;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
+05151800#2-5             ;1800 Dalton Ct#2;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
+19601510#A8-2            ;1510 Versailles Rd #A8;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
+21273199#B-2             ;3199 Yellowstone Pkwy #B;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/05/2014
 18020795W19              ;795 Stone Rd;07/28/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;08/04/2014
 03061016W2               ;1016 Camellia Dr;07/28/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;09/18/2014
 16230609W3               ;609 Rogers Rd;07/28/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/29/2014
@@ -2567,12 +2575,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 12501839                 ;1839 Marietta Dr;07/28/2014;Housing   ;Closed;Invalid Complaint                                 ;08/07/2014
 13841079                 ;1079 E New Circle Rd;07/28/2014;Housing   ;Closed;Invalid Complaint                                 ;07/29/2014
 19661268#317             ;1268 Village Dr#317;07/28/2014;Housing   ;Closed;Invalid Complaint                                 ;08/05/2014
-04890476S                ;476 Cromwell Way;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
-15850356S2               ;356 Redding Rd;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
-15850360S2               ;360 Redding Rd;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
-05151800#2-5             ;1800 Dalton Ct#2;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
-19601510#A8-2            ;1510 Versailles Rd #A8;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
-21273199#B-2             ;3199 Yellowstone Pkwy #B;07/28/2014;Housing   ;Open  ;Reinspection                                      ;09/05/2014
 12040661-3               ;661 E Loudon Ave;07/28/2014;Housing   ;Closed;Closed Out                                        ;09/23/2014
 06550595-3               ;595 Emery Ct;07/28/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
 09510522#42-2            ;522 Hollow Creek Rd #42;07/28/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/31/2014
@@ -2580,8 +2582,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 10660520                 ;520 Kildare Ct;07/25/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/12/2014
 07360270CONDEM-3         ;270 E Fourth St;07/25/2014;Housing   ;Closed;Closed Out                                        ;09/15/2014
 07360270-4               ;270 E Fourth St;07/25/2014;Housing   ;Closed;Closed Out                                        ;09/15/2014
-02221887                 ;1887 Bowen Ct;07/25/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
-05663737                 ;3737 Dicksonia Dr;07/25/2014;Housing   ;Open  ;Reinspection                                      ;09/08/2014
 12300175#62              ;175 Malabu Dr #62;07/25/2014;Housing   ;Closed;Invalid Complaint                                 ;07/28/2014
 36542744W2               ;2744 Hayden Park Ln;07/25/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/29/2014
 09130313W                ;313 Henry Clay Blvd;07/25/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
@@ -2589,6 +2589,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 09563509W3               ;3509 Honey Jay Ct;07/25/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/28/2014
 17730653W                ;653 Squires Rd;07/25/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
 06470635W37              ;635 Elm Tree Ln;07/25/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/29/2014
+02221887                 ;1887 Bowen Ct;07/25/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
+05663737                 ;3737 Dicksonia Dr;07/25/2014;Housing   ;Open  ;Reinspection                                      ;09/08/2014
 11650364#40-5            ;364 Lima Dr #40;07/25/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;07/29/2014
 11950641W2               ;641 Lombardy Dr;07/25/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/11/2014
 12390310W                ;310 Manhattan Dr;07/25/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/11/2014
@@ -2624,11 +2626,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14200368W4               ;368 Ohio St;07/24/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/11/2014
 18040960W2               ;960 Stonewall Rd;07/24/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
 29341021W3               ;1021 Old Wood Ct;07/24/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
-04890408S                ;408 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
-04890440S                ;440 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
-04890468S                ;468 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
-04890496S                ;496 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
-08841213-1215CONDEM      ;1213-1215 Harris Ct;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/05/2014
 04890544S                ;544 Cromwell Way;07/24/2014;Housing   ;Closed;Closed Out                                        ;08/21/2014
 04890485S                ;485 Cromwell Way;07/24/2014;Housing   ;Closed;Closed Out                                        ;09/03/2014
 04890619S                ;619 Cromwell Way;07/24/2014;Housing   ;Closed;Closed Out                                        ;09/24/2014
@@ -2637,11 +2634,16 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 04890453S                ;453 Cromwell Way;07/24/2014;Housing   ;Closed;Closed Out                                        ;09/25/2014
 04890449S                ;449 Cromwell Way;07/24/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/16/2014
 09510534#39              ;534 Hollow Creek Rd #39;07/24/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/31/2014
-02661027#1-5             ;1027 Bryan Ave #1-5;07/23/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
-08990432-3               ;432 Hawkins Ave;07/23/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
+04890408S                ;408 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+04890440S                ;440 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+04890468S                ;468 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+04890496S                ;496 Cromwell Way;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+08841213-1215CONDEM      ;1213-1215 Harris Ct;07/24/2014;Housing   ;Open  ;Reinspection                                      ;09/05/2014
 12670271-3               ;271 E Maxwell St;07/23/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
 19890666                 ;666 N Martin Luther King Blvd;07/23/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
 18593650#204             ;3650 Tates Creek Rd #204;07/23/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
+02661027#1-5             ;1027 Bryan Ave #1-5;07/23/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
+08990432-3               ;432 Hawkins Ave;07/23/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
 02661027#1-6             ;1027 Bryan Ave#1;07/23/2014;Housing   ;Open  ;Complaint Received                                ;07/23/2014
 13353393W5               ;3393 Montavesta Rd;07/23/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/23/2014
 12800211W6               ;211 Mcdowell Rd;07/23/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
@@ -2700,20 +2702,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 43790000SIGNS5           ;0 Old Todds Rd;07/22/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/24/2014
 12740000W                ;0 Mccalls Mill Rd;07/22/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/25/2014
 13543380W6               ;3380 Mt Foraker Dr;07/22/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/24/2014
-03641250-12520S          ;1250-1252 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641260-1262S           ;1260-1262 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641256-1258S           ;1256-1258 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641272-1274S           ;1272-1274 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641276-1278S           ;1276-1278 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641280-1282S           ;1280-1282 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641284-1286S           ;1284-1286 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641288-1292S           ;1288-1292 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641294-1298S           ;1294-1298 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-03641330-1332S           ;1330-1332 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-19803605S                ;3605 Walden Dr;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-36843601S                ;3601 Walden Dr;07/22/2014;Housing   ;Open  ;Reinspection                                      ;07/22/2014
-25300750S                ;750 Millpond Rd;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
-04890401S                ;401 Cromwell Way;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
 03641248-1250S           ;1248-1250 Centre Pkwy;07/22/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
 03641268-1270S           ;1268-1270 Centre Pkwy;07/22/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
 03641326-1328S           ;1326-1328 Centre Pkwy;07/22/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
@@ -2732,6 +2720,23 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 24600425S                ;425 Marblerock Way;07/22/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/25/2014
 10361108S2               ;1108 Kalone Way;07/22/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/25/2014
 05781643                 ;1643 Donelwal Dr;07/22/2014;Housing   ;Open  ;Notice/Order Issued                               ;08/15/2014
+03641250-12520S          ;1250-1252 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641260-1262S           ;1260-1262 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641256-1258S           ;1256-1258 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641272-1274S           ;1272-1274 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641276-1278S           ;1276-1278 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641280-1282S           ;1280-1282 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641284-1286S           ;1284-1286 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641288-1292S           ;1288-1292 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641294-1298S           ;1294-1298 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+03641330-1332S           ;1330-1332 Centre Pkwy;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+19803605S                ;3605 Walden Dr;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+36843601S                ;3601 Walden Dr;07/22/2014;Housing   ;Open  ;Reinspection                                      ;07/22/2014
+25300750S                ;750 Millpond Rd;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/25/2014
+04890401S                ;401 Cromwell Way;07/22/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
+19710226-2               ;226 E Vista St;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/17/2014
+04000301EXT              ;301 Christy Allyn Ct Exterior;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
+16113587-3               ;3587 River Park Dr;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/03/2014
 03343272S2               ;3272 Carriage Ln;07/21/2014;Housing   ;Closed;Closed Out                                        ;08/15/2014
 19510176S                ;176 Valley Rd;07/21/2014;Housing   ;Closed;Closed Out                                        ;09/19/2014
 19510172S                ;172 Valley Rd;07/21/2014;Housing   ;Closed;Closed Out                                        ;09/19/2014
@@ -2741,9 +2746,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06152109S                ;2109 Eastway Dr;07/21/2014;Housing   ;Closed;Closed Out                                        ;09/24/2014
 17280251S                ;251 Simpson Ave;07/21/2014;Housing   ;Closed;Closed Out                                        ;09/24/2014
 19840127-2               ;127 Waller Ave;07/21/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
-19710226-2               ;226 E Vista St;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/17/2014
-04000301EXT              ;301 Christy Allyn Ct Exterior;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/30/2014
-16113587-3               ;3587 River Park Dr;07/21/2014;Housing   ;Open  ;Reinspection                                      ;09/03/2014
 04150319                 ;319 Clay Ave;07/21/2014;Housing   ;Closed;Invalid Complaint                                 ;07/22/2014
 12781760#21              ;1760 Mccullough Dr;07/21/2014;Housing   ;Closed;Invalid Complaint                                 ;07/22/2014
 13841098-2               ;1098 E New Circle Rd;07/21/2014;Housing   ;Closed;Invalid Complaint                                 ;07/25/2014
@@ -2785,17 +2787,17 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 00602836W                ;2836 Ark Royal Way;07/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/07/2014
 11601928W10              ;1928 Liberty Rd;07/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/05/2014
 02661222W12              ;1222 Bryan Ave;07/18/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/05/2014
-13591157#A-3             ;1157 Mt Rushmore Way #A;07/18/2014;Housing   ;Open  ;Reinspection                                      ;10/03/2014
 30051252W2               ;1252 Kennecott Way;07/18/2014;Nuisance  ;Open  ;Nuisance - Open                                   ;07/22/2014
 05430990W5               ;990 Della Dr;07/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/21/2014
 31940000SIGNS18          ;0 W New Circle Rd;07/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/21/2014
 17431632W3               ;1632 Prairie Cir;07/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/24/2014
 19890341-4               ;341 N Martin Luther King Blvd;07/18/2014;Housing   ;Closed;Invalid Complaint                                 ;08/04/2014
 19840207-4               ;207 Waller Ave;07/18/2014;Housing   ;Closed;Closed Out                                        ;09/17/2014
+13591157#A-3             ;1157 Mt Rushmore Way #A;07/18/2014;Housing   ;Open  ;Reinspection                                      ;10/03/2014
+04890633S                ;633 Cromwell Way;07/17/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
 04890631S                ;631 Cromwell Way;07/17/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
 04890629S                ;629 Cromwell Way;07/17/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
 02840102EMER             ;102 Burley Ave;07/17/2014;Housing   ;Closed;Closed Out                                        ;07/29/2014
-04890633S                ;633 Cromwell Way;07/17/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
 12000606-2               ;606 Longview Dr;07/17/2014;Housing   ;Closed;Invalid Complaint                                 ;07/17/2014
 19602189W                ;2189 Versailles Rd;07/17/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/21/2014
 19853442W8               ;3442 Wallingford Ct;07/17/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/18/2014
@@ -2851,6 +2853,11 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06833313W                ;3313 Fall Ct;07/16/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/17/2014
 06760133W9               ;133 Fairlawn Ave;07/16/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/21/2014
 06470635W36              ;635 Elm Tree Ln;07/16/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/21/2014
+14440201-4               ;201 Owsley Ave;07/16/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
+05470146                 ;146 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
+05470147-2               ;147 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
+05470157-5               ;157 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
+05470159-3               ;159 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
 00340269-4               ;269 American Ave;07/16/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 02840102                 ;102 Burley Ave;07/16/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 02840118-2               ;118 Burley Ave;07/16/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
@@ -2874,24 +2881,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06001870                 ;1870 Dunkirk Dr;07/16/2014;Housing   ;Open  ;Reinspection                                      ;08/27/2014
 06001887                 ;1887 Dunkirk Dr;07/16/2014;Housing   ;Open  ;Reinspection                                      ;08/27/2014
 06001895                 ;1895 Dunkirk Dr;07/16/2014;Housing   ;Open  ;Reinspection                                      ;08/27/2014
-14440201-4               ;201 Owsley Ave;07/16/2014;Housing   ;Closed;Closed Out                                        ;09/30/2014
-05470146                 ;146 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
-05470147-2               ;147 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
-05470157-5               ;157 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
-05470159-3               ;159 Delmont Dr;07/16/2014;Housing   ;Closed;Closed Out                                        ;10/03/2014
-03951072S                ;1072 Chinoe Rd;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
-18971233S                ;1233 Tishoff Dr;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/15/2014
-05591291S                ;1291 Devonport Dr;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/17/2014
-14360616S                ;616 Orchard Ave;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
-14360622S                ;622 Orchard Ave;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
-14820110S                ;110 Penmoken Park;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
-19450427S2               ;427 S Upper St;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
-13973625                 ;3625 Nicholasville Rd;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
-28013400S2               ;3400 Sanibel Dr;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
-16000330S                ;330 Richmond Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
-04780933S3               ;933 Cramer Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
-07510558S2               ;558 Freeman Dr;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
-05310953-7               ;953 Dayton Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/03/2014
 00231231S                ;1231 Alexandria Dr;07/15/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
 17470200S                ;200 Southland Dr;07/15/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
 14820143S                ;143 Penmoken Park;07/15/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
@@ -2907,6 +2896,19 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11650364#46              ;364 Lima Dr #46;07/15/2014;Housing   ;Open  ;Reinspection                                      ;08/25/2014
 08880530CONDEM2          ;530 Harry St;07/15/2014;Housing   ;Open  ;Reinspection                                      ;10/06/2014
 08880532CONDEM2          ;532 Harry St;07/15/2014;Housing   ;Open  ;Reinspection                                      ;10/06/2014
+03951072S                ;1072 Chinoe Rd;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
+18971233S                ;1233 Tishoff Dr;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/15/2014
+05591291S                ;1291 Devonport Dr;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/17/2014
+14360616S                ;616 Orchard Ave;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
+14360622S                ;622 Orchard Ave;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
+14820110S                ;110 Penmoken Park;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
+19450427S2               ;427 S Upper St;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
+13973625                 ;3625 Nicholasville Rd;07/15/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
+28013400S2               ;3400 Sanibel Dr;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
+16000330S                ;330 Richmond Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
+04780933S3               ;933 Cramer Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
+07510558S2               ;558 Freeman Dr;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/15/2014
+05310953-7               ;953 Dayton Ave;07/15/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/03/2014
 18751469-3               ;1469 Thames Dr;07/15/2014;Housing   ;Closed;Invalid Complaint                                 ;07/16/2014
 00720196                 ;196 Ashley Woods Rd;07/15/2014;Housing   ;Closed;Invalid Complaint                                 ;07/21/2014
 19440711-4               ;711 N Upper St;07/15/2014;Housing   ;Closed;Invalid Complaint                                 ;07/17/2014
@@ -2966,28 +2968,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14871851W5               ;1851 Pensacola Dr;07/14/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/15/2014
 19380224-2               ;224 Twelfth St;07/14/2014;Housing   ;Closed;Invalid Complaint                                 ;07/14/2014
 15810845-2               ;845 Red Mile Rd;07/14/2014;Housing   ;Closed;Invalid Complaint                                 ;07/15/2014
-02180401S2               ;401 Boston Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
-00231203S                ;1203 Alexandria Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-02171329S                ;1329 Bordeaux Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-02193440S2               ;3440 Boston Rd;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-02193444S                ;3444 Boston Rd;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-03641318-1320S           ;1318-1320 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-20883543S                ;3543 Winthrop Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-14820166S                ;166 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-14820145S                ;145 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-14820117S                ;117 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-14820113S                ;113 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-05591275S                ;1275 Devonport Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-05591287S                ;1287 Devonport Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-06970310S                ;310 Ferguson St;07/14/2014;Housing   ;Open  ;Reinspection                                      ;07/14/2014
-24800405S                ;405 Merribrook Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-24800409S                ;409 Merribrook Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-03641356S                ;1356 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-03641340-1342S           ;1340-1342 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
-13953579S2               ;3579 Niagara Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
-29430788                 ;788 Emmett Creek Ln;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
-17930112-4               ;112 State St;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
-04000301#2-4             ;301 Christy Allyn Ct#2;07/14/2014;Housing   ;Open  ;Reinspection                                      ;10/03/2014
 17100152S3               ;152 Sherman Ave;07/14/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/14/2014
 04780931S2               ;931 Cramer Ave;07/14/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/14/2014
 04780929S                ;929 Cramer Ave;07/14/2014;Housing   ;Open  ;Notice/Order Issued                               ;07/14/2014
@@ -3015,6 +2995,28 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14360620S                ;620 Orchard Ave;07/14/2014;Housing   ;Closed;Closed Out                                        ;09/18/2014
 10111624#G5-4            ;1624 Jennifer Rd #G5;07/14/2014;Housing   ;Closed;Closed Out                                        ;09/23/2014
 01360128CONDEM           ;128 S Baxter Blvd;07/14/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
+02180401S2               ;401 Boston Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
+00231203S                ;1203 Alexandria Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+02171329S                ;1329 Bordeaux Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+02193440S2               ;3440 Boston Rd;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+02193444S                ;3444 Boston Rd;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+03641318-1320S           ;1318-1320 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+20883543S                ;3543 Winthrop Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+14820166S                ;166 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+14820145S                ;145 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+14820117S                ;117 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+14820113S                ;113 Penmoken Park;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+05591275S                ;1275 Devonport Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+05591287S                ;1287 Devonport Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+06970310S                ;310 Ferguson St;07/14/2014;Housing   ;Open  ;Reinspection                                      ;07/14/2014
+24800405S                ;405 Merribrook Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+24800409S                ;409 Merribrook Ct;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+03641356S                ;1356 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+03641340-1342S           ;1340-1342 Centre Pkwy;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
+13953579S2               ;3579 Niagara Dr;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/15/2014
+29430788                 ;788 Emmett Creek Ln;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
+17930112-4               ;112 State St;07/14/2014;Housing   ;Open  ;Reinspection                                      ;09/22/2014
+04000301#2-4             ;301 Christy Allyn Ct#2;07/14/2014;Housing   ;Open  ;Reinspection                                      ;10/03/2014
 13591157#A-2             ;1157 Mt Rushmore Way #A;07/13/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;07/16/2014
 34820612W4               ;612 Rhodora Ridge;07/13/2014;Nuisance  ;Closed;Closed Nuisance                                   ;08/08/2014
 01980301W8               ;301 Blue Grass Ave;07/11/2014;Nuisance  ;Closed;Closed Nuisance                                   ;07/29/2014
@@ -3092,9 +3094,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 31940000SIGNS15          ;0 W New Circle Rd;07/09/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;07/14/2014
 31940000SIGNS16          ;0 W New Circle Rd;07/09/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;07/14/2014
 31940000SIGNS17          ;0 W New Circle Rd;07/09/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;07/14/2014
-10843050#92-2            ;3050 Kirklevington Dr #92;07/09/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;07/11/2014
-09510522#55-4            ;522 Hollow Creek Rd #55;07/09/2014;Housing   ;Closed;Resolved Complaint                                ;07/10/2014
 06080211-2               ;211 Eastern Ave;07/09/2014;Housing   ;Open  ;Appealed-Housing                                  ;09/03/2014
+09510522#55-4            ;522 Hollow Creek Rd #55;07/09/2014;Housing   ;Closed;Resolved Complaint                                ;07/10/2014
+10843050#92-2            ;3050 Kirklevington Dr #92;07/09/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;07/11/2014
 21462414W6               ;2414 Lake Park Rd;07/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/10/2014
 09090267W                ;267 Hedgewood Ct;07/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/10/2014
 09090253W                ;253 Hedgewood Ct;07/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;07/10/2014
@@ -3310,7 +3312,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03641180-1182S           ;1180-1182 Centre Pkwy;07/03/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 17290181-183             ;181-183 Sioux Rd;07/03/2014;Housing   ;Open  ;Reinspection                                      ;08/19/2014
 22491508-5               ;1508 Continental Sq Aka 1500-1532;07/03/2014;Housing   ;Open  ;Reinspection                                      ;09/03/2014
-01031733                 ;1733 Bahama Rd;07/03/2014;Housing   ;Open  ;Reinspection                                      ;08/25/2014
+01031733                 ;1733 Bahama Rd;07/03/2014;Housing   ;Open  ;Reinspection                                      ;10/06/2014
 03910369-6               ;369 Chestnut St;07/03/2014;Housing   ;Closed;Invalid Complaint                                 ;07/07/2014
 20161031                 ;1031 Wellington Way;07/03/2014;Housing   ;Closed;Invalid Complaint                                 ;07/14/2014
 17310308-3               ;308 W Sixth St;07/03/2014;Housing   ;Closed;Invalid Complaint                                 ;07/15/2014
@@ -3588,7 +3590,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11280616S                ;616 Laramie Dr;06/26/2014;Housing   ;Open  ;Notice/Order Issued                               ;09/29/2014
 00100700                 ;700 Addison Ave;06/25/2014;Housing   ;Closed;Closed Out                                        ;08/18/2014
 15033455                 ;3455 Pimlico Pkwy;06/25/2014;Housing   ;Closed;Closed Out                                        ;08/28/2014
-05672208-2224CONDEM      ;2208-2224 Dinsmore Dr;06/25/2014;Housing   ;Open  ;Reinspection                                      ;09/02/2014
+05672208-2224CONDEM      ;2208-2224 Dinsmore Dr;06/25/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 20681107-4               ;1107 Winchester Rd;06/25/2014;Housing   ;Closed;Invalid Complaint                                 ;06/27/2014
 14200436-7               ;436 Ohio St;06/25/2014;Housing   ;Closed;Invalid Complaint                                 ;06/30/2014
 34760648                 ;648 Danby Woods Dr;06/25/2014;Housing   ;Closed;Invalid Complaint                                 ;07/01/2014
@@ -3691,20 +3693,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03451043W3               ;1043 Castleton Way;06/24/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/26/2014
 16113608-2               ;3608 River Park Dr;06/24/2014;Housing   ;Closed;Invalid Complaint                                 ;06/26/2014
 31740285                 ;285 Shoreside Dr;06/24/2014;Housing   ;Closed;Invalid Complaint                                 ;06/30/2014
-26644321S                ;4321 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-26644309S                ;4309 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-26644301S                ;4301 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/28/2014
-26644300S                ;4300 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-26534301S                ;4301 Shiptons End;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-11280636S                ;636 Laramie Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-27411361S                ;1361 Glenview Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-11280601S                ;601 Laramie Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-04890540S                ;540 Cromwell Way;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
-04890536S                ;536 Cromwell Way;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
-27111392S3               ;1392 Corona Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
-26004520S2               ;4520 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
-26004516S                ;4516 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
-26004513                 ;4513 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
 26864300S                ;4300 Penshurst Sq;06/24/2014;Housing   ;Closed;Closed Out                                        ;08/07/2014
 11280613S                ;613 Laramie Dr;06/24/2014;Housing   ;Closed;Closed Out                                        ;09/03/2014
 31321324S                ;1324 Copper Run Blvd;06/24/2014;Housing   ;Closed;Closed Out                                        ;09/09/2014
@@ -3721,6 +3709,21 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 21340115#1105            ;115 Zandale Dr#1105;06/24/2014;Housing   ;Closed;Closed Out                                        ;08/13/2014
 11200464                 ;464 Lancelot Ln;06/24/2014;Housing   ;Closed;Closed Out                                        ;09/22/2014
 32993901                 ;3901 Airport Rd;06/24/2014;Housing   ;Closed;Closed Out                                        ;07/30/2014
+26644321S                ;4321 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+26644309S                ;4309 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+26644301S                ;4301 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/28/2014
+26644300S                ;4300 Southmoor Park;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+26534301S                ;4301 Shiptons End;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+11280636S                ;636 Laramie Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+27411361S                ;1361 Glenview Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+11280601S                ;601 Laramie Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+04890540S                ;540 Cromwell Way;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+04890536S                ;536 Cromwell Way;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+27111392S3               ;1392 Corona Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+26004520S2               ;4520 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+26004516S                ;4516 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+26004513                 ;4513 Clubhouse Dr;06/24/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
+43732963                 ;2963 Cadentown Rd;06/23/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
 05672216#39              ;2216 Dinsmore Dr #39;06/23/2014;Housing   ;Closed;Closed Out                                        ;06/25/2014
 13050567S                ;567 Merrimac Dr;06/23/2014;Housing   ;Closed;Closed Out                                        ;09/08/2014
 14200546EMER-2           ;546 Ohio St;06/23/2014;Housing   ;Closed;Closed Out                                        ;07/24/2014
@@ -3731,7 +3734,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 00231545-1565#7B-2       ;1545-1565 Alexandria Dr #7b;06/23/2014;Housing   ;Closed;Closed Out                                        ;09/12/2014
 26723500-3               ;3500 Beaver Place Rd;06/23/2014;Housing   ;Closed;Closed Out                                        ;08/11/2014
 17170221-239S2           ;221-239 W Short St;06/23/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/23/2014
-43732963                 ;2963 Cadentown Rd;06/23/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
 07120731W6               ;731 Florence Ave;06/23/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/27/2014
 07120729W10              ;729 Florence Ave;06/23/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/27/2014
 23942410W                ;2410 Harrods Pointe Trce;06/23/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/25/2014
@@ -3796,11 +3798,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13800355W6               ;355 Nelson Ave;06/20/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/23/2014
 02500611W2               ;611 N Broadway;06/20/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/23/2014
 08011709                 ;1709 Gleneagles Dr;06/20/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/25/2014
+19840125#B               ;125 Waller Ave #B;06/20/2014;Housing   ;Closed;Closed Out                                        ;08/19/2014
 00690409-5               ;409 Ash St;06/20/2014;Housing   ;Open  ;Reinspection                                      ;08/11/2014
 09510525                 ;525 Hollow Creek Rd;06/20/2014;Housing   ;Open  ;Reinspection                                      ;08/11/2014
-19840125#B               ;125 Waller Ave #B;06/20/2014;Housing   ;Closed;Closed Out                                        ;08/19/2014
 00483645#40-2            ;3645 Appian Way#40;06/20/2014;Housing   ;Closed;Invalid Complaint                                 ;06/23/2014
 03073795#B               ;3795 Camelot Dr#B;06/20/2014;Housing   ;Closed;Invalid Complaint                                 ;06/30/2014
+09200704-3               ;704 Hi Crest Dr;06/19/2014;Housing   ;Open  ;Reinspection                                      ;08/11/2014
+34472844-2               ;2844 Hanna Pl;06/19/2014;Housing   ;Open  ;Reinspection                                      ;09/17/2014
+34472846-3               ;2846 Hanna Pl;06/19/2014;Housing   ;Open  ;Reinspection                                      ;07/25/2014
+17941355                 ;1355 Stephen Foster Dr;06/19/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
 00160146BRDUP-2          ;146 Alabama Ave;06/19/2014;Housing   ;Closed;Closed Out                                        ;07/24/2014
 06080234-3               ;234 Eastern Ave;06/19/2014;Housing   ;Closed;Closed Out                                        ;07/30/2014
 14200546-7               ;546 Ohio St;06/19/2014;Housing   ;Closed;Closed Out                                        ;08/01/2014
@@ -3808,10 +3814,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 04580430-2               ;430 Conley St;06/19/2014;Housing   ;Closed;Closed Out                                        ;08/12/2014
 00160123-4               ;123 Alabama Ave;06/19/2014;Housing   ;Closed;Closed Out                                        ;09/23/2014
 00681252-4               ;1252 Ascot Park;06/19/2014;Housing   ;Closed;Closed Out                                        ;08/11/2014
-09200704-3               ;704 Hi Crest Dr;06/19/2014;Housing   ;Open  ;Reinspection                                      ;08/11/2014
-34472844-2               ;2844 Hanna Pl;06/19/2014;Housing   ;Open  ;Reinspection                                      ;09/17/2014
-34472846-3               ;2846 Hanna Pl;06/19/2014;Housing   ;Open  ;Reinspection                                      ;07/25/2014
-17941355                 ;1355 Stephen Foster Dr;06/19/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
 13840695W5               ;695 E New Circle Rd;06/19/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/19/2014
 11090543W2               ;543 Laketower Dr;06/19/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/19/2014
 11313648W2               ;3648 Laredo Dr;06/19/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/23/2014
@@ -3869,12 +3871,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 22073333W                ;3333 Squire Oak Dr;06/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/23/2014
 19960260-270W7           ;260-270 Warnock St;06/18/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/25/2014
 05151862#2-3             ;1862 Dalton Ct #2;06/18/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/19/2014
-20220435S                ;435 Westerfield Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-17502712S                ;2712 Southview Dr;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-16920549S                ;549 Severn Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-16502929S                ;2929 Runnymede Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-16920505S                ;505 Severn Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-02073624-2               ;3624 Bold Bidder Dr;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
 13092916S                ;2916 Middlesex Ct;06/18/2014;Housing   ;Closed;Closed Out                                        ;07/15/2014
 11180498S                ;498 Lamont Dr;06/18/2014;Housing   ;Closed;Closed Out                                        ;07/18/2014
 13092908S                ;2908 Middlesex Ct;06/18/2014;Housing   ;Closed;Closed Out                                        ;07/24/2014
@@ -3889,17 +3885,23 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 03073745#92-2            ;3745 Camelot Dr #92;06/18/2014;Housing   ;Closed;Closed Out                                        ;09/24/2014
 20762405-3               ;2405 Windwood Ct;06/18/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
 21130464-466             ;464-466 Woodview Dr;06/18/2014;Housing   ;Closed;Closed Out                                        ;07/30/2014
+20220435S                ;435 Westerfield Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+17502712S                ;2712 Southview Dr;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+16920549S                ;549 Severn Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+16502929S                ;2929 Runnymede Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+16920505S                ;505 Severn Way;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+02073624-2               ;3624 Bold Bidder Dr;06/18/2014;Housing   ;Open  ;Reinspection                                      ;09/16/2014
 26723500#24              ;3500 Beaver Place Rd#24;06/18/2014;Housing   ;Closed;Invalid Complaint                                 ;06/20/2014
 07840851-4               ;851 Georgetown St;06/18/2014;Housing   ;Closed;Invalid Complaint                                 ;06/20/2014
 15430471-9               ;471 Price Rd;06/17/2014;Housing   ;Closed;Invalid Complaint                                 ;07/15/2014
 11601118                 ;1118 Liberty Rd;06/17/2014;Housing   ;Closed;Invalid Complaint                                 ;06/18/2014
+09290230-2               ;230 E High St;06/17/2014;Housing   ;Open  ;Reinspection                                      ;08/19/2014
+00231662#7-2             ;1662 Alexandria Dr #7;06/17/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 18323514-2               ;3514 Sutherland Dr;06/17/2014;Housing   ;Closed;Closed Out                                        ;07/22/2014
 05970123                 ;123 Dundee Dr;06/17/2014;Housing   ;Closed;Closed Out                                        ;09/12/2014
 11860112-2               ;112 Loch Lomond Dr;06/17/2014;Housing   ;Closed;Closed Out                                        ;09/12/2014
 19602323-2               ;2323 Versailles Rd;06/17/2014;Housing   ;Closed;Closed Out                                        ;07/25/2014
 18323512-2               ;3512 Sutherland Dr;06/17/2014;Housing   ;Closed;Closed Out                                        ;07/30/2014
-09290230-2               ;230 E High St;06/17/2014;Housing   ;Open  ;Reinspection                                      ;08/19/2014
-00231662#7-2             ;1662 Alexandria Dr #7;06/17/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 05490585#5-2             ;585 Delzan Pl #5;06/17/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/23/2014
 11670563-8               ;563 S Limestone;06/17/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/23/2014
 15671633#1               ;1633 Raleigh Rd#1;06/17/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/19/2014
@@ -3980,12 +3982,17 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11540457-2               ;457 Lenney Dr;06/16/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/24/2014
 15033501#13              ;3501 Pimlico Pkwy#13;06/16/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/25/2014
 32002640#D8              ;2640 Wilhite Ct #D8;06/16/2014;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;06/23/2014
-12140708S                ;708 Lynn Rd;06/16/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 29251136S                ;1136 Iron Lace Ct;06/16/2014;Housing   ;Closed;Closed Out                                        ;08/01/2014
 29251125S                ;1125 Iron Lace Ct;06/16/2014;Housing   ;Closed;Closed Out                                        ;06/18/2014
 07180505-2               ;505 Folkstone Dr;06/16/2014;Housing   ;Closed;Closed Out                                        ;09/08/2014
+12140708S                ;708 Lynn Rd;06/16/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 31231193                 ;1193 Redwood Cir;06/16/2014;Housing   ;Closed;Invalid Complaint                                 ;06/18/2014
 35332920#4203-2          ;2920 Polo Club Blvd;06/13/2014;Housing   ;Closed;Invalid Complaint                                 ;06/16/2014
+12140853S                ;853 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
+12140725S                ;725 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
+12140864S2               ;864 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+12140720S                ;720 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
+03900741S                ;741 Cheryl Ln;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
 03641205EMER#1           ;1205 Centre Pkwy #1;06/13/2014;Housing   ;Closed;Closed Out                                        ;07/23/2014
 12140860S                ;860 Lynn Rd;06/13/2014;Housing   ;Closed;Closed Out                                        ;08/06/2014
 12140898S                ;898 Lynn Rd;06/13/2014;Housing   ;Closed;Closed Out                                        ;08/08/2014
@@ -4000,11 +4007,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 32210429S                ;429 Newtown Pike;06/13/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/19/2014
 02500331S2               ;331 N Broadway;06/13/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/19/2014
 02500305S2               ;305 N Broadway;06/13/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/19/2014
-12140853S                ;853 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
-12140725S                ;725 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
-12140864S2               ;864 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-12140720S                ;720 Lynn Rd;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
-03900741S                ;741 Cheryl Ln;06/13/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
 31231193W                ;1193 Redwood Cir;06/13/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/16/2014
 29882111W                ;2111 Capstone Dr;06/13/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/16/2014
 40300960W3               ;960 Winding Oak Trl;06/13/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/16/2014
@@ -4079,7 +4081,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14200536W15              ;536 Ohio St#A;06/12/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/13/2014
 27774516                 ;4516 Pentlalla Pt;06/12/2014;Housing   ;Closed;Resolved Complaint                                ;06/13/2014
 13610174#181             ;174 N Mt Tabor Rd#181;06/12/2014;Housing   ;Closed;Resolved Complaint                                ;06/16/2014
-06731996                 ;1996 Fair Oaks Dr;06/12/2014;Housing   ;Open  ;Reinspection                                      ;08/25/2014
 35951925S                ;1925 Justice Dr;06/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/18/2014
 35951916S                ;1916 Justice Dr;06/12/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/18/2014
 14053962EMER-2           ;3962 Northampton Dr;06/12/2014;Housing   ;Closed;Closed Out                                        ;07/03/2014
@@ -4090,13 +4091,14 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 05342000-2               ;2000 Deauville Dr;06/12/2014;Housing   ;Closed;Closed Out                                        ;09/24/2014
 03641205#1-5             ;1205 Centre Pkwy#1;06/12/2014;Housing   ;Closed;Closed Out                                        ;09/16/2014
 15033090                 ;3090 Pimlico Pkwy;06/12/2014;Housing   ;Closed;Closed Out                                        ;10/01/2014
+06731996                 ;1996 Fair Oaks Dr;06/12/2014;Housing   ;Open  ;Reinspection                                      ;08/25/2014
+16113608S2               ;3608 River Park Dr;06/11/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
 34760624S                ;624 Danby Woods Dr;06/11/2014;Housing   ;Closed;Closed Out                                        ;09/11/2014
 19890341BRDUP            ;341 N Martin Luther King Blvd;06/11/2014;Housing   ;Closed;Closed Out                                        ;07/02/2014
 13840228-3               ;228 E New Circle Rd;06/11/2014;Housing   ;Closed;Closed Out                                        ;08/01/2014
 31940295                 ;295 W New Circle Rd;06/11/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 22172041#200             ;2041 Creative Dr Ste 200;06/11/2014;Housing   ;Closed;Closed Out                                        ;07/21/2014
 15120720                 ;720 Pine St;06/11/2014;Housing   ;Closed;Closed Out                                        ;07/23/2014
-16113608S2               ;3608 River Park Dr;06/11/2014;Housing   ;Open  ;Reinspection                                      ;09/09/2014
 35840000W2               ;0 Trailwood Ln;06/11/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
 13600633#408             ;633 Mt Tabor Rd#408;06/11/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
 00643017-3               ;3017 Arrowhead Dr;06/11/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
@@ -4202,6 +4204,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 17451319-2               ;1319 Southern Ave;06/10/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
 17451321-3               ;1321 Southern Ave;06/10/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
 19710226                 ;226 E Vista St;06/10/2014;Housing   ;Closed;Invalid Complaint                                 ;06/12/2014
+14701029S                ;1029 Patricia Ln;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
+14701013S                ;1013 Patricia Ln;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
+29783644S                ;3644 Fair Ridge Dr;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
 34760660S                ;660 Danby Woods Dr;06/10/2014;Housing   ;Open  ;Reinspection                                      ;09/10/2014
 11253487-3491#63         ;3487-3491 Lansdowne Dr #63 (Aka 3489 Lansdowne);06/10/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 15370179-4               ;179 Prall St;06/10/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
@@ -4212,9 +4217,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 25961526                 ;1526 Player Dr;06/10/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 14760445-3               ;445 Peachtree Rd;06/10/2014;Housing   ;Open  ;Reinspection                                      ;08/27/2014
 03100819-3               ;819 Campbell Ln;06/10/2014;Housing   ;Open  ;Reinspection                                      ;09/29/2014
-14701029S                ;1029 Patricia Ln;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
-14701013S                ;1013 Patricia Ln;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
-29783644S                ;3644 Fair Ridge Dr;06/10/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/11/2014
 07180505                 ;505 Folkstone Dr;06/10/2014;Housing   ;Closed;Closed Out                                        ;06/16/2014
 08443514                 ;3514 Greentree Rd;06/10/2014;Housing   ;Closed;Closed Out                                        ;07/25/2014
 12300135-145EMER312B     ;135-145 Malabu Dr #312b;06/10/2014;Housing   ;Closed;Closed Out                                        ;07/07/2014
@@ -4240,9 +4242,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15430471#109             ;471 Price Rd #109;06/09/2014;Housing   ;Closed;Closed Out                                        ;07/25/2014
 34472844BRDUP            ;2844 Hanna Pl;06/09/2014;Housing   ;Closed;Closed Out                                        ;06/19/2014
 14760445BRDUP-2          ;445 Peachtree Rd;06/09/2014;Housing   ;Closed;Closed Out                                        ;06/25/2014
-07980252S2               ;252 Glendale Ave;06/09/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/09/2014
 05151862#1-2             ;1862 Dalton Ct#1;06/09/2014;Housing   ;Open  ;Reinspection                                      ;09/11/2014
 04250301                 ;301 N Cleveland Rd;06/09/2014;Housing   ;Open  ;Reinspection                                      ;09/23/2014
+07980252S2               ;252 Glendale Ave;06/09/2014;Housing   ;Open  ;Notice/Order Issued                               ;06/09/2014
 19990000                 ;0 Warrington Dr;06/09/2014;Housing   ;Closed;Invalid Complaint                                 ;06/11/2014
 25564000                 ;4000 Terminal Dr;06/09/2014;Housing   ;Closed;Invalid Complaint                                 ;06/20/2014
 19010000W14              ;0 Todds Rd;06/09/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/09/2014
@@ -4457,11 +4459,11 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11580257CONDEM           ;257 Lexington Ave;06/04/2014;Housing   ;Closed;Closed Out                                        ;07/21/2014
 04850532S                ;532 Cricklewood Dr;06/04/2014;Housing   ;Open  ;Reinspection                                      ;08/27/2014
 04850528S                ;528 Cricklewood Dr;06/04/2014;Housing   ;Open  ;Reinspection                                      ;09/03/2014
-25904320-2               ;4320 Cobblestone Knoll Dr;06/03/2014;Housing   ;Open  ;Reinspection                                      ;09/08/2014
 25230277                 ;277 Preakness Dr;06/03/2014;Housing   ;Open  ;Reinspection                                      ;09/12/2014
 03041949-5               ;1949 Cambridge Dr;06/03/2014;Housing   ;Open  ;Reinspection                                      ;09/24/2014
 21100206                 ;206 Woodspoint Rd;06/03/2014;Housing   ;Closed;Closed Out                                        ;07/25/2014
 10100444-5               ;444 Jefferson St;06/03/2014;Housing   ;Closed;Closed Out                                        ;09/26/2014
+25904320-2               ;4320 Cobblestone Knoll Dr;06/03/2014;Housing   ;Closed;Closed Out                                        ;10/06/2014
 04731877                 ;1877 Courtland Dr;06/03/2014;Housing   ;Closed;Invalid Complaint                                 ;06/10/2014
 15700144-2               ;144 Rand Ave;06/03/2014;Housing   ;Closed;Resolved Complaint                                ;06/04/2014
 42880000W                ;0 Kearney Creek Ln;06/03/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/04/2014
@@ -4530,9 +4532,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 06870813W2               ;813 Farra Ct;06/02/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;06/04/2014
 07300222W5               ;222 Forest Park Rd;06/02/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;06/02/2014
 19430224W6               ;224 University Ave;06/02/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;06/03/2014
-13380682W8               ;682 Montgomery Ave;06/02/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;06/10/2014
 35702145W2               ;2145 Shaker Run Rd;06/02/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;06/20/2014
 09651240W8               ;1240 Hot Springs Ct;06/02/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;06/30/2014
+13380682W8               ;682 Montgomery Ave;06/02/2014;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;06/10/2014
 13581409EMER             ;1409 Mt Rainier Dr;06/02/2014;Housing   ;Closed;BoardedUp/Closed                                  ;07/16/2014
 35840201W                ;201 Trailwood Ln;06/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/05/2014
 00231913W9               ;1913 Alexandria Dr;06/02/2014;Nuisance  ;Closed;Invalid Nuisance                                  ;06/03/2014
@@ -8160,8 +8162,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 43083308W2               ;3308 Bay Springs Park;02/12/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;02/28/2014
 29942565W8               ;2565 Cashel Ct;02/12/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;03/04/2014
 16830258W7               ;258 E Second St;02/12/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;06/27/2014
-07020304W5               ;304 E Fifth St;02/12/2014;Nuisance  ;Closed;Closed/Abated by City                             ;03/12/2014
 12640561-3               ;561 Maryland Ave;02/12/2014;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;06/11/2014
+07020304W5               ;304 E Fifth St;02/12/2014;Nuisance  ;Closed;Closed/Abated by City                             ;03/12/2014
 14090165W6               ;165 Northwood Dr;02/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;02/27/2014
 14090169W                ;169 Northwood Dr;02/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;02/27/2014
 14831053W3               ;1053 Pennebaker Dr;02/12/2014;Nuisance  ;Closed;Closed Nuisance                                   ;02/27/2014
@@ -8530,9 +8532,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 07020304W4               ;304 E Fifth St;01/14/2014;Nuisance  ;Closed;Closed Nuisance                                   ;02/11/2014
 14200460W4               ;460 Ohio St;01/14/2014;Nuisance  ;Closed;Closed Nuisance                                   ;02/27/2014
 11600000SIGNS36          ;0 Liberty Rd;01/14/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;01/14/2014
+07020304-3               ;304 E Fifth St;01/14/2014;Housing   ;Closed;BoardedUp/Closed                                  ;02/04/2014
 16900214W                ;214 E Seventh St;01/14/2014;Nuisance  ;Closed;Closed/Abated by City                             ;02/28/2014
 10010721-725W17          ;721-725 Jackson St;01/14/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/10/2014
-07020304-3               ;304 E Fifth St;01/14/2014;Housing   ;Closed;BoardedUp/Closed                                  ;02/04/2014
 04522894                 ;2894 Columbus Ln;01/14/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;08/27/2014
 06100324W                ;324 Eastin Rd;01/14/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;01/14/2014
 19130403W9               ;403 Transylvania Park;01/14/2014;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;01/14/2014
@@ -8606,8 +8608,8 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13953651W5               ;3651 Niagara Dr;01/09/2014;Nuisance  ;Closed;Closed Nuisance                                   ;01/27/2014
 19571216W8               ;1216 Venetian Cir;01/08/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;02/18/2014
 02450105W12              ;105 Brigadoon Pkwy;01/08/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;03/05/2014
-04580429DEMO             ;429 Conley St;01/08/2014;Housing   ;Closed;Housing Demolition Abated                         ;06/02/2014
 08880532BRDUP            ;532 Harry St;01/08/2014;Housing   ;Closed;BoardedUp/Closed                                  ;01/30/2014
+04580429DEMO             ;429 Conley St;01/08/2014;Housing   ;Closed;Housing Demolition Abated                         ;06/02/2014
 20680000SIGNS25          ;0 Winchester Rd;01/08/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;01/08/2014
 13080519#F               ;519 Michigan St #F;01/08/2014;Housing   ;Closed;Resolved Complaint                                ;01/14/2014
 12781840#33              ;1840 Mccullough Dr #33;01/08/2014;Housing   ;Closed;Resolved Complaint                                ;01/15/2014
@@ -9526,9 +9528,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15671710W13              ;1710 Raleigh Rd;10/30/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;10/30/2013
 18260800W25              ;800 Sunset Dr;10/30/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;11/04/2013
 13572934W                ;2934 Mt Mckinley Way;10/30/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;10/31/2013
-27014013                 ;4013 Jfd Ct;10/30/2013;Housing   ;Closed;Resolved Complaint                                ;11/05/2013
-09290426#4-3             ;426 E High St #4;10/30/2013;Housing   ;Closed;Resolved Complaint                                ;11/04/2013
-20500785                 ;785 Wilderness Rd;10/30/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 08841219W                ;1219 Harris Ct;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/31/2013
 08841205W7               ;1205 Harris Ct;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/31/2013
 02481677W8               ;1677 Brittany Ln;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/31/2013
@@ -9538,6 +9537,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14200324W7               ;324 Ohio St;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;11/01/2013
 28133005W4               ;3005 Redbud Ct;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 23260000SIGNS            ;0 Old Versailles Rd;10/30/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
+27014013                 ;4013 Jfd Ct;10/30/2013;Housing   ;Closed;Resolved Complaint                                ;11/05/2013
+09290426#4-3             ;426 E High St #4;10/30/2013;Housing   ;Closed;Resolved Complaint                                ;11/04/2013
+20500785                 ;785 Wilderness Rd;10/30/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 12390326                 ;326 Manhattan Dr;10/30/2013;Housing   ;Closed;Invalid Complaint                                 ;10/31/2013
 19601314                 ;1314 Versailles Rd;10/30/2013;Housing   ;Closed;Invalid Complaint                                 ;11/04/2013
 00431469S                ;1469 Anniston Dr;10/30/2013;Housing   ;Closed;Closed Out                                        ;04/22/2014
@@ -9577,13 +9579,13 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 32177959-2               ;7959 Old Richmond Rd;10/28/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;04/21/2014
 03910400W2               ;400 Chestnut St;10/28/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;10/30/2013
 19900000SIGNS3           ;0 Walton Ave;10/28/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;10/30/2013
+14461805#15              ;1805 Oxford Cir #15;10/28/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/13/2013
 19071416W3               ;1416 Townley Dr;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 27930510W2               ;510 Pemberton Ln;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 14200560W2               ;560 Ohio St;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 03910336W2               ;336 Chestnut St;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 08090273W                ;273 Gold Rush Rd;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
 04890664W                ;664 Cromwell Way;10/28/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/30/2013
-14461805#15              ;1805 Oxford Cir #15;10/28/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/13/2013
 19440703-6               ;703 N Upper St;10/28/2013;Housing   ;Closed;Closed Out                                        ;01/17/2014
 19331167#13              ;1167 Turkey Foot Rd #13;10/28/2013;Housing   ;Closed;Closed Out                                        ;04/07/2014
 08861759S                ;1759 Harrodsburg Rd;10/28/2013;Housing   ;Closed;Closed Out                                        ;01/16/2014
@@ -9609,13 +9611,13 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 16400353-6               ;353 Ross Ave;10/25/2013;Housing   ;Closed;Closed Out                                        ;12/11/2013
 16840573BRDUP            ;573 W Second St Board Up;10/25/2013;Housing   ;Closed;Closed Out                                        ;12/13/2013
 16840573CONDEM-2         ;573 W Second St;10/25/2013;Housing   ;Closed;Closed Out                                        ;09/11/2014
-05672200#207-3           ;2200 Dinsmore Dr #207;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/04/2013
-19890665-2               ;665 N Martin Luther King Blvd;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/28/2013
-18010235#4-2             ;235 Stone Ave #4;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/01/2013
 07211441W2               ;1441 N Forbes Rd;10/25/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
 39143001W7               ;3001 Old House Rd;10/25/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
 17690699W                ;699 Springridge Dr;10/25/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/29/2013
 13390000W3               ;0 Monticello Blvd;10/25/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
+05672200#207-3           ;2200 Dinsmore Dr #207;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/04/2013
+19890665-2               ;665 N Martin Luther King Blvd;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/28/2013
+18010235#4-2             ;235 Stone Ave #4;10/25/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/01/2013
 07930117W7               ;117 Glass Ave;10/25/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;11/05/2013
 12591586W#14             ;1586 Martha Ct #14;10/25/2013;Nuisance  ;Closed;Closed Nuisance                                   ;10/28/2013
 12591586W#15             ;1586 Martha Ct #15;10/25/2013;Nuisance  ;Closed;Closed Nuisance                                   ;11/14/2013
@@ -9628,6 +9630,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 10743476W2               ;3476 King Arthur Dr;10/24/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;10/29/2013
 09991545-2               ;1545 Jacana Dr;10/24/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;09/17/2014
 14200632W24              ;632 Ohio St;10/24/2013;Nuisance  ;Closed;Closed/Abated by City                             ;10/31/2013
+07211439#A               ;1439 N Forbes Rd #A;10/24/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 27791175W2               ;1175 Devonport Cir;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
 09040650W5               ;650 Headley Ave;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/25/2013
 13770000W                ;0 National Ave;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
@@ -9641,7 +9644,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 05430990W4               ;990 Della Dr;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/28/2013
 00491728W2               ;1728 Appomattox Rd;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/24/2013
 27722613W                ;2613 Ashbrooke Dr;10/24/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;11/11/2013
-07211439#A               ;1439 N Forbes Rd #A;10/24/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 05672232-2240#202-2      ;2232-2240 Dinsmore Dr #202;10/24/2013;Housing   ;Closed;Closed Out                                        ;02/05/2014
 09040650-5               ;650 Headley Ave;10/24/2013;Housing   ;Closed;Closed Out                                        ;12/11/2013
 03910601-2               ;601 Chestnut St;10/24/2013;Housing   ;Closed;Closed Out                                        ;03/07/2014
@@ -9681,13 +9683,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 29410200                 ;200 Tipchik Dr;10/22/2013;Housing   ;Closed;Closed Out                                        ;12/05/2013
 08610109#1               ;109 Hagerman Ct #1;10/22/2013;Housing   ;Closed;Closed Out                                        ;12/04/2013
 20872268#B               ;2268 Winterberry Dr #B;10/22/2013;Housing   ;Closed;Closed Out                                        ;12/30/2013
-34492824#1               ;2824 Ryan Cir #1;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/28/2013
-03740903-4               ;903 Charles Ave;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
-00921772#8-3             ;1772 Augusta Ct #8;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/07/2013
 02661222W10              ;1222 Bryan Ave;10/22/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/24/2013
 14200500W4               ;500 Ohio St;10/22/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/24/2013
 08864145W13              ;4145 Harrodsburg Rd;10/22/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/24/2013
 07101560W3               ;1560 Flora Glen Way;10/22/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/29/2013
+34492824#1               ;2824 Ryan Cir #1;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/28/2013
+03740903-4               ;903 Charles Ave;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
+00921772#8-3             ;1772 Augusta Ct #8;10/22/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/07/2013
+13973800#3-1605          ;3800 Nicholasville Rd #3-1605;10/21/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/25/2013
+05672232#113             ;2232 Dinsmore Dr #113;10/21/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 15120000W4               ;0 Pine St;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
 03041940W4               ;1940 Cambridge Dr;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
 03041938W4               ;1938 Cambridge Dr;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
@@ -9710,8 +9714,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13440458W7               ;458 Morgan Ave;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
 19863401W3               ;3401 Wallingford Dr;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
 05430864W                ;864 Della Dr;10/21/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/22/2013
-13973800#3-1605          ;3800 Nicholasville Rd #3-1605;10/21/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;10/25/2013
-05672232#113             ;2232 Dinsmore Dr #113;10/21/2013;Housing   ;Closed;Closed/Cancelled-No Response from Tenant          ;11/06/2013
 00941006S                ;1006 Aurora Ave;10/21/2013;Housing   ;Closed;Closed Out                                        ;08/01/2014
 26644268S3               ;4268 Southmoor Park;10/21/2013;Housing   ;Closed;Closed Out                                        ;11/20/2013
 19440672-6               ;672 N Upper St;10/21/2013;Housing   ;Closed;Closed Out                                        ;02/14/2014
@@ -9859,9 +9861,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11850237W2               ;237 Liverpool Rd;10/10/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/15/2013
 19430200W30              ;200 University Ave;10/10/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/11/2013
 21723417W                ;3417 Featheridge Dr;10/10/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/11/2013
+18600000W2               ;0 Tatesbrook Dr;10/09/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/10/2013
 11313500#102             ;3500 Laredo Dr #102;10/09/2013;Housing   ;Closed;Resolved Complaint                                ;10/16/2013
 00231670-2               ;1670 Alexandria Dr;10/09/2013;Housing   ;Closed;Resolved Complaint                                ;10/16/2013
-18600000W2               ;0 Tatesbrook Dr;10/09/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;10/10/2013
 13591104S                ;1104 Mt Rushmore Way;10/09/2013;Housing   ;Closed;Closed Out                                        ;05/06/2014
 03910369-4               ;369 Chestnut St;10/09/2013;Housing   ;Closed;Closed Out                                        ;03/11/2014
 21280137-7               ;137 York St;10/09/2013;Housing   ;Closed;Closed Out                                        ;06/27/2014
@@ -16472,7 +16474,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 04461208W4               ;1208 Colonial Dr;04/30/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/17/2013
 11360856W4               ;856 Laurel Hill Rd;04/30/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/29/2013
 18472136W5               ;2136 Tamarack Dr;04/30/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/28/2013
-20910110W7               ;110 Withers Ave;04/30/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/14/2013
 00272278W                ;2278 Allen Dr;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/23/2013
 00431464W2               ;1464 Anniston Dr;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/27/2013
 18800554W3               ;554 W Third St;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
@@ -16480,6 +16481,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11660901W25              ;901 N Limestone;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
 09331406W32              ;1406 Highlawn Ave;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
 36611200W8               ;1200 Kannapolis Pl;04/30/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
+20910110W7               ;110 Withers Ave;04/30/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/14/2013
 13970000SIGNS114         ;0 Nicholasville Rd;04/30/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
 16010000SIGNS112         ;0 Richmond Rd;04/30/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
 18590000SIGNS127         ;0 Tates Creek Rd;04/30/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
@@ -16492,27 +16494,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11320000SIGNS5           ;0 Larkin Rd;04/30/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
 07700000SIGNS3           ;0 Garden Springs Dr;04/30/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
 23470000SIGNS220         ;Man O War Blvd & Liberty Rd;04/29/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/30/2013
+03900811W3               ;811 Cheryl Ln;04/29/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;05/15/2013
 35550748W9               ;748 Whispering Brook Trce;04/29/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
 17601069W4               ;1069 Spring Run Rd;04/29/2013;Nuisance  ;Closed;Closed/Abated by City                             ;04/30/2013
 13390594W3               ;594 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
-03900811W3               ;811 Cheryl Ln;04/29/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;05/15/2013
-43093213W                ;3213 Mathern Trl;04/29/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;04/30/2013
-18500944W2               ;944 Tanbark Rd;04/29/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/01/2013
-17310551#65-3            ;551 W Sixth St #654;04/29/2013;Housing   ;Closed;Resolved Complaint                                ;05/10/2013
-19890616-2               ;616 N Martin Luther King Blvd;04/29/2013;Housing   ;Closed;Resolved Complaint                                ;04/29/2013
-03940731W2               ;731 Chiles Ave;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/02/2013
-35610177W2               ;177 Chestnut Ridge Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/06/2013
-23470000SIGNS221         ;Man O War Blvd & Maple Leaf Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-43093209W                ;3209 Mathern Trl;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-38774405W                ;4405 Biltmore Pl;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-05681351W2               ;1351 Dix Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-19863401W2               ;3401 Wallingford Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-13390642W                ;642 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-13390646W                ;646 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-13390638W                ;638 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-13390626W                ;626 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-34563341W                ;3341 Malone Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
-19853422W10              ;3422 Wallingford Ct;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/01/2013
 20660100W2               ;100 Wilton Ave;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;06/05/2013
 35832788W5               ;2788 Stoney Park Ln;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;06/10/2013
 35610241W3               ;241 Chestnut Ridge Dr;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;06/10/2013
@@ -16539,6 +16524,23 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13390610W                ;610 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/16/2013
 17601069W5               ;1069 Spring Run Rd;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/17/2013
 19853442W7               ;3442 Wallingford Ct;04/29/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/24/2013
+43093213W                ;3213 Mathern Trl;04/29/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;04/30/2013
+18500944W2               ;944 Tanbark Rd;04/29/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/01/2013
+17310551#65-3            ;551 W Sixth St #654;04/29/2013;Housing   ;Closed;Resolved Complaint                                ;05/10/2013
+19890616-2               ;616 N Martin Luther King Blvd;04/29/2013;Housing   ;Closed;Resolved Complaint                                ;04/29/2013
+03940731W2               ;731 Chiles Ave;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/02/2013
+35610177W2               ;177 Chestnut Ridge Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/06/2013
+23470000SIGNS221         ;Man O War Blvd & Maple Leaf Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+43093209W                ;3209 Mathern Trl;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+38774405W                ;4405 Biltmore Pl;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+05681351W2               ;1351 Dix Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+19863401W2               ;3401 Wallingford Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+13390642W                ;642 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+13390646W                ;646 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+13390638W                ;638 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+13390626W                ;626 Monticello Blvd;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+34563341W                ;3341 Malone Dr;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
+19853422W10              ;3422 Wallingford Ct;04/29/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;05/01/2013
 12270601-603S            ;601-603 W Main St;04/29/2013;Housing   ;Open  ;Notice/Order Issued                               ;05/01/2013
 13610175S                ;175 N Mt Tabor Rd;04/29/2013;Housing   ;Closed;Closed Out                                        ;11/23/2013
 20680919S3               ;919 Winchester Rd;04/29/2013;Housing   ;Closed;Closed Out                                        ;11/23/2013
@@ -16562,20 +16564,6 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 11180598S                ;598 Lamont Dr;04/26/2013;Housing   ;Closed;Closed Out                                        ;11/22/2013
 11180492S                ;492 Lamont Dr;04/26/2013;Housing   ;Closed;Closed Out                                        ;12/30/2013
 11180579S                ;579 Lamont Dr;04/26/2013;Housing   ;Closed;Closed Out                                        ;06/10/2014
-42980624W4               ;624 Saunders Springs Way;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/24/2013
-05151851W9               ;1851 Dalton Ct;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/20/2013
-08880511-513W5           ;511-513 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
-08880530W4               ;530 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
-08880532W5               ;532 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
-08880552-554W2           ;552-554 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
-11601007W8               ;1007 Liberty Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
-33690789W6               ;789 Rambling Creek Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
-33690793W7               ;793 Rambling Creek Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
-34192601W2               ;2601 Crystal Falls Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
-34192616W3               ;2616 Crystal Falls Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
-05391568W2               ;1568 Deer Lake Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/21/2013
-07334205W                ;4205 Forsythe Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
-16773427W                ;3427 Saybrook Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/31/2013
 06001848W13              ;1848 Dunkirk Dr;04/26/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
 06001847W7               ;1847 Dunkirk Dr;04/26/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/30/2013
 13872025W21              ;2025 New Orleans Dr;04/26/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/26/2013
@@ -16592,6 +16580,20 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 12000631W3               ;631 Longview Dr;04/26/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;04/30/2013
 27264269W                ;4269 Ridgewater Dr;04/26/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;04/29/2013
 35200219W5               ;219 Mousas Way;04/26/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;04/30/2013
+42980624W4               ;624 Saunders Springs Way;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/24/2013
+05151851W9               ;1851 Dalton Ct;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/20/2013
+08880511-513W5           ;511-513 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
+08880530W4               ;530 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
+08880532W5               ;532 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
+08880552-554W2           ;552-554 Harry St;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
+11601007W8               ;1007 Liberty Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
+33690789W6               ;789 Rambling Creek Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
+33690793W7               ;793 Rambling Creek Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
+34192601W2               ;2601 Crystal Falls Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
+34192616W3               ;2616 Crystal Falls Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
+05391568W2               ;1568 Deer Lake Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/21/2013
+07334205W                ;4205 Forsythe Dr;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/15/2013
+16773427W                ;3427 Saybrook Rd;04/26/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/31/2013
 00272277W3               ;2277 Allen Dr;04/26/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/28/2013
 12240719W2               ;719 Magoffin St;04/26/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/29/2013
 31670000SIGNS24          ;Sir Barton Way & Flying Ebony Dr;04/25/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;04/26/2013
@@ -16971,15 +16973,15 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 08861904S                ;1904 Harrodsburg Rd;04/17/2013;Housing   ;Open  ;Reinspection                                      ;08/04/2014
 12640561-2               ;561 Maryland Ave;04/16/2013;Housing   ;Closed;Closed Out                                        ;02/12/2014
 12430725-4               ;725 Maple Ave;04/16/2013;Housing   ;Closed;Closed Out                                        ;03/26/2014
+06470657-2               ;657 Elm Tree Ln;04/16/2013;Housing   ;Closed;Resolved Complaint                                ;06/07/2013
+18400000W                ;0 Sycamore Rd;04/16/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/16/2013
+07140720W20              ;720 Florida St;04/16/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/10/2013
 10100542W5               ;542 Jefferson St;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/01/2013
 19440715W6               ;715 N Upper St;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/01/2013
 19602304W5               ;2304 Versailles Rd;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/02/2013
 19602300W4               ;2300 Versailles Rd;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/13/2013
 18710726W9               ;726 Terrace View Dr;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
 18710722W4               ;722 Terrace View Dr;04/16/2013;Nuisance  ;Closed;Closed Nuisance                                   ;05/14/2013
-06470657-2               ;657 Elm Tree Ln;04/16/2013;Housing   ;Closed;Resolved Complaint                                ;06/07/2013
-18400000W                ;0 Sycamore Rd;04/16/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;04/16/2013
-07140720W20              ;720 Florida St;04/16/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/10/2013
 16900197-199W13          ;197-199 E Seventh St;04/15/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/10/2013
 11601749EXT              ;1749 Liberty Rd Exterior;04/15/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;01/29/2014
 15400357DEMO2            ;357 Preston Ave;04/15/2013;Housing   ;Closed;Housing Demolition Abated                         ;10/03/2013
