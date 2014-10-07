@@ -61,7 +61,12 @@
        $( document ).ready(function() {
            $.getJSON("data/row.json",function(result){
             $.each(result.data, function(key, value){
-            $("#content").append(value.entity + "<br>");
+            $("#content").append(
+                "<h3>" + value.permit_no + "</h3>"
+                       + value.date + "<br>"
+                       + value.entity + "<br>"
+                       + value.type + " - " + value.work + "<br><br>"
+                       );
     });
   });
         });
