@@ -18,6 +18,9 @@
                 padding-top: 50px;
                 padding-bottom: 20px;
             }
+            .tiles {
+                float: left;
+            }
         </style>
     </head>
 <body>
@@ -57,10 +60,10 @@
            $.getJSON("data/row.json",function(result){
             $.each(result.data, function(key, value){
             $("#content").append(
-                "<h3>" + value.permit_no + "</h3>"
-                       + value.date + "<br>"
-                       + value.entity + "<br>"
-                       + value.type + " - " + value.work + "<br><br>"
+                '<div class="tiles"><h3>' + value.permit_no + '</h3>'
+                       + value.date + '<br>'
+                       + value.entity + '<br>'
+                       + value.type + ' - ' + value.work + '<div>'
                        );
     });
   });
