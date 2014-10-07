@@ -59,7 +59,11 @@
         <script src="js/oboe-browser.min.js"></script>
         <script>
        $( document ).ready(function() {
-        console.log( "ready!" );
+           $.getJSON("data/row.json",function(result){
+            $.each(result.data, function(key, value){
+            $("#content").append(value + "<br>");
+    });
+  });
         });
         </script>
     </body>
