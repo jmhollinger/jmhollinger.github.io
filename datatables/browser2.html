@@ -20,10 +20,11 @@
             }
             .tiles {
                 float: left;
-    border: 2px solid;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 5px;
+                border: 2px solid;
+                border-radius: 25px;
+                padding: 10px;
+                margin: 5px;
+                text-align: center;
             }
         </style>
     </head>
@@ -64,7 +65,7 @@
            $.getJSON("data/row.json",function(result){
             $.each(result.data, function(key, value){
             $("#content").append(
-                '<div class="tiles"><h3>' + value.permit_no + '</h3>'
+                    '<div class="tiles"><h3>Permit No. ' + value.permit_no + '</h3>'
                        + value.date + '<br>'
                        + value.entity + '<br>'
                        + value.type + ' - ' + value.work + '<div>'
