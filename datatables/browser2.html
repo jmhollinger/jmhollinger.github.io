@@ -61,7 +61,7 @@
        $( document ).ready(function() {
            $.getJSON("data/row.json",function(result){
             $.each(result.data, function(key, value){
-            $("#content").append(value + "<br>");
+            $("#content").append(value.entity + "<br>");
     });
   });
         });
