@@ -1,4 +1,8 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 28388;10/08/2014;501-539 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
+ 28389;10/08/2014;497-485 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
+ 28390;10/08/2014;471-465 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
+ 28391;10/08/2014;405-455 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
  28366;10/06/2014;3437 W Edgebrook Dr;Installation;Maintenance;Kentucky American Water;09/26/2014;10/17/2014;No
  28367;10/06/2014;413 Hays Blvd;Installation;Maintenance;Kentucky American Water;09/29/2014;10/20/2014;No
  28368;10/06/2014;1400 Delaware Ave;Street Cut;New Construction;Columbia Gas;10/13/2014;11/03/2014;Yes
