@@ -80,14 +80,12 @@
     strokeColor: 'blue',
     strokeWeight: 2
     };
-  
-    var featureStyle = {BlueCircle};
     
-    map.data.setStyle(featureStyle);
+    map.data.setStyle(BlueCircle);
     map.data.addListener('click', function(event) {
     document.getElementById('info-box').innerHTML =
-    "<h3>Collection Information</h3>" + 
-    "<strong>Area: </strong>" + event.feature.getProperty('NAMELSAD10') + "<br />" +
+    "<h3>Leaf Collection Information</h3>" + 
+    "<br><strong>Zone: </strong>" + event.feature.getProperty('NAMELSAD10') + "<br />" +
     "<strong>Collection Status: </strong>" + 'Not Collected' + "<br />" +
 	"<strong>Scheduled Collection Week: </strong>" + 'November 10, 2014' + "<br />" +
 	"For more information on leaf collection please visit <a href=" + 
