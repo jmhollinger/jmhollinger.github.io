@@ -75,14 +75,13 @@
 
     map.data.loadGeoJson('GeoJSON/census.geojson');
     var BlueCircle = {
-    fillColor: 'blue',
-    fillOpacity: 0.4,
-    scale: 5,
+    fillColor: 'green',
+    fillOpacity: 0.3,
     strokeColor: 'blue',
     strokeWeight: 2
     };
   
-    var featureStyle = {icon: BlueCircle};
+    var featureStyle = {BlueCircle};
     
     map.data.setStyle(featureStyle);
     map.data.addListener('click', function(event) {
