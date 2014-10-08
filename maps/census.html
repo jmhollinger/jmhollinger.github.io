@@ -87,17 +87,12 @@
     map.data.setStyle(featureStyle);
     map.data.addListener('click', function(event) {
     document.getElementById('info-box').innerHTML =
-    "<h3>Property Information</h3>" + 
-   	'<img class="pvaimage" src="http://qpublic9.qpublic.net/fayette_photos/'+ event.feature.getProperty('ParcelNo') +'-1.jpg" width="160" height="120" alt="PVA Image"><br />' +
-    "<strong>Address: </strong>" + event.feature.getProperty('Address') + "<br />" +
-    "<strong>Council District: </strong>" + event.feature.getProperty('CouncilDistrict') + "<br />" +
-	"<strong>Property Type: </strong>" + event.feature.getProperty('PropertyType') + "<br />" +
-	"<strong>No Water Service: </strong>" + event.feature.getProperty('NoWaterService') + "<br />" +
-	"<strong>Code Enforcement Cases: </strong>" + event.feature.getProperty('CodeEnforcementCase') + "<br />" +
-	"<strong>Reported to City: </strong>" + event.feature.getProperty('ReportedtoCity') + "<br /><br />" +
-	'<a target="_blank" href="http://qpublic9.qpublic.net/ky_fayette_display.php?county=ky_fayette&KEY=' + event.feature.getProperty('ParcelNo') + 
-	'">Visit the the PVA Page for this Property</a>'+ "<br /><br />" + "Photo and property information courtesy of David O'Neill, Fayette County Property Valuation Adminstrator. <a href=" + 
-	'"http://www.fayette-pva.com/" target="_blank" >www.fayette-pva.com</a>'
+    "<h3>Collection Information</h3>" + 
+    "<strong>Area: </strong>" + event.feature.getProperty('NAMELSAD10') + "<br />" +
+    "<strong>Collection Status: </strong>" + 'Not Collected' + "<br />" +
+	"<strong>Scheduled Collection Week: </strong>" + 'November 10, 2014' + "<br />" +
+	"For more information on leaf collection please visit <a href=" + 
+	'"http://www.lexingtonky.gov/leaves" target="_blank" >www.lexingtonky.gov/leaves</a>'
     });
 						  } 
 
@@ -126,7 +121,7 @@
       </div>
     </div>
 <div id="map-canvas"></div>
-<div id="info-box"><h3>Click on a map marker for information on a potentially vacant property.</h3></div>
+<div id="info-box"><h3>Select a zone to find out when leaf collection will occur.</h3></div>
 <div class="container">
       <hr>
 
