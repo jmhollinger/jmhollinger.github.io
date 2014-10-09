@@ -81,17 +81,8 @@
     strokeWeight: 2
     };
     
-    var Blue = {
-    fillColor: 'blue',
-    fillOpacity: 0.3,
-    strokeColor: '#003300',
-    strokeWeight: 2
-    };
-    
-    
     map.data.setStyle(Green);
     map.data.addListener('mouseover', function(event) {
-    map.data.setStyle(Blue)	
     document.getElementById('info-box').innerHTML =
     "<h3>Leaf Collection Information</h3>" + 
     "<br><strong>Zone: </strong>" + event.feature.getProperty('NAMELSAD10') + "<br />" +
