@@ -1,4 +1,29 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 28392;10/10/2014;157 York St;Street Cut;Maintenance;Kentucky American Water;10/01/2014;10/22/2014;Yes
+ 28393;10/10/2014;300 Preston Ave;Street Cut;Maintenance;Columbia Gas;10/01/2014;10/22/2014;Yes
+ 28394;10/10/2014;853 Revere Run Dr;Annual General Permit;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;No
+ 28395;10/10/2014;2057 Coriander Ln;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28396;10/10/2014;2229 Curtiswood Dr;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28397;10/10/2014;2021 Coriander Ln;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28398;10/10/2014;2213 Coburn Blvd;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28399;10/10/2014;401 Ridgeway Rd;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28400;10/10/2014;;Street Cut;Maintenance;Kentucky American Water;10/13/2014;11/03/2014;Yes
+ 28401;10/10/2014;221-243 Lee St;Installation;Maintenance;Columbia Gas;10/16/2014;11/06/2014;No
+ 28402;10/10/2014;141-157 Devonia Ave;Installation;Maintenance;Columbia Gas;10/16/2014;11/06/2014;No
+ 28403;10/10/2014;2040 Von List Way;Installation;New Construction;Columbia Gas;10/16/2014;11/06/2014;No
+ 28404;10/10/2014;915 Whitney Ave;Annual General Permit;Maintenance;LFUCG-San Sewers (Water Quality);10/10/2014;11/10/2014;No
+ 28405;10/10/2014;864 Whitney Ave;Annual General Permit;Maintenance;LFUCG-San Sewers (Water Quality);10/10/2014;11/10/2014;No
+ 28406;10/10/2014;436 Woodland Ave;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);10/03/2014;10/24/2014;Yes
+ 28407;10/10/2014;220 Barrow Rd;Street Cut;Repair;Kentucky American Water;10/03/2014;10/24/2014;Yes
+ 28408;10/10/2014;608 Elm Tree Ln;Street Cut;Repair;Columbia Gas;10/01/2014;10/22/2014;Yes
+ 28409;10/10/2014;;Annual General Permit;Maintenance;Kentucky American Water;10/06/2014;10/27/2014;No
+ 28410;10/10/2014;2271 Elkhorn Rd;Installation;Repair;Kentucky American Water;10/06/2014;10/27/2014;No
+ 28411;10/10/2014;208 Catalpa Rd;Installation;Repair;Columbia Gas;09/25/2014;10/16/2014;No
+ 28412;10/10/2014;999 Carneal Rd;Installation;Repair;Columbia Gas;10/03/2014;10/24/2014;No
+ 28413;10/10/2014;1709 Wyatt Pkwy;Installation;Repair;Columbia Gas;10/02/2014;10/09/2014;No
+ 28414;10/10/2014;2408 Franks Way;Street Cut;New Construction;Columbia Gas;10/17/2014;11/07/2014;Yes
+ 28415;10/10/2014;2369 Richmond Rd;Street Cut;New Construction;Columbia Gas;10/20/2014;11/10/2014;Yes
+ 28416;10/10/2014;457 Delcamp Dr;Street Cut;Repair;Columbia Gas;10/07/2014;10/28/2014;Yes
  28388;10/08/2014;501-539 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
  28389;10/08/2014;497-485 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
  28390;10/08/2014;471-465 W Third St;Street Cut;New Construction;Kentucky American Water;11/01/2014;03/14/2015;Yes
@@ -203,7 +228,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28185;09/08/2014;2940 Blackford Pkwy;Installation;New Construction;Columbia Gas;09/16/2014;10/07/2014;No
  28186;09/08/2014;214 Koster St;Street Cut;Maintenance;Kentucky American Water;09/02/2014;09/23/2014;Yes
  28182;09/05/2014;67 Southport Dr;Street Cut;New Construction;Contractor;09/08/2014;10/17/2014;Yes
- 28181;09/05/2014;465 Southland Dr;Street Cut;New Construction;Contractor;09/08/2014;09/29/2014;Yes
+ 28181;09/05/2014;465 Southland Dr;Street Cut;New Construction;Contractor;09/08/2014;10/13/2014;Yes
  28166;09/04/2014;3669-3673 Sundart Dr;Street Cut;Repair;LFUCG-San Sewers (Water Quality);09/03/2014;09/24/2014;Yes
  28167;09/04/2014;262, 266 Tangley Way;Street Cut;New Construction;LFUCG-San Sewers (Water Quality);09/03/2014;09/24/2014;Yes
  28168;09/04/2014;3483 Brunswick Rd;Annual General Permit;Repair;Columbia Gas;08/28/2014;09/03/2014;No
