@@ -75,8 +75,8 @@
 
     map.data.loadGeoJson('GeoJSON/censusdata.geojson');
     var Green = {
-    fillColor: 'green',
-    fillOpacity: 0.3,
+    fillColor: 'blue',
+    fillOpacity: 0.1,
     strokeColor: '#003300',
     strokeWeight: 2
     };
@@ -86,7 +86,9 @@
     document.getElementById('info-box').innerHTML =
     "<h3>Median Year Structure Built</h3>" + 
     "<br><strong>Census Tract: </strong>" + event.feature.getProperty('NAMELSAD') + "<br />" +
-    "<strong>Median Year Built: </strong>" + event.feature.getProperty('ACS_12_5YR_B25035_HD01_VD01') + "<br />"
+    "<strong>Residential Parcels: </strong>" + event.feature.getProperty('ResidentialParcelData_CountOfPVANUM') + "<br />" +
+    "<strong>Average 2014 FCV: </strong>" + event.feature.getProperty('ResidentialParcelData_AvgOf2014FCV') + "<br />" +
+    "<strong>Average Parcel Acreage: </strong>" + event.feature.getProperty('ResidentialParcelData_AvgOfAcreage') + "<br />" +
     });
 						  } 
 
