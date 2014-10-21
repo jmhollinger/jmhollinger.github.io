@@ -84,8 +84,6 @@
     
     map.data.setStyle(blue);
     map.data.addListener('mouseover', function(event) {
-    map.data.revertStyle();
-    map.data.overrideStyle(event.feature, {strokeWeight: 5});
     document.getElementById('info-box').innerHTML =
     "<h3>Residential Property Information</h3>" + 
     "<br><strong>Census Tract: </strong>" + event.feature.getProperty('NAMELSAD') + "<br />" +
