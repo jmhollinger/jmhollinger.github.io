@@ -37,7 +37,8 @@
       }
       
     #info-box {
-		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 		background-color: #FFFFFF;
     border: 5px solid #525252;
 		width: 24%;
@@ -114,12 +115,12 @@
     map.data.overrideStyle(event.feature, {strokeWeight: 8});
     document.getElementById('info-box').innerHTML =
     '<h3>Average Year Built: ' + event.feature.getProperty('DataForMap_yrblt') +
-    '<br><h3>Legend</h3><ul style="list-style-type: none;margin: 0;padding: 0;"><li class="legend" style="background-color: #016c59;">Prior to 1940</li><li class="legend" style="background-color: #1c9099;">1940 - 1959</li><li class="legend" style="background-color: #67a9cf;">1960 - 1979</li><li class="legend" style="background-color: #a6bddb;">1980 - 1999</li><li class="legend" style="background-color: #f6eff7;">2000 or After</li></ul>'
+    '<ul style="list-style-type: none;margin: 0;padding: 0;"><li class="legend" style="background-color: #016c59;">Prior to 1940</li><li class="legend" style="background-color: #1c9099;">1940 - 1959</li><li class="legend" style="background-color: #67a9cf;">1960 - 1979</li><li class="legend" style="background-color: #a6bddb;">1980 - 1999</li><li class="legend" style="background-color: #f6eff7;">2000 or After</li></ul>'
     });
 
     map.data.addListener('mouseout', function(event) {
     map.data.revertStyle();
-    document.getElementById('info-box').innerHTML = '<h3>Average Year Built</h3><h3>Legend</h3><ul style="list-style-type: none;margin: 0;padding: 0;"><li class="legend" style="background-color: #016c59;">Prior to 1940</li><li class="legend" style="background-color: #1c9099;">1940 - 1959</li><li class="legend" style="background-color: #67a9cf;">1960 - 1979</li><li class="legend" style="background-color: #a6bddb;">1980 - 1999</li><li class="legend" style="background-color: #f6eff7;">2000 or After</li></ul>'
+    document.getElementById('info-box').innerHTML = '<h3>Average Year Built</h3><ul style="list-style-type: none;margin: 0;padding: 0;"><li class="legend" style="background-color: #016c59;">Prior to 1940</li><li class="legend" style="background-color: #1c9099;">1940 - 1959</li><li class="legend" style="background-color: #67a9cf;">1960 - 1979</li><li class="legend" style="background-color: #a6bddb;">1980 - 1999</li><li class="legend" style="background-color: #f6eff7;">2000 or After</li></ul>'
 
    });
 
@@ -152,8 +153,12 @@
 <div id="map-canvas"></div>
 <div id="info-box">
 <div id="hover"><h3>Average Year Built</h3>
-<h3>Legend</h3>
-<ul style="list-style-type: none;margin: 0;padding: 0;"><li class="legend" style="background-color: #016c59;">Prior to 1940</li><li class="legend" style="background-color: #1c9099;">1940 - 1959</li><li class="legend" style="background-color: #67a9cf;">1960 - 1979</li><li class="legend" style="background-color: #a6bddb;">1980 - 1999</li><li class="legend" style="background-color: #f6eff7;">2000 or After</li></ul>
+<ul style="list-style-type: none;margin: 0;padding: 0;">
+  <li class="legend" style="background-color: #016c59; border: 3px solid #525252;">Prior to 1940</li>
+  <li class="legend" style="background-color: #1c9099; border: 3px solid #FFFFFF;">1940 - 1959</li>
+  <li class="legend" style="background-color: #67a9cf; border: 3px solid #525252;">1960 - 1979</li>
+  <li class="legend" style="background-color: #a6bddb; border: 3px solid #525252;">1980 - 1999</li>
+  <li class="legend" style="background-color: #f6eff7; border: 3px solid #525252;">2000 or After</li></ul>
 </div>
 </div>
 <div class="container">
