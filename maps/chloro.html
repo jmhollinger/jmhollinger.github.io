@@ -36,7 +36,7 @@
       margin-bottom: 20px;
       }
       
-      #info-box {
+    #info-box {
 		font-family: "Trebuchet MS", Helvetica, sans-serif;
 		background-color: #FFFFFF;
 		width: 24%;
@@ -48,19 +48,18 @@
         z-index: 1;
 	}
 
-        #legend {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color: #FFFFFF;
+    #hover {
+    width: 100%;
+  }
+
+    #legend {
     width: 100%;
   }
         </style>
         <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="../css/main.css">
-
         <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
- <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
- <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
  
 <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></script>
  <script type="text/javascript">
@@ -102,14 +101,14 @@
   
     map.data.addListener('mouseover', function(event) {
     map.data.revertStyle();
-    map.data.overrideStyle(event.feature, {strokeWeight: 5, strokeColor: '#000'});
-    document.getElementById('info-box').innerHTML =
+    map.data.overrideStyle(event.feature, {strokeWeight: 8});
+    document.getElementById('hover').innerHTML =
     "<h3>Average Year Built: " + event.feature.getProperty('DataForMap_yrblt')
     });
 
     map.data.addListener('mouseout', function(event) {
     map.data.revertStyle();
-    document.getElementById('info-box').innerHTML = "<h3>Hover over a census tract for the average year built.</h3>"
+    document.getElementById('hover').innerHTML = "<h3>Hover over a census tract for the average year built.</h3>"
    });
 
 						  }   
@@ -139,7 +138,8 @@
       </div>
     </div>
 <div id="map-canvas"></div>
-<div id="info-box"><h3>Hover over a census tract for the average year built.</h3>
+<div id="info-box">
+<div id="hover"><h3>Hover over a census tract for the average year built.</h3></div>
 <div id="legend"><h3>Legend</h3></div>
 </div>
 <div class="container">
