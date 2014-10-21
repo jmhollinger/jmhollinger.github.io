@@ -89,11 +89,11 @@
     map.data.setStyle(function(feature) {
     var yrblt = feature.getProperty('DataForMap_yrblt');
     if (yrblt < 1920) {var opac = '#016c59'}
-    else if (yrblt => 1920 && yrblt =< 1939) {var opac = '#1c9099'}
-    else if (yrblt => 1940 && yrblt =< 1959) {var opac = '#67a9cf'}
-    else if (yrblt => 1960 && yrblt =< 1979) {var opac = '#a6bddb'}
-    else if (yrblt => 1980 && yrblt =< 1999) {var opac = '#d0d1e6'} 
-    else if (yrblt => 2000) {var opac = '#f6eff7'}
+    else if (yrblt >= 1920 && yrblt <= 1939) {var opac = '#1c9099'}
+    else if (yrblt >= 1940 && yrblt <= 1959) {var opac = '#67a9cf'}
+    else if (yrblt >= 1960 && yrblt <= 1979) {var opac = '#a6bddb'}
+    else if (yrblt >= 1980 && yrblt <= 1999) {var opac = '#d0d1e6'} 
+    else if (yrblt >= 2000) {var opac = '#f6eff7'}
     else {var opac = 0}
     return {
       fillColor: opac,
