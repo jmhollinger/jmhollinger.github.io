@@ -39,6 +39,7 @@
     #info-box {
 		font-family: "Trebuchet MS", Helvetica, sans-serif;
 		background-color: #FFFFFF;
+    border: 5px solid #525252;
 		width: 24%;
 		heigth: 100%;
 		padding: 2%;
@@ -48,10 +49,6 @@
         z-index: 1;
 	}
 
-    #hover {
-    width: 100%;
-  }
-
     #legend {
     width: 100%;
     text-align: center;
@@ -59,6 +56,7 @@
     background-color: #FFFFFF;
     width: 24%;
     padding: 2%;
+    border: 5px solid #525252;
     position: absolute;
         left: 5%;
         bottom: 5%;
@@ -106,7 +104,7 @@
     else {var opac = 0}
     return {
       fillColor: opac,
-      fillOpacity: 0.8,
+      fillOpacity: 0.95,
       strokeColor: '#525252',
       strokeWeight: 3
     };
@@ -115,13 +113,13 @@
     map.data.addListener('mouseover', function(event) {
     map.data.revertStyle();
     map.data.overrideStyle(event.feature, {strokeWeight: 8});
-    document.getElementById('hover').innerHTML =
+    document.getElementById('info-box').innerHTML =
     "<h3>Average Year Built: " + event.feature.getProperty('DataForMap_yrblt')
     });
 
     map.data.addListener('mouseout', function(event) {
     map.data.revertStyle();
-    document.getElementById('hover').innerHTML = "<h3>Hover over a census tract to view the average year built.</h3>"
+    document.getElementById('info-box').innerHTML = "<h3>Hover over a census tract to view the average year built.</h3>"
    });
 
 						  }   
