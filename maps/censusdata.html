@@ -93,13 +93,7 @@
     "<strong>Average 2014 Fair Cash Value: </strong>$" + event.feature.getProperty('ResidentialParcelData_AvgOf2014FCV') + "<br />" +
     "<strong>Average Parcel Size: </strong>" + event.feature.getProperty('ResidentialParcelData_AvgOfAcreage') + " acres<br />"
     });
-						  }
-
-    map.data.addListener('mouseout', function(event) {
-    map.data.revertStyle();
-    document.getElementById('info-box').innerHTML = "<h3>Hover over a Census Tract for information.</h3>"
-  });
-  }     
+						  }   
 
 	google.maps.event.addDomListener(window, 'load', initialize);
   
