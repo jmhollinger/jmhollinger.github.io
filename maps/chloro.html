@@ -77,9 +77,19 @@
     
     map.data.setStyle(function(feature) {
     var yrblt = feature.getProperty('DataForMap_yrblt');
-    var color = yrblt > 1970 ? 'red' : 'blue';
+    if (yrblt < 1900) {var opac = 0.1} 
+    else if (yrblt < 1900) {var opac = 0.2}
+    else if (yrblt > 1900 && yrblt < 1920) {var opac = 0.3}
+    else if (yrblt > 1920 && yrblt < 1940) {var opac = 0.4}
+    else if (yrblt > 1940 && yrblt < 1960) {var opac = 0.5}
+    else if (yrblt > 1960 && yrblt < 1980) {var opac = 0.6} 
+    else if (yrblt > 1980 && yrblt < 2000) {var opac = 0.7}
+    else if (yrblt > 2000) {var opac = 0.8}
+    else {var opac = 0}
     return {
-      fillColor: color,
+      fillColor: '#0000FF',
+      fillOpacity: opac,
+      strokeColor: '#0000FF',
       strokeWeight: 1
     };
 });
