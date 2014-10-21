@@ -54,6 +54,16 @@
 
     #legend {
     width: 100%;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    width: 24%;
+    padding: 2%;
+    position: absolute;
+        left: 5%;
+        bottom: 5%;
+        z-index: 1;
+
   }
 
   .legend{
@@ -88,11 +98,10 @@
     
     map.data.setStyle(function(feature) {
     var yrblt = feature.getProperty('DataForMap_yrblt');
-    if (yrblt < 1920) {var opac = '#016c59'}
-    else if (yrblt >= 1920 && yrblt <= 1939) {var opac = '#1c9099'}
-    else if (yrblt >= 1940 && yrblt <= 1959) {var opac = '#67a9cf'}
-    else if (yrblt >= 1960 && yrblt <= 1979) {var opac = '#a6bddb'}
-    else if (yrblt >= 1980 && yrblt <= 1999) {var opac = '#d0d1e6'} 
+    if (yrblt <= 1939) {var opac = '#016c59'}
+    else if (yrblt >= 1940 && yrblt <= 1959) {var opac = '#1c9099'}
+    else if (yrblt >= 1960 && yrblt <= 1979) {var opac = '#67a9cf'}
+    else if (yrblt >= 1980 && yrblt <= 1999) {var opac = '#a6bddb'} 
     else if (yrblt >= 2000) {var opac = '#f6eff7'}
     else {var opac = 0}
     return {
@@ -112,7 +121,7 @@
 
     map.data.addListener('mouseout', function(event) {
     map.data.revertStyle();
-    document.getElementById('hover').innerHTML = "<h3>Hover over a census tract for the average year built.</h3>"
+    document.getElementById('hover').innerHTML = "<h3>Hover over a census tract to view the average year built.</h3>"
    });
 
 						  }   
@@ -144,16 +153,15 @@
 <div id="map-canvas"></div>
 <div id="info-box">
 <div id="hover"><h3>Hover over a census tract for the average year built.</h3></div>
+</div>
 <div id="legend"><h3>Legend</h3>
 <ul>
-    <li class="legend" style="background-color: #016c59;">Prior to 1920</li>
-    <li class="legend" style="background-color: #1c9099;">1920 - 1939</li>
-    <li class="legend" style="background-color: #67a9cf;">1940 - 1959</li>
-    <li class="legend" style="background-color: #a6bddb;">1960 - 1979</li>
-    <li class="legend" style="background-color: #d0d1e6;">1980 - 1999</li>
+    <li class="legend" style="background-color: #016c59;">Prior tp 1940</li>
+    <li class="legend" style="background-color: #1c9099;">1940 - 1959</li>
+    <li class="legend" style="background-color: #67a9cf;">1960 - 1979</li>
+    <li class="legend" style="background-color: #a6bddb;">1980 - 1999</li>
     <li class="legend" style="background-color: #f6eff7;">2000 or After</li>
 </ul>
-</div>
 </div>
 <div class="container">
       <hr>
