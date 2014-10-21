@@ -87,9 +87,9 @@
     map.data.revertStyle();
     map.data.overrideStyle(event.feature, {strokeWeight: 5, fillOpacity: 0.5});
     document.getElementById('info-box').innerHTML =
-    "<h4>Residential Property Information for " + event.feature.getProperty('NAMELSAD') + "</h4><br>" +
-    "<strong>Total Residential Parcels: </strong>" + event.feature.getProperty('DataForMap_parcels') + "<br><br>" +
-    "<h4>Average Parcel Information</h4>" +
+    "<h3>Residential Property Information for " + event.feature.getProperty('NAMELSAD') + "</h3><br>" +
+    "<h3>Residential Parcels: </h3>" + event.feature.getProperty('DataForMap_parcels') + "<br><br>" +
+    "<h3>Average Parcel Information</h3>" +
     "<strong>2014 Fair Cash Value: </strong>" + event.feature.getProperty('DataForMap_fcv') + "<br />" +
     "<strong>Parcel Size: </strong>" + event.feature.getProperty('DataForMap_acres') + " acres<br />" +
     "<strong>Year Built: </strong>" + event.feature.getProperty('DataForMap_yrblt') + "<br />" +
