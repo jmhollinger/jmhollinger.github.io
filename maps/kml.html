@@ -174,8 +174,40 @@ var input = /** @type {HTMLInputElement} */(
     var bounds = map.getBounds();
     searchBox.setBounds(bounds);
   });
-}
 
+
+map.data.loadGeoJson('GeoJSON/censusdata.geojson');
+    
+    var blue = {
+    fillColor: '#0000FF',
+    fillOpacity: 0.0,
+    strokeColor: '#0000FF',
+    strokeWeight: 2
+    };
+    
+    map.data.setStyle(blue);
+    map.data.addListener('mouseover', function(event) {
+    map.data.revertStyle();
+    map.data.overrideStyle(event.feature, {strokeWeight: 5, fillOpacity: 0.5});
+    document.getElementById('info-box').innerHTML =
+    "<h3>" + event.feature.getProperty('NAMELSAD') + "</h3><br>" +
+    "<h4>" + event.feature.getProperty('DataForMap_parcels') + " Residential Parcels</h4><br>" +
+    "<h4>Parcel Information (Average)</h4>" +
+    "<strong>2014 Fair Cash Value: </strong>" + event.feature.getProperty('DataForMap_fcv') + "<br />" +
+    "<strong>Parcel Size: </strong>" + event.feature.getProperty('DataForMap_acres') + " acres<br />" +
+    "<strong>Year Built: </strong>" + event.feature.getProperty('DataForMap_yrblt') + "<br />" +
+    "<strong>Square Feet: </strong>" + event.feature.getProperty('DataForMap_sqft') + "<br />" +
+    "<strong>Stories: </strong>" + event.feature.getProperty('DataForMap_stories') + "<br />" +
+    "<strong>Full Baths: </strong>" + event.feature.getProperty('DataForMap_full') + "<br />" +
+    "<strong>Half Baths: </strong>" + event.feature.getProperty('DataForMap_half') + "<br />"
+    });
+
+    map.data.addListener('mouseout', function(event) {
+    map.data.revertStyle();
+    document.getElementById('info-box').innerHTML = "<h3>Hover over a census tract for residential property information.</h3>"
+   });
+
+}
 google.maps.event.addDomListener(window, 'load', initialize);
   
  </script>
