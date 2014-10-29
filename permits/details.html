@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Planning, Preservation, and Development - Data Browser</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
+    #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
     h3{
       color: #0259a7;
     }
@@ -52,8 +56,27 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
+    <script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+  var mapOptions = {
+    zoom: 4,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <script>
     $(document).ready(populate);
     function populate()
