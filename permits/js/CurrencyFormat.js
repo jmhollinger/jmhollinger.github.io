@@ -1,6 +1,6 @@
 function CurrencyFormat(number)
 {
-   var decimalplaces = 0;
+   var decimalplaces = 2;
    var decimalcharacter = ".";
    var thousandseparater = ",";
    number = parseFloat(number);
