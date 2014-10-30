@@ -111,7 +111,7 @@ String.prototype.toTitleCase = function(){
       match.search(smallWords) > -1 && title.charAt(index - 2) !== ":" &&
       (title.charAt(index + match.length) !== '-' || title.charAt(index - 1) === '-') &&
       title.charAt(index - 1).search(/[^\s-]/) < 0) {
-      return match.toLowerCase();
+      return match.toUpperCase();
     }
 
     if (match.substr(1).search(/[A-Z]|\../) > -1) {
