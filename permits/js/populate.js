@@ -5,7 +5,7 @@ $(document).ready(populate);
 
 function populate()
     {
-    var dataset = getUrlParameter('Type')
+    var dataset = getUrlParameter('type')
     var idnum = getUrlParameter('ID')
     var params = {
         sql: 'SELECT "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor","lat","lng" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "ID" = ' + idnum};
