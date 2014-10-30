@@ -41,7 +41,7 @@ function populate()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + property.DateOpened + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + '</li>  <li><b>Case Type:</b> ' + property.CaseType.toTitleCase() + '</li><li><b>Status:</b> $' + property.Status.toTitleCase() + '</li>  <li><b>Status Date:</b> ' + property.StatusDate + '</li></ul>')    
+          $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + property.DateOpened + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + '</li>  <li><b>Case Type:</b> ' + property.CaseType.toTitleCase() + '</li><li><b>Status:</b> ' + property.Status.toTitleCase() + '</li>  <li><b>Status Date:</b> ' + property.StatusDate + '</li></ul>')    
           
           $("#map").html('<iframe width="500" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
 
