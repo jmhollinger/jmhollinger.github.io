@@ -104,7 +104,7 @@ function populate()
   * Copyright © 2008–2013 David Gouch. Licensed under the MIT License.
  */
 String.prototype.toTitleCase = function(){
-  var smallWords = /^(|a|llc|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i;
+  var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|llc|per|the|to|vs?\.?|via)$/i;
 
   return this.toLowerCase().replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function(match, index, title){
     if (index > 0 && index + match.length !== title.length &&
