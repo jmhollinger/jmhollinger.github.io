@@ -7,6 +7,7 @@ function populate()
     {
     var dataset = getUrlParameter('type')
     var idnum = getUrlParameter('ID')
+
     var params = {
         sql: 'SELECT "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor","lat","lng" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "ID" = ' + idnum};
     $.ajax({
@@ -16,7 +17,7 @@ function populate()
         success: function(data) {
         $.each(data.result.records, function(key, property){
         
-        $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date + '</li><li><b>Address:</b> ' + property.Address.toLowerCase() + ' ' + property.Suite.toLowerCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType + '</li><li><b>Construction Cost:</b> $' + property.ConstructionCost + '</li>  <li><b>Owner:</b> ' + property.OwnerName + '</li><li><b>Contractor:</b> ' + property.Contractor + '</li></ul>')    
+        $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toLowerCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType + '</li><li><b>Construction Cost:</b> $' + property.ConstructionCost + '</li>  <li><b>Owner:</b> ' + property.OwnerName + '</li><li><b>Contractor:</b> ' + property.Contractor + '</li></ul>')    
         
         $("#map").html('<iframe width="500" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
 
