@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
     #map-canvas {
-        height: 100%;
-        width: 50%;
+        height: 250px;
+        width: 250px;
         margin: 0px;
         padding: 0px;
       }
@@ -64,9 +64,9 @@
     <script src="js/bootstrap.min.js"></script> 
     <script>
 function initialize() {
-  var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+  var myLatlng = new google.maps.LatLng(38.046194, -84.496116);
   var mapOptions = {
-    zoom: 4,
+    zoom: 11,
     center: myLatlng
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
