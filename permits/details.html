@@ -63,24 +63,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script>
-function initialize() {
-  var myLatlng = new google.maps.LatLng(38.046194, -84.496116);
-  var mapOptions = {
-    zoom: 15,
-    center: myLatlng
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Hello World!'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    <script>
     $(document).ready(populate);
     function populate()
     {
@@ -99,6 +81,23 @@ google.maps.event.addDomListener(window, 'load', initialize);
         $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date + '</li><li><b>Address:</b> ' + property.Address + ' ' + property.Suite + '</li>  <li><b>Permit Type:</b> ' + property.PermitType + '</li><li><b>Construction Cost:</b> $' + property.ConstructionCost + '</li>  <li><b>Owner:</b> ' + property.OwnerName + '</li><li><b>Contractor:</b> ' + property.Contractor + '</li></ul>')    
         
         $("#contact").html('<p>If you have questions or concerns about this permit please contact the Division of Building Inspection at (859) 258-3770 or by email at <a  href = "#" >buildinginspection@lexingtonky.gov</a></p>')
+        function initialize() {
+  var myLatlng = new google.maps.LatLng(38.046194, -84.496116);
+  var mapOptions = {
+    zoom: 15,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: property.Address
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+          
         });
         }
       }) 
