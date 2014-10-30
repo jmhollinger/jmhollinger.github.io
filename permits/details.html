@@ -69,7 +69,7 @@
     var permitnum = getUrlParameter('ID')
 
     var params = {
-        sql: 'SELECT "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "ID" = ' + permitnum};
+        sql: 'SELECT "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor","lat","lng" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "ID" = ' + permitnum};
      
     $.ajax({
         url: '//www.civicdata.com/api/action/datastore_search_sql',
@@ -82,7 +82,7 @@
         
         $("#contact").html('<p>If you have questions or concerns about this permit please contact the Division of Building Inspection at (859) 258-3770 or by email at <a  href = "#" >buildinginspection@lexingtonky.gov</a></p>')
         function initialize() {
-  var myLatlng = new google.maps.LatLng(38.046194, -84.496116);
+  var myLatlng = new google.maps.LatLng(property.lng, property.lat);
   var mapOptions = {
     zoom: 15,
     center: myLatlng
