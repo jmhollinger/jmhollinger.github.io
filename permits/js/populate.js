@@ -33,7 +33,7 @@ function populate()
       var fields = '"CaseNo", "DateOpened","Address","CaseType", "Status","StatusDate", "Closed","lat","lng"'
       var resource = 'ad346da7-ce88-4c77-a0e1-10ff09bb0622'
       var params = {
-          sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "ID" = ' + idnum};
+          sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "CaseNo" = ' + idnum};
       $.ajax({
           url: '//www.civicdata.com/api/action/datastore_search_sql',
           data: params,
