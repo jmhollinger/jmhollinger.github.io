@@ -17,11 +17,11 @@ function populate()
         success: function(data) {
         $.each(data.result.records, function(key, property){
         
-        $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toLowerCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType + '</li><li><b>Construction Cost:</b> $' + property.ConstructionCost + '</li>  <li><b>Owner:</b> ' + property.OwnerName + '</li><li><b>Contractor:</b> ' + property.Contractor + '</li></ul>')    
+        $("#details").html('<h3>Building Permit</h3><ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toTitleCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.toTitleCase() + '</li><li><b>Construction Cost:</b> $' + property.ConstructionCost.toTitleCase() + '</li>  <li><b>Owner:</b> ' + property.OwnerName.toTitleCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.toTitleCase() + '</li></ul>')    
         
         $("#map").html('<iframe width="500" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
 
-        $("#contact").html('<p>If you have questions or concerns about this ' + dataset + ' please contact the Division of Building Inspection at (859) 258-3770 or by email at <a  href = "#" >buildinginspection@lexingtonky.gov</a></p>')
+        $("#contact").html('<p>If you have questions or concerns about this ' + dataset.toTitleCase() + ' please contact the Division of Building Inspection at (859) 258-3770 or by email at <a  href = "#" >buildinginspection@lexingtonky.gov</a></p>')
                  
         });
         }
