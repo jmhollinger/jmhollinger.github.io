@@ -1,13 +1,7 @@
    h3{
       color: #0259a7;
     }
-    #map {
-     float: left;  
-    }
-    #details {
-     float: left;  
-    }
-    .permit {
+       .permit {
       list-style-type: none;
       padding: 0
     }
