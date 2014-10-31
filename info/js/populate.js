@@ -120,17 +120,31 @@ String.prototype.toTitleCase = function(){
 };
 
 function AddressCleaner(address){
-var split1  = address.split('#')
-var address2 = split1[0].trim()
-if (address2.charAt(0) == 0) {
-var finaladd = address2.substring(1)  
-return finaladd 
+var nozero = ''
+var splitloc = ''
+var finaladd = ''
+var nodash = ''
+    
+if (address.charAt(0) == 0) {nozero = address.substring(1).trim()}  
+else {nozero = address.trim()}
+  
+if (nozero.indexOf("-") !== -1)
+{
+var split1 = nozero.indexOf("-")
+var split2 = nozero.indexOf(" ")
+var sub1 = nozero.substring(0,split1)
+var sub2 = nozero.substring(split2+1)
+nodash = sub1 + ' ' + sub2
 }
-else if (address2.charAt(0)!==0) { 
-return address2
+else {nodash = nozero}
+
+if (nodash.indexOf("#") !== -1)
+{
+var split3 = nodash.indexOf("#")
+finaladd = nodash.substring(0,split3-1)
 }
-else {
-  return address
+else {finaladd = nodash}  
+ 
+return finaladd
 }
-};
 
