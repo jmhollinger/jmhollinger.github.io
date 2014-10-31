@@ -4,6 +4,9 @@
     #map {
      float: left;  
     }
+    #details {
+     float: left;  
+    }
     .permit {
       list-style-type: none;
       padding: 0
