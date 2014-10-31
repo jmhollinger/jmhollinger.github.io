@@ -124,10 +124,13 @@ var split1  = address.split('#')
 var address2 = split1[0].trim()
 if (address2.charAt(0) == 0) {
 var finaladd = address2.substring(1)  
-alert('"'+finaladd.trim()+'"') 
+return finaladd 
 }
 else if (address2.charAt(0)!==0) { 
-alert('"'+address2+'"')
+return address2
+}
+else {
+  return address
 }
 };
 
