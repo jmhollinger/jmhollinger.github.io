@@ -17,9 +17,9 @@ function populate()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + AddressCleaner(property.Address.toTitleCase()) + '</h1><h3>Permit</h3>')
+          $("#title").html('<h1>' + AddressSplitter(ProperCase(property.Address),0) + '</h1><h3>Permit</h3>')
           
-          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toTitleCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.toTitleCase() + '</li><li><b>Construction Cost:</b> $' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.toTitleCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.toTitleCase() + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p>')    
+          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + ProperCase(property.Address) + ' ' + ProperCase(property.Suite.toTitleCase) + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.toTitleCase() + '</li><li><b>Construction Cost:</b> $' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.toTitleCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.toTitleCase() + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p>')    
           
           $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + AddressCleaner(property.Address) + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
@@ -38,9 +38,9 @@ function populate()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + AddressCleaner(property.Address.toTitleCase()) + '</h1><h3>Code Enforcement Case</h3>')
+          $("#title").html('<h1>' + AddressSplitter(ProperCase(property.Address),0) + '</h1><h3>Code Enforcement Case</h3>')
           
-          $("#details").html('<ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + FormatDate(property.DateOpened) + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + '</li>  <li><b>Case Type:</b> ' + property.CaseType.toTitleCase() + '</li><li><b>Status:</b> The status of this case was updated to ' + property.Status.toLowerCase() + ' on ' + FormatDate(property.StatusDate) + '</li></ul><p>If you have questions or concerns about this code enforcement case please contact the Division of Code Enforcement at (859) 425-2255.</p>')    
+          $("#details").html('<ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + FormatDate(property.DateOpened) + '</li><li><b>Address:</b> ' + AddressSplitter(ProperCase(property.Address),1) + '</li>  <li><b>Case Type:</b> ' + property.CaseType.toTitleCase() + '</li><li><b>Status:</b> The status of this case was updated to ' + property.Status.toLowerCase() + ' on ' + FormatDate(property.StatusDate) + '</li></ul><p>If you have questions or concerns about this code enforcement case please contact the Division of Code Enforcement at (859) 425-2255.</p>')    
           
           $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + AddressCleaner(property.Address) + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
@@ -96,36 +96,62 @@ function populate()
        return sign + integer + decimalcharacter + fraction;
     }
 
-/* 
-  * To Title Case 2.1 – http://individed.com/code/to-title-case/
-  * Copyright © 2008–2013 David Gouch. Licensed under the MIT License.
- */
-String.prototype.toTitleCase = function(){
-  var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i;
-
-  return this.toLowerCase().replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function(match, index, title){
-    if (index > 0 && index + match.length !== title.length &&
-      match.search(smallWords) > -1 && title.charAt(index - 2) !== ":" &&
-      (title.charAt(index + match.length) !== '-' || title.charAt(index - 1) === '-') &&
-      title.charAt(index - 1).search(/[^\s-]/) < 0) {
-      return match.toLowerCase();
-    }
-
-    if (match.substr(1).search(/[A-Z]|\../) > -1) {
-      return match;
-    }
-
-    return match.charAt(0).toUpperCase() + match.substr(1);
-  });
+function ProperCase(input){
+var bigwords = /\b(llc|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i
+var smallwords = /\b(and|if)\b/i
+var result = ''
+var oldstring = input.toLowerCase().split(' '); 
+var newstring = $.map(oldstring, function( v, i ) {
+if (v.match(bigwords) !== null){
+result = v.toUpperCase()   
+} 
+else if (v.match(smallwords) !== null){
+result = v.toLowerCase()
+} 
+else {result = v.replace(v.charAt(0),v.charAt(0).toUpperCase())
 };
+return(result)
+});
+return newstring.join(" ");
+}
 
-function AddressCleaner(address){
-var paren = address.replace(/#.*$/,'');
-var hash = paren.replace(/\(.*$/,'');
-var nozero = hash.replace(/^0/,'');
-var nonum2 = nozero.replace(/-\S*(?=\s)/,'');
-return nonum2.trim();
-};
+function AddressSplitter(input,format){
+var address = input.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').trim();
+var dirs = /\b(n|s|e|w|north|south|east|west)\b/i;
+var sufs = /\b(dr|rd|trl|pl|drive|road|road|trail|place|blvd)\b/i;
+var nums1 = /(^[0-9]\S*(?=-)|^[0-9]\S*(?=\s))/;
+var nums2 = /-[0-9]*(?=\s)/
+var number1 = '';
+var number2 = '';
+var direction = '';
+var street = '';
+var suffix = '';
+var extra = '';
+var fields = ''
+var final = ''
+if (address.match(nums1) !== null ){number1 = address.match(nums1)[0].trim()}
+else {number1 = ''}
+if (address.match(nums2) !== null ){number2 = address.match(nums2)[0].substring(1).trim()}
+else {number2 = ''}
+if (address.match(dirs) !== null ){direction = address.match(dirs)[0].toLowerCase().trim()}
+else {direction = ''}
+if (address.match(sufs) !== null ){suffix = address.match(sufs)[0].toLowerCase().trim()}
+else {suffix = ''}
+street = address.replace(number1,'').replace(number2,'').replace(direction,'').replace(suffix,'').replace('-','').trim()
+extra = input.toLowerCase().replace(number1,'').replace(number2,'').replace(direction,'').replace(suffix,'').replace('-','').replace(street,'').trim();
+if (format == '1'){
+  fields = [number1, number2, direction, street, suffix, extra]
+}
+else {
+  fields = [number1, direction, street, suffix]
+}
+final = $.map(fields, function( v, i ) {
+  if (v !== '') {var item = v + ' '}
+  else {var item = ''}
+  return (item)
+})  
+return (final.join(''))  
+}
 
 function FormatDate(input){
     var parts = input.split('-');
