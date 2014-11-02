@@ -115,7 +115,7 @@ return(result);
 return newstring.join(" ");
 };
 
-String.prototype.FormatDate = function FormatDate(){
+String.prototype.Clean = function Clean(){
 return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').trim();
     }
 
