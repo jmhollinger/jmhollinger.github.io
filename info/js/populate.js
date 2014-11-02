@@ -97,7 +97,7 @@ function CurrencyFormat(number)
     }
 
 String.prototype.ProperCase = function() {
-var bigwords = /\b(llc|i|ii|iii|iv|v|vi|vii|viii|ix|hvac|n\/c)\b/i;
+var bigwords = /\b(llc|hvac|n\/c|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
 var smallwords = /\b(and|if)\b/i;
 var result = '';
 var oldstring = this.toLowerCase().split(' '); 
@@ -115,9 +115,9 @@ return(result);
 return newstring.join(" ");
 };
 
-String.prototype.Clean = function Clean (){
-return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').trim()
-};
+String.prototype.FormatDate = function FormatDate(){
+return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').trim();
+    }
 
 String.prototype.FormatDate = function FormatDate(separator){
 var year = this.split('-')[0];
