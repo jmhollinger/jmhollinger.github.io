@@ -1,6 +1,6 @@
-/*Created by Jonathan Hollinger, use at your own risk. */
+/*Created by Jonathan Hollinger, 2014. Use and modify freely at your own risk.*/
 
-function populate()
+function getDetails()
     {
     var dataset = getUrlParameter('type')
     var idnum = getUrlParameter('ID')
