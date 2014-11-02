@@ -97,7 +97,7 @@ function populate()
     }
 
 String.prototype.ProperCase = function() {
-var bigwords = /\b(llc|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
+var bigwords = /\b(llc|i|ii|iii|iv|v|vi|vii|viii|ix|hvac|n\/c)\b/i;
 var smallwords = /\b(and|if)\b/i;
 var result = '';
 var oldstring = this.toLowerCase().split(' '); 
