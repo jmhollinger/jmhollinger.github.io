@@ -6,7 +6,7 @@ function getDetails()
     var idnum = getUrlParameter('ID')
 
     if (dataset == 'permit') { 
-      var fields = '"ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor","lat","lng"'
+      var fields = '"ID", "Date","Address","Suite","PermitType","ConstructionCost","OwnerName","Contractor"'
       var resource = '2691aff1-e555-48d3-9188-aebf1fa8323e'
       var params = {
           sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "_id" = ' + idnum};
@@ -17,7 +17,7 @@ function getDetails()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + property.Address.Clean().ProperCase(0) + '</h1><h3>Permit</h3>')
+          $("#title").html('<h1>' + property.Address.Clean() + '</h1><h3>Permit</h3>')
           
           $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase(0) + ' ' + property.Suite.ProperCase(0) + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.ProperCase(0) + '</li><li><b>Construction Cost: </b>' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.ProperCase(1) + '</li><li><b>Contractor:</b> ' + property.Contractor.ProperCase(1) + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
           
@@ -27,7 +27,7 @@ function getDetails()
           }
         })} 
     else if (dataset == 'code') { 
-      var fields = '"CaseNo", "DateOpened","Address","CaseType", "Status","StatusDate", "Closed","lat","lng"'
+      var fields = '"CaseNo","DateOpened","Address","CaseType","Status","StatusDate","Closed"'
       var resource = 'ad346da7-ce88-4c77-a0e1-10ff09bb0622'
       var params = {
           sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "_id" = ' + idnum};
@@ -38,7 +38,7 @@ function getDetails()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + property.Address.Clean().ProperCase(0) + '</h1><h3>Code Enforcement Case</h3>')
+          $("#title").html('<h1>' + property.Address.Clean()+ '</h1><h3>Code Enforcement Case</h3>')
           
           $("#details").html('<ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + property.DateOpened.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase(0) + '</li>  <li><b>Case Type:</b> ' + property.CaseType.ProperCase(1) + '</li><li><b>Status:</b> The status of this case was updated to ' + property.Status.toLowerCase() + ' on ' + property.StatusDate.FormatDate('/') + '.</li></ul><p>If you have questions or concerns about this code enforcement case please contact the Division of Code Enforcement at (859) 425-2255.</p><p>Addresses and  map locations are approximate.</p>')    
           
@@ -50,8 +50,8 @@ function getDetails()
     else{}    
     }
 
-    function getUrlParameter(sParam)
-    {
+function getUrlParameter(sParam)
+{
     var sPageURL = window.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
     for (var i = 0; i < sURLVariables.length; i++) 
@@ -94,7 +94,7 @@ return newstring.join(" ");
 };
 
 String.prototype.Clean = function Clean(){
-return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').replace(/-[0-9]*(?=\s)/,'').trim();
+return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').replace(/-[0-9]*(?=\s)/,'').trim().ProperCase(0);
     }
 
 String.prototype.FormatDate = function FormatDate(separator){
