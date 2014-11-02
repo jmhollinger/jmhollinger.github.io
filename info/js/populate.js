@@ -68,7 +68,7 @@ function CurrencyFormat (number){
 if ($.isNumeric(number) === false){
 return number
 }
-else if (number = null){
+else if (number === false){
 return '$0'
 }
 else {
