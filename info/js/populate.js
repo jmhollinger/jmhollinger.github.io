@@ -65,13 +65,11 @@ function populate()
 }
 
 function CurrencyFormat (number){
-if ($.isNumeric(number) === false){
-return '$0'
-}
-else {
+if (number) {
 var rounded = Math.round(number) 
 return '$' + rounded.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
 }
+else {return '$0'}  
 };
 
 String.prototype.ProperCase = function(mode) {
