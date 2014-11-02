@@ -21,7 +21,7 @@ function populate()
           
           $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase() + ' ' + property.Suite.ProperCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.ProperCase() + '</li><li><b>Construction Cost:</b> $' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.ProperCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.ProperCase() + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
           
-          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address.Clean().ProperCase() + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
+          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address.Clean() + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
           });
           }
@@ -38,11 +38,11 @@ function populate()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + property.Address.Clean().ProperCase() + '</h1><h3>Code Enforcement Case</h3>')
+          $("#title").html('<h1>' + property.Address.Clean().ProperCase(0) + '</h1><h3>Code Enforcement Case</h3>')
           
-          $("#details").html('<ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + property.DateOpened.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase() + '</li>  <li><b>Case Type:</b> ' + property.CaseType.ProperCase() + '</li><li><b>Status:</b> The status of this case was updated to ' + property.Status.toLowerCase() + ' on ' + property.StatusDate.FormatDate('/') + '.</li></ul><p>If you have questions or concerns about this code enforcement case please contact the Division of Code Enforcement at (859) 425-2255.</p><p>Addresses and  map locations are approximate.</p>')    
+          $("#details").html('<ul class="permit"><li><b>Case No:</b> ' + property.CaseNo + '</li><li><b>Date Opened:</b> ' + property.DateOpened.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase(0) + '</li>  <li><b>Case Type:</b> ' + property.CaseType.ProperCase(1) + '</li><li><b>Status:</b> The status of this case was updated to ' + property.Status.toLowerCase() + ' on ' + property.StatusDate.FormatDate('/') + '.</li></ul><p>If you have questions or concerns about this code enforcement case please contact the Division of Code Enforcement at (859) 425-2255.</p><p>Addresses and  map locations are approximate.</p>')    
           
-          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address.Clean().ProperCase() + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
+          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address.Clean() + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
           });
           }
@@ -96,9 +96,11 @@ function CurrencyFormat(number)
        return sign + integer + decimalcharacter + fraction;
     }
 
-String.prototype.ProperCase = function() {
-var bigwords = /\b(llc|hvac|n\/c|[b-df-hj-np-tv-z]+|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
-var smallwords = /\b(and|if)\b/i;
+String.prototype.ProperCase = function(mode) {
+if (mode === 0) {var bigwords = /\b(llc|hvac|n\/c|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;}  
+else {var bigwords = /\b(llc|hvac|n\/c|[b-df-hj-np-tv-z]+|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;}
+var smallwords = /\b(and|if|of)\b/i;
+var abbrev = /\b()\b/i;
 var result = '';
 var oldstring = this.toLowerCase().split(' '); 
 var newstring = $.map(oldstring, function( v, i ) {
