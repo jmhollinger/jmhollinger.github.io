@@ -19,7 +19,7 @@ function populate()
           
           $("#title").html('<h1>' + property.Address.Clean().ProperCase(0) + '</h1><h3>Permit</h3>')
           
-          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase(0) + ' ' + property.Suite.ProperCase(0) + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.ProperCase(0) + '</li><li><b>Construction Cost:</b>' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.ProperCase(1) + '</li><li><b>Contractor:</b> ' + property.Contractor.ProperCase(1) + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
+          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + property.Date.FormatDate('/') + '</li><li><b>Address:</b> ' + property.Address.ProperCase(0) + ' ' + property.Suite.ProperCase(0) + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.ProperCase(0) + '</li><li><b>Construction Cost: </b>' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.ProperCase(1) + '</li><li><b>Contractor:</b> ' + property.Contractor.ProperCase(1) + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
           
           $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + property.Address.Clean() + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
@@ -67,6 +67,9 @@ function populate()
 function CurrencyFormat (number){
 if ($.isNumeric(number) === false){
 return number
+}
+else if (number = null){
+return '$0'
 }
 else {
 var rounded = Math.round(number) 
