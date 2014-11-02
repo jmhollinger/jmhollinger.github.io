@@ -116,7 +116,7 @@ return newstring.join(" ");
 };
 
 String.prototype.Clean = function Clean(){
-return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').trim();
+return this.toLowerCase().replace(/#.*$/,'').replace(/\(.*$/,'').replace(/\(.*$/,'').replace(/\bmh\b.*$/,'').replace(/\b(exterior|interior|roof)\b.*$/,'').replace(/-[0-9]*(?=\s)/,'').trim();
     }
 
 String.prototype.FormatDate = function FormatDate(separator){
