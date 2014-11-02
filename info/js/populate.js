@@ -97,7 +97,7 @@ function CurrencyFormat(number)
     }
 
 String.prototype.ProperCase = function() {
-/\b(llc|hvac|n\/c|[b-df-hj-np-tv-z]+|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
+var bigwords = /\b(llc|hvac|n\/c|[b-df-hj-np-tv-z]+|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
 var smallwords = /\b(and|if)\b/i;
 var result = '';
 var oldstring = this.toLowerCase().split(' '); 
