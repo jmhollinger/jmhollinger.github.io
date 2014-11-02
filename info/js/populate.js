@@ -17,9 +17,9 @@ function populate()
           success: function(data) {
           $.each(data.result.records, function(key, property){
           
-          $("#title").html('<h1>' + AddressCleaner(property.Address.toTitleCase()) + '</h1><h3>Permit</h3>')
+          $("#title").html('<h1>' + AddressCleaner(property.Address.ProperCase()) + '</h1><h3>Permit</h3>')
           
-          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toTitleCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.toTitleCase() + '</li><li><b>Construction Cost:</b> $' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.toTitleCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.toTitleCase() + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p>')    
+          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + property.Address.toTitleCase() + ' ' + property.Suite.toTitleCase() + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.toTitleCase() + '</li><li><b>Construction Cost:</b> $' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + property.OwnerName.ProperCase() + '</li><li><b>Contractor:</b> ' + property.Contractor.ProperCase() + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p>')    
           
           $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + AddressCleaner(property.Address) + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
                    
@@ -96,27 +96,23 @@ function populate()
        return sign + integer + decimalcharacter + fraction;
     }
 
-/* 
-  * To Title Case 2.1 – http://individed.com/code/to-title-case/
-  * Copyright © 2008–2013 David Gouch. Licensed under the MIT License.
- */
-String.prototype.toTitleCase = function(){
-  var smallWords = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|vs?\.?|via)$/i;
-
-  return this.toLowerCase().replace(/[A-Za-z0-9\u00C0-\u00FF]+[^\s-]*/g, function(match, index, title){
-    if (index > 0 && index + match.length !== title.length &&
-      match.search(smallWords) > -1 && title.charAt(index - 2) !== ":" &&
-      (title.charAt(index + match.length) !== '-' || title.charAt(index - 1) === '-') &&
-      title.charAt(index - 1).search(/[^\s-]/) < 0) {
-      return match.toLowerCase();
-    }
-
-    if (match.substr(1).search(/[A-Z]|\../) > -1) {
-      return match;
-    }
-
-    return match.charAt(0).toUpperCase() + match.substr(1);
-  });
+String.prototype.ProperCase = function() {
+var bigwords = /\b(llc|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
+var smallwords = /\b(and|if)\b/i;
+var result = '';
+var oldstring = this.toLowerCase().split(' '); 
+var newstring = $.map(oldstring, function( v, i ) {
+if (v.match(bigwords) !== null){
+result = v.toUpperCase();   
+} 
+else if (v.match(smallwords) !== null){
+result = v.toLowerCase();
+} 
+else {result = v.replace(v.charAt(0),v.charAt(0).toUpperCase());
+}
+return(result);
+});
+return newstring.join(" ");
 };
 
 function AddressCleaner(address){
