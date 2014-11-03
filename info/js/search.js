@@ -1,9 +1,10 @@
 /*Created by Jonathan Hollinger, 2014. Use and modify freely at your own risk.*/
 
 function search(){
+var today = "'" + new Date().getFullYear() + '-' + new Date().getMonth() + '-' + new Date().getDate() + "'"
 var term = "'%" + document.getElementById("search").value.trim().toUpperCase() + "%'"
 var params = {
-    sql: 'SELECT "_id", "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "Address" LIKE' + term + 'OR "Suite" LIKE' + term + 'OR "PermitType" LIKE' + term + 'OR "OwnerName" LIKE' + term + 'OR "Contractor" LIKE' + term + 'ORDER BY "Date" DESC LIMIT 25'};
+    sql: 'SELECT "_id", "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "Date" <=' today 'AND "Address" LIKE' + term + 'OR "Suite" LIKE' + term + 'OR "PermitType" LIKE' + term + 'OR "OwnerName" LIKE' + term + 'OR "Contractor" LIKE' + term + 'ORDER BY "Date" DESC LIMIT 25'};
   
 $.ajax({
     url: '//www.civicdata.com/api/action/datastore_search_sql',
