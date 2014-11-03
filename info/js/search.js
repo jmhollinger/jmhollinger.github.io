@@ -11,7 +11,7 @@ $.ajax({
     dataType: 'jsonp',
     success: function(data) {
       
-      $("#div1").html('<table><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th><th>More Info</th><tr></thead><tbody id="tablebody"></tbody></table>');
+      $("#table").html('<table><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Construction Cost</th><th>Owner</th><th>Contractor</th><th>More Info</th><tr></thead><tbody id="tablebody"></tbody></table>');
       
       $.each(data.result.records, function(key, property){
       $("#tablebody").append('<tr><td>' + property.Date + '</td><td>' + property.Address + ' '+ property.Suite + '</td><td>' + property.PermitType + '</td><td>$' + property.ConstructionCost + '</td><td>' + property.OwnerName + '</td><td>' + property.Contractor + '</td><td><a href="http://jmhollinger.github.io/info/details.html?type=permit&ID=' + property._id +'">View Permit</a></td></tr>')});     
