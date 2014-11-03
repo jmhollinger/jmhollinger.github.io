@@ -16,13 +16,9 @@ function getDetails()
           dataType: 'jsonp',
           success: function(data) {
           $.each(data.result.records, function(key, property){
-          
           $("#title").html('<h1>' + AddressClean(property.Address) + '</h1><h3>Permit</h3>')
-          
-          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + AddressProper(property.Address) + ' ' + ProperCase(property.Suite) + '</li>  <li><b>Permit Type:</b> ' + property.PermitType.ProperCase(0) + '</li><li><b>Construction Cost: </b>' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + ProperCase(property.OwnerName) + '</li><li><b>Contractor:</b> ' + ProperCase(property.Contractor) + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
-          
-          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + AddressClean(property.Address) + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')
-                   
+          $("#details").html('<ul class="permit"><li><b>Permit ID:</b> ' + property.ID + '</li><li><b>Date:</b> ' + FormatDate(property.Date) + '</li><li><b>Address:</b> ' + AddressProper(property.Address) + ' ' + ProperCase(property.Suite) + '</li>  <li><b>Permit Type:</b> ' + ProperCase(property.PermitType) + '</li><li><b>Construction Cost: </b>' + CurrencyFormat(property.ConstructionCost) + '</li>  <li><b>Owner:</b> ' + ProperCase(property.OwnerName) + '</li><li><b>Contractor:</b> ' + ProperCase(property.Contractor) + '</li></ul><p>If you have questions or concerns about this building permit please contact the Division of Building Inspection at (859) 258-3770.</p><p>Addresses and  map locations are approximate.</p>')    
+          $("#map").html('<iframe width="100%" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=' + AddressClean(property.Address) + ' Lexington KY United States &key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></iframe>')      
           });
           }
         })} 
