@@ -93,9 +93,8 @@ var day = input.split('-')[2].replace(/^0/, '');
 return month + '/' + day + '/' + year;
 };
 
-function FormatCurrency (input){
-var clean = input.replace('$','')  
-if (clean && $.isNumeric(clean) === true) {
-var rounded = Math.round(clean)
+function FormatCurrency (input){ 
+if (input && $.isNumeric(input) === true) {
+var rounded = Math.round(input)
 return '$' + rounded.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
 } else {return '$0'}};
