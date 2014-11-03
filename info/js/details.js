@@ -9,7 +9,7 @@ function getDetails()
       var fields = '"ID", "Date","Address","Suite","PermitType","ConstructionCost","OwnerName","Contractor"'
       var resource = '2691aff1-e555-48d3-9188-aebf1fa8323e'
       var params = {
-          sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "_id" = ' + idnum};
+          sql: 'SELECT' + fields + 'FROM"' + resource + '"WHERE"_id"=' + idnum};
       $.ajax({
           url: '//www.civicdata.com/api/action/datastore_search_sql',
           data: params,
@@ -30,8 +30,8 @@ function getDetails()
       var fields = '"CaseNo","DateOpened","Address","CaseType","Status","StatusDate","Closed"'
       var resource = 'ad346da7-ce88-4c77-a0e1-10ff09bb0622'
       var params = {
-          sql: 'SELECT' + fields + 'FROM "' + resource + '" WHERE "_id" = ' + idnum};
-      $.ajax({
+          sql: 'SELECT' + fields + 'FROM"' + resource + '"WHERE"_id"=' + idnum};
+          $.ajax({
           url: '//www.civicdata.com/api/action/datastore_search_sql',
           data: params,
           dataType: 'jsonp',
