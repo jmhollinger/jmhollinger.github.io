@@ -78,7 +78,7 @@ else {return v.replace(v.charAt(0),v.charAt(0).toUpperCase());}
 }
 
 function ProperCase (input) {
-var bigwords = /\b(llc|hvac|n\/c|[b-df-hj-np-tv-z]{3,}|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
+var bigwords = /\b(aka|llc|hvac|n\/c|[b-df-hj-np-tv-z]{3,}|i|ii|iii|iv|v|vi|vii|viii|ix)\b/i;
 var smallwords = /\b(an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|to|vs)\b/i;
 return $.map(input.toLowerCase().split(' '), function( v, i ) {
 if (v.match(bigwords) !== null){return v.toUpperCase();} 
