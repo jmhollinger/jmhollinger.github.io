@@ -3,7 +3,7 @@
 function search(){
 var term = "'%" + document.getElementById("search").value.trim().toUpperCase() + "%'"
 var params = {
-    sql: 'SELECT "_id", "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "Address" LIKE' + term + 'OR "Suite" LIKE' + term + 'OR "PermitType" LIKE' + term + 'OR "OwnerName" LIKE' + term + 'OR "Contractor" LIKE' + term + 'ORDER BY "Date" DESC LIMIT 10'};
+    sql: 'SELECT "_id", "ID", "Date","Address", "Suite","PermitType", "ConstructionCost","OwnerName","Contractor" FROM "2691aff1-e555-48d3-9188-aebf1fa8323e" WHERE "Address" LIKE' + term + 'OR "Suite" LIKE' + term + 'OR "PermitType" LIKE' + term + 'OR "OwnerName" LIKE' + term + 'OR "Contractor" LIKE' + term + 'ORDER BY "Date" DESC LIMIT 25'};
   
 $.ajax({
     url: '//www.civicdata.com/api/action/datastore_search_sql',
@@ -14,7 +14,7 @@ $.ajax({
       $("#table").html('<table class="table table-striped"><thead><tr><th>Date</th><th>Address</th><th>Permit Type</th><th>Construction Cost</th><th>More Info</th><tr></thead><tbody id="tablebody"></tbody></table>');
       
       $.each(data.result.records, function(key, property){
-      $("#tablebody").append('<tr><td>' + FormatDate(property.Date) + '</td><td>' + AddressClean(property.Address) + ' '+ ProperCase(property.Suite) + '</td><td>' + ProperCase(property.PermitType) + '</td><td>$' + FormatCurrency(property.ConstructionCost) + '</td><td><a href="http://jmhollinger.github.io/info/details.html?type=permit&ID=' + property._id +'">View Permit</a></td></tr>')});     
+      $("#tablebody").append('<tr><td>' + FormatDate(property.Date) + '</td><td>' + AddressClean(property.Address) + ' '+ ProperCase(property.Suite) + '</td><td>' + ProperCase(property.PermitType) + '</td><td>' + FormatCurrency(property.ConstructionCost) + '</td><td><a href="http://jmhollinger.github.io/info/details.html?type=permit&ID=' + property._id +'">View Permit</a></td></tr>')});     
     }
   });
 };
