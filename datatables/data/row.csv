@@ -1,23 +1,41 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 28624;11/12/2014;150 Shawnee Pl;Street Cut;Add/Change Equipment;Kentucky American Water;11/04/2014;11/25/2014;Yes
- 28625;11/12/2014;3411 Briarcliff Cir;Annual General Permit;Repair;Columbia Gas;11/04/2014;11/25/2014;No
- 28626;11/12/2014;3939 Tates Creek Rd;Annual General Permit;New Construction;Time Warner Cable, Inc.;11/12/2014;12/03/2014;Yes
- 28627;11/12/2014;;Annual General Permit;New Construction;Time Warner Cable, Inc.;11/12/2014;12/03/2014;Yes
- 28628;11/12/2014;1611 Anniston Dr;Installation;Repair;Columbia Gas;11/05/2014;11/11/2014;No
- 28629;11/12/2014;1220 Hammond Ave;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
- 28630;11/12/2014;Molloy Aly;Installation;Repair;Columbia Gas;11/11/2014;12/01/2014;No
- 28631;11/12/2014;241 Albany Rd;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
- 28632;11/12/2014;551 Bob O Link Dr;Street Cut;Repair;Columbia Gas;11/19/2014;12/10/2014;Yes
- 28634;11/12/2014;1397 W Main St;Annual General Permit;Maintenance;Windstream Communications;11/07/2014;11/11/2014;No
+ 28639;11/13/2014;704, 706 Franklin Ave;Street Cut;Repair;Columbia Gas;11/05/2014;11/26/2014;Yes
+ 28640;11/13/2014;676 Headley Ave;Street Cut;Repair;Columbia Gas;11/04/2014;11/25/2014;Yes
+ 28641;11/13/2014;Willard St;Street Cut;Repair;Columbia Gas;11/13/2014;12/04/2014;Yes
+ 28642;11/13/2014;123 Montmullin St;Installation;Repair;Columbia Gas;11/19/2014;12/10/2014;No
+ 28643;11/13/2014;428-438 Woodland Ave;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/13/2014;12/07/2014;Yes
+ 28644;11/13/2014;407 Spring St;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);11/13/2014;12/04/2014;Yes
+ 28645;11/13/2014;;Installation;New Construction;Kentucky Utilities;11/10/2014;12/01/2014;Yes
+ 28646;11/13/2014;120 Montmullin St;Street Cut;Repair;Columbia Gas;11/06/2014;11/27/2014;Yes
+ 28647;11/13/2014;602 Sayre Ave;Street Cut;Maintenance;Kentucky American Water;11/08/2014;11/29/2014;Yes
+ 28648;11/13/2014;211 E Sixth St;Annual General Permit;Maintenance;Windstream Communications;11/07/2014;11/28/2014;No
+ 28649;11/13/2014;405 W Sixth St;Annual General Permit;Maintenance;Windstream Communications;11/05/2014;11/13/2014;No
+ 28650;11/13/2014;601  W Main St;Installation;Maintenance;Windstream Communications;10/06/2014;10/31/2014;No
+ 28651;11/13/2014;628 Lisa Ct;Street Cut;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;Yes
+ 28652;11/13/2014;Rose St;Street Cut;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;Yes
+ 28653;11/13/2014;;Street Cut;Repair;Columbia Gas;11/06/2014;11/27/2014;Yes
+ 28654;11/13/2014;400 Sandalwood Dr;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
+ 28655;11/13/2014;1057/1061 Nandino Blvd;Installation;Add/Change Equipment;Kentucky American Water;12/14/2014;01/16/2015;No
+ 28656;11/13/2014;1814  Richmond Rd;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28657;11/13/2014;150 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28658;11/13/2014;153 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28623;11/12/2014;559 Horton Ct;Installation;Maintenance;Contractor;11/17/2014;12/26/2014;No
+;11/12/2014;2061 Buck Ln;Installation;Maintenance;Contractor;11/17/2014;12/26/2014;No
  28635;11/12/2014;1606 Raleigh Rd;Annual General Permit;Repair;Columbia Gas;11/07/2014;11/28/2014;No
  28636;11/12/2014;1694 Waycross Cir;Annual General Permit;Repair;Columbia Gas;11/07/2014;11/11/2014;No
  28637;11/12/2014;401 Clinton Rd;Installation;Repair;Columbia Gas;11/07/2014;11/11/2014;No
  28638;11/12/2014;581, 585 Plainview Rd;Installation;Repair;Columbia Gas;11/07/2014;11/28/2014;No
- 28623;11/12/2014;559 Horton Ct;Installation;Maintenance;Contractor;11/17/2014;12/26/2014;No
-;11/12/2014;2061 Buck Ln;Installation;Maintenance;Contractor;11/17/2014;12/26/2014;No
+ 28634;11/12/2014;1397 W Main St;Annual General Permit;Maintenance;Windstream Communications;11/07/2014;11/11/2014;No
  28633;11/12/2014;1453 Valdosta Ct;Annual General Permit;Repair;Columbia Gas;11/06/2014;11/11/2014;No
- 28611;11/07/2014;154 American Ave;Street Cut;Maintenance;Contractor;11/07/2014;11/28/2014;Yes
- 28622;11/07/2014;242 Bolivar St;Street Cut;Add/Change Equipment;Columbia Gas;11/12/2014;11/26/2014;Yes
+ 28632;11/12/2014;551 Bob O Link Dr;Street Cut;Repair;Columbia Gas;11/19/2014;12/10/2014;Yes
+ 28631;11/12/2014;241 Albany Rd;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28628;11/12/2014;1611 Anniston Dr;Installation;Repair;Columbia Gas;11/05/2014;11/11/2014;No
+ 28629;11/12/2014;1220 Hammond Ave;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28630;11/12/2014;Molloy Aly;Installation;Repair;Columbia Gas;11/11/2014;12/01/2014;No
+ 28624;11/12/2014;150 Shawnee Pl;Street Cut;Add/Change Equipment;Kentucky American Water;11/04/2014;11/25/2014;Yes
+ 28625;11/12/2014;3411 Briarcliff Cir;Annual General Permit;Repair;Columbia Gas;11/04/2014;11/25/2014;No
+ 28626;11/12/2014;3939 Tates Creek Rd;Annual General Permit;New Construction;Time Warner Cable, Inc.;11/12/2014;12/03/2014;Yes
+ 28627;11/12/2014;;Annual General Permit;New Construction;Time Warner Cable, Inc.;11/12/2014;12/03/2014;Yes
  28620;11/07/2014;3140-3148 Cherry Meadow Path;Installation;New Construction;Columbia Gas;11/19/2014;12/10/2014;No
  28621;11/07/2014;221 Lincoln Ave;Street Cut;Maintenance;Kentucky American Water;11/05/2014;11/26/2014;Yes
  28617;11/07/2014;1843 Battery St;Installation;New Construction;Columbia Gas;11/18/2014;12/09/2014;No
@@ -35,6 +53,8 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28610;11/07/2014;Todds Rd;Installation;New Construction;Kentucky Utilities;11/16/2014;02/28/2015;Yes
  28604;11/07/2014;125 Chenault Rd;Installation;Repair;Columbia Gas;10/30/2014;11/20/2014;No
  28605;11/07/2014;554-556 W Fifth St;Street Cut;Maintenance;Columbia Gas;10/30/2014;11/20/2014;Yes
+ 28622;11/07/2014;242 Bolivar St;Street Cut;Add/Change Equipment;Columbia Gas;11/12/2014;11/26/2014;Yes
+ 28611;11/07/2014;154 American Ave;Street Cut;Maintenance;Contractor;11/07/2014;11/28/2014;Yes
  28603;11/06/2014;Mitchell Ave;Street Cut;New Construction;Kentucky American Water;11/10/2014;11/21/2014;Yes
  28596;11/03/2014;2305 Caywood Cir;Installation;Maintenance;Kentucky American Water;10/28/2014;11/18/2014;No
  28597;11/03/2014;743-771 Longwood Rd;Installation;New Construction;Columbia Gas;11/17/2014;12/08/2014;No
