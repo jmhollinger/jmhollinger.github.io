@@ -1,10 +1,14 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 28661;11/18/2014;2075 Parkers Mill Rd;Annual General Permit;Maintenance;Windstream Communications;10/07/2014;11/30/2014;No
- 28662;11/18/2014;3537 Bold Bidder Dr;Installation;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;No
- 28663;11/18/2014;1254 Kastle Rd;Installation;Repair;Columbia Gas;11/08/2014;11/29/2014;No
- 28664;11/18/2014;3669-3673 Sundart Dr;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
- 28665;11/18/2014;262-266 Tangley Way;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
- 28666;11/18/2014;746 Bravington Way;Street Cut;Maintenance;Kentucky American Water;11/11/2014;12/02/2014;Yes
+ 28683;11/21/2014;1881 Courtland Dr;Annual General Permit;Repair;Columbia Gas;11/17/2014;12/08/2014;No
+ 28684;11/21/2014;485 W Fourth St;Street Cut;Repair;Columbia Gas;11/17/2014;12/08/2014;Yes
+ 28685;11/21/2014;1401 Cantrill Ct;Annual General Permit;Repair;Columbia Gas;11/18/2014;12/09/2014;No
+ 28686;11/21/2014;1820 Nicholasville Rd;Annual General Permit;Maintenance;Time Warner Cable, Inc.;11/26/2014;12/17/2014;Yes
+ 28687;11/21/2014;1803 Darien Dr;Installation;Maintenance;Kentucky American Water;11/18/2014;12/09/2014;No
+ 28688;11/21/2014;4029  Real Quiet Ln;Installation;New Construction;Columbia Gas;12/02/2014;12/23/2014;No
+ 28689;11/21/2014;Jersey St;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/19/2014;12/10/2014;Yes
+ 28690;11/21/2014;2250 Leestown Rd;Installation;Maintenance;Kentucky American Water;11/19/2014;12/10/2014;No
+ 28691;11/21/2014;3044 Majestic View Walk;Installation;Maintenance;Kentucky American Water;11/19/2014;12/10/2014;No
+ 28692;11/21/2014;1601 Raleigh Rd;Installation;Maintenance;Kentucky American Water;11/19/2014;12/10/2014;No
  28672;11/18/2014;419 Clinton Rd;Annual General Permit;Repair;Columbia Gas;11/12/2014;12/03/2014;No
  28673;11/18/2014;170 St James Dr;Annual General Permit;Repair;Columbia Gas;11/12/2014;11/18/2014;No
  28674;11/18/2014;386 Sheridan Dr;Street Cut;Repair;Columbia Gas;11/12/2014;12/03/2014;Yes
@@ -20,8 +24,18 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28681;11/18/2014;1013 Meadow Ln;Street Cut;Repair;Columbia Gas;11/15/2014;12/06/2014;Yes
  28682;11/18/2014;407 Marquis Ave;Street Cut;New Construction;Columbia Gas;11/24/2014;12/15/2014;Yes
  28671;11/18/2014;2187 Harrodsburg Rd;Installation;New Construction;Time Warner Cable, Inc.;11/17/2014;12/08/2014;No
- 28660;11/14/2014;1416 Highlawn Ave;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);11/10/2014;12/01/2014;Yes
+ 28661;11/18/2014;2075 Parkers Mill Rd;Annual General Permit;Maintenance;Windstream Communications;10/07/2014;11/30/2014;No
+ 28662;11/18/2014;3537 Bold Bidder Dr;Installation;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;No
+ 28663;11/18/2014;1254 Kastle Rd;Installation;Repair;Columbia Gas;11/08/2014;11/29/2014;No
+ 28664;11/18/2014;3669-3673 Sundart Dr;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
+ 28665;11/18/2014;262-266 Tangley Way;Street Cut;Repair;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
+ 28666;11/18/2014;746 Bravington Way;Street Cut;Maintenance;Kentucky American Water;11/11/2014;12/02/2014;Yes
  28659;11/14/2014;1416 Highlawn Ave;Street Cut;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;Yes
+ 28660;11/14/2014;1416 Highlawn Ave;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);11/10/2014;12/01/2014;Yes
+ 28656;11/13/2014;1814  Richmond Rd;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28657;11/13/2014;150 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28658;11/13/2014;153 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
+ 28655;11/13/2014;1057/1061 Nandino Blvd;Installation;Add/Change Equipment;Kentucky American Water;12/14/2014;01/16/2015;No
  28647;11/13/2014;602 Sayre Ave;Street Cut;Maintenance;Kentucky American Water;11/08/2014;11/29/2014;Yes
  28654;11/13/2014;400 Sandalwood Dr;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);11/14/2014;12/05/2014;Yes
  28651;11/13/2014;628 Lisa Ct;Street Cut;Maintenance;Kentucky American Water;11/10/2014;12/01/2014;Yes
@@ -38,10 +52,6 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28640;11/13/2014;676 Headley Ave;Street Cut;Repair;Columbia Gas;11/04/2014;11/25/2014;Yes
  28641;11/13/2014;Willard St;Street Cut;Repair;Columbia Gas;11/13/2014;12/04/2014;Yes
  28642;11/13/2014;123 Montmullin St;Installation;Repair;Columbia Gas;11/19/2014;12/10/2014;No
- 28656;11/13/2014;1814  Richmond Rd;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
- 28657;11/13/2014;150 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
- 28658;11/13/2014;153 St Phillip Dr;Installation;Repair;Columbia Gas;11/11/2014;12/02/2014;No
- 28655;11/13/2014;1057/1061 Nandino Blvd;Installation;Add/Change Equipment;Kentucky American Water;12/14/2014;01/16/2015;No
  28632;11/12/2014;551 Bob O Link Dr;Street Cut;Repair;Columbia Gas;11/19/2014;12/10/2014;Yes
  28631;11/12/2014;241 Albany Rd;Installation;Repair;Columbia Gas;11/10/2014;12/01/2014;No
  28628;11/12/2014;1611 Anniston Dr;Installation;Repair;Columbia Gas;11/05/2014;11/11/2014;No
