@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Certificate of Occupancy Tracker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="col-md-6">
+      <div class="center">
+      <h1 class="text-primary">Zoning Compliance Review</h1>
+      </div>
+      
+      <form>
+      
+        <div class="panel panel-primary">
+          <div class="panel-heading">Zoning Information</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Zone</span>
+                <select class="form-control" name="">
+                  <option>A-R</option>
+                  <option>A-B</option>
+                  <option>A-N</option>
+                  <option>A-U</option>
+                  <option>R-1A</option>
+                  <option>R-1B</option>
+                  <option>R-1C</option>
+                  <option>R-1D</option>
+                  <option>R-1E</option>
+                  <option>R-1T</option>
+                  <option>R-2</option>
+                  <option>R-3</option>
+                  <option>R-4</option>
+                  <option>R-5</option>
+                  <option>P-1</option>
+                  <option>B-1</option>
+                  <option>B-2</option>
+                  <option>B-2A</option>
+                  <option>B-2B</option>
+                  <option>B-3</option>
+                  <option>B-4</option>
+                  <option>I-1</option>
+                  <option>I-2</option>
+                  <option>P-2</option>
+                </select>
+                <span class="input-group-addon">Permitted Use</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select><span class="input-group-addon">Needs BOA</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select></div>
+              <div class="input-group"><span class="input-group-addon">Parking Spaces Required</span><input class="form-control" type="text" name=""><span class="input-group-addon">Parking Spaces Provided</span><input class="form-control" type="text" name=""></div>
+              <div class="input-group"><span class="input-group-addon">Parking Lease Required</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+                <span class="input-group-addon">If Yes, Parking Lease Attached</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Grease Trap Approval</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Existing Non-Conforming</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              <span class="input-group-addon">If yes, BOA</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">BOA Case No.</span><input class="form-control" type="text" name=""></div>
+               <div class="input-group"><span class="input-group-addon">Development Plan</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+             <span class="input-group-addon">Subdivision Plat</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              <span class="input-group-addon">Conditional Zoning</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Comments</span><textarea class="form-control" type="text" name=""></textarea></div>
+          </div>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">Approval</div>
+            <div class="panel-body">
+              <div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><p class="form-control">Zoning Compliance Approved</p></div>
+              <div class="input-group"><span class="input-group-addon">Planner</span><input class="form-control" type="text" name=""></div>
+              <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Zoning Compliance Approved')">Zoning Compliance Approved</button></div>
+            </div>
+        </div> 
+
+      </form>
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

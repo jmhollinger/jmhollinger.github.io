@@ -1,0 +1,17 @@
+ .input-group {
+     margin: .5em; 
+    }
+    .center {
+      text-align: center;
+    }
+    .shrink {
+      width: 15em;
+    }
+
+    .form-control {
+      font-weight: bold;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
