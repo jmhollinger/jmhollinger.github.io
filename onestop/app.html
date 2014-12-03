@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Certificate of Occupancy Tracker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Certificate of Occupancy Tracker</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="app.html">New Application</a></li>
+            <li><a href="zcp.html">Review an Application</a></li>
+            <li><a href="#reports">Run Reports</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+     <div class="col-md-12"> 
+     <h3 class="text-primary">Certificate of Occupancy Application</h3>
+      <form class = "form-group">
+        <div class="panel panel-primary">
+          <div class="panel-heading">General Information</div>
+            <div class="panel-body">
+              <p>Please provide the following information about your business.</p>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Name of Business</span>
+                <input type="text" class="form-control" id="name" placeholder="Name of Business">
+              </div>
+              <div class="input-group">  
+                <span class="input-group-addon hidden-xs">Contact Person</span>
+                <input type="text" class="form-control" id="contact" placeholder="Contact Person">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Primary Phone</span>
+                <input class="form-control" type="text" name="phone1" placeholder="Primary Phone">
+                <span class="input-group-addon hidden-xs">Secondary Phone</span>
+                <input class="form-control" type="text" name="phone2" placeholder="Secondary Phone">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Email Address</span>
+                <input class="form-control" type="text" name="email" placeholder="Email Address"></div>
+              </div>
+        </div>
+        
+        <div class="panel panel-primary">
+          <div class="panel-heading">Location of Business</div>
+            <div class="panel-body">
+              <p>Please provide the following information about the location of your business.</p>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Address</span>
+                <input class="form-control" type="text" name="address" placeholder="Address">
+                <span class="input-group-addon hidden-xs">Suite/Unit</span>
+                <input class="form-control" type="text" name="suite" placeholder="Suite or Unit"></div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">City</span>
+                <input class="form-control" type="text" value="Lexington" name="city">
+                <span class="input-group-addon hidden-xs">State</span>
+                <input class="form-control" type="text" value="KY" name="state">
+                <span class="input-group-addon hidden-xs" placeholder="Zip Code">Zip</span>
+                <input class="form-control" type="text" name="zip" placeholder="Zip Code"></div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Previous Occupant (if known)</span>
+                <input class="form-control" type="text" name="prevocc" placeholder="Previous Occupant (if known)">
+              </div>
+          </div>
+        </div>
+        
+        <div class="panel panel-primary">
+          <div class="panel-heading">Business Address</div>
+            <div class="panel-body">
+              <p>Please provide your business address, if different from the location you entered above. If the addresses are the same, click the button below.</p>
+              <div class="center"><button type="button" class="btn btn-md btn-danger" onclick="alert('Address Copied.')">Same as location of business entered above.</button></div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Address</span>
+                <input class="form-control" type="text" name="busaddress" placeholder="Address">
+                <span class="input-group-addon">Suite/Unit</span>
+                <input class="form-control" type="text" name="bussuite" placeholder="Suite or Unit">
+              </div>
+              <div class="input-group"><span class="input-group-addon hidden-xs">City</span>
+                <input class="form-control" type="text" name="buscity" placeholder="City">
+                <span class="input-group-addon">State</span>
+                <input class="form-control" type="text" name="busstate" placeholder="State">
+                <span class="input-group-addon hidden-xs">Zip</span>
+                <input class="form-control" type="text" name="buszip" placeholder="Zip Code"></div>
+          </div>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">Business Activities</div>
+            <div class="panel-body">
+              <p>Please provide the following information about the type of business you would like to operate.</p>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Type of Business:</span>
+                <input class="form-control" placeholder="e.g. clothing store, gas station, etc." type="text" name="bustype">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Description of Business Activities:</span>
+                <textarea class="form-control" placeholder="e.g. sale of clothing, sale of gasoline and convenience items, etc." type="text" name="busactivities"></textarea>
+              </div>
+            </div>
+        </div>
+        
+        <div class="panel panel-primary">
+          <div class="panel-heading">Attachments</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon hidden-xs">Site Plan</span>
+                <input class="form-control" type="file" name="siteplan">
+              </div>
+          </div>
+        </div>
+          <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Your application has been submitted. Thank you.')">Submit Application</button></div>
+      </form>
+    </div>
+    </div><!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

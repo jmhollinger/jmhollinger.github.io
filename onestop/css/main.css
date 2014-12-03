@@ -1,17 +1,21 @@
- .input-group {
-     margin: .5em; 
+    .input-group, .btn {
+     margin-bottom: .5em; 
     }
     .center {
       text-align: center;
     }
     .shrink {
-      width: 15em;
+      width: 10em;
     }
 
     .form-control {
       font-weight: bold;
     }
 
-    h1 {
+    h3 {
+      font-weight: bold;
+    }
+
+    .panel-heading {
       font-weight: bold;
     }

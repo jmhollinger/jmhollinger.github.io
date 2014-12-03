@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Certificate of Occupancy Tracker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Certificate of Occupancy Tracker</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="app.html">New Application</a></li>
+            <li class="active"><a href="zcp.html">Review an Application</a></li>
+            <li><a href="#reports">Run Reports</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+     <div class="row"> 
+     <div class="col-md-4">
+      <h3 class="text-primary">Application Information</h3>
+      
+<form class = "form-group">
+        <div class="panel panel-primary">
+          <div class="panel-heading">General Information</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Name of Business</span>
+                <input type="text" class="form-control" id="name" placeholder="Name of Business">
+              </div>
+              <div class="input-group">  
+                <span class="input-group-addon">Contact Person</span>
+                <input type="text" class="form-control" id="contact" placeholder="Contact Person">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon">Primary Phone</span>
+                <input class="form-control" type="text" name="phone1" placeholder="Primary Phone">
+              </div>
+              <div class="input-group"> 
+                <span class="input-group-addon">Secondary Phone</span>
+                <input class="form-control" type="text" name="phone2" placeholder="Secondary Phone">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon">Email Address</span>
+                <input class="form-control" type="text" name="email" placeholder="Email Address"></div>
+              </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">Location of Business</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Address</span>
+                <input class="form-control" type="text" name="address" placeholder="Address">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon">Suite/Unit</span>
+                <input class="form-control" type="text" name="suite" placeholder="Suite or Unit"></div>
+              <div class="input-group">
+                <span class="input-group-addon">City</span>
+                <input class="form-control" type="text" value="Lexington" name="city">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon">State</span>
+                <input class="form-control" type="text" value="KY" name="state">
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon" placeholder="Zip Code">Zip</span>
+                <input class="form-control" type="text" name="zip" placeholder="Zip Code"></div>
+                <span class="input-group-addon">Previous Occupant (if known)</span>
+                <input class="form-control" type="text" name="prevocc" placeholder="Previous Occupant (if known)">
+          </div>
+        </div>
+        
+        <div class="panel panel-primary">
+          <div class="panel-heading">Business Address</div>
+            <div class="panel-body">
+                <div class="input-group">
+                <span class="input-group-addon">Address</span>
+                <input class="form-control" type="text" name="busaddress" placeholder="Address">
+                </div>
+                <div class="input-group">
+                <span class="input-group-addon">Suite/Unit</span>
+                <input class="form-control" type="text" name="bussuite" placeholder="Suite or Unit">
+              </div>
+              <div class="input-group"><span class="input-group-addon">City</span>
+                <input class="form-control" type="text" name="buscity" placeholder="City">
+                </div>
+              <div class="input-group">
+                <span class="input-group-addon">State</span>
+                <input class="form-control" type="text" name="busstate" placeholder="State">
+                </div>
+              <div class="input-group">
+                <span class="input-group-addon">Zip</span>
+                <input class="form-control" type="text" name="buszip" placeholder="Zip Code"></div>
+          </div>
+        </div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">Business Activities</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Type of Business:</span>
+                <input class="form-control" placeholder="e.g. clothing store, gas station, etc." type="text" name="bustype">
+              </div>
+                <span class="input-group-addon">Description of Business Activities:</span>
+                <textarea class="form-control" placeholder="e.g. sale of clothing, sale of gasoline and convenience items, etc." type="text" name="busactivities"></textarea>
+            </div>
+        </div>
+      </form>
+           </div>
+     <div class="col-md-8"> 
+     <h3 class="text-success">Zoning Compliance</h3>
+      <form class="form-group">
+        <div class="panel panel-success">
+          <div class="panel-heading">Zoning Information</div>
+            <div class="panel-body">
+              <div class="input-group">
+                <span class="input-group-addon">Zone</span>
+                <select class="form-control" name="">
+                  <option>A-R</option>
+                  <option>A-B</option>
+                  <option>A-N</option>
+                  <option>A-U</option>
+                  <option>R-1A</option>
+                  <option>R-1B</option>
+                  <option>R-1C</option>
+                  <option>R-1D</option>
+                  <option>R-1E</option>
+                  <option>R-1T</option>
+                  <option>R-2</option>
+                  <option>R-3</option>
+                  <option>R-4</option>
+                  <option>R-5</option>
+                  <option>P-1</option>
+                  <option>B-1</option>
+                  <option>B-2</option>
+                  <option>B-2A</option>
+                  <option>B-2B</option>
+                  <option>B-3</option>
+                  <option>B-4</option>
+                  <option>I-1</option>
+                  <option>I-2</option>
+                  <option>P-2</option>
+                </select>
+                <span class="input-group-addon">Permitted Use</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select><span class="input-group-addon">Needs BOA</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select></div>
+              <div class="input-group"><span class="input-group-addon">Parking Spaces Required</span><input class="form-control" type="text" name=""><span class="input-group-addon">Parking Spaces Provided</span><input class="form-control" type="text" name=""></div>
+              <div class="input-group"><span class="input-group-addon">Parking Lease Required</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+                <span class="input-group-addon">If Yes, Parking Lease Attached</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Grease Trap Approval</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Existing Non-Conforming</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              <span class="input-group-addon">If yes, BOA</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">BOA Case No.</span><input class="form-control" type="text" name=""></div>
+               <div class="input-group"><span class="input-group-addon">Development Plan</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+             <span class="input-group-addon">Subdivision Plat</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              <span class="input-group-addon">Conditional Zoning</span>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+              <div class="input-group"><span class="input-group-addon">Comments</span><textarea class="form-control" type="text" name=""></textarea></div>
+          </div>
+        </div>
+
+        <div class="panel panel-success">
+          <div class="panel-heading">Approval</div>
+            <div class="panel-body">
+              <div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><p class="form-control">Zoning Compliance Approved</p></div>
+              <div class="input-group"><span class="input-group-addon">Planner</span><input class="form-control" type="text" name=""></div>
+              <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Zoning Compliance Approved')">Zoning Compliance Approved</button></div>
+            </div>
+        </div> 
+
+      </form>
+    </div>
+  </div>
+    </div><!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
