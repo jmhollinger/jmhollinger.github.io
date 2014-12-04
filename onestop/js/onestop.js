@@ -5,7 +5,7 @@ $(document).ready(function() {$('#appform').bootstrapValidator({
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh'
         },
-        trigger: 'keyup blur',
+        trigger: 'input change keyup',
         fields: {
           name: {validators: {notEmpty: {message: 'Name of business cannot be empty'}}},
           contact: {validators: {notEmpty: {message: 'Contact Person cannot be empty'}}},
@@ -29,10 +29,9 @@ $(document).ready(function() {$('#appform').bootstrapValidator({
 
 $("#CopyAddress").click(function() 
  {
-$("#busaddress").val($("#address").val()).focus()
-$("#bussuite").val($("#suite").val()).focus()
-$("#busstate").val($("#state").val()).focus()
-$("#buscity").val($("#city").val()).focus()
-$("#buszip").val($("#zip").val()).focus()
-$("#busaddress").focus()
+$("#busaddress").val($("#address").val()).change()
+$("#bussuite").val($("#suite").val()).change()
+$("#busstate").val($("#state").val()).change()
+$("#buscity").val($("#city").val()).change()
+$("#buszip").val($("#zip").val()).change()
  });

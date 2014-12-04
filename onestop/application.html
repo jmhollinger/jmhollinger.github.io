@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
     <title>Certificate of Occupancy Tracker</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css"> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div class="col-md-6">
-      
-      <div class="center">
-      <h1 class="text-primary">Certificate of Occupancy Application</h1>
-      <h4 class="text-info">Please fill out the form below to apply for a certificate of occupancy for your business.</h4>
-      </div>
-      
-      <form class = "form-group">
-        
+    <!-- Container -->
+    <div class="container">
+     <div class="col-md-8"> 
+     <h3 class="text-primary center">Certificate of Occupancy Application</h3>
+     <p class="center">Please fill out the form below to apply for a Certificate of Occupancy. If you have any questions, please contact the Lexington Division of Building Inspection at 859-258-3770.</p>
+      <form id="appform" method="post">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
             <div class="panel-body">
               <p>Please provide the following information about your business.</p>
-
-              <div class="input-group"><span class="input-group-addon">Name of Business</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Contact Person</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Primary Phone</span><input class="form-control" type="text" name=""><span class="input-group-addon">Secondary Phone</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Email Address</span><input class="form-control" type="text" name=""></div>
-          </div>
+              
+              <div class="form-group">
+                <label class="control-label">Name of Business</label>
+                <input type="text" class="form-control" name="name" placeholder="Name of Business">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Contact Person</label>
+                <input type="text" class="form-control" name="contact" placeholder="Contact Person">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Primary Phone</label>
+                <input class="form-control" type="text" name="phone1" placeholder="Primary Phone">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Secondary Phone</label>
+                <input class="form-control" type="text" name="phone2" placeholder="Secondary Phone">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Email</label>
+                <input class="form-control" type="text" name="email" placeholder="Email Address"></div>
+              </div>
         </div>
         
         <div class="panel panel-primary">
           <div class="panel-heading">Location of Business</div>
             <div class="panel-body">
               <p>Please provide the following information about the location of your business.</p>
-              <div class="input-group"><span class="input-group-addon">Address</span><input class="form-control" type="text" name=""><span class="input-group-addon">Suite/Unit</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">City</span><input class="form-control" type="text" value="Lexington" name=""><span class="input-group-addon">State</span><input class="form-control" type="text" value="KY" name=""><span class="input-group-addon">Zip</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Previous Occupant (if known)</span><input class="form-control" type="text" name=""></div>
+              <div class="form-group">
+                <label class="control-label">Address</label>
+                <input class="form-control" type="text" id="address" name="address" placeholder="Address">
+              </div>
+              <div class="form-group">  
+                <label class="control-label">Suite/Unit</label>
+                <input class="form-control" type="text" id="suite" name="suite" placeholder="Suite or Unit">
+              </div>
+              <div class="form-group">  
+                <label class="control-label">City</label>
+                <input class="form-control" type="text" value="Lexington" id="city" name="city">
+              </div>
+              <div class="form-group">    
+                <label class="control-label">State</label>
+                <input class="form-control" type="text" value="KY" id="state" name="state">
+              </div>
+              <div class="form-group">    
+                <label class="control-label">Zip</label>
+                <input class="form-control" type="text" id="zip" name="zip" placeholder="Zip Code">
+              </div>
+              <div class="form-group">  
+                <label class="control-label">Previous Occupant (if known)</label>
+                <input class="form-control" type="text" id="prevocc" name="prevocc" placeholder="Previous Occupant (if known)">
+              </div>
           </div>
         </div>
         
@@ -41,9 +91,29 @@
           <div class="panel-heading">Business Address</div>
             <div class="panel-body">
               <p>Please provide your business address, if different from the location you entered above. If the addresses are the same, click the button below.</p>
-              <div class="center"><button type="button" class="btn btn-md btn-danger">Same as location of business entered above.</button></div>
-              <div class="input-group"><span class="input-group-addon">Address</span><input class="form-control" type="text" name=""><span class="input-group-addon">Suite/Unit</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">City</span><input class="form-control" type="text" name=""><span class="input-group-addon">State</span><input class="form-control" type="text" name=""><span class="input-group-addon">Zip</span><input class="form-control" type="text" name=""></div>
+              <div class="form-group center">
+                <button type="button" class="btn btn-danger responsive-btn" id="CopyAddress">Same address as above, go ahead and fill it out for me.</button>
+              </div>
+              <div class="form-group"> 
+                <label class="control-label">Address</label>
+                <input class="form-control" type="text" id="busaddress" name="busaddress" value="" placeholder="Address">
+              </div>
+              <div class="form-group">  
+                <label class="control-label">Suite/Unit</label>
+                <input class="form-control" type="text" id="bussuite" name="suite" value="" placeholder="Suite or Unit">
+              </div>
+              <div class="form-group">  
+                <label class="control-label">City</label>
+                <input class="form-control" type="text" id="buscity" name="buscity" value="">
+              </div>
+              <div class="form-group">    
+                <label class="control-label">State</label>
+                <input class="form-control" type="text" id="busstate" name="busstate" value="">
+              </div>
+              <div class="form-group">    
+                <label class="control-label">Zip</label>
+                <input class="form-control" type="text" id="buszip" name="buszip" placeholder="Zip Code" value="">
+              </div>
           </div>
         </div>
 
@@ -51,29 +121,48 @@
           <div class="panel-heading">Business Activities</div>
             <div class="panel-body">
               <p>Please provide the following information about the type of business you would like to operate.</p>
-              <div class="input-group pad"><span class="input-group-addon">Type of Business:</span><input class="form-control" placeholder="clothing store, gas station, etc." type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Description of Business Activities:</span><textarea class="form-control" placeholder="sale of clothing, sale of gasoline and convenience items, etc." type="text" name=""></textarea></div>
-             </div>
+              <div class="form-group">
+                <label class="control-label">Type of Business:</label>
+                <input class="form-control" placeholder="e.g. clothing store, gas station, etc." type="text" id="bustype" name="bustype">
+              </div>
+              <div class="form-group">
+                <label class="control-label">Description of Business Activities:</label>
+                <textarea class="form-control" placeholder="e.g. sale of clothing, sale of gasoline and convenience items, etc." id="busactivities" name="busactivities"></textarea>
+              </div>
+            </div>
         </div>
         
         <div class="panel panel-primary">
           <div class="panel-heading">Attachments</div>
             <div class="panel-body">
-              <div class="input-group"><span class="input-group-addon">Site Plan</span><input class="form-control" type="file" name=""></div>
+              <div class="form-group">
+                <label class="control-label">Site Plan</label>
+                <input class="form-control" type="file" name="siteplan">
+              </div>
           </div>
         </div>
 
         <div class="panel panel-primary">
-          <div class="panel-heading">Submit the Application</div>
-            <div class="panel-body">
-              <div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><textarea class="form-control">I certify that the information entered on this application is accurate and that I am authorized to submit this application on behalf of the business entity.</textarea></div>            
-              <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Your application has been submitted. Thank you.')">Submit Application</button></div>
-            </div>
+          <div class="panel-heading">Verify</div>
+            <div class="panel-body center">
+              <p>The information I have entered is accurate and I am authorized to submit this application.</p>
+             <div class="form-group">
+                <label class="checkbox-inline">
+                  <input type="checkbox" name="verify" value="verified"><strong>I Agree.</strong>
+                </label>
+          </div>
+          </div>
         </div>
+          <div class="center"><button type="submit" class="btn btn-lg btn-success responsive-btn">Submit Application</button></div>
       </form>
-    
     </div>
+    </div><!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrapValidator.min.js"></script>
+    <script src="js/onestop.js"></script>
   </body>
 </html>
