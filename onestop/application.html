@@ -25,16 +25,18 @@
   <body>
     <!-- Container -->
     <div class="container">
-     <div class="col-md-8"> 
-     <h3 class="text-primary center">Certificate of Occupancy Application</h3>
-     <p class="center">Please fill out the form below to apply for a Certificate of Occupancy. If you have any questions, please contact the Lexington Division of Building Inspection at 859-258-3770.</p>
-      <form id="appform" method="post">
+     <div class="col-md-8">
+     <div class="center">  
+     <h3 class="text-primary">Certificate of Occupancy Application</h3>
+     <p>A Certificate of Occupancy is required to occupy a structure in Lexington, it is also required to recieve a business license. The fee is $25 and can be paid when the permit is ready for pickup.</p>
+     <p class="center">Please fill out the form below to apply for a Certificate of Occupancy. If you have any questions, please contact the Division of Building Inspection at 859-258-3770.</p>
+     </div> 
+      <form id="appform" method="get" action="success.html">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
             <div class="panel-body">
               <p>Please provide the following information about your business.</p>
-              
-              <div class="form-group">
+                <div class="form-group">
                 <label class="control-label">Name of Business</label>
                 <input type="text" class="form-control" name="name" placeholder="Name of Business">
               </div>
@@ -90,9 +92,9 @@
         <div class="panel panel-primary">
           <div class="panel-heading">Business Address</div>
             <div class="panel-body">
-              <p>Please provide your business address, if different from the location you entered above. If the addresses are the same, click the button below.</p>
+              <p>Please provide your business address. If the addresses is the same as above, click the button below.</p>
               <div class="form-group center">
-                <button type="button" class="btn btn-danger responsive-btn" id="CopyAddress">Same address as above, go ahead and fill it out for me.</button>
+                <button type="button" class="btn btn-danger responsive-btn" id="CopyAddress">It's the same as the one I already typed in, go ahead and fill it out for me.</button>
               </div>
               <div class="form-group"> 
                 <label class="control-label">Address</label>
@@ -145,7 +147,7 @@
         <div class="panel panel-primary">
           <div class="panel-heading">Verify</div>
             <div class="panel-body center">
-              <p>The information I have entered is accurate and I am authorized to submit this application.</p>
+              <p>The information I have entered is accurate, I am authorized to submit this application, and I understand that a fee of $25 will be required to receive my Certificate of Occupancy.</p>
              <div class="form-group">
                 <label class="checkbox-inline">
                   <input type="checkbox" name="verify" value="verified"><strong>I Agree.</strong>
