@@ -5,6 +5,7 @@ $(document).ready(function() {$('#appform').bootstrapValidator({
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh'
         },
+        trigger: 'keyup blur',
         fields: {
           name: {validators: {notEmpty: {message: 'Name of business cannot be empty'}}},
           contact: {validators: {notEmpty: {message: 'Contact Person cannot be empty'}}},
@@ -14,20 +15,24 @@ $(document).ready(function() {$('#appform').bootstrapValidator({
           address: {validators: {notEmpty: {message: 'Address cannot be empty.'}}},
           city: {validators: {notEmpty: {message: 'City cannot be empty.'}, regexp: {regexp: /^lexington$/i, message: 'The business location must be in Lexington.'}}},
           state: {validators: {notEmpty: {message: 'State cannot be empty.'}, regexp: {regexp: /^ky$/i, message: 'The business location must be in KY.'}}},
-          zip: {validators: {regexp: {regexp: /^\d{5}$/, message: 'Zip code is not valid, try something that looks like 40508.'}}},
+          zip: {validators: {notEmpty: {message: 'Zip cannot be empty.'}, regexp: {regexp: /^\d{5}$/, message: 'Zip code is not valid, try something that looks like 40508.'}}},
+          busaddress: {validators: {notEmpty: {message: 'Address cannot be empty.'}}},
           buscity: {validators: {notEmpty: {message: 'City cannot be empty.'}}},
           busstate: {validators: {notEmpty: {message: 'State cannot be empty.'}}},
           bustype: {validators: {notEmpty: {message: 'Business type cannot be empty.'}}},
-          busactivities: {validators: {notEmpty: {message: 'Business activities cannot be empty.'}}}
+          buszip: {validators: {notEmpty: {message: 'Zip cannot be empty.'}, regexp: {regexp: /^\d{5}$/, message: 'Zip code is not valid, try something that looks like 40508.'}}},
+          busactivities: {validators: {notEmpty: {message: 'Business activities cannot be empty.'}}},
+          verify: {validators: {notEmpty: {message: 'This box must be checked to submit the application.'}}}
         }
         });
 });
 
 $("#CopyAddress").click(function() 
  {
-$("#busaddress").val($("#address").val())
-$("#bussuite").val($("#suite").val())
-$("#busstate").val($("#state").val())
-$("#buscity").val($("#city").val())
-$("#buszip").val($("#zip").val()) 
+$("#busaddress").val($("#address").val()).focus()
+$("#bussuite").val($("#suite").val()).focus()
+$("#busstate").val($("#state").val()).focus()
+$("#buscity").val($("#city").val()).focus()
+$("#buszip").val($("#zip").val()).focus()
+$("#busaddress").focus()
  });

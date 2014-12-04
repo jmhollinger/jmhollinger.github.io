@@ -49,7 +49,7 @@
     <div class="container">
      <div class="col-md-8"> 
      <h3 class="text-primary">Certificate of Occupancy Application</h3>
-      <form method="post" id="appform">
+      <form id="appform" method="post" action="">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
             <div class="panel-body">
@@ -112,10 +112,12 @@
           <div class="panel-heading">Business Address</div>
             <div class="panel-body">
               <p>Please provide your business address, if different from the location you entered above. If the addresses are the same, click the button below.</p>
-              <div class="center"><button type="button" class="btn btn-md btn-danger" id="CopyAddress">Same as location of business entered above.</button></div>
+              <div class="form-group center">
+                <button type="button" class="btn btn-danger responsive-btn" id="CopyAddress">Same address as above, go ahead and fill it out for me.</button>
+              </div>
               <div class="form-group"> 
                 <label class="control-label">Address</label>
-                <input class="form-control" type="text" id="busaddress" name="address" placeholder="Address">
+                <input class="form-control" type="text" id="busaddress" name="busaddress" placeholder="Address">
               </div>
               <div class="form-group">  
                 <label class="control-label">Suite/Unit</label>
@@ -131,7 +133,7 @@
               </div>
               <div class="form-group">    
                 <label class="control-label">Zip</label>
-                <input class="form-control" type="text" id="buszip" name="zip" placeholder="Zip Code">
+                <input class="form-control" type="text" id="buszip" name="buszip" placeholder="Zip Code">
               </div>
           </div>
         </div>
@@ -154,13 +156,25 @@
         <div class="panel panel-primary">
           <div class="panel-heading">Attachments</div>
             <div class="panel-body">
-              <div class="input-group">
-                <span class="input-group-addon hidden-xs">Site Plan</span>
+              <div class="form-group">
+                <label class="control-label">Site Plan</label>
                 <input class="form-control" type="file" name="siteplan">
               </div>
           </div>
         </div>
-          <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('This is a non-funtional demo. When functional, this button will submit the form data to the database.')">Submit Application</button></div>
+
+        <div class="panel panel-primary">
+          <div class="panel-heading">Verify</div>
+            <div class="panel-body center">
+              <p>The information I have entered is accurate and I am authorized to submit this application.</p>
+             <div class="form-group">
+                <label class="checkbox-inline">
+                  <input type="checkbox" name="verify" value="verified"><strong>I Agree.</strong>
+                </label>
+          </div>
+          </div>
+        </div>
+          <div class="center"><button type="submit" class="btn btn-lg btn-success responsive-btn">Submit Application</button></div>
       </form>
     </div>
     </div><!-- /container -->
