@@ -24,3 +24,10 @@
     .bold {
       font-weight: bold;
     }
+
+    .brand {
+      font-family: helvetica, "sans-serif";
+      color: #666;
+      font-weight: bold;
+      padding: .2em;
+    }

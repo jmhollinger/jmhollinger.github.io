@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,26 +11,44 @@
     <title>Certificate of Occupancy Tracker</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrapValidator.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrapValidator.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <!-- Container -->
-    <div class="container">
+    <div class="container-fluid center">
+    <h1 class="brand">Certificate of Occupancy Tracker</h1>
+    </div>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="new.html">New Application</a></li>
+            <li><a href="review.html">Review an Application</a></li>
+            <li><a href="reports.html">View Reports</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container-fluid">
      <div class="col-md-8">
-     <div class="center">  
-     <h1 class="text-primary">Certificate of Occupancy Application</h1>
-     <p>A Certificate of Occupancy is required to occupy a building, it is also required to recieve a business license. The fee is $25 and can be paid when the permit is ready for pickup.</p>
-     <p>Please fill out the form below to apply for a Certificate of Occupancy. If you have any questions, please contact the Division of Building Inspection at 859-258-3770.</p>
-     </div> 
+     <h3 class="text-primary">New Application</h3>
       <form id="appform" method="get" action="success.html">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
@@ -147,24 +165,24 @@
         <div class="panel panel-primary">
           <div class="panel-heading">Verify</div>
             <div class="panel-body center">
-              <p>The information I have entered is accurate, I am authorized to submit this application, and I understand that a fee of $25 will be required to receive my Certificate of Occupancy.</p>
+              <p>The applicant has confirmed that the information entered is accurate, they are authorized to submit this application, and they understand understand that a fee of $25 will be required to receive the Certificate of Occupancy.</p>
              <div class="form-group">
                 <label class="checkbox-inline">
-                  <input type="checkbox" name="verify" value="verified"><strong>I Agree.</strong>
+                  <input type="checkbox" name="verify" value="verified"><strong>Yes</strong>
                 </label>
           </div>
           </div>
         </div>
           <div class="center"><button type="submit" class="btn btn-lg btn-success responsive-btn">Submit Application</button></div>
       </form>
-    </div>
+    </div>  
     </div><!-- /container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrapValidator.min.js"></script>
-    <script src="js/onestop.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrapValidator.min.js"></script>
+    <script src="../js/onestop.js"></script>
   </body>
 </html>
