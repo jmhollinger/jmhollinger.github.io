@@ -27,7 +27,9 @@
 
     .brand {
       font-family: helvetica, "sans-serif";
-      color: #666;
+      color: #FFFFFF;
       font-weight: bold;
       padding: .2em;
+      background-color: #666;
+      margin: 0px;
     }
