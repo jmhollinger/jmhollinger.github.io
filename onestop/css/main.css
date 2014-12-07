@@ -1,13 +1,19 @@
     body {
-    font-family: Raleway, "sans-serif";
+    font-family: Raleway, Helvetica, Arial;
     }
 
     .input-group, .btn {
      margin-bottom: .5em; 
     }
+
     .center {
       text-align: center;
     }
+
+    .bold {
+      font-weight: bold;
+    }
+
     .shrink {
       width: 10em;
     }
@@ -25,16 +31,11 @@
       width: 80%;    
     }
 
-    .bold {
-      font-weight: bold;
-    }
-
     .brand {
       background-color: #337ab7; 
     }
 
     .brand h1 {
       color: #FFFFFF;
-      font-weight: bold;
       margin: .25em 0em;
     }
