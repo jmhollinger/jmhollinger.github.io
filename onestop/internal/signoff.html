@@ -51,7 +51,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="new.html">New Application</a></li>
             <li class="active"><a href="review.html">Review an Application</a></li>
-            <li><a href="#">Enter a Payment</a></li>
+            <li><a href="payments.html">Enter a Payment</a></li>
             <li><a href="reports.html">View Reports</a></li>
           </ul>
         </div>
@@ -63,11 +63,25 @@
 
     <!-- Container -->
     <div class="container-fluid">
-      <div class="row">
-      <section class="col-md-8">
-        <h2 class="text-primary">Application Information</h3>
+      
+      <section class="container-fluid">
+        <h2 class="text-primary">Sign-Offs</h3>
+        <div class="row">
+        <div class="col-md-3">
+          <button type="button" class="btn btn-success btn-lg responsive-btn" data-toggle="modal" data-target=".planning-modal">Planning</button>
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-info btn-lg responsive-btn" data-toggle="modal" data-target=".bi-modal">Building Inspection</button>
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-danger btn-lg responsive-btn" data-toggle="modal" data-target=".fire-modal">Fire</button>
+        </div>
+      </div>
+      </section>
 
-           <form id="appform" method="get" action="success.html">
+      <section class="col-md-9">
+      <h2 class="text-primary">Application Information</h3>
+      <form id="appform" method="get" action="success.html">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
             <div class="panel-body">
@@ -186,23 +200,8 @@
         </div>
           <div class="center"><button type="submit" class="btn btn-lg btn-success responsive-btn">Save Changes</button></div>
       </form>
-
-      </section>
-
-      <section class="col-md-4">
-        <h2 class="text-primary">Sign-Offs</h3>
-        <div class="form-group">
-          <button type="button" class="btn btn-success btn-lg responsive-btn" data-toggle="modal" data-target=".planning-modal">Planning Review</button>
-        </div>
-        <div class="form-group">
-          <button type="button" class="btn btn-info btn-lg responsive-btn" data-toggle="modal" data-target=".bi-modal">Building Inspection Review</button>
-        </div>
-        <div class="form-group">
-          <button type="button" class="btn btn-danger btn-lg responsive-btn" data-toggle="modal" data-target=".fire-modal">Fire Review</button>
-        </div>
       </section>
       
-      </div>
     </div>
     <!-- End container -->
 
@@ -359,17 +358,17 @@
 
               <div class="panel panel-success">
                 <div class="panel-heading">
-                  Approval
+                  Plannning Approval
                 </div>
                 <div class="panel-body">
                 <div class="form-group">
                   <input type="radio" name="planningapproval" id="optionsRadios1" value="Approved">
-                  <label>Zoning Compliance Approved</label>
+                  <label>Approved</label>
                 </div>
 
                   <div class="form-group">
                     <input type="radio" name="planningapproval" id="optionsRadios2" value="Denied">
-                    <label>Zoning Compliance Not Approved</label>
+                    <label>Denied</label>
                   </div>
 
                   <div class="form-group">
@@ -387,118 +386,56 @@
         </div>
         </div>
         </div>
-        </div>
+      </div>
 
       <div class="modal fade bi-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-            <h4 class="modal-title text-success">Building Inspection Review</h4>
+            <h2 class="text-info">Building Inspection Review</h2>
             </div>
             <div class="modal-body">
-            <form class="form-group">
-            <div class="panel panel-success">
-            <div class="panel-heading">Application Sign Offs</div>
-            <div class="panel-body">
-              <div class="input-group">
-                <span class="input-group-addon">Zone</span>
-                <select class="form-control" name="">
-                  <option>A-R</option>
-                  <option>A-B</option>
-                  <option>A-N</option>
-                  <option>A-U</option>
-                  <option>R-1A</option>
-                  <option>R-1B</option>
-                  <option>R-1C</option>
-                  <option>R-1D</option>
-                  <option>R-1E</option>
-                  <option>R-1T</option>
-                  <option>R-2</option>
-                  <option>R-3</option>
-                  <option>R-4</option>
-                  <option>R-5</option>
-                  <option>P-1</option>
-                  <option>B-1</option>
-                  <option>B-2</option>
-                  <option>B-2A</option>
-                  <option>B-2B</option>
-                  <option>B-3</option>
-                  <option>B-4</option>
-                  <option>I-1</option>
-                  <option>I-2</option>
-                  <option>P-2</option>
-                </select>
-                <span class="input-group-addon">Permitted Use</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select><span class="input-group-addon">Needs BOA</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select></div>
-              <div class="input-group"><span class="input-group-addon">Parking Spaces Required</span><input class="form-control" type="text" name=""><span class="input-group-addon">Parking Spaces Provided</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Parking Lease Required</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-                <span class="input-group-addon">If Yes, Parking Lease Attached</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">Grease Trap Approval</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">Existing Non-Conforming</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              <span class="input-group-addon">If yes, BOA</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">BOA Case No.</span><input class="form-control" type="text" name=""></div>
-               <div class="input-group"><span class="input-group-addon">Development Plan</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-             <span class="input-group-addon">Subdivision Plat</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              <span class="input-group-addon">Conditional Zoning</span>
+            <form id="bisignoff" method="get" action="#">
+              <div class="form-group">
+                <label class="control-label">State Approval</label>
                 <select class="form-control" name="">
                   <option>Yes</option>
                   <option>No</option>
                 </select>
               </div>
-              <div class="input-group"><span class="input-group-addon">Comments</span><textarea class="form-control" type="text" name=""></textarea></div>
-          </div>
-        </div>
 
-        <div class="panel panel-success">
-          <div class="panel-heading">Approval</div>
-            <div class="panel-body">
-              <div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><p class="form-control">Zoning Compliance Approved</p></div>
-              <div class="input-group"><span class="input-group-addon">Planner</span><input class="form-control" type="text" name=""></div>
-              <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Zoning Compliance Approved')">Zoning Compliance Approved</button></div>
-            </div>
-        </div> 
-        </form>
+              <div class="form-group">
+                <label class="control-label">Comments</label>
+                <textarea class="form-control" type="text" name=""></textarea>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  Building Inspection Approval
+                </div>
+                <div class="panel-body">
+                <div class="form-group">
+                  <input type="radio" name="planningapproval" id="optionsRadios1" value="Approved">
+                  <label>Approved</label>
+                </div>
+
+                  <div class="form-group">
+                    <input type="radio" name="planningapproval" id="optionsRadios2" value="Denied">
+                    <label>Denied</label>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="control-label">Building Inspector</label>
+                      <input class="form-control" type="text" name="">
+                  </div>
+                </div>
+              </div>
+
+                <div class="form-group center">
+                   <button type="submit" class="btn btn-lg btn-info responsive-btn" onclick="alert('Changes Saved!')">Save Changes</button>
+                </div>
+              </form>
+
         </div>
         </div>
         </div>
@@ -508,116 +445,173 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-            <h4 class="modal-title text-success">Fire Review</h4>
+            <h2 class="text-danger">Fire Review</h2>
             </div>
             <div class="modal-body">
-            <form class="form-group">
-            <div class="panel panel-success">
-            <div class="panel-heading">Application Sign Offs</div>
-            <div class="panel-body">
-              <div class="input-group">
-                <span class="input-group-addon">Zone</span>
+            <form id="firesignoff" method="get" action="#">
+             <div class="row">          
+              
+              <div class="form-group col-md-6">
+                <label class="control-label">Occupancy Classification</label>
                 <select class="form-control" name="">
-                  <option>A-R</option>
-                  <option>A-B</option>
-                  <option>A-N</option>
-                  <option>A-U</option>
-                  <option>R-1A</option>
-                  <option>R-1B</option>
-                  <option>R-1C</option>
-                  <option>R-1D</option>
-                  <option>R-1E</option>
-                  <option>R-1T</option>
-                  <option>R-2</option>
-                  <option>R-3</option>
-                  <option>R-4</option>
-                  <option>R-5</option>
-                  <option>P-1</option>
-                  <option>B-1</option>
-                  <option>B-2</option>
-                  <option>B-2A</option>
-                  <option>B-2B</option>
-                  <option>B-3</option>
-                  <option>B-4</option>
-                  <option>I-1</option>
-                  <option>I-2</option>
-                  <option>P-2</option>
-                </select>
-                <span class="input-group-addon">Permitted Use</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select><span class="input-group-addon">Needs BOA</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select></div>
-              <div class="input-group"><span class="input-group-addon">Parking Spaces Required</span><input class="form-control" type="text" name=""><span class="input-group-addon">Parking Spaces Provided</span><input class="form-control" type="text" name=""></div>
-              <div class="input-group"><span class="input-group-addon">Parking Lease Required</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-                <span class="input-group-addon">If Yes, Parking Lease Attached</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
+                  <option>Group A-1: Assembly (Theaters)</option>
+                  <option>Group A-2: Assembly (Restaurants)</option>
+                  <option>Group A-3: Assembly (Other)</option>
+                  <option>Group A-4: Assembly (Arenas)</option>
+                  <option>Group A-5: Assembly (Stadiums)</option>
+                  <option>Group B: Business</option>
+                  <option>Group E: Schools</option>
+                  <option>Group F: Factory</option>
+                  <option>Group H: High-Hazard</option>
+                  <option>Group I: Institutional</option>
+                  <option>Group M: Mercantile</option>
+                  <option>Group R: Residential</option>
+                  <option>Group S: Storage</option>
+                  <option>Group U: Utility and Miscellaneous</option>
                 </select>
               </div>
-              <div class="input-group"><span class="input-group-addon">Grease Trap Approval</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">Existing Non-Conforming</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              <span class="input-group-addon">If yes, BOA</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                  <option>N/A</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">BOA Case No.</span><input class="form-control" type="text" name=""></div>
-               <div class="input-group"><span class="input-group-addon">Development Plan</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-             <span class="input-group-addon">Subdivision Plat</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              <span class="input-group-addon">Conditional Zoning</span>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
-                </select>
-              </div>
-              <div class="input-group"><span class="input-group-addon">Comments</span><textarea class="form-control" type="text" name=""></textarea></div>
-          </div>
-        </div>
 
-        <div class="panel panel-success">
-          <div class="panel-heading">Approval</div>
-            <div class="panel-body">
-              <div class="input-group"><span class="input-group-addon"><input type="checkbox"></span><p class="form-control">Zoning Compliance Approved</p></div>
-              <div class="input-group"><span class="input-group-addon">Planner</span><input class="form-control" type="text" name=""></div>
-              <div class="center"><button type="button" class="btn btn-lg btn-success" onclick="alert('Zoning Compliance Approved')">Zoning Compliance Approved</button></div>
+              <div class="form-group col-md-6">
+                <label class="control-label">Occupant Load</label>
+                <input type="text" class="form-control" name="">
+              </div>
+
             </div>
-        </div> 
-        </form>
+
+            <div class="row">          
+              <div class="form-group col-md-6">
+                <label class="control-label">Construction Type</label>
+                <select class="form-control" name="">
+                  <option>Type 1</option>
+                  <option>Type 2</option>
+                  <option>Type 3</option>
+                  <option>Type 4</option>
+                  <option>Type 5</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">Square Footage of Space</label>
+                <input type="text" class="form-control" name="">
+              </div>
+
+             </div>
+
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label class="control-label">Annual Sprinkler Certification</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">Annual Alarm Certification</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Exit Signs</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Emergency Lighting</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Extinguishers</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Hood Systems</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Detectors</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Occupant Load Posted for Assemblies</label>
+                <select class="form-control" name="">
+                  <option>Yes</option>
+                  <option>No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+            <div class="form-group">
+                <label class="control-label">Comments</label>
+                <textarea class="form-control" type="text" name=""></textarea>
+              </div>
+
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  Fire Approval
+                </div>
+                <div class="panel-body">
+                <div class="form-group">
+                  <input type="radio" name="fireapproval" id="optionsRadios1" value="Approved">
+                  <label>Approved</label>
+                </div>
+
+                  <div class="form-group">
+                    <input type="radio" name="fireapproval" id="optionsRadios2" value="Denied">
+                    <label>Denied</label>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="control-label">Fire Inspector</label>
+                      <input class="form-control" type="text" name="">
+                  </div>
+                </div>
+              </div>
+
+                <div class="form-group center">
+                   <button type="submit" class="btn btn-lg btn-danger responsive-btn" onclick="alert('Changes Saved!')">Save Changes</button>
+                </div>
+              </form>
+
         </div>
         </div>
         </div>
       </div>
+
+
+    
 
     <!-- JavaScript - placed at the end of the document because you should do that. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
