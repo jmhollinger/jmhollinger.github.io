@@ -86,8 +86,9 @@
               </tr>
             </tbody>
           </table> 
-     </div>
+      </div>
 
+      
       <div class="modal fade payment-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -95,61 +96,64 @@
             <h2 class="text-success">Enter a Payment</h2>
             </div>
             <div class="modal-body">
+
+            <!-- Payment Form -->
             <form id="payment" method="get" action="#">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label class="control-label">Date of Payment</label>
-                  <input type="date" class="form-control" name="">
+                  <input type="date" class="form-control" name="paymentdate">
                 </div>
-
                 <div class="form-group col-md-6">
-                  <label class="control-label">Method of Payment</label>
-                  <select class="form-control" name="">
+                  <label class="control-label">Type of Payment</label>
+                  <select class="form-control" name="paymenttype">
+                    <option></option>
                     <option>Cash</option>
                     <option>Check</option>
                     <option>Credit Card</option>
                   </select>
                 </div>
               </div> 
+              
               <div class="row">
                 <div class="form-group col-md-6">
                   <label class="control-label">Method Received</label>
-                  <select class="form-control" name="">
+                  <select class="form-control" name="paymentplace">
+                    <option></option>
                     <option>Mail</option>
                     <option>In Person (Revenue)</option>
                     <option>In Person (Building Inspection)</option>
                   </select>
                 </div>
-
-               <div class="form-group col-md-6">
-                <label class="control-label">Recieved By</label>
-                <input type="text" class="form-control" name="">
+                <div class="form-group col-md-6">
+                  <label class="control-label">Received By</label>
+                  <input type="text" class="form-control" name="paymentreceivedby">
+                </div>
               </div>
-
-            </div>
 
               <div class="form-group">
                 <label class="control-label">Amount</label>
-                <input type="text" class="form-control" name="">
+                <input type="text" class="form-control" name="paymentamount">
               </div>
 
               <div class="form-group center">
-                <button type="submit" class="btn btn-lg btn-success responsive-btn" onclick="alert('Payment Submitted!')">Submit Payment</button>
+                <button type="submit" class="btn btn-lg btn-success btn-responsive" method="" action="payments.html">Submit Payment</button>
               </div>
-              </form>
+            </form>
+            <!-- End Payment Form -->
 
         </div>
         </div>
         </div>
       </div>
 
-    </div><!-- /container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    </div>
+    <!-- /container -->
+    <!-- JavaScript - placed at the end of the document because you should do that. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bootstrapValidator.min.js"></script>
-    <script src="../js/onestop.js"></script>
+    <script src="../js/internal.js"></script>
+    <!-- End JavaScript -->
   </body>
 </html>

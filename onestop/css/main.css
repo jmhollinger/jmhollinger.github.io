@@ -1,5 +1,5 @@
     body {
-    font-family: Raleway, Helvetica, Arial;
+    font-family: Raleway, Helvetica, "Sans Serif";
     }
 
     .input-group, .btn {
@@ -26,7 +26,7 @@
       font-weight: bold;
     }
 
-    .responsive-btn {
+    .btn-responsive {
       white-space: normal;
       width: 80%;    
     }

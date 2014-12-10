@@ -64,23 +64,24 @@
     <!-- Container -->
     <div class="container-fluid">
       
-      <section class="container-fluid">
+      <div class="container-fluid">
         <h2 class="text-primary">Sign-Offs</h3>
         <div class="row">
         <div class="col-md-3">
-          <button type="button" class="btn btn-success btn-lg responsive-btn" data-toggle="modal" data-target=".planning-modal">Planning</button>
+          <button type="button" class="btn btn-success btn-lg btn-responsive" data-toggle="modal" data-target=".planning-modal">Planning</button>
         </div>
         <div class="col-md-3">
-          <button type="button" class="btn btn-info btn-lg responsive-btn" data-toggle="modal" data-target=".bi-modal">Building Inspection</button>
+          <button type="button" class="btn btn-info btn-lg btn-responsive" data-toggle="modal" data-target=".bi-modal">Building Inspection</button>
         </div>
         <div class="col-md-3">
-          <button type="button" class="btn btn-danger btn-lg responsive-btn" data-toggle="modal" data-target=".fire-modal">Fire</button>
+          <button type="button" class="btn btn-danger btn-lg btn-responsive" data-toggle="modal" data-target=".fire-modal">Fire</button>
         </div>
       </div>
-      </section>
+      </div>
 
-      <section class="col-md-9">
+      <div class="col-md-9">
       <h2 class="text-primary">Application Information</h3>
+      <!-- Application Info View/Edit Form -->
       <form id="appform" method="get" action="success.html">
         <div class="panel panel-primary">
           <div class="panel-heading">General Information</div>
@@ -103,7 +104,7 @@
               </div>
               <div class="form-group">
                 <label class="control-label">Email</label>
-                <input class="form-control" type="text" name="email" placeholder="Email Address"></div>
+                <input class="form-control" type="email" name="email" placeholder="Email Address"></div>
               </div>
         </div>
         
@@ -198,9 +199,10 @@
           </div>
           </div>
         </div>
-          <div class="center"><button type="submit" class="btn btn-lg btn-success responsive-btn">Save Changes</button></div>
+          <div class="center"><button type="submit" class="btn btn-lg btn-success btn-responsive">Save Changes</button></div>
       </form>
-      </section>
+      <!-- End Application Info View/Edit Form -->
+      </div>
       
     </div>
     <!-- End container -->
@@ -212,11 +214,14 @@
             <h2 class="text-success">Planning Review</h2>
             </div>
             <div class="modal-body">
-            <form id="planningsignoff" method="get" action="#">
+
+            <!-- Planning Sign-Off Form -->
+            <form id="planningsignoff"  method="" action="signoff.html">
              <div class="row">
               <div class="form-group col-md-4">
                 <label class="control-label">Zone</label>
-                <select class="form-control" name="">
+                <select class="form-control" name="zone">
+                  <option></option>
                   <option>A-R</option>
                   <option>A-B</option>
                   <option>A-N</option>
@@ -246,46 +251,51 @@
               
               <div class="form-group col-md-4">
                 <label class="control-label">Permitted Use</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="permitted">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
                 <label class="control-label">Needs BOA Approval</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="boa">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
              </div>
+
              <div class="row">
               <div class="form-group col-md-6">
                 <label class="control-label">Parking Spaces Required</label>
-                <input class="form-control" type="text" name="">
+                <input class="form-control" type="text" name="parkrequired">
               </div>
 
               <div class="form-group col-md-6">  
                 <label class="control-label">Parking Spaces Provided</label>
-                <input class="form-control" type="text" name="">
+                <input class="form-control" type="number" name="parkprovided">
               </div>
              </div>
              
              <div class="row">
               <div class="form-group col-md-6">
                 <label class="control-label">Parking Lease Required</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="parklease">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-6">
                 <label class="control-label">If Yes, Parking Lease Attached</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="parkleaseatt">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
@@ -293,9 +303,10 @@
             
               <div class="form-group">
               <label class="control-label">Grease Trap Approval</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="greasetrap">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
@@ -303,49 +314,54 @@
              <div class="row">
               <div class="form-group col-md-4">
                 <label class="control-label">Existing Non-Conforming</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="nonconform">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
               <label class="control-label">If Yes, BOA</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="nonconformboa">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
                 <label class="control-label">BOA Case No.</label>
-                <input class="form-control" type="text" name="">
+                <input class="form-control" type="text" name="boacaseno">
               </div>
             </div>
             
             <div class="row">
               <div class="form-group col-md-4">
               <label class="control-label">Development Plan</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="devplan">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
-              <label class="control-label">Subdivision Plat</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+              <label class="control-label">Subdivision Plan</label>
+                <select class="form-control" name="subplan">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
               <label class="control-label">Conditional Zoning</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="conditions">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
@@ -353,7 +369,7 @@
  
               <div class="form-group">
                 <label class="control-label">Comments</label>
-                <textarea class="form-control" type="text" name=""></textarea>
+                <textarea class="form-control" type="text" name="planningcomments"></textarea>
               </div>
 
               <div class="panel panel-success">
@@ -362,27 +378,27 @@
                 </div>
                 <div class="panel-body">
                 <div class="form-group">
-                  <input type="radio" name="planningapproval" id="optionsRadios1" value="Approved">
+                  <input type="radio" name="planningapproval" id="approved" value="TRUE">
                   <label>Approved</label>
                 </div>
 
                   <div class="form-group">
-                    <input type="radio" name="planningapproval" id="optionsRadios2" value="Denied">
+                    <input type="radio" name="planningapproval" id="denied" value="FALSE">
                     <label>Denied</label>
                   </div>
 
                   <div class="form-group">
                       <label class="control-label">Planner</label>
-                      <input class="form-control" type="text" name="">
+                      <input class="form-control" type="text" name="planner">
                   </div>
                 </div>
               </div>
 
                 <div class="form-group center">
-                   <button type="submit" class="btn btn-lg btn-success responsive-btn" onclick="alert('Changes Saved!')">Save Changes</button>
+                   <button type="submit" class="btn btn-lg btn-success btn-responsive">Save Changes</button>
                 </div>
               </form>
-
+              <!-- End Planning Sign-Off Form -->
         </div>
         </div>
         </div>
@@ -395,18 +411,21 @@
             <h2 class="text-info">Building Inspection Review</h2>
             </div>
             <div class="modal-body">
-            <form id="bisignoff" method="get" action="#">
+
+            <!-- Building Inspection Sign-Off Form -->
+            <form id="bisignoff" method="" action="signoff.html">
               <div class="form-group">
-                <label class="control-label">State Approval</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <label class="control-label">State Approval Required</label>
+                <select class="form-control" name="stateapproval">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group">
                 <label class="control-label">Comments</label>
-                <textarea class="form-control" type="text" name=""></textarea>
+                <textarea class="form-control" type="text" name="bicomments"></textarea>
               </div>
 
               <div class="panel panel-info">
@@ -415,26 +434,27 @@
                 </div>
                 <div class="panel-body">
                 <div class="form-group">
-                  <input type="radio" name="planningapproval" id="optionsRadios1" value="Approved">
+                  <input type="radio" name="biapproval" id="Approved" value="TRUE">
                   <label>Approved</label>
                 </div>
 
                   <div class="form-group">
-                    <input type="radio" name="planningapproval" id="optionsRadios2" value="Denied">
+                    <input type="radio" name="biapproval" id="Denied" value="FALSE">
                     <label>Denied</label>
                   </div>
 
                   <div class="form-group">
                       <label class="control-label">Building Inspector</label>
-                      <input class="form-control" type="text" name="">
+                      <input class="form-control" type="text" name="buildinginspector">
                   </div>
                 </div>
               </div>
 
                 <div class="form-group center">
-                   <button type="submit" class="btn btn-lg btn-info responsive-btn" onclick="alert('Changes Saved!')">Save Changes</button>
+                   <button type="submit" class="btn btn-lg btn-info btn-responsive">Save Changes</button>
                 </div>
               </form>
+              <!-- End Building Inspection Sign-Off Form -->
 
         </div>
         </div>
@@ -448,12 +468,15 @@
             <h2 class="text-danger">Fire Review</h2>
             </div>
             <div class="modal-body">
-            <form id="firesignoff" method="get" action="#">
+            
+            <!-- Fire Sign-Off Form -->
+            <form id="firesignoff" method="" action="signoff.html">
              <div class="row">          
               
               <div class="form-group col-md-6">
                 <label class="control-label">Occupancy Classification</label>
-                <select class="form-control" name="">
+                <select class="form-control" name="occclass">
+                  <option></option>
                   <option>Group A-1: Assembly (Theaters)</option>
                   <option>Group A-2: Assembly (Restaurants)</option>
                   <option>Group A-3: Assembly (Other)</option>
@@ -473,7 +496,7 @@
 
               <div class="form-group col-md-6">
                 <label class="control-label">Occupant Load</label>
-                <input type="text" class="form-control" name="">
+                <input type="text" class="form-control" name="occload">
               </div>
 
             </div>
@@ -481,7 +504,8 @@
             <div class="row">          
               <div class="form-group col-md-6">
                 <label class="control-label">Construction Type</label>
-                <select class="form-control" name="">
+                <select class="form-control" name="consttype">
+                  <option></option>
                   <option>Type 1</option>
                   <option>Type 2</option>
                   <option>Type 3</option>
@@ -492,7 +516,7 @@
 
               <div class="form-group col-md-6">
                 <label class="control-label">Square Footage of Space</label>
-                <input type="text" class="form-control" name="">
+                <input type="number" class="form-control" name="sqft">
               </div>
 
              </div>
@@ -500,17 +524,19 @@
             <div class="row">
               <div class="form-group col-md-6">
                 <label class="control-label">Annual Sprinkler Certification</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="annualsprinkler">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
 
               <div class="form-group col-md-6">
                 <label class="control-label">Annual Alarm Certification</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="annualalarm">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                 </select>
               </div>
             </div>
@@ -518,27 +544,30 @@
             <div class="row">
               <div class="form-group col-md-4">
                 <label class="control-label">Exit Signs</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="exitsigns">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
                 <label class="control-label">Emergency Lighting</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="emergencylighting">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
                 <label class="control-label">Extinguishers</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="extinguishers">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
@@ -547,18 +576,20 @@
             <div class="row">
               <div class="form-group col-md-4">
                 <label class="control-label">Hood Systems</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="hoods">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
 
               <div class="form-group col-md-4">
                 <label class="control-label">Detectors</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="detectors">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
@@ -566,16 +597,17 @@
 
               <div class="form-group">
                 <label class="control-label">Occupant Load Posted for Assemblies</label>
-                <select class="form-control" name="">
-                  <option>Yes</option>
-                  <option>No</option>
+                <select class="form-control" name="occupantloadposted">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
                   <option>N/A</option>
                 </select>
               </div>
 
             <div class="form-group">
                 <label class="control-label">Comments</label>
-                <textarea class="form-control" type="text" name=""></textarea>
+                <textarea class="form-control" type="text" name="firecomments"></textarea>
               </div>
 
               <div class="panel panel-danger">
@@ -584,40 +616,37 @@
                 </div>
                 <div class="panel-body">
                 <div class="form-group">
-                  <input type="radio" name="fireapproval" id="optionsRadios1" value="Approved">
+                  <input type="radio" name="fireapproval" id="approve" value="TRUE">
                   <label>Approved</label>
                 </div>
 
                   <div class="form-group">
-                    <input type="radio" name="fireapproval" id="optionsRadios2" value="Denied">
+                    <input type="radio" name="fireapproval" id="deny" value="FALSE">
                     <label>Denied</label>
                   </div>
 
                   <div class="form-group">
                       <label class="control-label">Fire Inspector</label>
-                      <input class="form-control" type="text" name="">
+                      <input class="form-control" type="text" name="fireinspector">
                   </div>
                 </div>
               </div>
 
                 <div class="form-group center">
-                   <button type="submit" class="btn btn-lg btn-danger responsive-btn" onclick="alert('Changes Saved!')">Save Changes</button>
+                   <button type="submit" class="btn btn-lg btn-danger btn-responsive">Save Changes</button>
                 </div>
               </form>
+              <!-- End Fire Sign-Off Form -->
 
         </div>
         </div>
         </div>
       </div>
-
-
-    
-
     <!-- JavaScript - placed at the end of the document because you should do that. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/bootstrapValidator.min.js"></script>
-    <script src="../js/onestop.js"></script>
+    <script src="../js/internal.js"></script>
     <!-- End JavaScript -->
       
   </body>
