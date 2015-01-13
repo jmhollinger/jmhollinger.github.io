@@ -6,6 +6,7 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14200627W5               ;627 Ohio St;01/13/2015;Nuisance  ;Open  ;Nuisance - Open                                   ;01/13/2015
 23570000SIGNS7           ;0 S Locust Hill Dr;01/13/2015;Nuisance  ;Open  ;Sign Complaint Received                           ;01/13/2015
 21704750SIGNS            ;4750 Hartland Pkwy;01/12/2015;Nuisance  ;Open  ;Sign Complaint Received                           ;01/12/2015
+19661445W6               ;1445 Village Dr;01/12/2015;Nuisance  ;Open  ;Nuisance w/Civil Penalty                          ;01/13/2015
 02660445W                ;445 Bryan Ave;01/12/2015;Nuisance  ;Open  ;Nuisance - Open                                   ;01/12/2015
 10980317W2               ;317 Lafayette Ave;01/12/2015;Nuisance  ;Open  ;Nuisance - Open                                   ;01/12/2015
 01640772W10              ;772 Bennett Ave;01/12/2015;Nuisance  ;Open  ;Nuisance - Open                                   ;01/12/2015
@@ -6520,13 +6521,13 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 32210000W7               ;0 Newtown Pike;05/20/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/06/2014
 10312086-2087W3          ;2086-2087 Laverne Ct;05/20/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/13/2014
 19440471-473W4           ;471-473 N Upper St;05/20/2014;Nuisance  ;Closed;Closed/Abated by City                             ;07/02/2014
-07861889-2               ;1889 Gerald Dr;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/19/2014
-07861881-3               ;1881 Gerald Dr;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/19/2014
-03100816-2               ;816 Campbell Ln;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;01/06/2015
 00400461W9               ;461 Angliana Ave;05/19/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/18/2014
 18953338W5               ;3338 Tisdale Dr;05/19/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/27/2014
 19990635W                ;635 Warrington Dr;05/19/2014;Nuisance  ;Closed;Closed/Abated by City                             ;06/13/2014
 25230277W2               ;277 Preakness Dr;05/19/2014;Nuisance  ;Closed;Closed/Abated by City                             ;07/02/2014
+07861889-2               ;1889 Gerald Dr;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/19/2014
+07861881-3               ;1881 Gerald Dr;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/19/2014
+03100816-2               ;816 Campbell Ln;05/19/2014;Housing   ;Open  ;Housing w/Civil Penalty                           ;01/06/2015
 16010000SIGNS128         ;0 Richmond Rd;05/19/2014;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/19/2014
 14631891W2               ;1891 Parkers Mill Rd;05/19/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;09/17/2014
 28911878W3               ;1878 Timber Creek Dr;05/19/2014;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;06/17/2014
@@ -10456,10 +10457,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 15033222W                ;3222 Pimlico Pkwy;12/02/2013;Nuisance  ;Closed;Closed Nuisance                                   ;01/08/2014
 11600000SIGNS35          ;0 Liberty Rd;12/02/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;12/02/2013
 18330102W3               ;102 Sutton Pl;12/02/2013;Nuisance  ;Closed;Closed/Abated by City                             ;12/19/2013
+11611212-5               ;1212 Liggett St;12/02/2013;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/09/2014
 17190613#1-3             ;613 Shropshire Ave #1;12/02/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;04/25/2014
 12951205-2               ;1205 Menifee Ave Aka 301 Lincoln Ave;12/02/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;07/21/2014
 18330102                 ;102 Sutton Pl;12/02/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;10/01/2014
-11611212-5               ;1212 Liggett St;12/02/2013;Housing   ;Open  ;Housing w/Civil Penalty                           ;12/09/2014
 13971427W21              ;1427 Nicholasville Rd;12/02/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;12/04/2013
 18710726W10              ;726 Terrace View Dr;12/02/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;01/14/2014
 32302512W9               ;2512 Checkerberry Dr;12/02/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;12/30/2013
@@ -17017,12 +17018,12 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 10743549W5               ;3549 King Arthur Dr;05/13/2013;Nuisance  ;Closed;Closed/Abated by City                             ;05/31/2013
 18953338W3               ;3338 Tisdale Dr;05/13/2013;Nuisance  ;Closed;Closed/Abated by City                             ;06/06/2013
 07294013                 ;4013 Forest Green Dr;05/13/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;10/20/2014
+07651200EMER             ;1200 Gainesway Dr;05/13/2013;Housing   ;Closed;BoardedUp/Closed                                  ;06/06/2013
 06070000SIGNS6           ;Easthills Dr & Eureka Springs Dr;05/13/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/14/2013
 27440000SIGNS4           ;Mapleleaf Dr & Man O War Blvd;05/13/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/14/2013
 13600000SIGNS19          ;Mt Tabor Rd & Patchen Dr;05/13/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/14/2013
 33640000SIGNS17          ;Pink Pigeon Pkwy & Vendor Way;05/13/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/14/2013
 23570000SIGNS6           ;S Locust Hill Dr & Richmond Rd;05/13/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;05/14/2013
-07651200EMER             ;1200 Gainesway Dr;05/13/2013;Housing   ;Closed;BoardedUp/Closed                                  ;06/06/2013
 00901612W                ;1612 Auburn Dr;05/13/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/14/2013
 19292471W                ;2471 Tulsa Rd;05/13/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/15/2013
 16113640W8               ;3640 River Park Dr;05/13/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;05/13/2013
@@ -19158,10 +19159,10 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 14502140W10              ;2140 Palms Dr;03/12/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;04/05/2013
 18710759-761W6           ;759-761 Terrace View Dr;03/12/2013;Nuisance  ;Closed;Nuisance Closed w/Civil Penalty                   ;07/06/2013
 20630519DEMO2            ;519 Willy St;03/12/2013;Housing   ;Closed;Housing Demolition Abated                         ;10/03/2013
-16830425BRDUP            ;425 E Second St;03/12/2013;Housing   ;Closed;BoardedUp/Closed                                  ;04/02/2013
 16900546W6               ;546 E Seventh St;03/12/2013;Nuisance  ;Closed;Closed/Abated by City                             ;04/19/2013
 00040228W                ;228 Aberdeen Dr;03/12/2013;Nuisance  ;Closed;Closed/Abated by City                             ;04/11/2013
 18710758-760W8           ;758-760 Terrace View Dr;03/12/2013;Nuisance  ;Closed;Closed/Abated by City                             ;04/19/2013
+16830425BRDUP            ;425 E Second St;03/12/2013;Housing   ;Closed;BoardedUp/Closed                                  ;04/02/2013
 13970000SIGNS111         ;0 Nicholasville Rd;03/12/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;03/12/2013
 12360903W5               ;903 Manchester St;03/12/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;03/13/2013
 20680933W                ;933 Winchester Rd;03/12/2013;Nuisance  ;Closed;Invalid Nuisance                                  ;03/13/2013
@@ -20006,9 +20007,9 @@ CaseNo;Address_1;DateOpened_1;CaseType;OpenClosed;Status;StatusDate_1
 13971307W7               ;1307 Nicholasville Rd;01/23/2013;Nuisance  ;Closed;Closed Nuisance                                   ;02/11/2013
 08862195W10              ;2195 Harrodsburg Rd;01/23/2013;Nuisance  ;Closed;Closed Nuisance                                   ;02/06/2013
 14200632W18              ;632 Ohio St;01/23/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;01/24/2013
+04930000SIGNS5           ;0 Cross Keys Rd;01/23/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;01/23/2013
 07140720W19              ;720 Florida St;01/23/2013;Nuisance  ;Closed;Closed/Abated by City                             ;02/12/2013
 43990588W                ;588 Bulrush Trce;01/23/2013;Nuisance  ;Closed;Closed/Abated by City                             ;03/01/2013
-04930000SIGNS5           ;0 Cross Keys Rd;01/23/2013;Nuisance  ;Closed;Sign Closed-No Notice Required                    ;01/23/2013
 06170196EMER             ;196 Eddie St;01/23/2013;Housing   ;Closed;BoardedUp/Closed                                  ;02/25/2013
 15381323                 ;1323 Prather Rd;01/23/2013;Housing   ;Closed;Housing Closed w/Civil Penalty                    ;01/16/2014
 20910110W6               ;110 Withers Ave;01/22/2013;Nuisance  ;Closed;Nuisance Resolved w/o Notice/Order                ;01/23/2013
