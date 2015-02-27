@@ -1,4 +1,13 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 29185;02/26/2015;721 Price Ave;Street Cut;Maintenance;Kentucky American Water;02/25/2015;03/18/2015;Yes
+ 29186;02/26/2015;1869 Bahama Rd;Annual General Permit;Repair;Columbia Gas;02/25/2015;03/18/2015;No
+ 29187;02/26/2015;1678 Alexandria Dr;Installation;Repair;Columbia Gas;02/25/2015;03/18/2015;No
+ 29188;02/26/2015;155 E Third St;Street Cut;Repair;Columbia Gas;02/25/2015;03/18/2015;Yes
+ 29189;02/26/2015;151 E Third St;Street Cut;Repair;Columbia Gas;02/25/2015;03/18/2015;Yes
+ 29190;02/26/2015;2520 Pascoli Pl;Annual General Permit;New Construction;Columbia Gas;03/11/2015;04/01/2015;No
+ 29191;02/26/2015;3050 Lakecrest Cir;Annual General Permit;New Construction;Columbia Gas;03/11/2015;04/01/2015;No
+ 29192;02/26/2015;200 Avenue Of Champions;Installation;New Construction;Columbia Gas;03/11/2015;04/01/2015;No
+ 29193;02/26/2015;3812 Dicksonia Dr;Installation;New Construction;Columbia Gas;03/11/2015;04/01/2015;No
  29167;02/25/2015;508 W Second St;Street Cut;New Construction;Kentucky American Water;03/10/2015;03/31/2015;Yes
  29168;02/25/2015;N Broadway;Street Cut;Maintenance;Kentucky American Water;02/20/2015;03/13/2015;Yes
  29169;02/25/2015;302 S Martin Luther King Blvd;Annual General Permit;Maintenance;Windstream Communications;03/19/2015;04/09/2015;No
