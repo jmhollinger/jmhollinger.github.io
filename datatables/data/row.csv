@@ -1,4 +1,15 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 29194;03/04/2015;3851 Hartland Pkwy;Installation;Maintenance;Time Warner Cable, Inc.;03/02/2015;03/23/2015;No
+ 29195;03/04/2015;367 Colony Blvd;Annual General Permit;Maintenance;Windstream Communications;04/30/2015;05/20/2015;No
+ 29196;03/04/2015;200-300 W Maxwell St;Installation;Maintenance;Time Warner Cable, Inc.;03/16/2015;04/06/2015;No
+ 29204;03/04/2015;300-400 S Mill St;Installation;Maintenance;Time Warner Cable, Inc.;03/16/2015;04/06/2015;No
+ 29198;03/04/2015;300-400 W High St;Installation;Maintenance;Time Warner Cable, Inc.;03/16/2015;04/06/2015;No
+ 29199;03/04/2015;344 S Martin Luther King Blvd;Installation;New Construction;Kentucky Utilities;03/02/2015;04/30/2015;Yes
+ 29200;03/04/2015;203 Mandalay Rd;Installation;Maintenance;Kentucky American Water;03/01/2015;03/22/2015;No
+ 29201;03/04/2015;845 Bennett Ave;Annual General Permit;Repair;Columbia Gas;02/27/2015;03/22/2015;No
+ 29202;03/04/2015;581 Newtown Pike;Installation;Maintenance;Columbia Gas;02/27/2015;03/22/2015;No
+ 29203;03/04/2015;1012-1026 Oak Hill Dr;Street Cut;Add/Change Equipment;Kentucky American Water;03/09/2015;05/30/2015;Yes
+ 29197;03/03/2015;395 Monticello Blvd;Annual General Permit;Maintenance;Windstream Communications;04/30/2015;05/20/2015;No
  29185;02/26/2015;721 Price Ave;Street Cut;Maintenance;Kentucky American Water;02/25/2015;03/18/2015;Yes
  29186;02/26/2015;1869 Bahama Rd;Annual General Permit;Repair;Columbia Gas;02/25/2015;03/18/2015;No
  29187;02/26/2015;1678 Alexandria Dr;Installation;Repair;Columbia Gas;02/25/2015;03/18/2015;No
@@ -127,7 +138,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29080;02/09/2015;630 W High St;Street Cut;Add/Change Equipment;Kentucky American Water;02/17/2015;03/10/2015;Yes
  29081;02/09/2015;2437 Rockaway Pl;Installation;Maintenance;Kentucky American Water;02/04/2015;02/25/2015;No
  29082;02/09/2015;;Street Cut;Add/Change Equipment;Kentucky American Water;02/11/2015;03/04/2015;Yes
- 29083;02/09/2015;248 Barberry Ln;Street Cut;Add/Change Equipment;Kentucky American Water;02/16/2015;03/09/2015;Yes
+ 29083;02/09/2015;248 Barberry Ln;Installation;Add/Change Equipment;Kentucky American Water;02/16/2015;03/09/2015;Yes
  29084;02/09/2015;124 Burley Ave;Street Cut;New Construction;Kentucky American Water;02/19/2015;03/12/2015;Yes
  29063;02/09/2015;1800 Clays Mill Rd;Street Cut;Maintenance;Kentucky American Water;01/31/2015;02/21/2015;Yes
  29062;02/06/2015;251, 254 S Ashland Ave;Annual General Permit;;Windstream Communications;02/11/2015;03/11/2015;No
