@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <!-- Title -->
+    <title>Code Enforcement</title>
+
+    <!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrapValidator.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <!-- Header -->
+    <header class="container-fluid brand">
+      <h1>Code Enforcement</h1>
+    </header>
+    <!-- End Header -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collapsible Nav -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new.html">New Case</a></li>
+            <li class="active"><a href="review.html">Review Cases</a></li>
+            <li><a href="reports.html">Reports</a></li>
+          </ul>
+        </div>
+        <!-- End Collapsible Nav -->
+      
+      </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Container -->
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+      <h2 class="text-primary">Case</h3>
+      <!-- Application Info View/Edit Form -->
+      <form id="appform" method="get" action="success.html">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Case Information</div>
+            <div class="panel-body">
+                <div class="form-group">
+                <label class="control-label">Address</label>
+                <input type="text" class="form-control" name="name" >
+              </div>
+              <div class="form-group">
+                <label class="control-label">Date Opened</label>
+                <input type="date" class="form-control" name="contact" >
+              </div>
+              <div class="form-group">
+                <label class="control-label">Case Type</label>
+                <input class="form-control" type="text" name="phone1" >
+              </div>
+              <div class="form-group">
+                <label class="control-label">Status</label>
+                <input class="form-control" type="text" name="phone2" >
+              </div>
+        </div>
+        </div>
+      </div>
+    
+
+
+      </form>
+      <!-- End Application Info View/Edit Form -->
+      </div>
+
+        <div class="row">
+        <div class="col-md-2 col-md-offset-2 text-center">
+          <button type="button" class="btn btn-info btn-lg btn-responsive" data-toggle="modal" data-target=".planning-modal">Violations</button>
+        </div>
+        <div class="col-md-2  text-center">
+          <button type="button" class="btn btn-info btn-lg btn-responsive" data-toggle="modal" data-target=".bi-modal">Notices</button>
+        </div>
+        <div class="col-md-2  text-center">
+          <button type="button" class="btn btn-info btn-lg btn-responsive" data-toggle="modal" data-target=".fire-modal">Photos</button>
+        </div>
+        <div class="col-md-2  text-center">
+          <button type="button" class="btn btn-info btn-lg btn-responsive" data-toggle="modal" data-target=".fire-modal">Documents</button>
+        </div>
+      </div>
+
+      
+    </div>
+    <!-- End container -->
+
+      <div class="modal fade planning-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="text-success">Violations</h2>
+            </div>
+            <div class="modal-body">
+
+            <!-- Planning Sign-Off Form -->
+            <form id="planningsignoff"  method="" action="signoff.html">
+             <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Zone</label>
+                <select class="form-control" name="zone">
+                  <option></option>
+                  <option>A-R</option>
+                  <option>A-B</option>
+                  <option>A-N</option>
+                  <option>A-U</option>
+                  <option>R-1A</option>
+                  <option>R-1B</option>
+                  <option>R-1C</option>
+                  <option>R-1D</option>
+                  <option>R-1E</option>
+                  <option>R-1T</option>
+                  <option>R-2</option>
+                  <option>R-3</option>
+                  <option>R-4</option>
+                  <option>R-5</option>
+                  <option>P-1</option>
+                  <option>B-1</option>
+                  <option>B-2</option>
+                  <option>B-2A</option>
+                  <option>B-2B</option>
+                  <option>B-3</option>
+                  <option>B-4</option>
+                  <option>I-1</option>
+                  <option>I-2</option>
+                  <option>P-2</option>
+                </select>
+              </div>
+              
+              <div class="form-group col-md-4">
+                <label class="control-label">Permitted Use</label>
+                <select class="form-control" name="permitted">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Needs BOA Approval</label>
+                <select class="form-control" name="boa">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+             </div>
+
+             <div class="row">
+              <div class="form-group col-md-6">
+                <label class="control-label">Parking Spaces Required</label>
+                <input class="form-control" type="text" name="parkrequired">
+              </div>
+
+              <div class="form-group col-md-6">  
+                <label class="control-label">Parking Spaces Provided</label>
+                <input class="form-control" type="number" name="parkprovided">
+              </div>
+             </div>
+             
+             <div class="row">
+              <div class="form-group col-md-6">
+                <label class="control-label">Parking Lease Required</label>
+                <select class="form-control" name="parklease">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">If Yes, Parking Lease Attached</label>
+                <select class="form-control" name="parkleaseatt">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+            </div>
+            
+              <div class="form-group">
+              <label class="control-label">Grease Trap Approval</label>
+                <select class="form-control" name="greasetrap">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+             <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Existing Non-Conforming</label>
+                <select class="form-control" name="nonconform">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+              <label class="control-label">If Yes, BOA</label>
+                <select class="form-control" name="nonconformboa">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">BOA Case No.</label>
+                <input class="form-control" type="text" name="boacaseno">
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="form-group col-md-4">
+              <label class="control-label">Development Plan</label>
+                <select class="form-control" name="devplan">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+              <label class="control-label">Subdivision Plan</label>
+                <select class="form-control" name="subplan">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+              <label class="control-label">Conditional Zoning</label>
+                <select class="form-control" name="conditions">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+            </div>
+ 
+              <div class="form-group">
+                <label class="control-label">Comments</label>
+                <textarea class="form-control" type="text" name="planningcomments"></textarea>
+              </div>
+
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  Plannning Approval
+                </div>
+                <div class="panel-body">
+                <div class="form-group">
+                  <input type="radio" name="planningapproval" id="approved" value="TRUE">
+                  <label>Approved</label>
+                </div>
+
+                  <div class="form-group">
+                    <input type="radio" name="planningapproval" id="denied" value="FALSE">
+                    <label>Denied</label>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="control-label">Planner</label>
+                      <input class="form-control" type="text" name="planner">
+                  </div>
+                </div>
+              </div>
+
+                <div class="form-group center">
+                   <button type="submit" class="btn btn-lg btn-success btn-responsive">Save Changes</button>
+                </div>
+              </form>
+              <!-- End Planning Sign-Off Form -->
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="modal fade bi-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="text-info">Notices</h2>
+            </div>
+            <div class="modal-body">
+
+            <!-- Building Inspection Sign-Off Form -->
+            <form id="bisignoff" method="" action="signoff.html">
+              <div class="form-group">
+                <label class="control-label">State Approval Required</label>
+                <select class="form-control" name="stateapproval">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Comments</label>
+                <textarea class="form-control" type="text" name="bicomments"></textarea>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  Building Inspection Approval
+                </div>
+                <div class="panel-body">
+                <div class="form-group">
+                  <input type="radio" name="biapproval" id="Approved" value="TRUE">
+                  <label>Approved</label>
+                </div>
+
+                  <div class="form-group">
+                    <input type="radio" name="biapproval" id="Denied" value="FALSE">
+                    <label>Denied</label>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="control-label">Building Inspector</label>
+                      <input class="form-control" type="text" name="buildinginspector">
+                  </div>
+                </div>
+              </div>
+
+                <div class="form-group center">
+                   <button type="submit" class="btn btn-lg btn-info btn-responsive">Save Changes</button>
+                </div>
+              </form>
+              <!-- End Building Inspection Sign-Off Form -->
+
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="modal fade fire-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+            <h2 class="text-danger">Photos</h2>
+            </div>
+            <div class="modal-body">
+            
+            <!-- Fire Sign-Off Form -->
+            <form id="firesignoff" method="" action="signoff.html">
+             <div class="row">          
+              
+              <div class="form-group col-md-6">
+                <label class="control-label">Occupancy Classification</label>
+                <select class="form-control" name="occclass">
+                  <option></option>
+                  <option>Group A-1: Assembly (Theaters)</option>
+                  <option>Group A-2: Assembly (Restaurants)</option>
+                  <option>Group A-3: Assembly (Other)</option>
+                  <option>Group A-4: Assembly (Arenas)</option>
+                  <option>Group A-5: Assembly (Stadiums)</option>
+                  <option>Group B: Business</option>
+                  <option>Group E: Schools</option>
+                  <option>Group F: Factory</option>
+                  <option>Group H: High-Hazard</option>
+                  <option>Group I: Institutional</option>
+                  <option>Group M: Mercantile</option>
+                  <option>Group R: Residential</option>
+                  <option>Group S: Storage</option>
+                  <option>Group U: Utility and Miscellaneous</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">Occupant Load</label>
+                <input type="text" class="form-control" name="occload">
+              </div>
+
+            </div>
+
+            <div class="row">          
+              <div class="form-group col-md-6">
+                <label class="control-label">Construction Type</label>
+                <select class="form-control" name="consttype">
+                  <option></option>
+                  <option>Type 1</option>
+                  <option>Type 2</option>
+                  <option>Type 3</option>
+                  <option>Type 4</option>
+                  <option>Type 5</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">Square Footage of Space</label>
+                <input type="number" class="form-control" name="sqft">
+              </div>
+
+             </div>
+
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label class="control-label">Annual Sprinkler Certification</label>
+                <select class="form-control" name="annualsprinkler">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label class="control-label">Annual Alarm Certification</label>
+                <select class="form-control" name="annualalarm">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Exit Signs</label>
+                <select class="form-control" name="exitsigns">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Emergency Lighting</label>
+                <select class="form-control" name="emergencylighting">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Extinguishers</label>
+                <select class="form-control" name="extinguishers">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label class="control-label">Hood Systems</label>
+                <select class="form-control" name="hoods">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label class="control-label">Detectors</label>
+                <select class="form-control" name="detectors">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Occupant Load Posted for Assemblies</label>
+                <select class="form-control" name="occupantloadposted">
+                  <option></option>
+                  <option value="TRUE">Yes</option>
+                  <option value="FALSE">No</option>
+                  <option>N/A</option>
+                </select>
+              </div>
+
+            <div class="form-group">
+                <label class="control-label">Comments</label>
+                <textarea class="form-control" type="text" name="firecomments"></textarea>
+              </div>
+
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  Fire Approval
+                </div>
+                <div class="panel-body">
+                <div class="form-group">
+                  <input type="radio" name="fireapproval" id="approve" value="TRUE">
+                  <label>Approved</label>
+                </div>
+
+                  <div class="form-group">
+                    <input type="radio" name="fireapproval" id="deny" value="FALSE">
+                    <label>Denied</label>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="control-label">Fire Inspector</label>
+                      <input class="form-control" type="text" name="fireinspector">
+                  </div>
+                </div>
+              </div>
+
+                <div class="form-group center">
+                   <button type="submit" class="btn btn-lg btn-danger btn-responsive">Save Changes</button>
+                </div>
+              </form>
+              <!-- End Fire Sign-Off Form -->
+
+        </div>
+        </div>
+        </div>
+      </div>
+    <!-- JavaScript - placed at the end of the document because you should do that. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrapValidator.min.js"></script>
+    <script src="../js/internal.js"></script>
+    <!-- End JavaScript -->
+      
+  </body>
+</html>

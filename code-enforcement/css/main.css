@@ -1,0 +1,41 @@
+    body {
+    font-family: Raleway, Helvetica, "Sans Serif";
+    }
+
+    .input-group, .btn {
+     margin-bottom: .5em; 
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .shrink {
+      width: 10em;
+    }
+
+    .form-control {
+      font-weight: bold;
+    }
+
+    .panel-heading {
+      font-weight: bold;
+    }
+
+    .btn-responsive {
+      white-space: normal;
+      width: 80%;    
+    }
+
+    .brand {
+      background-color: #337ab7; 
+    }
+
+    .brand h1 {
+      color: #FFFFFF;
+      margin: .25em 0em;
+    }
