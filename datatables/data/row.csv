@@ -1,6 +1,12 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 29526;05/01/2015;2401 Alexandria Dr;Annual General Permit;Maintenance;Windstream Communications;04/25/2015;05/16/2015;No
- 29527;05/01/2015;Effie Rd;Annual General Permit;Maintenance;Windstream Communications;05/05/2015;05/26/2015;No
+ 29549;05/04/2015;769 Sandpiper Ct;Installation;Repair;Columbia Gas;04/24/2015;05/14/2015;No
+ 29550;05/04/2015;800 N Limestone;Street Cut;Repair;Columbia Gas;04/28/2015;05/18/2015;Yes
+ 29551;05/04/2015;Oak Hill Dr;Street Cut;Add/Change Equipment;Columbia Gas;05/10/2015;08/28/2015;Yes
+ 29552;05/04/2015;213 Jesselin Dr;Installation;Repair;Columbia Gas;04/28/2015;05/18/2015;No
+ 29553;05/04/2015;523 Caden Ct;Installation;Repair;Columbia Gas;04/28/2015;05/18/2015;No
+ 29554;05/04/2015;Oak Hill Dr;Street Cut;Add/Change Equipment;Columbia Gas;05/10/2015;08/28/2015;No
+ 29555;05/04/2015;1872 Rachels Run;Annual General Permit;New Construction;Columbia Gas;05/13/2015;06/03/2015;No
+ 29556;05/04/2015;2500 Pascoli Pl;Annual General Permit;New Construction;Columbia Gas;05/13/2015;06/03/2015;No
  29528;05/01/2015;721 Damel Ct;Installation;Repair;Columbia Gas;04/27/2015;04/30/2015;No
  29529;05/01/2015;760 Faulkner Ave;Installation;Repair;Columbia Gas;04/27/2015;05/18/2015;No
  29530;05/01/2015;1609 Carolyn Dr;Street Cut;Repair;Columbia Gas;04/27/2015;05/18/2015;Yes
@@ -22,6 +28,8 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29546;05/01/2015;2201 War Admiral Way;Street Cut;Add/Change Equipment;Time Warner Cable, Inc.;05/08/2015;05/29/2015;Yes
  29547;05/01/2015;3375 Todds Rd;Annual General Permit;Add/Change Equipment;Windstream Communications;04/28/2015;05/19/2015;No
  29548;05/01/2015;611 W Third St;Annual General Permit;Maintenance;Windstream Communications;04/04/2015;04/25/2015;No
+ 29526;05/01/2015;2401 Alexandria Dr;Annual General Permit;Maintenance;Windstream Communications;04/25/2015;05/16/2015;No
+ 29527;05/01/2015;Effie Rd;Annual General Permit;Maintenance;Windstream Communications;05/05/2015;05/26/2015;No
  29525;04/29/2015;922 Aurora Ave;Installation;Maintenance;Contractor;04/29/2015;05/04/2015;No
  29519;04/28/2015;1402 Highlawn Ave;Installation;Repair;Columbia Gas;04/24/2015;04/28/2015;No
  29520;04/28/2015;690 Harr Cir;Installation;Repair;Columbia Gas;04/23/2015;04/28/2015;No
