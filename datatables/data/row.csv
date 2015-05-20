@@ -1,4 +1,6 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 29651;05/18/2015;326 S Martin Luther King Blvd;Street Cut;New Construction;Contractor;05/25/2015;06/12/2015;Yes
+ 29610;05/15/2015;273 Lafayette Pkwy;Installation;Add/Change Equipment;Kentucky Utilities;05/15/2015;06/30/2015;No
  29611;05/15/2015;916 N Broadway;Annual General Permit;New Construction;Kentucky Utilities;05/18/2015;06/30/2015;Yes
  29612;05/15/2015;914 Village Green Ave;Annual General Permit;Maintenance;Kentucky American Water;05/17/2015;06/07/2015;No
  29613;05/15/2015;928 Village Green Ave;Annual General Permit;Maintenance;Kentucky American Water;05/17/2015;06/07/2015;No
@@ -39,12 +41,6 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29648;05/15/2015;421 Ohio St;Installation;Repair;Columbia Gas;05/08/2015;05/29/2015;No
  29649;05/15/2015;Ransom Ave;Street Cut;Repair;Columbia Gas;05/07/2015;05/28/2015;Yes
  29650;05/15/2015;408 Pyke Rd;Street Cut;Maintenance;Columbia Gas;05/08/2015;05/29/2015;Yes
- 29610;05/15/2015;273 Lafayette Pkwy;Installation;Add/Change Equipment;Kentucky Utilities;05/15/2015;06/30/2015;No
- 29598;05/11/2015;614 Stonehaven Dr;Annual General Permit;Repair;Columbia Gas;05/06/2015;05/08/2015;No
- 29608;05/11/2015;2121 Palomar Trace Dr;Installation;Repair;Columbia Gas;05/06/2015;05/27/2015;No
- 29599;05/11/2015;419, 421 Michigan St;Installation;Repair;Columbia Gas;05/06/2015;05/27/2015;No
- 29600;05/11/2015;511-519 Smith St;Street Cut;New Construction;Kentucky American Water;05/17/2015;06/07/2015;Yes
- 29609;05/11/2015;1905 Oxford Cir;Installation;Add/Change Equipment;Kentucky American Water;05/17/2015;06/07/2015;No
  29601;05/11/2015;3305 Oaklyn Ct;Installation;Add/Change Equipment;Kentucky American Water;05/13/2015;06/03/2015;No
  29602;05/11/2015;;Annual General Permit;Maintenance;Windstream Communications;05/11/2015;06/01/2015;No
  29603;05/11/2015;2368 Nicholasville Rd;Annual General Permit;Maintenance;Windstream Communications;05/11/2015;06/01/2015;No
@@ -62,6 +58,15 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29606;05/11/2015;984 Turkey Foot Rd;Installation;New Construction;Columbia Gas;05/19/2015;06/09/2015;No
  29597;05/11/2015;575 St Anthony Dr;Street Cut;Repair;Columbia Gas;05/02/2015;05/23/2015;Yes
  29607;05/11/2015;207 University Ave;Street Cut;Repair;Columbia Gas;05/05/2015;05/26/2015;Yes
+ 29598;05/11/2015;614 Stonehaven Dr;Annual General Permit;Repair;Columbia Gas;05/06/2015;05/08/2015;No
+ 29608;05/11/2015;2121 Palomar Trace Dr;Installation;Repair;Columbia Gas;05/06/2015;05/27/2015;No
+ 29599;05/11/2015;419, 421 Michigan St;Installation;Repair;Columbia Gas;05/06/2015;05/27/2015;No
+ 29600;05/11/2015;511-519 Smith St;Street Cut;New Construction;Kentucky American Water;05/17/2015;06/07/2015;Yes
+ 29609;05/11/2015;1905 Oxford Cir;Installation;Add/Change Equipment;Kentucky American Water;05/17/2015;06/07/2015;No
+ 29583;05/07/2015;1784-1824 Bryan Station Rd;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;No
+ 29584;05/07/2015;140 Paris Ave;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;No
+ 29585;05/07/2015;1224-1256 Manchester St;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;Yes
+ 29586;05/07/2015;1109 Commercial Dr;Installation;Maintenance;Kentucky American Water;05/05/2015;05/26/2015;No
  29587;05/07/2015;344  Lexington Ave;Street Cut;New Construction;Kentucky American Water;05/16/2015;06/06/2015;Yes
  29564;05/07/2015;;Installation;Add/Change Equipment;Kentucky American Water;05/13/2015;06/03/2015;No
  29565;05/07/2015;500 Southwind Ter;Installation;New Construction;Columbia Gas;05/18/2015;06/12/2015;No
@@ -82,10 +87,6 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29580;05/07/2015;;Annual General Permit;Add/Change Equipment;Windstream Communications;05/15/2015;06/05/2015;No
  29581;05/07/2015;4127, 4128 Todds Rd;Annual General Permit;Add/Change Equipment;Windstream Communications;05/15/2015;06/05/2015;No
  29582;05/07/2015;4128, 4275 Todds Rd;Annual General Permit;Add/Change Equipment;Windstream Communications;05/15/2015;06/05/2015;No
- 29583;05/07/2015;1784-1824 Bryan Station Rd;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;No
- 29584;05/07/2015;140 Paris Ave;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;No
- 29585;05/07/2015;1224-1256 Manchester St;Annual General Permit;Add/Change Equipment;Time Warner Cable, Inc.;05/18/2015;06/08/2015;Yes
- 29586;05/07/2015;1109 Commercial Dr;Installation;Maintenance;Kentucky American Water;05/05/2015;05/26/2015;No
  29557;05/05/2015;1202 Oak Hill Dr;Installation;Add/Change Equipment;Columbia Gas;05/10/2015;08/28/2015;Yes
  29558;05/05/2015;1049 Sawgrass Cv;Installation;New Construction;Columbia Gas;05/13/2015;06/03/2015;No
  29559;05/05/2015;1233 Passage Mound Way;Installation;New Construction;Columbia Gas;05/13/2015;06/03/2015;No
