@@ -1,6 +1,8 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 29799;06/03/2015;416 Malabu Dr;Annual General Permit;Repair;Columbia Gas;05/26/2015;06/03/2015;No
- 29800;06/03/2015;2108 Broadhead Pl;Installation;Add/Change Equipment;Kentucky American Water;06/07/2015;06/28/2015;No
+ 29809;06/05/2015;Winchester Rd;Street Cut;Repair;LFUCG-San Sewers (Water Quality);06/13/2015;07/04/2015;Yes
+ 29810;06/05/2015;800, 834 Winchester Rd;Street Cut;Repair;LFUCG-San Sewers (Water Quality);06/13/2015;07/04/2015;Yes
+ 29811;06/05/2015;163 W Short St;Installation;Maintenance;Windstream Communications;06/13/2015;07/04/2015;No
+ 29812;06/05/2015;1515 Astaire Dr;Installation;Repair;Kentucky American Water;06/03/2015;06/24/2015;No
  29802;06/03/2015;3061 Many Oaks Park;Installation;Maintenance;Kentucky American Water;06/16/2015;07/06/2015;No
  29803;06/03/2015;2008 Coriander Ln;Installation;Maintenance;Kentucky American Water;06/16/2015;07/06/2015;No
  29804;06/03/2015;2296 Executive Dr;Street Cut;Maintenance;Kentucky American Water;06/12/2015;07/02/2015;Yes
@@ -8,21 +10,10 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29806;06/03/2015;3116 Oakhurst Ln;Installation;Maintenance;Kentucky American Water;06/12/2015;07/02/2015;No
  29807;06/03/2015;;Street Cut;Maintenance;Kentucky American Water;06/12/2015;07/02/2015;Yes
  29808;06/03/2015;398 Southland Dr;Street Cut;Maintenance;Kentucky American Water;06/12/2015;07/02/2015;Yes
+ 29800;06/03/2015;2108 Broadhead Pl;Installation;Add/Change Equipment;Kentucky American Water;06/07/2015;06/28/2015;No
+ 29799;06/03/2015;416 Malabu Dr;Annual General Permit;Repair;Columbia Gas;05/26/2015;06/03/2015;No
  29801;06/03/2015;3205/3203 Mammoth Dr;Installation;Repair;Kentucky American Water;06/01/2015;06/22/2015;No
  29776;06/02/2015;210 Glendover Rd;Installation;Maintenance;Contractor;06/02/2015;06/05/2015;No
- 29787;06/02/2015;1053 Pine Bloom Dr;Installation;Maintenance;Kentucky American Water;05/28/2015;06/18/2015;No
- 29788;06/02/2015;150 W Lowry Ln;Installation;Maintenance;Kentucky American Water;05/28/2015;06/18/2015;No
- 29789;06/02/2015;;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);05/27/2015;06/17/2015;Yes
- 29775;06/02/2015;1815  Richmond Rd;Street Cut;Repair;Columbia Gas;05/28/2015;06/18/2015;Yes
- 29790;06/02/2015;540 E Main St;Installation;New Construction;Kentucky Utilities;05/29/2015;11/30/2015;Yes
- 29791;06/02/2015;342 Waller Ave;Street Cut;Repair;Kentucky American Water;05/29/2015;06/19/2015;Yes
- 29792;06/02/2015;W Fourth St;Street Cut;Repair;Kentucky American Water;05/29/2015;06/19/2015;Yes
- 29793;06/02/2015;102 Eastin Rd;Annual General Permit;Maintenance;Windstream Communications;06/10/2015;07/01/2015;No
- 29794;06/02/2015;565 Dover Rd;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/02/2015;No
- 29795;06/02/2015;2945 Waco Rd;Installation;Repair;Columbia Gas;05/28/2015;06/02/2015;No
- 29796;06/02/2015;2021 Haddrell Cv;Annual General Permit;New Construction;Columbia Gas;06/15/2015;07/06/2015;No
- 29797;06/02/2015;531 W Fifth St;Street Cut;Maintenance;Columbia Gas;05/29/2015;06/19/2015;Yes
- 29798;06/02/2015;537 W Fifth St;Street Cut;Maintenance;Columbia Gas;05/29/2015;06/19/2015;Yes
  29777;06/02/2015;1407 Highlawn Ave;Annual General Permit;Repair;Columbia Gas;05/25/2015;06/02/2015;No
  29772;06/02/2015;435 Redding Rd;Installation;Maintenance;Columbia Gas;05/26/2015;06/01/2015;No
  29778;06/02/2015;546 Freeman Dr;Installation;Repair;Columbia Gas;05/22/2015;06/02/2015;No
@@ -38,6 +29,19 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29784;06/02/2015;1851 Battery St;Installation;New Construction;Columbia Gas;06/10/2015;07/01/2015;No
  29785;06/02/2015;3215 Cornwall Dr;Installation;New Construction;Kentucky American Water;06/29/2015;07/29/2015;No
  29786;06/02/2015;249 Walton Ave;Annual General Permit;Maintenance;Kentucky Utilities;07/01/2015;08/01/2015;Yes
+ 29787;06/02/2015;1053 Pine Bloom Dr;Installation;Maintenance;Kentucky American Water;05/28/2015;06/18/2015;No
+ 29788;06/02/2015;150 W Lowry Ln;Installation;Maintenance;Kentucky American Water;05/28/2015;06/18/2015;No
+ 29789;06/02/2015;;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);05/27/2015;06/17/2015;Yes
+ 29775;06/02/2015;1815  Richmond Rd;Street Cut;Repair;Columbia Gas;05/28/2015;06/18/2015;Yes
+ 29790;06/02/2015;540 E Main St;Installation;New Construction;Kentucky Utilities;05/29/2015;11/30/2015;Yes
+ 29791;06/02/2015;342 Waller Ave;Street Cut;Repair;Kentucky American Water;05/29/2015;06/19/2015;Yes
+ 29792;06/02/2015;W Fourth St;Street Cut;Repair;Kentucky American Water;05/29/2015;06/19/2015;Yes
+ 29793;06/02/2015;102 Eastin Rd;Annual General Permit;Maintenance;Windstream Communications;06/10/2015;07/01/2015;No
+ 29794;06/02/2015;565 Dover Rd;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/02/2015;No
+ 29795;06/02/2015;2945 Waco Rd;Installation;Repair;Columbia Gas;05/28/2015;06/02/2015;No
+ 29796;06/02/2015;2021 Haddrell Cv;Annual General Permit;New Construction;Columbia Gas;06/15/2015;07/06/2015;No
+ 29797;06/02/2015;531 W Fifth St;Street Cut;Maintenance;Columbia Gas;05/29/2015;06/19/2015;Yes
+ 29798;06/02/2015;537 W Fifth St;Street Cut;Maintenance;Columbia Gas;05/29/2015;06/19/2015;Yes
  29768;06/02/2015;1810 Evans Mill Rd;Annual General Permit;Maintenance;Kentucky American Water;05/30/2015;06/20/2015;No
  29769;06/02/2015;3108 Navajo Ct;Annual General Permit;Repair;Columbia Gas;05/19/2015;06/09/2015;No
  29765;05/29/2015;1550 Aristides Blvd;Annual General Permit;Maintenance;Kentucky American Water;05/30/2015;06/20/2015;No
@@ -164,7 +168,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29631;05/15/2015;773 Wilderness Rd;Annual General Permit;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
  29632;05/15/2015;853 Burkewood Dr;Annual General Permit;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
  29633;05/15/2015;2297 Executive Dr;Installation;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
- 29634;05/15/2015;1825 Gayle Dr;Annual General Permit;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
+ 29634;05/15/2015;;Street Cut;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
  29635;05/15/2015;1600 Cantrill Ct;Annual General Permit;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
  29636;05/15/2015;1600 Gayle Dr;Street Cut;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
  29637;05/15/2015;1702 Ft Sumter Dr;Annual General Permit;Maintenance;Kentucky American Water;05/21/2015;06/11/2015;No
