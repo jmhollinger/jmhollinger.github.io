@@ -1,19 +1,67 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 29878;06/18/2015;400 S Limestone;Street Cut;Maintenance;Columbia Gas;06/09/2015;06/30/2015;No
- 29885;06/18/2015;1025 Lakefront Dr;Annual General Permit;Maintenance;Kentucky American Water;06/26/2015;07/17/2015;No
- 29886;06/18/2015;1465 Huntsville Dr;Annual General Permit;Repair;Columbia Gas;06/10/2015;06/18/2015;No
- 29887;06/18/2015;1126 Briarwood Dr;Annual General Permit;Repair;Columbia Gas;06/10/2015;06/18/2015;No
- 29888;06/18/2015;1155 Redwood Dr;Installation;Repair;Columbia Gas;06/10/2015;07/01/2015;No
- 29889;06/18/2015;1466 Huntsville Dr;Street Cut;Repair;Columbia Gas;06/11/2015;07/02/2015;No
-;06/18/2015;630 Euclid Ave;Street Cut;New Construction;Contractor;06/18/2015;12/31/2015;Yes
+ 29930;06/24/2015;2070 Falling Leaves Ln;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29931;06/24/2015;2933 Blackford Pkwy;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29932;06/24/2015;925 Turkey Foot Rd;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29933;06/24/2015;1057 Crestfield Ln;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29934;06/24/2015;224 Owsley Ave;Street Cut;New Construction;Columbia Gas;07/03/2015;07/24/2015;Yes
+ 29935;06/24/2015;460 Rose Ln;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29936;06/24/2015;1113 Kavenaugh Ln;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29937;06/24/2015;1841 Rachels Run;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29938;06/24/2015;135 Malabu Dr;Street Cut;Repair;LFUCG-San Sewers (Water Quality);07/03/2015;07/24/2015;Yes
+ 29939;06/24/2015;405 Pennsylvania Ct;Annual General Permit;Maintenance;Columbia Gas;06/15/2015;07/06/2015;No
+ 29940;06/24/2015;406-410 Pennsylvania Ct;Installation;Maintenance;Columbia Gas;06/16/2015;07/06/2015;No
+ 29929;06/23/2015;314 S Hanover Ave;Installation;Maintenance;Contractor;06/22/2015;06/26/2015;No
+ 29911;06/22/2015;413 Pennsylvania Ct;Installation;Repair;Columbia Gas;06/15/2015;07/06/2015;No
+ 29912;06/22/2015;400 Pennsylvania Ct;Installation;Repair;Columbia Gas;06/15/2015;07/06/2015;No
+ 29913;06/22/2015;515 Patterson St;Street Cut;Maintenance;Kentucky American Water;06/17/2015;07/08/2015;Yes
+ 29914;06/22/2015;301 Richardson Pl;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29915;06/22/2015;973 Darda Ct;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29916;06/22/2015;616 Appletree Ln;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29917;06/22/2015;540 Sayre Ave;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29918;06/22/2015;239 Holiday Rd;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29919;06/22/2015;410 Holiday Rd;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29920;06/22/2015;431 Holiday Rd;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29921;06/22/2015;165 St Margaret Dr;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29922;06/22/2015;217 St Margaret Dr;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29923;06/22/2015;229 St Margaret Dr;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29924;06/22/2015;240 St Margaret Dr;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29925;06/22/2015;237 St Margaret Dr;Annual General Permit;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 29926;06/22/2015;1359 Versailles Rd;Installation;Repair;Columbia Gas;06/29/2015;07/20/2015;Yes
+ 29927;06/22/2015;3808 Salmon Ct;Installation;Maintenance;Kentucky American Water;06/21/2015;07/12/2015;No
+ 29910;06/22/2015;413 Southridge Dr;Installation;Repair;Columbia Gas;06/11/2015;06/22/2015;No
+ 29897;06/19/2015;482 Barkley Dr;Installation;Repair;Columbia Gas;06/11/2015;07/02/2015;No
+ 29894;06/19/2015;1018 Claiborne Way;Installation;New Construction;Kentucky Utilities;06/22/2015;09/30/2015;Yes
+ 29895;06/19/2015;4412-4417 Largo Ln;Installation;New Construction;Delta Gas;06/17/2015;07/17/2015;No
+ 29892;06/19/2015;300 W Reynolds Rd;Installation;New Construction;Kentucky American Water;06/26/2015;07/17/2015;No
+ 29893;06/19/2015;2416 Regency Rd;Annual General Permit;Maintenance;Kentucky American Water;06/16/2015;07/07/2015;No
+ 29899;06/19/2015;525 Russell Ave;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29900;06/19/2015;453 Rookwood Pkwy;Annual General Permit;Repair;Columbia Gas;06/22/2015;07/13/2015;No
+ 29901;06/19/2015;481 Channing Way;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29902;06/19/2015;732 Wellington Way;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29903;06/19/2015;1216 Austin Ct;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29904;06/19/2015;1052 Tatesbrook Dr;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29905;06/19/2015;548 Haskins Dr;Annual General Permit;Repair;Columbia Gas;06/22/2015;07/13/2015;No
+ 29906;06/19/2015;2104 Sage Rd;Annual General Permit;Repair;Columbia Gas;07/01/2015;07/22/2015;No
+ 29907;06/19/2015;;Annual General Permit;New Construction;Columbia Gas;07/01/2015;07/22/2015;No
+ 29908;06/19/2015;4508 Saron Dr;Installation;Repair;Columbia Gas;06/19/2015;07/10/2015;No
+ 29909;06/19/2015;1807 Marlboro Dr;Installation;Repair;Columbia Gas;06/19/2015;07/10/2015;No
+ 29898;06/19/2015;2500 Polo Club Blvd;Installation;New Construction;Kentucky Utilities;06/26/2015;09/15/2015;No
+ 29896;06/19/2015;429 Asbury Ln;Installation;Repair;Columbia Gas;06/10/2015;06/19/2015;No
+ 29928;06/18/2015;630 Euclid Ave;Street Cut;New Construction;Contractor;06/18/2015;12/31/2015;Yes
  29890;06/18/2015;725 Cramer Ave;Street Cut;Maintenance;LFUCG-San Sewers (Water Quality);02/09/2015;06/30/2015;No
  29891;06/18/2015;1710 N Forbes Rd;Installation;New Construction;Columbia Gas;07/13/2015;08/03/2015;No
- 29879;06/18/2015;1840 Gayle Dr;Street Cut;Maintenance;Kentucky American Water;06/16/2015;07/07/2015;Yes
- 29880;06/18/2015;3274 Leestown Rd;Installation;Maintenance;Kentucky American Water;06/16/2015;07/07/2015;No
  29881;06/18/2015;106 N Ashland Ave;Street Cut;Add/Change Equipment;Kentucky American Water;06/26/2015;07/17/2015;Yes
  29882;06/18/2015;3170 Pimlico Pkwy;Street Cut;Add/Change Equipment;Kentucky American Water;06/26/2015;07/17/2015;Yes
  29883;06/18/2015;3183 Yellowstone Pkwy;Annual General Permit;Maintenance;Kentucky American Water;06/26/2015;07/17/2015;No
  29884;06/18/2015;3217 Mirror Lake Dr;Annual General Permit;Maintenance;Kentucky American Water;06/26/2015;07/17/2015;No
+ 29879;06/18/2015;1840 Gayle Dr;Street Cut;Maintenance;Kentucky American Water;06/16/2015;07/07/2015;Yes
+ 29880;06/18/2015;3274 Leestown Rd;Installation;Maintenance;Kentucky American Water;06/16/2015;07/07/2015;No
+ 29886;06/18/2015;1465 Huntsville Dr;Annual General Permit;Repair;Columbia Gas;06/10/2015;06/18/2015;No
+ 29887;06/18/2015;1126 Briarwood Dr;Annual General Permit;Repair;Columbia Gas;06/10/2015;06/18/2015;No
+ 29888;06/18/2015;1155 Redwood Dr;Installation;Repair;Columbia Gas;06/10/2015;07/01/2015;No
+ 29889;06/18/2015;1466 Huntsville Dr;Street Cut;Repair;Columbia Gas;06/11/2015;07/02/2015;No
+ 29885;06/18/2015;1025 Lakefront Dr;Annual General Permit;Maintenance;Kentucky American Water;06/26/2015;07/17/2015;No
+ 29878;06/18/2015;400 S Limestone;Street Cut;Maintenance;Columbia Gas;06/09/2015;06/30/2015;No
  29877;06/17/2015;1410 Cochran Rd;Street Cut;New Construction;Columbia Gas;06/18/2015;07/01/2015;Yes
  29876;06/16/2015;3375 Todds Rd;Installation;New Construction;Columbia Gas;08/16/2015;10/30/2015;Yes
  29872;06/16/2015;4131 Todds Rd;Installation;Add/Change Equipment;Columbia Gas;06/22/2015;08/28/2015;Yes
@@ -141,7 +189,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29753;05/28/2015;1609 Hastings Ct;Street Cut;Maintenance;Kentucky American Water;05/25/2015;06/15/2015;Yes
  29754;05/28/2015;527 E Second St;Street Cut;Maintenance;Kentucky American Water;05/24/2015;06/14/2015;Yes
  29755;05/28/2015;1949 Nicholasville Rd;Installation;New Construction;Kentucky American Water;06/29/2015;07/29/2015;No
- 29756;05/28/2015;415 Woodland Ave;Street Cut;Repair;LFUCG-San Sewers (Water Quality);05/27/2015;06/17/2015;Yes
+ 29756;05/28/2015;415 Woodland Ave;Street Cut;Repair;LFUCG-San Sewers (Water Quality);05/27/2015;07/08/2015;Yes
  29757;05/28/2015;760 Enterprise Dr;Annual General Permit;Maintenance;Time Warner Cable, Inc.;05/26/2015;06/16/2015;No
  29758;05/28/2015;415 W Second St;Street Cut;New Construction;Columbia Gas;06/08/2015;10/08/2015;Yes
  29759;05/28/2015;420-474 W Second St;Street Cut;New Construction;Columbia Gas;06/08/2015;10/08/2015;Yes
@@ -160,18 +208,18 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29732;05/27/2015;;Installation;New Construction;Delta Gas;05/27/2015;06/27/2015;No
  29729;05/27/2015;916 N Broadway;Street Cut;New Construction;Kentucky American Water;06/01/2015;07/01/2015;Yes
  29730;05/27/2015;1004 Tatesbrook Dr;Annual General Permit;Repair;Columbia Gas;05/19/2015;05/26/2015;No
- 29693;05/27/2015;107 Eastin Rd;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
- 29694;05/27/2015;Queensway Dr;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
+ 29693;05/27/2015;107 Eastin Rd;Street Cut;Repair;Columbia Gas;06/10/2015;07/01/2015;Yes
+ 29694;05/27/2015;1715 Fairway Dr;Annual General Permit;Repair;Columbia Gas;06/11/2015;07/01/2015;No
  29695;05/27/2015;304 Holiday Rd;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
  29696;05/27/2015;411 Henry Clay Blvd;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
- 29697;05/27/2015;1628 Clayton Ave;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
+ 29697;05/27/2015;1633 Clayton Ave;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
  29698;05/27/2015;249 St Margaret Dr;Installation;Repair;Columbia Gas;06/05/2015;06/26/2015;No
  29699;05/27/2015;130 St James Dr;Annual General Permit;Repair;Columbia Gas;06/05/2015;06/26/2015;No
  29700;05/27/2015;Appletree Ln;Street Cut;Repair;Columbia Gas;05/29/2015;06/19/2015;Yes
- 29701;05/27/2015;106 N Ashland Ave;Installation;Repair;Columbia Gas;05/28/2015;06/18/2015;No
- 29702;05/27/2015;417 Queensway Dr;Installation;Repair;Columbia Gas;05/28/2015;06/18/2015;No
- 29703;05/27/2015;437 Kingswood;Installation;Repair;Columbia Gas;05/28/2015;06/18/2015;No
- 29704;05/27/2015;1689 Margate Dr;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
+ 29701;05/27/2015;;Street Cut;Repair;Columbia Gas;06/16/2015;07/07/2015;No
+ 29702;05/27/2015;417 Queensway Dr;Installation;Repair;Columbia Gas;06/09/2015;06/30/2015;No
+ 29703;05/27/2015;437 Kingswood;Installation;Repair;Columbia Gas;06/09/2015;06/30/2015;No
+ 29704;05/27/2015;1689 Margate Dr;Annual General Permit;Repair;Columbia Gas;06/16/2015;07/07/2015;No
  29705;05/27/2015;2320 Palumbo Dr;Installation;Repair;Columbia Gas;05/28/2015;06/18/2015;No
  29706;05/27/2015;1901 Edgeworth Dr;Street Cut;New Construction;Columbia Gas;05/28/2015;06/18/2015;Yes
  29707;05/27/2015;106 Loneta Ave;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
@@ -190,14 +238,14 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29717;05/27/2015;Kilrush Dr;Annual General Permit;Repair;Columbia Gas;05/18/2015;06/08/2015;No
  29718;05/27/2015;673-675 N Martin Luther King Blvd;Annual General Permit;Add/Change Equipment;Columbia Gas;05/15/2015;05/26/2015;No
  29719;05/27/2015;161 Arceme Ave;Installation;Repair;Columbia Gas;05/18/2015;06/08/2015;No
- 29720;05/27/2015;303 E Sixth St;Installation;Repair;Columbia Gas;05/29/2015;06/19/2015;No
+ 29720;05/27/2015;303 E Sixth St;Street Cut;Repair;Columbia Gas;06/17/2015;07/08/2015;No
  29721;05/27/2015;122 N Broadway Park;Annual General Permit;Repair;Columbia Gas;06/01/2015;06/22/2015;No
  29722;05/27/2015;3155 Beaumont Centre Cir;Installation;New Construction;Columbia Gas;05/27/2015;06/17/2015;No
  29723;05/27/2015;1429 Village Dr;Street Cut;Repair;Columbia Gas;05/29/2015;06/19/2015;Yes
  29724;05/27/2015;651 N Martin Luther King Blvd;Street Cut;Repair;Columbia Gas;05/29/2015;06/19/2015;Yes
- 29725;05/27/2015;407 N Martin Luther King Blvd;Installation;Repair;Columbia Gas;05/29/2015;06/19/2015;No
- 29726;05/27/2015;617 Maple Ave;Installation;Repair;Columbia Gas;05/29/2015;06/19/2015;No
- 29727;05/27/2015;209 Blue Grass Ave;Installation;Repair;Columbia Gas;06/01/2015;06/22/2015;No
+ 29725;05/27/2015;415 N Martin Luther King Blvd;Street Cut;Repair;Columbia Gas;06/22/2015;07/13/2015;No
+ 29726;05/27/2015;617 Maple Ave;Street Cut;Repair;Columbia Gas;06/18/2015;07/09/2015;Yes
+ 29727;05/27/2015;209 Blue Grass Ave;Street Cut;Repair;Columbia Gas;06/22/2015;07/13/2015;No
  29728;05/27/2015;3544 Bold Bidder Dr;Installation;Maintenance;Kentucky American Water;05/19/2015;06/09/2015;No
  29691;05/26/2015;836 Euclid Ave;Street Cut;Maintenance;Kentucky American Water;05/14/2015;06/04/2015;Yes
  29692;05/26/2015;801 Enterprise Dr;Installation;Maintenance;Time Warner Cable, Inc.;05/15/2015;06/05/2015;No
@@ -220,7 +268,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29674;05/20/2015;1833 Goodpaster Way;Annual General Permit;New Construction;Columbia Gas;05/27/2015;06/17/2015;No
  29675;05/20/2015;959 Highland Park Dr;Installation;Repair;Columbia Gas;05/13/2015;06/03/2015;No
  29676;05/20/2015;3333, 3337 Lawson Ln;Installation;New Construction;Columbia Gas;05/27/2015;06/17/2015;No
- 29677;05/20/2015;624 Shaftsbury Rd;Installation;New Construction;Columbia Gas;05/27/2015;06/17/2015;No
+ 29677;05/20/2015;624 Shaftsbury Rd;Street Cut;New Construction;Columbia Gas;06/09/2015;06/30/2015;Yes
  29678;05/20/2015;Cramer Ave;Street Cut;Add/Change Equipment;Kentucky American Water;05/24/2015;06/14/2015;Yes
  29679;05/20/2015;4817 Wesley Ct;Installation;Add/Change Equipment;Kentucky American Water;05/24/2015;06/14/2015;No
  29680;05/20/2015;531 Freeman Dr;Annual General Permit;Repair;Columbia Gas;05/14/2015;05/19/2015;No
@@ -748,7 +796,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29160;02/23/2015;4137 Heartwood Rd;Annual General Permit;Repair;Columbia Gas;03/25/2015;04/15/2015;No
  29161;02/23/2015;2028 Dunkirk Dr;Annual General Permit;Repair;Columbia Gas;03/06/2015;03/27/2015;No
  29162;02/23/2015;2482 Thornberry Ct;Annual General Permit;Maintenance;Columbia Gas;03/03/2015;03/24/2015;Yes
- 29163;02/23/2015;1210 Lakewood Dr;Street Cut;Repair;Columbia Gas;03/06/2015;03/27/2015;Yes
+ 29163;02/23/2015;1226-1234 Lakewood Dr;Street Cut;Repair;Columbia Gas;04/21/2015;05/12/2015;Yes
  29164;02/23/2015;1731 Woodlark Ave;Street Cut;Repair;Columbia Gas;03/06/2015;03/27/2015;Yes
  29124;02/18/2015;Vendor Way;Annual General Permit;;Windstream Communications;02/22/2015;03/15/2015;No
  29125;02/18/2015;4013 Boston Rd;Installation;Repair;Columbia Gas;02/10/2015;03/03/2015;No
@@ -873,7 +921,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28986;02/03/2015;372 Shoreside Dr;Street Cut;Repair;Kentucky American Water;01/21/2015;02/11/2015;Yes
  29000;02/02/2015;1933 Augusta Dr;Annual General Permit;Repair;Columbia Gas;01/20/2015;01/30/2015;No
  29001;02/02/2015;307 Santa Fe Ct;Annual General Permit;Repair;Columbia Gas;05/12/2015;06/02/2015;No
- 29002;02/02/2015;2555 Palumbo Dr;Annual General Permit;Repair;Columbia Gas;02/04/2015;02/25/2015;No
+ 29002;02/02/2015;2555 Palumbo Dr;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
  29003;02/02/2015;;Annual General Permit;Repair;Columbia Gas;05/19/2015;06/09/2015;No
  29004;02/02/2015;905 Woodglen Ct;Annual General Permit;Repair;Columbia Gas;02/11/2015;03/04/2015;No
  28999;02/02/2015;Eastland Dr;Street Cut;Maintenance;Kentucky American Water;01/27/2015;02/17/2015;Yes
@@ -903,7 +951,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28982;01/29/2015;3388 Blackford Pkwy;Installation;New Construction;Columbia Gas;03/02/2015;03/23/2015;No
  28983;01/29/2015;1792 Goodpaster Way;Annual General Permit;New Construction;Columbia Gas;02/09/2015;03/02/2015;No
  28987;01/29/2015;744 Gatehouse Pl;Annual General Permit;Repair;Columbia Gas;02/04/2015;02/25/2015;No
- 28988;01/29/2015;761 Gatehouse Pl;Annual General Permit;Repair;Columbia Gas;02/04/2015;02/25/2015;No
+ 28988;01/29/2015;761 Gatehouse Pl;Annual General Permit;Repair;Columbia Gas;05/28/2015;06/18/2015;No
  28989;01/29/2015;438 Anniston Dr;Annual General Permit;Repair;Columbia Gas;05/22/2015;06/12/2015;No
  28990;01/29/2015;535 St Anthony Dr;Annual General Permit;Repair;Columbia Gas;02/04/2015;02/25/2015;No
  28991;01/29/2015;709 Hambrick Ave;Annual General Permit;Repair;Columbia Gas;02/04/2015;02/25/2015;No
