@@ -1,4 +1,8 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 29941;06/25/2015;794 Manchester St;Installation;New Construction;Contractor;07/01/2015;01/29/2016;Yes
+ 29942;06/25/2015;722 Euclid Ave;Installation;Maintenance;Contractor;07/01/2015;07/30/2015;No
+ 29943;06/25/2015;1110 Stillwell Ave;Street Cut;New Construction;Contractor;06/30/2015;07/01/2015;Yes
+ 29944;06/25/2015;147 Burley Ave;Street Cut;New Construction;Contractor;07/01/2015;07/01/2015;Yes
  29930;06/24/2015;2070 Falling Leaves Ln;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29931;06/24/2015;2933 Blackford Pkwy;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29932;06/24/2015;925 Turkey Foot Rd;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
