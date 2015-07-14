@@ -1,5 +1,12 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
- 30072;07/10/2015;111 University Ave;Street Cut;Repair;Columbia Gas;07/01/2015;07/22/2015;Yes
+ 30086;07/13/2015;201 Avenue Of Champions;Installation;Repair;Columbia Gas;07/06/2015;07/27/2015;No
+ 30087;07/13/2015;627 Kastle Rd;Installation;Repair;Columbia Gas;07/09/2015;07/30/2015;No
+ 30088;07/13/2015;263 Larch Ln;Installation;Repair;Columbia Gas;07/08/2015;07/29/2015;No
+ 30089;07/13/2015;133 Pleasant Stone St;Installation;Repair;Columbia Gas;07/09/2015;07/30/2015;No
+ 30090;07/13/2015;;Street Cut;New Construction;Kentucky American Water;08/10/2015;09/10/2015;Yes
+ 30091;07/13/2015;110 Conn Ter;Annual General Permit;New Construction;Kentucky Utilities;07/20/2015;11/30/2015;Yes
+ 30092;07/13/2015;1984 Fair Oaks Dr;Installation;Maintenance;Kentucky American Water;07/10/2015;07/31/2015;No
+ 30085;07/10/2015;1027 Rockbridge Rd;Installation;Maintenance;Kentucky American Water;07/09/2015;07/30/2015;No
  30073;07/10/2015;3304 Grasmere Dr;Annual General Permit;New Construction;Columbia Gas;07/21/2015;08/11/2015;No
  30074;07/10/2015;1008 Haddrell Pt;Annual General Permit;New Construction;Columbia Gas;07/21/2015;08/11/2015;No
  30075;07/10/2015;2453 Vale Dr;Annual General Permit;New Construction;Columbia Gas;07/21/2015;08/11/2015;No
@@ -12,8 +19,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  30082;07/10/2015;341 Hays Blvd;Installation;Maintenance;Kentucky American Water;07/17/2015;08/07/2015;No
  30083;07/10/2015;870 Charwood Dr;Installation;Maintenance;Kentucky American Water;07/17/2015;08/07/2015;No
  30084;07/10/2015;100 Chippendale Ct;Annual General Permit;Repair;Columbia Gas;07/07/2015;07/10/2015;No
- 30085;07/10/2015;1027 Rockbridge Rd;Installation;Maintenance;Kentucky American Water;07/09/2015;07/30/2015;No
- 30061;07/09/2015;316-318 Pine St;Installation;Maintenance;Contractor;07/18/2015;07/21/2015;No
+ 30072;07/10/2015;111 University Ave;Street Cut;Repair;Columbia Gas;07/01/2015;07/22/2015;Yes
  30060;07/09/2015;722 Euclid Ave;Street Cut;Repair;Columbia Gas;07/06/2015;07/27/2015;Yes
  30053;07/09/2015;;Street Cut;Repair;Columbia Gas;06/30/2000;07/21/2015;Yes
  30065;07/09/2015;De Roode St;Street Cut;Add/Change Equipment;Kentucky American Water;07/17/2015;10/01/2015;Yes
@@ -40,6 +46,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  30051;07/09/2015;404 Woodland Ave;Street Cut;Repair;Kentucky American Water;07/02/2015;07/23/2015;Yes
  30063;07/09/2015;804 N Limestone;Installation;Maintenance;AT&T Kentucky;07/10/2015;07/31/2015;No
  30052;07/09/2015;457 Ohio St;Street Cut;Maintenance;Kentucky American Water;07/06/2015;07/27/2015;Yes
+ 30061;07/09/2015;316-318 Pine St;Installation;Maintenance;Contractor;07/18/2015;07/21/2015;No
  30044;07/08/2015;1897 Hart Rd;Street Cut;New Construction;Contractor;07/13/2015;07/15/2015;Yes
  30039;07/07/2015;;Street Cut;Add/Change Equipment;Kentucky American Water;07/10/2015;07/31/2015;Yes
  30040;07/07/2015;625 Mt Tabor Rd;Street Cut;Add/Change Equipment;Kentucky American Water;07/10/2015;07/31/2015;Yes
@@ -148,8 +155,8 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  29931;06/24/2015;2933 Blackford Pkwy;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29932;06/24/2015;925 Turkey Foot Rd;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29933;06/24/2015;1057 Crestfield Ln;Annual General Permit;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
- 29934;06/24/2015;224 Owsley Ave;Street Cut;New Construction;Columbia Gas;07/03/2015;07/24/2015;Yes
- 29935;06/24/2015;460 Rose Ln;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
+ 29934;06/24/2015;224 Owsley Ave;Street Cut;New Construction;Columbia Gas;07/10/2015;07/31/2015;Yes
+ 29935;06/24/2015;460 Rose Ln;Street Cut;New Construction;Columbia Gas;07/11/2015;08/01/2015;No
  29936;06/24/2015;1113 Kavenaugh Ln;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29937;06/24/2015;1841 Rachels Run;Installation;New Construction;Columbia Gas;07/03/2015;07/24/2015;No
  29929;06/23/2015;314 S Hanover Ave;Installation;Maintenance;Contractor;06/22/2015;06/26/2015;No
