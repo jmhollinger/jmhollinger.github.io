@@ -1,4 +1,5 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 30093;07/15/2015;1318 Camden Ave;Street Cut;New Construction;Contractor;07/15/2015;07/31/2015;No
  30086;07/13/2015;201 Avenue Of Champions;Installation;Repair;Columbia Gas;07/06/2015;07/27/2015;No
  30087;07/13/2015;627 Kastle Rd;Installation;Repair;Columbia Gas;07/09/2015;07/30/2015;No
  30088;07/13/2015;263 Larch Ln;Installation;Repair;Columbia Gas;07/08/2015;07/29/2015;No
@@ -1367,7 +1368,7 @@ permit_no;date;address;type;work;entity;start;end;lnblock
  28725;12/04/2014;899 Charwood Dr;Annual General Permit;Repair;Columbia Gas;01/19/2015;02/09/2015;No
  28709;12/04/2014;215 E Sixth St;Street Cut;Repair;Columbia Gas;12/08/2014;12/29/2014;No
  28726;12/04/2014;4934 Hartland Pkwy;Annual General Permit;Repair;Columbia Gas;12/08/2014;12/29/2014;No
- 28727;12/04/2014;Beringer Dr;Annual General Permit;Repair;Columbia Gas;12/11/2014;01/01/2015;No
+ 28727;12/04/2014;Beringer Dr;Street Cut;Repair;Columbia Gas;12/11/2014;01/01/2015;No
  28710;12/04/2014;328 Holiday Rd;Installation;Repair;Columbia Gas;12/08/2014;12/29/2014;No
  28728;12/04/2014;3505 Rocky Hill Ter;Street Cut;Repair;Columbia Gas;12/08/2014;12/29/2014;Yes
  28729;12/04/2014;3653 River Park Dr;Installation;Repair;Kentucky American Water;11/25/2014;12/16/2014;No
