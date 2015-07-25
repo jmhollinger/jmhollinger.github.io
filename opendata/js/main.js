@@ -6,7 +6,7 @@
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: showInfo,
                      simpleSheet: true,
-                     query: 'appno = 2015-67P'
+                     query: "appno = 2015-67P"
                     } )
   }
 
