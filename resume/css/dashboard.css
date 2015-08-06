@@ -1,0 +1,76 @@
+html, body {
+height: 100%;
+font-family: Raleway; Helvetica, san-serif;
+}
+
+.container-fluid{
+height: 100%;
+padding: 0px;	
+}
+
+#map-canvas { 
+height: 100%;
+}
+
+.title{
+font-weight: bold;
+}
+
+.status{
+color: #fff;
+padding: 5px;
+border-radius: 5px;
+text-align: center;	
+}
+
+.project-name{
+padding-top: 5px;
+}
+
+.project-name:hover{
+text-decoration: underline;
+}
+
+.good-status{
+background-color: #5cb85c;
+
+}
+
+.warning-status{
+background-color: #f0ad4e;
+
+}
+
+.bad-status{
+background-color: #d9534f;
+}
+
+
+.budget-container{
+width: 100%;
+border-radius: 5px;
+}
+
+.spent{
+height: 40px;
+background-color: #5cb85c; 	
+}
+
+.chart{
+	text-align: center
+}
+
+.tight{
+	margin:0px;
+}
+
+.project-info{
+	padding:15px;
+	border-radius: 5px;
+	background-color: #fff;
+	z-index: 3;
+	position:fixed;
+	top: 20px;
+	right: 20px;
+}
+

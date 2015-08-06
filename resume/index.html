@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,9 +12,10 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/resume.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,12 +25,61 @@
   </head>
 
   <body>
+  
   <div class="container">
+   <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Cover Letter</h4>
+	      </div>
+	      <div class="modal-body">
+				<p>Greetings,</p>
+
+				<p>I believe my technical skills, attention to detail, and knowledge of Lexington and LFUCG make me the ideal candidate for the position of Project Management Director.
+
+				<p>Projects are made of milestones, tasks, and resources. In order to bring a project to successful completion you must reach each milestone by completing the necessary tasks using available resources. Milestones often run concurrently and managing a project can quickly overwhelm a manager if they do not have the right tools. A system of tracking all of these elements will allow stakeholders to have real-time access to project progress, empower project managers to keep their projects on track, and create a repository of project data that can analyzed to write better scopes, value engineer future projects, negotiate fees, and develop other best practices to be used throughout government.</p>
+
+				<p>This system does not have to involve months of implementation and high costs. I strongly believe in using a lean approach to develop both technology and administrative systems. As an example of what I can accomplish at no cost in just a few hours, I have created the <a href="dashboard.html"><strong>Lexington Project Dashboard</strong></a>, a tool which allows projects to be monitored through the city. The dashboard is powered by sample data stored in a (free) Google spreadsheet.</p>
+
+				<p>If you have any questions about my qualifications or my approach to project management, please contact me at any time at 859.552.5292 or by email at <a href="#">jmholl5@gmail.com</a>.
+
+				<p>Thank you,</p>
+
+				<div class="text-center">
+					<img src="img/signature.png" alt="Jonathan Hollinger">
+					<p>Jonathan Hollinger</p>
+				</div>
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close and View Resume</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  		  <div class="row">
+  			<div class="col-sm-4">
+		  	    <a class="btn btn-primary btn-responsive" href="" id="cl-button" role="button" data-toggle="modal" data-target="#myModal">View Cover Letter</a>
+		  	</div>
+		  	<div class="col-sm-4">
+		  	    <a class="btn btn-info btn-responsive" href="docs/JonathanHollinger.pdf" role="button">Download Cover Letter & Resume (PDF)</a>
+		  	</div>
+		  	<div class="col-sm-4">
+		  		<a class="btn btn-success btn-responsive" href="dashboard.html" role="button">View the Lexington Project Dashboard</a>
+	  		</div>
+	  	</div>
+
+	<h1>Jonathan Hollinger</h1>
   	<div class="col-sm-12 text-center">
-  		<h1>Jonathan Hollinger</h1>
-  		<h4>232 Taylor Drive, Lexington, KY 40511</h4>
-  		<h4> 859.552.5292</h4>
-  		<h4><a href="mailto:jmholl5@gmail.com">jmholl5@gmail.com</a></h4>
+
+  		
+  		<p class="contact">232 Taylor Drive, Lexington, KY 40511</p>
+  		<p class="contact">859.552.5292</p>
+  		<p class="contact"><a href="mailto:jmholl5@gmail.com">jmholl5@gmail.com</a></p>
+
   	</div> 
   		<div class="row">
   		<div class="col-sm-12">
@@ -40,9 +89,9 @@
   			<p>Highly skilled, data-driven professional prepared to excel as the Project Management Director.</p>
   			<ul>
 	  			<li>Deep knowledge of Lexington and LFUCG; experience working and communicating with city staff, community leaders, businesses, neighborhoods, and other stakeholders.</li>
-	  			<li>Process and results oriented; experience anaylyzing government processes and implenting effeciency improvements, including knowledge of lean processes with training from the <a href="https://www.denvergov.org/mayor/MayorsOffice/ProgramsInitiatives/DenverPeakPerformance/PeakAcademy/tabid/444380/Default.aspx">Denver Peak Academy</a>.</li>
-	  			<li>Project management experience; experience managing and assisting with large public sector projects, including software implementations, state and federally funded road and trail projects, and professsional services contracts.</li>
-	  			<li>Highly technically skilled; knowledge and experience with office software, databases, and GIS, including proficiency in writing VBA, Javscript, SQL, HTML, CSS, and other programming languages.</li>
+	  			<li>Process and results oriented; experience analyzing government processes and implementing efficiency improvements, including knowledge of lean processes with training from the <a href="https://www.denvergov.org/peakacademy">Denver Peak Academy</a>.</li>
+	  			<li>Project management experience; experience managing and assisting with large public sector projects, including software implementations, state and federally funded road and trail projects, and professional services contracts.</li>
+	  			<li>Highly technically skilled; knowledge and experience with office software, databases, and GIS, including proficiency in writing VBA, JavaScript, SQL, HTML, CSS, and other programming languages.</li>
   			</ul>
   		</div>
 		</div>
@@ -57,26 +106,23 @@
 			    <strong><p>Lexington Fayette Urban County Government, Department of Planning, Preservation, and Development</p></strong>
 			    <p>Administrative Officer Senior (December 2013 - present)</p>
 			    <ul>
-			    	<li>Manage projects and programs.</li>
+			    	<li>Managed projects and programs.</li>
 			    		<ul>
 				    		<li>Managed Lexington's vacant property program.</li>
 				    		<li>Served as project manager for the Euclid Avenue Commercial Corridor Study.</li>
-				    		<li>Assisted with major technology implementation, including new systems for new development and code enforcement.</li>
+				    		<li>Assisted with major technology implementations, including new systems for New Development and Code Enforcement.</li>
 				    	</ul>
-			    	<li>Work with a variety of Divisions with the Department of Planning, Preservation, and Development on process improvements.</li>
+			    	<li>Worked with a variety of Divisions within the Department of Planning, Preservation, and Development on process improvements.</li>
 			    		<ul>
-				    		<li>Created new systems for tracking department information and ways to extract data from current systems.</li>
-				    		<li>Created new ways for LFUCG's customers to contact city staff.</li>
+				    		<li>Created new systems for tracking department information, including automated data extraction processes, data processing tools, and front-end interfaces.</li>
+				    		<li>Created new ways for LFUCG's customers to contact city staff to improve response time and accuracy.</li>	    		
+				    		<li>Created replicable tools to "clean" city data in order to make it more useful for decision making.</li>
 				    	</ul>
-			    	<li>Develop tools to communicate data to high-level officials in real time.
+			    	<li>Assisted with the day-to-day management of seven divisions of government.
 			    		<ul>
-				    		<li>Developed data extraction processes, data processing tools, and front-end interfaces.</li>
-				    		<li>Created replicable tools to "clean" city data in order to make it more useful.</li>
-				    	</ul>
-			    	<li>Assist with the day-to-day management of seven divisions of goverment.
-			    	<ul>
-				    		<li>Assist with financial management at the project and operational level.</li>
-				    		<li>Direct the creation of policies and procedures to improve effeciency.</li>
+				    		<li>Assisted with financial management at the project and operational level.</li>
+				    		<li>Directed the creation of policies and procedures to improve efficiency.</li>
+				    		<li>Provided guidance to project managers on capital projects, including consultant selection and resolution of project issues.</li>
 				    	</ul>
 			    </ul>
 			  </div>
@@ -95,8 +141,7 @@ improved forms for code enforcement actions and economic development agency repo
 				    	</ul>
 			    	<li>Provided staff support to the Council’s budget process.</li>
 			    		<ul>
-				    		<li>Served as the primary staff person for a Council “Budget Link” in 2011, 2012, and 2013, including the
-Planning, Preservation, and Development Link in 2013.</li>
+				    		<li>Served as the primary staff person for a Council “Budget Link” in 2011, 2012, and 2013.</li>
 				    		<li>Assembled documents and performed financial analysis of proposed budgets.</li>
 				    	</ul>
 			    	<li>Served as the liaison for all residents, associations, and businesses in the 10th Council District</li>
@@ -166,13 +211,13 @@ general public on LFUCG programs and projects.</li>
 			  <div class="panel-body">
   			<ul>
   				<li>Microsoft Office Products</li>
-  				<li>Visual Basic</li>
+  				<li>Visual Basic for Applications (VBA)</li>
   				<li>HTML</li>
   				<li>JavaScript</li>
   				<li>CSS</li>
   				<li>Visual Basic</li>
   				<li>Database Management/SQL</li>
-  				<li>SPSS, Stata, and other statisitical software</li>
+  				<li>SPSS, Stata, and other statistical software</li>
   				<li>PeopleSoft</li>
   			</ul>
 			</div>
@@ -182,50 +227,58 @@ general public on LFUCG programs and projects.</li>
 			    <div class="panel panel-default">
 			  <div class="panel-body">
 			    <strong><p>Derek Paulsen, Ph.D.</p></strong>
-			    <p>Commissioner of Planning, Preservation, and Development</p>
-			    <p>Lexington-Fayette Urban County Government</p>
-			    <p><a href="mailto:dpaulsen@lexingtonky.gov">dpaulsen@lexingtonky.gov</a><p>
-			    <p>859.258.3160<p>
+			    <p class="contact">Commissioner of Planning, Preservation, and Development</p>
+			    <p class="contact">Lexington-Fayette Urban County Government</p>
+			    <a href="mailto:dpaulsen@lexingtonky.gov">dpaulsen@lexingtonky.gov</a><p>
+			    <p class="contact">859.258.3160<p>
 			  </div>
 			</div>
 			<div class="panel panel-default">
 			  <div class="panel-body">
 			    <strong><p>R. Douglas Martin</p></strong>
-			    <p>Attorney</p>
-			    <p>Sturgill, Turner, Barker & Maloney</p>
-			    <p><a href="dmartin@sturgillturner.com">dmartin@sturgillturner.com</a><p>
-			    <p>859.255.8581<p>
+			    <p class="contact">Attorney</p>
+			    <p class="contact">Sturgill, Turner, Barker & Maloney</p>
+			    <a href="mailto:dmartin@sturgillturner.com">dmartin@sturgillturner.com</a>
+			    <p class="contact">859.255.8581</p>
 			  </div>
 			</div>
 			<div class="panel panel-default">
 			  <div class="panel-body">
 			    <strong><p>Rob Parmley</p></strong>
-			    <p>Branch Manager</p>
-			    <p>Lexington Public Library</p>
-			    <p><a href="rparmley@lexpublib.org">rparmley@lexpublib.org</a><p>
-			    <p>859.231.5500<p>
+			    <p class="contact">Branch Manager</p>
+			    <p class="contact">Lexington Public Library</p>
+			    <a class="contact" href="mailto:rparmley@lexpublib.org">rparmley@lexpublib.org</a>
+			    <p class="contact">859.231.5500</p>
 			  </div>
 			</div>
+			<h3 class="text-primary"><i class="fa fa-newspaper-o"></i> Publications</h3>   
+			 <div class="panel panel-default">
+			  <div class="panel-body">
+			    <strong><p class="contact"><a href="docs/sb2.pdf">Kentucky Pension Reform Under Senate Bill 2</a></p></strong>
+			    <p class="contact">Kentucky Bench and Bar, March 2014</p>
+			    <p class="contact">R. Douglas Martin, J.D. Chaney, Jonathan M. Hollinger</p>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-body">
+			    <strong><p class="contact"><a href="docs/gasb.pdf">New Accounting Standards for Government Pensions</a></p></strong>
+			    <p class="contact">Kentucky Bench and Bar, March 2014</p>
+			    <p class="contact">Lee Ann Watters, Jonathan M. Hollinger, and R. Douglas Martin</p>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-body">
+			    <strong><p class="contact"><a href="docs/public-art.pdf">Public Art Master Planning for Municipal Governments: Core Components and Common Practices</a></p></strong>
+			    <p class="contact">UKnowledge, University of Kentucky</p>
+			    <p class="contact">Jonathan M. Hollinger</p>
+			  </div>
+			</div>
+
 
   		</div>
 
 		</div>
-	<div>
-	<h3>Cover Letter</h3>
-
-	<p>I believe you will find me well qualified for the position of Project Management Director. I will not be the most experienced candidate you interview, but my technical skills, attention to detail, and knowledge of Lexington and LFUCG make me the ideal candidate for this position.
-
-	<p>Projects are made of milestones, tasks, and resources. In order to bring a project to completion you must reach each milestone by completing the neccesary tasks, using available resources. A system of tracking all of these elements will allow stakeholders to have real-time access to project progress, allow managers to keep projects on track, and create a database of project information that can used to value engineer future projects, negotiate fees, and develop best practices to be used throughout government.</p>
-
-	<p></p> 
-
-	<p>If you have any questions about my qualifications or my approach to project management, please contact me at any time at 859.552.5292 or by email at <a href="#">jmholl5@gmail.com</a>.
-
-	<p>Thank you,</p>
-
-	<p>Jonathan Hollinger</p>
-
-	</div>			  	  
+	  	  
   </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -233,6 +286,5 @@ general public on LFUCG programs and projects.</li>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ&sensor=true&libraries=places"></script>
-    <script src="js/map.js"></script>
   </body>
 </html>

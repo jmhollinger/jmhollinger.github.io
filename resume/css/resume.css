@@ -1,0 +1,22 @@
+html, body{
+	margin: 0px;
+	font-family: Raleway, sans-serif;
+}
+
+h1{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 5em;
+	text-align: center;
+}
+
+.btn-responsive {
+	margin-top:15px;
+	margin-left:15px;
+	width:90%;
+	white-space: normal;
+}
+
+.contact{
+	margin:0px;
+}
