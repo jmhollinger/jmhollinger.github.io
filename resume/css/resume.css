@@ -10,6 +10,7 @@ h1{
 }
 
 .btn-responsive {
+	white-space: normal;
 	margin-top:15px;
 	margin-left:15px;
 	width:90%;
