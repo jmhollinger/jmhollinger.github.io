@@ -1,4 +1,6 @@
 permit_no;date;address;type;work;entity;start;end;lnblock
+ 30240;08/06/2015;310 Glendover Rd;Installation;Maintenance;Contractor;08/10/2015;08/15/2015;No
+ 30239;08/05/2015;100 Chilesburg Rd;Installation;New Construction;Kentucky Utilities;08/12/2015;12/23/2015;Yes
  30199;08/03/2015;250-344 S Martin Luther King Blvd;Street Cut;New Construction;Kentucky American Water;08/04/2015;10/30/2015;Yes
  30236;07/31/2015;465 Asbury Ln;Annual General Permit;Repair;Columbia Gas;07/29/2015;08/19/2015;No
  30237;07/31/2015;507 E High St;Installation;Repair;Columbia Gas;07/28/2015;08/18/2015;No
