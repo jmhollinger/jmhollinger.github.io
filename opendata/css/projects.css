@@ -16,5 +16,12 @@ font-family: Raleway, san-serif;
 }
 
 #timeline {
-	font-family: Raleway
+	font-family: Raleway;
+	height: 400px;
+	width: 100%;
 }
+
+#donutchart {
+	font-family: Raleway;
+	height: 400px;
+	}

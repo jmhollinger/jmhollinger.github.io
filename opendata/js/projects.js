@@ -8,12 +8,12 @@
         var donut_chart = new google.visualization.PieChart(donut_div);
         var budget_data = google.visualization.arrayToDataTable([
           ['Category',  'Amount'],
-          ['Spent',     200000],
+          ['Spent',     100000],
           ['Available', 200000 ]
         ]);
 
         var budget_options = {
-          pieHole: 0.5,
+          legend:'bottom',
           fontName: 'Raleway'
         };
 
