@@ -1,0 +1,427 @@
+<!doctype html>
+
+<html lang="en" ng-app="planning">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Vacant Property Review Commission</title>
+  
+  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+    <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular-route.js"></script>
+  <script src="js/smart-table.min.js"></script>
+  <script src="js/tabletop.js"></script>
+  <script src="js/app.js"></script>
+
+
+<style type="text/css">
+
+.ss-form-container, .ss-resp-card {
+  background-color: rgb(255,255,255);
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(255,255,255);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(242,242,242);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(212,212,212);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+.ss-record-username-message {
+  font-family: "Roboto";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: "Roboto";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: "Roboto";
+  color: rgb(196,59,29);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: "Arial";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: "Arial";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: "Arial";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0,0,238);
+}
+
+a:visited {
+  color: rgb(85,26,139);
+}
+
+a:active {
+  color: rgb(252,0,0);
+}
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(196,59,29);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(140,140,140);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<style>
+  .thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+</style>
+
+<div class="col-sm-6">
+<h1>Inspection Form</h1>
+<form action="https://docs.google.com/forms/d/1YJdSlnslvJQINYTCMfu6scC2mMz-brvhK468ErSWPfI/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1496784736"><div class="ss-q-title">Address
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.1496784736" id="entry_1496784736" aria-label="Address  "><option value=""></option>
+<option value="110 Taylor Dr">110 Taylor Dr</option> <option value="110 Loch Lomond Dr">110 Loch Lomond Dr</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-date"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2065135677"><div class="ss-q-title">Date of Inspection
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="date" name="entry.2065135677" value="" class="ss-q-date" dir="auto" id="entry_2065135677" aria-label="Date of Inspection  ">
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_148719899"><div class="ss-q-title">Is the property vacant?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.148719899" id="entry_148719899" aria-label="Is the property vacant?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1295740446"><div class="ss-q-title">If yes, why do you believe it is vacant?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="text" name="entry.1295740446" value="" class="ss-q-short" id="entry_1295740446" dir="auto" aria-label="If yes, why do you believe it is vacant?  " title="">
+<div class="error-message" id="590720099_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1496550177"><div class="ss-q-title">Is the electric meter connected and running?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.1496550177" id="entry_1496550177" aria-label="Is the electric meter connected and running?  "><option value=""></option>
+<option value="Connected and running.">Connected and running.</option> <option value="Connected, but not running.">Connected, but not running.</option> <option value="Not connected.">Not connected.</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_328649356"><div class="ss-q-title">Is the property unsecured (open windows doors)?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.328649356" id="entry_328649356" aria-label="Is the property unsecured (open windows doors)?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_167278352"><div class="ss-q-title">Property Boarded Up?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.167278352" id="entry_167278352" aria-label="Property Boarded Up?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="Partially">Partially</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1982170679"><div class="ss-q-title">Are there other maintenance issues with the property?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.1982170679" id="entry_1982170679" aria-label="Are there other maintenance issues with the property?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_2077823504"><div class="ss-q-title">If &quot;Yes&quot;, describe the maintenance issues.
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="text" name="entry.2077823504" value="" class="ss-q-short" id="entry_2077823504" dir="auto" aria-label="If &quot;Yes&quot;, describe the maintenance issues.  " title="">
+<div class="error-message" id="347553489_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_545793845"><div class="ss-q-title">Is there Trash and Debris on the Property?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.545793845" id="entry_545793845" aria-label="Is there Trash and Debris on the Property?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_316862074"><div class="ss-q-title">If &quot;Yes&quot;, describe the type and location of the trash and debris?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="text" name="entry.316862074" value="" class="ss-q-short" id="entry_316862074" dir="auto" aria-label="If &quot;Yes&quot;, describe the type and location of the trash and debris?  " title="">
+<div class="error-message" id="2030927868_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_17028106"><div class="ss-q-title">Did you observe animals or vermin on the property?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<select name="entry.17028106" id="entry_17028106" aria-label="Did you observe animals or vermin on the property?  "><option value=""></option>
+<option value="Yes">Yes</option> <option value="No">No</option></select>
+<div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1135686079"><div class="ss-q-title">If &quot;Yes&quot; describe what you observed?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input type="text" name="entry.1135686079" value="" class="ss-q-short" id="entry_1135686079" dir="auto" aria-label="If &quot;Yes&quot; describe what you observed?  " title="">
+<div class="error-message" id="945892375_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div>
+<input type="hidden" name="draftResponse" value="[,,&quot;8144803687705058674&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+
+<input type="hidden" name="fvv" value="0">
+
+
+<input type="hidden" name="fbzx" value="8144803687705058674">
+
+<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+<div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
+</tr></tbody></table></div></ol></form>
+</div>
+<div class="col-sm-6">
+<h1>Upload Inspection Photos</h1>
+<form class="form">
+<div class="form-group">
+	<label>Address</label>
+	<select>
+		<option></option>
+		<option>232 Taylor Dr</option>
+		<option>234 Taylor Dr</option>
+	</select>
+</div>
+<div class="form-group">
+	<input type="file" id="files" name="files[]" multiple />
+	<output id="list"></output>
+</div>
+</form>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script>
+	// Check for the various File API support.
+if (window.File && window.FileReader && window.FileList && window.Blob) {
+  // Great success! All the File APIs are supported.
+} else {
+  alert('The File APIs are not fully supported in this browser.');
+}
+
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // Loop through the FileList and render image files as thumbnails.
+    for (var i = 0, f; f = files[i]; i++) {
+
+      // Only process image files.
+      if (!f.type.match('image.*')) {
+        continue;
+      }
+
+      var reader = new FileReader();
+
+      // Closure to capture the file information.
+      reader.onload = (function(theFile) {
+        return function(e) {
+          // Render thumbnail.
+          var span = document.createElement('span');
+          span.innerHTML = ['<img class="thumb" src="', e.target.result,
+                            '" title="', escape(theFile.name), '"/>'].join('');
+          document.getElementById('list').insertBefore(span, null);
+        };
+      })(f);
+
+      // Read in the image file as a data URL.
+      reader.readAsDataURL(f);
+    }
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+
+</script>
+</html>

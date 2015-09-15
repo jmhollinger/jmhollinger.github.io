@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Comcate Demo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="custom.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="html5shiv.min.js"></script>
+      <script src="respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+ <body>
+<div class="container">
+
+<div class="section">
+  <div class="heading"><h4>Appeals</h4>
+  </div>
+  <button id="add-appeal" class="btn btn-default">Add New Appeal</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Date Appealed</td>
+        <td>Appellant</td>
+        <td>Date of Hearing</td>
+        <td>Hearing Status</td>
+        <td>Notes</td>
+      </tr>
+    </thead>
+    <tbody id="appeal-body">
+      <tr>
+        <td><input class="input" value="2015-03-31" type="date"></td>
+        <td><input class="input" type="text" value="Derek Paulsen"></td>
+        <td><input class="input" value="2015-05-10" type="date"></td>
+        <td>
+          <select class="input" >
+            <option>Awaiting Hearing</option>
+            <option>Withdrawn</option>
+            <option>Violation Upheld</option>
+            <option>Violation Overturned</option>
+          </select>
+        </td>
+        <td><input class="input" value="Appealing housing violations only." type="text"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h4>History</h4>
+    <table class="table">
+    <thead>
+      <tr>
+        <td>Entry Date</td>
+        <td>Employee</td>
+        <td>Description</td>
+      </tr>
+    </thead>
+    <tbody id="appeal-history">
+      <tr>
+        <td>2015-03-31 17:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Edited Appeal #1</td>
+      </tr>
+      <tr>
+        <td>2015-03-31 16:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Added Appeal #1</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+<div class="section">
+  <div class="heading"><h4>Assistance Programs</h4>
+  </div>
+  <button id="add-assistance" class="btn btn-default">Add New Assistance Application</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Date Applied</td>
+        <td>Appellant</td>
+        <td>Program</td>
+        <td>Status</td>
+        <td>Notes</td>
+      </tr>
+    </thead>
+    <tbody id="assistance-body">
+      <tr>
+        <td><input class="input" value="2015-03-31" type="date"></td>
+        <td><input class="input" type="text" value="Derek Paulsen"></td>
+        <td><select class="input" ><option>CDBG Rehab</option><option>Realtors Community Housing</option><option>Sidewalk Assistance</option></select></td>
+        <td><select class="input" ><option>Awaiting Eligibility Determination</option>     <option>Eligible</option><option>Not Eligible</option></select></td>
+        <td><input class="input" value="Applicant is elderly and cannot afford repairs." type="text"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h4>History</h4>
+    <table class="table">
+    <thead>
+      <tr>
+        <td>Entry Date</td>
+        <td>Employee</td>
+        <td>Description</td>
+      </tr>
+    </thead>
+    <tbody id="assistance-history">
+      <tr>
+        <td>2015-03-31 17:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Edited Application #1</td>
+      </tr>
+      <tr>
+        <td>2015-03-31 16:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Added Application #1</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="heading"><h4>Abatements</h4>
+  </div>
+  <button id="add-abatement" class="btn btn-default">Add New Abatement</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Date Abated</td>
+        <td>Contractor</td>
+        <td>Amount</td>
+        <td>Description of Work</td>
+        <td>Notes</td>
+      </tr>
+    </thead>
+    <tbody id="abatement-body">
+      <tr>
+        <td><input class="input" value="2015-03-31" type="date"></td>
+        <td><input class="input" type="text" value="ZKB Inc"></td>
+        <td><input class="input" type="number" value="1000"></td>
+        <td><input class="input" type="text" value="Removal of Trash and Debris, Mowing"></td>
+        <td><input class="input" value="" type="text"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h4>History</h4>
+    <table class="table">
+    <thead>
+      <tr>
+        <td>Entry Date</td>
+        <td>Employee</td>
+        <td>Description</td>
+      </tr>
+    </thead>
+    <tbody id="abatement-history">
+      <tr>
+        <td>2015-03-31 17:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Edited Abatement #1</td>
+      </tr>
+      <tr>
+        <td>2015-03-31 16:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Added Abatement #1</td>
+      </tr>
+    </tbody>
+  </table>
+</div> 
+  
+<div class="section">
+  <div class="heading"><h4>Liens</h4>
+  </div>
+  <button id="add-liens" class="btn btn-default">Add New Lien</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Date Filed</td>
+        <td>Amount</td>
+        <td>Reason</td>
+        <td>Notes</td>
+      </tr>
+    </thead>
+    <tbody id="liens-body">
+      <tr>
+        <td><input class="input" value="2015-03-31" type="date"></td>
+        <td><input class="input" type="number" value="500"></td>
+        <td><select class="input"><option>Unpaid Civil Penalty</option><option>Abatement</option></select></td>
+        <td><input class="input" value="" type="text"></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h4>History</h4>
+    <table class="table">
+    <thead>
+      <tr>
+        <td>Entry Date</td>
+        <td>Employee</td>
+        <td>Description</td>
+      </tr>
+    </thead>
+    <tbody id="lien-history">
+      <tr>
+        <td>2015-03-31 17:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Edited Lien #1</td>
+      </tr>
+      <tr>
+        <td>2015-03-31 16:30</td>
+        <td>Jonathan Hollinger #48238</td>
+        <td>Added Lien #1</td>
+      </tr>
+    </tbody>
+  </table>
+</div> 
+  
+</div>
+ 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXqhUx3ZQwPBtAVsXg6tz9N_2yvrRydcQ&sensor=true&libraries=places"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>

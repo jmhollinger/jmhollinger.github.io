@@ -10,11 +10,17 @@
     <div class="row">
     	<div class="col-sm-12">
     	<div class="panel panel-default panel-body">    		
+			<div class="col-sm-6">	
 				<p class="record"><strong>Parcel No: </strong>{{parcelid}}</p>
 				<p class="record"><strong>Status: </strong>{{status}}</p>
 				<p class="record"><strong>Status Date: </strong>{{statusdate}}</p>
-				<p class="record"><strong>Last Water Service Date: </strong>{{water}}</p>
+				<p class="record"><strong>Water Service: </strong>{{water}}</p>
 				<p class="record"><a ng-href="http://qpublic9.qpublic.net/ky_fayette_display.php?county=ky_fayette&KEY={{parcelid}}">PVA Page</a></p>
+			</div>
+			<div class="col-sm-6">
+				<img class="img-rounded" ng-src="http://qpublic9.qpublic.net/fayette_photos/{{parcelid}}-1.jpg"  width="100%
+				">
+			</div>
 		</div>
 		</div>
 	</div>
@@ -26,10 +32,12 @@
 	    <div ng-repeat="x in inspections">
 	    		<hr>
 				<p class="record"><strong>Date: </strong>{{x.InspectDate}}</p>
-				<p class="record"><strong>Vacant: </strong>{{x.Vacant}} - {{x.VacantDescription}}</p>
-				<p class="record"><strong>Unfit for Intended Use?: </strong>{{x.Unfit}}</p>
-				<p class="record"><strong>Trash and Debris?: </strong>{{x.Trash}}</p>
-				<p class="record"><strong>Notes: </strong>{{x.Notes}}</p>
+				<p class="record"><strong>Vacant: </strong>{{x.Vacant}} {{x.VacantDescription}}</p>
+				<p class="record"><strong>Meter: </strong>{{x.Meter}}</p>
+				<p class="record"><strong>Unsecured: </strong>{{x.Unsecured}}</p>
+				<p class="record"><strong>Boarded: </strong>{{x.Boarded}}</p>
+				<p class="record"><strong>Trash and Debris?: </strong>{{x.Trash}} {{x.TrashLocation}}</p>
+				<p class="record"><strong>Vermin: </strong>{{x.Vermin}} {{x.VerminDesc}}</p>
 				<a ng-href="{{x.Photos}}">Photos</a>
 
 	    </div>
