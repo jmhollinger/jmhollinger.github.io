@@ -1,0 +1,20 @@
+html, body{
+	margin: 0px;
+	font-family: Raleway, sans-serif;
+}
+
+.btn-responsive {
+	white-space: normal;
+	margin-top:15px;
+	margin-left:15px;
+	width:90%;
+}
+
+.contact{
+	margin:0px;
+}
+
+.jumbotron p{
+	margin:0px;
+	font-size: 1.2em;
+}
