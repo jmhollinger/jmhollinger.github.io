@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <style>
+             #map { height: 600px; }
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+ <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+ <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<div id="map">
+
+<script>
+
+var tb_park = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/tb_park.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var rupp = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/rupp.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var tb_corridor = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/tb_corridor.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var tb_park = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/tb_park.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var adjacent_parks = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': "GeoJSON/adjacent_parks.geojson",
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})();
+
+var dkBlue = {
+    fillColor: "#34495e",
+    color: "#0000FF",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+var ltBlue = {
+    fillColor: "#3498db",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+var green = {
+    fillColor: "#27ae60",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+var red = {
+    color: "#e74c3c",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.5
+};
+
+var street = L.tileLayer('https://{s}.tiles.mapbox.com/v3/jmholl5.i0bjcjhl/{z}/{x}/{y}.png', {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+});
+
+var sat = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpeg', {
+	attribution: 'Tiles by <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+	subdomains: '1234'
+});
+
+var tbPark = L.geoJson([tb_park], {
+    style: green ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("Owner");
+    }
+});
+
+var ruppDistrict = L.geoJson([rupp], {
+    style: ltblue ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("Owner");
+    }
+});
+
+var tbCorridor = L.geoJson([tb_corridor], {
+    style: dkBlue ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("Owner");
+    }
+});
+
+var parks = L.geoJson([adjacent_parks], {
+    style: red ,
+    onEachFeature: function (feature, layer) {
+        layer.bindPopup("Owner");
+    }
+});
+
+
+var map = L.map('map', {
+    center: [38.04635057521328,-84.49709415435791],
+    zoom: 14,
+    layers: [tbPark, ruppDistrict, tbCorridor, parks]
+});
+
+var baseMaps = {
+    "Streets": street,
+    "Satellite": sat
+};
+
+var overlayMaps = {
+    "Town Branch Park": tbPark,
+    "Rupp/Convention Center": ruppDistrict,
+    "Town Branch Corridor": tbCorridor,
+    "Adjacent Parks": parks
+    };
+
+L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
+
+</script>
+
+</div>
+<div class="container">
+      <hr>
+
+      <footer>
+        <p>&copy; Jonathan Hollinger 2014</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
