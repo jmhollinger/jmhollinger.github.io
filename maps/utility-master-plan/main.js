@@ -47,10 +47,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/256/{z}/{x
 }).addTo(map);
 
 map.addControl( new L.Control.Search({
-        url: 'http://maps.lexingtonky.gov/lfucggis/rest/services/addresses/MapServer/0/query?where=ADDRESS LIKE \'\{s\}\'&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Address&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson',
+        url: 'http://maps.lexingtonky.gov/lfucggis/rest/services/addresses/MapServer/0/query?where=ADDRESS LIKE \'%\{s\}%\'&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Address&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson',
         jsonpParam: 'json_callback',
-        propertyName: 'features[0].attributes.ADDRESS',
-        propertyLoc: ['features.[0].geometry.y', 'features.[0].geomerty.x'],
+        propertyName: 'ADDRESS',
+        propertyLoc: ['y', 'x'],
         markerLocation: true,
         autoCollapse: true,
         autoType: false,
