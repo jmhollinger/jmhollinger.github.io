@@ -1,0 +1,28 @@
+{
+  "name": "map-template",
+  "homepage": "https://github.com/jmhollinger/jmhollinger.github.io",
+  "authors": [
+    "Jonathan Hollinger <jmholl5@gmail.com>"
+  ],
+  "description": "Template for leaflet web maps.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "^0.7.7",
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0",
+    "leaflet-search": "^1.9.9",
+    "esri-leaflet": "^2.0.0"
+  },
+  "resolutions": {
+    "jquery": "1.9.1 - 2",
+    "leaflet": "^1.0.0-rc.1"
+  }
+}
