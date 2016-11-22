@@ -45,7 +45,8 @@ function initialize(){
   //Listen for click and display infowindow with content.
   map.data.addListener('click', function(event) {
       infowindow.setContent(
-      '<h4>' + event.feature.getProperty('Address') + '</h4>'
+      '<h4>' + event.feature.getProperty('Address') + '</h4>' +
+      '<a href="https://form.jotform.com/63115866101146" target="_blank">Create Inspection</a>' 
         );
       infowindow.setPosition(event.latLng)
       infowindow.open(map);
