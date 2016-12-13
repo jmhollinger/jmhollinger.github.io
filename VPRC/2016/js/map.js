@@ -27,7 +27,7 @@ function initialize(){
 
   //This is the customizable section where you can load data, style it, and display information when it is clicked.
   //Load map data
-  map.data.loadGeoJson('data/wednesday.geojson')
+  map.data.loadGeoJson('data/final.geojson')
 
   //Set conditional styling, get rid of the if else for consistent styling.
   map.data.setStyle({icon: {
