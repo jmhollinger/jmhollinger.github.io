@@ -23,9 +23,13 @@ h1{
 	margin:0px;
 }
 
-.jumbotron p{
+.jumbotron {
 	background-color: #1abc9c;
 	color: #FFF;
+}
+
+
+.jumbotron p{
 	margin:0px;
 	font-size: 1.2em;
 }
