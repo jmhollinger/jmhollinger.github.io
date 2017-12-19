@@ -24,6 +24,8 @@ h1{
 }
 
 .jumbotron p{
+	background-color: #1abc9c;
+	color: #FFF;
 	margin:0px;
 	font-size: 1.2em;
 }
