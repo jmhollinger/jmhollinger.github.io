@@ -1,0 +1,188 @@
+{
+  "about": {
+    "name": "Jonathan Hollinger",
+    "contact": {
+      "address": "1113 Taborlake Drive, Lexington, KY 40502",
+      "phone": "(859) 552-5292",
+      "email": "jmholl5@gmail.com",
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/jonathanmhollinger/",
+        "github": "https://github.com/jmhollinger"
+      }
+    },
+    "summary": "Experienced data engineer and architect with a track record of building scalable data platforms to power data-driven decision-making. Significant accomplishments include standing up a modern data stack from scratch at a high-growth SaaS startup and a multi-billion dollar public purchasing cooperative, the implementation and data integration of a property data analytics platform in more than 40 cities, land banks, and nonprofit organizations, and complex financial analysis leading to landmark public pension reform initiatives."
+  },
+  "experience": [
+    {
+      "title": "Head of Data",
+      "company": "Mangomint",
+      "company_url": "https://www.mangomint.com/",
+      "dates": "February 2024 - Present",
+      "responsibilities": [
+        "Hired and managed a team of data engineers.",
+        "Built and managed data platform in Snowflake, dbt, Prefect, Hightouch and other tools.",
+        "Managed go-to-market systems including CRM, automations and integrations, and custom apps.",
+        "Built outbound lead enrichment system for a local business in salon/spa industry.",
+        "Implemented AI agents for data extraction and enrichment."
+      ]
+    },
+    {
+      "title": "Senior Data Engineer",
+      "company": "Fleetio",
+      "company_url": "https://www.fleetio.com/",
+      "dates": "December 2021 - February 2024",
+      "responsibilities": [
+        "Hired a team of data analysts and engineers to serve data domains across the business.",
+        "Implemented a new modern data stack using Stitch, Fivetran, Prefect, dbt, Snowflake, Metabase, and Streamlit.",
+        "Designed data platform architecture, modeling patterns, and established SQL and Python style guides.",
+        "Created and maintained AWS, Confluent, and Snowflake data infrastructure using Terraform.",
+        "Implemented and owned orchestration (Prefect) and built custom Python pipelines.",
+        "Built complex data models in dbt for exposure to BI tools.",
+        "Set up CI/CD processes and automated testing for pipelines and models.",
+        "Created Metabase dashboards and visualizations for stakeholders and provided training and guidance for self-service.",
+        "Designed and built a custom business intelligence app for core company metrics using Streamlit.",
+        "Performed code reviews and mentored junior engineers and analysts."
+      ]
+    },
+    {
+      "title": "Director of Business and Data Analytics / Data Engineer",
+      "company": "NASPO ValuePoint",
+      "company_url": "https://www.naspo.org/",
+      "dates": "February 2019 - February 2022",
+      "responsibilities": [
+        "Managed the data engineering and analytics team.",
+        "Implemented a new modern data stack using AWS Lambda, PostgreSQL, Redshift, dbt, and PowerBI to centralize and integrate various datasets.",
+        "Created data collection tools to organize and process 400+ supplier reports per quarter.",
+        "Created sales, contract information, event registration, and other business function dashboards in Power BI and Python frameworks.",
+        "Deployed multiple serverless functions to integrate data between SaaS systems (Formstack, Salesforce, etc.).",
+        "Performed forecasting analysis using R, Python, and Excel.",
+        "Developed and deployed internal and customer-facing applications in the Salesforce platform."
+      ]
+    },
+    {
+      "title": "Lead Solutions Architect",
+      "company": "Tolemi",
+      "company_url": "https://www.tolemi.com/",
+      "dates": "August 2017 - February 2019",
+      "responsibilities": [
+        "Developed data pipelines in Java and Powershell to extract data from difficult to integrate client data sources.",
+        "Wrote data transformations in SQL to clean and standardize data for analysis.",
+        "Built data models that scored parcels based on data-driven criteria; examples include fire risk, vacancy prediction, neighborhood health scoring, gentrification risk, and others.",
+        "Gathered information from clients about their goals, policies and programs to build technology solutions to achieve their objectives.",
+        "Managed over 40 new implementations of property analytics platform for cities, land banks, and redevelopment authorities.",
+        "Connected disparate data sources from internal systems to produce analysis for land bank pricing, targeted acquisition programs, proactive code enforcement, and other policy initiatives."
+      ]
+    },
+    {
+      "title": "Director of Project Management",
+      "company": "City of Lexington, KY",
+      "company_url": "https://www.lexingtonky.gov/",
+      "dates": "December 2016 - August 2017",
+      "responsibilities": [
+        "Secured $14.1M federal TIGER grant for the project, the first ever for Lexington.",
+        "Supported and advocated for the Town Branch Fund. Their efforts have raised over $25M in private donations for the project.",
+        "Secured SCAPE Landscape Architecture to complete their design vision for the project and managed the masterplan design process.",
+        "Developed a custom project management dashboard to communicate project status to stakeholders."
+      ]
+    },
+    {
+      "title": "Senior Administrative Officer",
+      "company": "City of Lexington, KY",
+      "company_url": "https://www.lexingtonky.gov/",
+      "dates": "December 2013 - December 2016",
+      "responsibilities": [
+        "Created data pipelines and full-stack applications to extract, transform, and visualize department information.",
+        "Created digital public engagement tools to collect and use public input to design projects.",
+        "Managed Lexington's Vacant Property Review Commission.",
+        "Assisted with the creation of Lexington's Affordable Housing Fund.",
+        "Assisted with major technology implementations, including new permitting and code enforcement systems.",
+        "Deployed and managed mobile devices (Apple iPad, Apple iPhone) to collect data in the field and improve efficiency.",
+        "Assisted with managing the department, including over 100 employees and a multi-million-dollar budget."
+      ]
+    },
+    {
+      "title": "Legislative Aide",
+      "company": "City of Lexington, KY",
+      "company_url": "https://www.lexingtonky.gov/",
+      "dates": "June 2010 - December 2013",
+      "responsibilities": [
+        "Created a custom database to track complaints, issues, and other contacts with the Council Office.",
+        "Performed and presented extensive research on the Police and Fire Pension Fund, ultimately leading to landmark pension reform legislation in 2013.",
+        "Served as the primary staff person for the Council budget review process in 2011, 2012, and 2013.",
+        "Managed all constituent relations for a district Council Office and presented information to the general public on LFUCG programs and projects."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Kentucky, Martin School of Public Policy and Administration",
+      "degree": "Master of Public Administration",
+      "dates": "August 2009 - May 2011"
+    },
+    {
+      "institution": "University of Kentucky, College of Fine Arts",
+      "degree": "Bachelor of Arts, Arts Administration",
+      "dates": "August 2005 - May 2009"
+    }
+  ],
+  "skills": [
+    "SQL (Snowflake, Postgres, Redshift, MS SQL, MySQL, Oracle, dbt)",
+    "Python (Flask, Django, Pandas, Streamlit, Jupyter Notebooks)",
+    "Node.js (Express, Cube.js)",
+    "Data Modeling (dbt, SQL, Python)",
+    "Data Warehouse Architecture (Snowflake, Redshift, Postgres)",
+    "Orchestration (Airflow, Prefect)",
+    "Business Intelligence (Sigma, Looker, Tableau, Metabase, PowerBI, Periscope)",
+    "Cloud Services Configuration (AWS, GCP, Terraform, Pulumi)",
+    "API Integrations (REST, GraphQL, SOAP)",
+    "Geospatial (PostGIS, QGIS, ArcGIS)"
+  ],
+  "publications_and_presentations": [
+    {
+      "title": "Data Analytics Demystified",
+      "event": "NASPO Webinar, November 2020",
+      "authors": [
+        "Jonathan Hollinger",
+        "Shane Caudill",
+        "Garret Debate"
+      ],
+      "link": "https://youtu.be/ID4HUPrMFP4"
+    },
+    {
+      "title": "Preparing to Use Data as a Strategic Tool",
+      "event": "Tolemi Webinar, October 2018",
+      "authors": [
+        "Jonathan Hollinger"
+      ],
+      "link": "https://vimeo.com/293179151"
+    },
+    {
+      "title": "Kentucky Pension Reform Under Senate Bill 2",
+      "event": "Kentucky Bench and Bar, March 2014",
+      "authors": [
+        "R. Douglas Martin",
+        "J.D. Chaney",
+        "Jonathan M. Hollinger"
+      ],
+      "link": "docs/sb2.pdf"
+    },
+    {
+      "title": "New Accounting Standards for Government Pensions",
+      "event": "Kentucky Bench and Bar, March 2014",
+      "authors": [
+        "Lee Ann Watters",
+        "Jonathan M. Hollinger",
+        "R. Douglas Martin"
+      ],
+      "link": "docs/gasb.pdf"
+    },
+    {
+      "title": "Public Art Master Planning for Municipal Governments: Core Components and Common Practices",
+      "event": "UKnowledge - University of Kentucky, 2011",
+      "authors": [
+        "Jonathan M. Hollinger"
+      ],
+      "link": "docs/publicart.pdf"
+    }
+  ]
+}
