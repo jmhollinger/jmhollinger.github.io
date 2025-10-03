@@ -112,14 +112,14 @@ export default function Home() {
       </Button>
 
       {/* Main content */}
-      <div className="lg">
+      <div className="lg:ml-0">
         {/* About Section */}
         <section id="about" className="resume-section">
           <div className="resume-section-content">
             <Card className="border-0 shadow-none">
               <CardHeader className="pb-4">
                 <CardTitle className="text-6xl font-saira text-foreground">
-                  {resumeData.about.name.split(' ')[0]} <span className="text-primary">Hollinger</span>
+                  {resumeData.about.name}
                 </CardTitle>
                 <CardDescription className="subheading text-base">
                   {resumeData.about.contact.address} · 
@@ -165,12 +165,10 @@ export default function Home() {
                     <CardHeader className="pb-4">
                       <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                         <div>
-                          <CardTitle className="text-xl mb-2 font-saira text-foreground">{job.title}</CardTitle>
-                          <CardDescription className="text-lg">
-                            <a href={job.company_url} className="text-primary hover:text-primary/80">
-                              {job.company}
-                            </a>
-                          </CardDescription>
+                          <CardTitle className="text-xl font-saira text-foreground">{job.title}</CardTitle>
+                          <a href={job.company_url} className="text-lg font-saira text-primary hover:text-primary/80">
+                            {job.company}
+                          </a>
                         </div>
                         <CardDescription className="text-primary font-medium md:text-right">
                           {job.dates}

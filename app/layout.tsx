@@ -31,7 +31,7 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossOrigin="anonymous"></script>
       </head>
-      <body className="bg-white">
+      <body className="bg-background text-foreground">
         {children}
       </body>
     </html>

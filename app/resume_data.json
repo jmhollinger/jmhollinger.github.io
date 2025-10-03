@@ -10,7 +10,7 @@
         "github": "https://github.com/jmhollinger"
       }
     },
-    "summary": "Experienced data engineer and architect with a track record of building scalable data platforms to power data-driven decision-making. Significant accomplishments include standing up a modern data stack from scratch at a high-growth SaaS startup and a multi-billion dollar public purchasing cooperative, the implementation and data integration of a property data analytics platform in more than 40 cities, land banks, and nonprofit organizations, and complex financial analysis leading to landmark public pension reform initiatives."
+    "summary": "Experienced data architect and analytics leader with a track record of building scalable data platforms to power data-driven decision-making. Significant accomplishments include standing up a modern data stack from scratch at a high-growth SaaS startups and a multi-billion dollar public purchasing cooperative, the implementation and data integration of a property data analytics platform in more than 40 cities, land banks, and nonprofit organizations, and complex financial analysis leading to landmark public pension reform initiatives."
   },
   "experience": [
     {
@@ -19,10 +19,9 @@
       "company_url": "https://www.mangomint.com/",
       "dates": "February 2024 - Present",
       "responsibilities": [
-        "Hired and managed a team of data engineers.",
-        "Built and managed data platform in Snowflake, dbt, Prefect, Hightouch and other tools.",
+        "Hired and managed a team of data engineers and analysts.",
+        "Built and managed data platform in Snowflake, dbt, Prefect, Hightouch, Sigma, and other tools.",
         "Managed go-to-market systems including CRM, automations and integrations, and custom apps.",
-        "Built outbound lead enrichment system for a local business in salon/spa industry.",
         "Implemented AI agents for data extraction and enrichment."
       ]
     },
@@ -38,7 +37,6 @@
         "Created and maintained AWS, Confluent, and Snowflake data infrastructure using Terraform.",
         "Implemented and owned orchestration (Prefect) and built custom Python pipelines.",
         "Built complex data models in dbt for exposure to BI tools.",
-        "Set up CI/CD processes and automated testing for pipelines and models.",
         "Created Metabase dashboards and visualizations for stakeholders and provided training and guidance for self-service.",
         "Designed and built a custom business intelligence app for core company metrics using Streamlit.",
         "Performed code reviews and mentored junior engineers and analysts."
@@ -127,17 +125,26 @@
   ],
   "skills": [
     "SQL (Snowflake, Postgres, Redshift, MS SQL, MySQL, Oracle, dbt)",
-    "Python (Flask, Django, Pandas, Streamlit, Jupyter Notebooks)",
+    "Python (FastAPI, Streamlit, Pandas)",
     "Node.js (Express, Cube.js)",
     "Data Modeling (dbt, SQL, Python)",
     "Data Warehouse Architecture (Snowflake, Redshift, Postgres)",
     "Orchestration (Airflow, Prefect)",
-    "Business Intelligence (Sigma, Looker, Tableau, Metabase, PowerBI, Periscope)",
+    "Business Intelligence (Sigma, Looker, Tableau, Metabase, PowerBI)",
     "Cloud Services Configuration (AWS, GCP, Terraform, Pulumi)",
     "API Integrations (REST, GraphQL, SOAP)",
     "Geospatial (PostGIS, QGIS, ArcGIS)"
   ],
   "publications_and_presentations": [
+    {
+      "title": "Beyond Metrics Modernization at Fleetio",
+      "event": "dbt Coalesce, October 2023",
+      "authors": [
+        "Jonathan Hollinger",
+        "Jeff Chen"
+      ],
+      "link": "https://www.youtube.com/watch?v=SnA8lZpLB0g"
+    },
     {
       "title": "Data Analytics Demystified",
       "event": "NASPO Webinar, November 2020",
